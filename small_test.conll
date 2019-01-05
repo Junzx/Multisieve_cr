@@ -1,0 +1,69 @@
+#begin document (nw/xinhua/00/chtb_0001); part 000
+nw/xinhua/00/chtb_0001   0   0    上海   NR  (TOP(IP(NP(NP*   -    -   -   -    (GPE)  (ARG1*      (ARG0*   (40|(41
+nw/xinhua/00/chtb_0001   0   1    浦东   NR               *)  -    -   -   -    (GPE)       *)          *)       40)
+nw/xinhua/00/chtb_0001   0   2    开发   NN            (NP*   -   01   -   -       *      (V*)     (ARG1*)      (41
+nw/xinhua/00/chtb_0001   0   3     与   CC               *   -    -   -   -       *        *    (C-ARG1*)        -
+nw/xinhua/00/chtb_0001   0   4    法制   NN               *   -    -   -   -       *        *    (C-ARG1*)        -
+nw/xinhua/00/chtb_0001   0   5    建设   NN              *))  -   01   -   -       *        *         (V*)   41)|41)
+nw/xinhua/00/chtb_0001   0   6    同步   VV          (VP*)))  -    -   -   -       *        *           *         -
+
+nw/xinhua/00/chtb_0001   0    0    新华社   NN  (TOP(FRAG*   -   -   -   -       (ORG)  -
+nw/xinhua/00/chtb_0001   0    1     上海   NR           *   -   -   -   -       (GPE)  -
+nw/xinhua/00/chtb_0001   0    2     二月   NT           *   -   -   -   -     (DATE*   -
+nw/xinhua/00/chtb_0001   0    3     十日   NT           *   -   -   -   -          *)  -
+nw/xinhua/00/chtb_0001   0    4      电   NN           *   -   -   -   -          *   -
+nw/xinhua/00/chtb_0001   0    5      （   PU           *   -   -   -   -          *   -
+nw/xinhua/00/chtb_0001   0    6     记者   NN           *   -   -   -   -          *   -
+nw/xinhua/00/chtb_0001   0    7    谢金虎   NR           *   -   -   -   -    (PERSON)  -
+nw/xinhua/00/chtb_0001   0    8      、   PU           *   -   -   -   -          *   -
+nw/xinhua/00/chtb_0001   0    9    张持坚   NR           *   -   -   -   -    (PERSON)  -
+nw/xinhua/00/chtb_0001   0   10      ）   PU          *))  -   -   -   -          *   -
+
+nw/xinhua/00/chtb_0001   0    0     上海    NR       (TOP(IP(NP*   -    -    -   -         (GPE)      (ARG0*       (ARG0*        *   (ARG0*         *             *           (40
+nw/xinhua/00/chtb_0001   0    1     浦东    NR                 *)  -    -    -   -         (GPE)           *)           *)       *        *)        *             *            40)
+nw/xinhua/00/chtb_0001   0    2     近年    NT    (VP(VP(LCP(NP*)  -    -    -   -       (DATE*   (ARGM-TMP*   (ARGM-TMP*        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0    3      来    LC                 *)  -    -   13   -            *)           *)           *)       *        *         *             *             -
+nw/xinhua/00/chtb_0001   0    4     颁布    VV          (VP(VCD*   -   01    -   -            *          (V*)           *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0    5     实行    VV                 *)  -   01    -   -            *            *          (V*)       *        *         *             *             -
+nw/xinhua/00/chtb_0001   0    6      了    AS                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0    7     涉及    VV  (NP(CP(CP(IP(VP*   -   01    -   -            *       (ARG1*       (ARG1*      (V*)       *         *             *           (37
+nw/xinhua/00/chtb_0001   0    8     经济    NN           (NP(NP*   -    -    2   -            *            *            *   (ARG1*        *         *             *           (13
+nw/xinhua/00/chtb_0001   0    9      、    PU                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   10     贸易    NN                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   11      、    PU                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   12     建设    NN                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   13      、    PU                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   14     规划    NN                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   15      、    PU                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   16     科技    NN                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   17      、    PU                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   18     文教    NN                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   19      等   ETC                 *)  -    -    2   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   20     领域    NN           (NP*))))  -    -    -   -            *            *            *        *)       *         *             *       (13)|13)
+nw/xinhua/00/chtb_0001   0   21      的   DEC                *))  -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   22    七十一    CD              (QP*   -    -    -   -   (CARDINAL*            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   23      件     M            (CLP*))  -    -    -   -            *)           *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   24    法规性    NN              (NP*   -    -    -   -            *            *            *   (ARG0*        *         *             *           (37
+nw/xinhua/00/chtb_0001   0   25     文件    NN              *))))  -    -    -   -            *            *)           *)       *)       *         *             *        37)|37)
+nw/xinhua/00/chtb_0001   0   26      ，    PU                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   27     确保    VV              (VP*   -   01    -   -            *            *            *        *      (V*)        *             *             -
+nw/xinhua/00/chtb_0001   0   28      了    AS                 *   -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   29     浦东    NR    (NP(DNP(NP(NP*)  -    -    -   -         (GPE)           *            *        *   (ARG1*    (ARG1*)       (ARG1*    (2|(26|(42)
+nw/xinhua/00/chtb_0001   0   30     开发    NN             (NP*))  -   01    -   -            *            *            *        *        *       (V*)            *)        (2)|2)
+nw/xinhua/00/chtb_0001   0   31      的   DEG                 *)  -    -    -   -            *            *            *        *        *         *             *             -
+nw/xinhua/00/chtb_0001   0   32     有序    JJ            (ADJP*)  -    -    -   -            *            *            *        *        *         *    (ARGM-MNR*)            -
+nw/xinhua/00/chtb_0001   0   33     进行    NN           (NP*))))  -   01    2   -            *            *            *        *        *)        *           (V*)      (26)|26)
+nw/xinhua/00/chtb_0001   0   34      。    PU                *))  -    -    -   -            *            *            *        *        *         *             *             -
+
+#end document
+
+#begin document (nw/xinhua/00/chtb_0001); part 001
+nw/xinhua/00/chtb_0001   0   0    上海   NR  (TOP(IP(NP(NP*   -    -   -   -    (GPE)  (ARG1*      (ARG0*   (40|(41
+nw/xinhua/00/chtb_0001   0   1    浦东   NR               *)  -    -   -   -    (GPE)       *)          *)       40)
+nw/xinhua/00/chtb_0001   0   2    开发   NN            (NP*   -   01   -   -       *      (V*)     (ARG1*)      (41
+nw/xinhua/00/chtb_0001   0   3     与   CC               *   -    -   -   -       *        *    (C-ARG1*)        -
+nw/xinhua/00/chtb_0001   0   4    法制   NN               *   -    -   -   -       *        *    (C-ARG1*)        -
+nw/xinhua/00/chtb_0001   0   5    建设   NN              *))  -   01   -   -       *        *         (V*)   41)|41)
+nw/xinhua/00/chtb_0001   0   6    同步   VV          (VP*)))  -    -   -   -       *        *           *         -
+
+#end document
