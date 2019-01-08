@@ -24,7 +24,7 @@ speak_verbs_set = (u'说',u'表示',u'认为')         # 表示 说的词语
 
 
 # 所有遇到的NER标签
-ner_label = ['*', 'ORDINAL', 'LOC', 'PRODUCT', 'NORP',
+ner_labels = ['*', 'ORDINAL', 'LOC', 'PRODUCT', 'NORP',
              'WORK_OF_ART', 'LANGUAGE', 'PERCENT', 'GPE',
              'MONEY', 'TIME', 'CARDINAL', 'FAC', 'DATE',
              'ORG', 'LAW', 'EVENT', 'QUANTITY']

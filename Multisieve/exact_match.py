@@ -15,7 +15,6 @@ import SubjectUtils.sieve_utils as sieve_util
 logger = logging.getLogger("multi_sieve")
 
 def exact_match(obj_document):
-    logger.info("Exact match sieve")
 
     for mention in obj_document.lst_mentions:
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)

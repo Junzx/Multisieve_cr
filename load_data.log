@@ -1,0 +1,11 @@
+INFO:load_data:加载文档：small_test2.conll
+DEBUG:jieba:Building prefix dict from the default dictionary ...
+DEBUG:jieba:Loading model from cache /tmp/jieba.cache
+DEBUG:jieba:Loading model cost 0.230 seconds.
+DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function test_sieve at 0x7fa4c4ee6c08>
+INFO:experiments:Run <function exact_match at 0x7fa4c4ee6c80>
+INFO:experiments:Run <function precise_constructs at 0x7fa4c4ee6d70>
+INFO:experiments:Run <function pronoun_sieve at 0x7fa4c4ee67d0>

@@ -18,19 +18,21 @@ logger = logging.getLogger("experiments")
 def main(file_):
     document_object = load_one_file(file_)
     sieve_order = [
-        # pronoun_sieve,
         test_sieve,
+        exact_match,
         precise_constructs,
-        # exact_match,
+        pronoun_sieve,
+
     ]
     logger.info("开始调用multi-sieve")
     for sieve in sieve_order:
         logger.info("Run " + str(sieve))
         document_object = sieve(document_object)
-        # unit_test_utils.print_gold_cluster(document_object)
-        # unit_test_utils.print_cluster(document_object)
+        unit_test_utils.print_cluster(document_object)
         print '-' * 30
     print ''
+    unit_test_utils.print_gold_cluster(document_object)
+
 
 
 if __name__ == '__main__':

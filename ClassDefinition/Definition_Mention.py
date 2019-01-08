@@ -1,5 +1,6 @@
 # -*- coding: UTF-8 -*-
 from __future__ import division
+import UserCorpus.api_user_corpus as user_corpus
 from copy import deepcopy
 import ConstantVariable
 import UserCorpus
@@ -41,8 +42,8 @@ class Mention(object):
         self.ner = self.__set_ner(lst_tokens) # 命名实体标签
         self.pos_info = self.__set_pos(lst_tokens)    # pos
         self.parse = self.__set_parse(lst_tokens)     # parse
-        self.gender = self.__set_gender()           # unknown-0/Male-1/Female--1
         self.animacy = self.__set_animacy()         # unknown-0/Animal-1/Inanimate--1
+        self.gender = self.__set_gender()           # unknown-0/Male-1/Female--1
         self.single = self.__set_single()           # unknown-0/Single-1/Plural--1
 
 
@@ -84,6 +85,8 @@ class Mention(object):
             return 1
         elif u'她' in self.chinese_word:
             return -1
+        elif self.chinese_word in user_corpus.get_pca_list():
+            return -1
         return 0
 
     def __set_animacy(self):
@@ -91,9 +94,13 @@ class Mention(object):
             return 1
         elif self.chinese_word in ConstantVariable.pronouns:
             return 1
-        # elif self.chinese_word in UserCorpus.get_adj_nation():
-        #     return -1
+        elif self.ner in ConstantVariable.ner_labels:
+            return -1
+        elif self.chinese_word in user_corpus.get_nation():
+            return -1
         elif self.chinese_word in ['它','它们']:
+            return -1
+        elif self.chinese_word in user_corpus.get_pca_list():
             return -1
         return 0
 
@@ -108,6 +115,8 @@ class Mention(object):
                 return -1
         if '们' in self.chinese_word:
             return -1
+        elif self.chinese_word in user_corpus.get_pca_list():
+            return 1
         # if self.chinese_word in ConstantVariable.pronouns:
         #     return 1
         # if self.chinese_word in UserCorpus.get_adj_nation():

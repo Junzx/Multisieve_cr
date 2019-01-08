@@ -4,6 +4,7 @@
 """
 from math import fabs
 import SubjectUtils.sieve_utils as sieve_util
+from UserCorpus.api_user_corpus import get_abbreviation_dict, get_nation, get_adj_nation
 import ConstantVariable
 import logging
 logger = logging.getLogger("multi_sieve")
@@ -11,24 +12,22 @@ logger = logging.getLogger("multi_sieve")
 def precise_constructs(obj_document):
     for mention in obj_document.lst_mentions:
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
-        print '-='*15
-        print mention.chinese_word, [m.chinese_word for m in candidate_mentions]
         for candidate_m in candidate_mentions:
             # 如果两个表述在同一个句子中才可能是同位语关系
             if mention.sent_id == candidate_m.sent_id:
                 tmp_sent_obj = obj_document.dic_sentences[mention.sent_id]
-                shit1 = is_appositive(tmp_sent_obj, candidate_m, mention)   # 是否为同位语
-                shit2 = is_predicate_nominative(tmp_sent_obj, candidate_m, mention) # 是否为谓语主格
-                shit3 = is_role_appositive(candidate_m, mention)    # 是否为角色同位语
-                print candidate_m.chinese_word, mention.chinese_word
-                print shit1, shit2, shit3
+                res_is_appositive = is_appositive(tmp_sent_obj, candidate_m, mention)   # 是否为同位语
+                res_is_predicate_ = is_predicate_nominative(tmp_sent_obj, candidate_m, mention) # 是否为谓语主格
+                res_is_role_ = is_role_appositive(candidate_m, mention)    # 是否为角色同位语
+                res_is_acronym = is_acronym(candidate_m, mention)           #
+                res_is_demonym = is_demonym(candidate_m, mention)
+
+                if True in {res_is_appositive, res_is_predicate_, res_is_role_, res_is_acronym, res_is_demonym}:
+                    obj_document.set_coref(candidate_m, mention)
             else:
                 continue
 
-
-
     return obj_document
-
 
 def is_appositive(obj_sentence, candidate_mention, mention):
     """
@@ -95,4 +94,33 @@ def is_role_appositive(candidate_mention, mention):
     2. 先行词是animate
     3. 先行词的性别不是中性
     """
-    print
+    if mention.ner == 'PERSON' and \
+        candidate_mention.animacy == 1 and \
+        candidate_mention.gender != 0:
+        return True
+    return False
+
+def is_acronym(candidate_mention, mention):
+    """
+    判断两个表述是否具有缩写的关系
+    """
+    tmp_candidate_m = get_abbreviation_dict().get(candidate_mention.chinese_word, 'NO')
+    tmp_m = get_abbreviation_dict().get(mention.chinese_word, "NO")
+
+    if mention.chinese_word == tmp_candidate_m or \
+        candidate_mention.chinese_word == tmp_m:
+        return True
+    return False
+
+def is_demonym(candidate_mention, mention):
+    """
+    Demonym-区域居民称谓词
+    一个表述是另一个表述的～，比如 美国 = 美国人
+    """
+    if (candidate_mention.chinese_word in get_nation() and
+            mention.chinese_word in get_adj_nation()) or \
+        (mention.chinese_word in get_nation() and
+            candidate_mention.chinese_word in get_adj_nation()):
+        return True
+    return False
+

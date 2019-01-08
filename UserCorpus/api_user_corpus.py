@@ -2,9 +2,10 @@
 """
 获取各类词表，返回的是unicode的list
 """
+import json
+from os import getcwd
 
-
-corpus_path = './Corpus/'
+corpus_path = './UserCorpus/Corpus/'
 EOF = '\n'
 
 def format_words(func):
@@ -30,9 +31,9 @@ def get_quantifier():
     return lst_tmp
 
 @format_words
-def get_adj_nation():
+def get_nation():
     """
-    :return:国家名称list，如American
+    :return:国家名称list，如America
     """
     lst_tmp = []
     with open(corpus_path + 'nations.txt', 'r') as file_handle:
@@ -41,6 +42,10 @@ def get_adj_nation():
             if len(i.split()) != 0:  # 可能有空行
                 lst_tmp.append(i.split()[0])  # 第一列是国家名
     return lst_tmp
+
+@format_words
+def get_adj_nation():
+    return [i + u'人' for i in get_nation()]
 
 @format_words
 def get_stop_words():
@@ -98,13 +103,68 @@ def get_synonym_words():
             lst_synonym.append(tuple([i.decode('utf-8') for i in line.strip('\r').split(' ')[1:]]))
     return lst_synonym
 
+def get_pca_list():
+    """
+    "北京市": {
+        "市辖区": [
+            "东城区",
+            "西城区",
+            .....
+        ]
+    },
+    :return: 所有区的名字，如：(北京市、北京、海淀区、海淀)
+    """
+    with open(corpus_path + 'pca.json', 'r') as hdl:
+        data = json.load(hdl)
+
+    city_list = []
+    for shi, qu in data.items():
+        if isinstance(qu, dict):
+            for qu_ming, qu_list in qu.items():
+                city_list.extend(qu_list)
+        elif isinstance(qu, list):
+            city_list.extend(qu)
+    filter_ = lambda x: x.strip(u'区').strip(u'县').strip(u'市').strip(u'省')
+    tmp = map(filter_, city_list)
+    city_list.extend(tmp)
+    return tuple(set(city_list))
+
+def get_abbreviation_dict():
+    """
+    缩写的字典
+    :return:
+    """
+    with open(corpus_path + 'abbreviation.json', 'r') as hdl:
+        return json.load(hdl)
+
+
 if __name__ == '__main__':
+    from pprint import pprint
+    corpus_path = './Corpus/'
+    # print get_abbreviation_dict()
     # print get_determiner_words()
-    # print get_adj_nation()
+    for i in get_nation():
+        print i
     # print get_quantifier()
     # print get_stop_words()
     # print get_conjunction_words()
-    res = get_synonym_words()
-    for i in res[0]:
-        print i
-    print res[1]
+    # res = get_pca_list()[:100]
+    # for i in res:
+    #     print i
+    # print res[1]
+    # print
+    # print len(get_pca_list())
+    # with open(corpus_path + 'abbreviation-1.txt', 'r') as hdl:
+    #     dic_ = {}
+    #     for line in hdl:
+    #         if line.startswith('n'):
+    #             continue
+    #         line = line.decode('utf-8')
+    #         part1, part2 = line.split(':')
+    #         tmp = part2.split(' ')
+    #         tmpp = [i.split('/')[0] for i in tmp]
+    #         long_words = ''.join(tmpp)
+    #         dic_.setdefault(part1, long_words)
+    #
+    # with open(corpus_path + 'abbreviation.json', 'w+') as json_hdl:
+    #     json.dump(dic_, json_hdl)
