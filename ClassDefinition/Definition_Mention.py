@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 from __future__ import division
 from copy import deepcopy
-import constant
+import ConstantVariable
 import UserCorpus
 
 class Mention(object):
@@ -22,11 +22,6 @@ class Mention(object):
         self.pos_info = '-'     # pos标记
         self.parse = '-'        # parse信息
 
-        # 以下属性暂时用不到，先放着 | update: 新写一个函数来识别——2018年3月8日
-        self.gender = 0 # unknown-0/Male-1/Female--1
-        self.single = 0 # unknown-0/Single-1/Plural--1
-        self.animacy = 0 # unknown-0/Animal-1/Inanimate--1
-
         self.weight = 0.0  # 当前这个mention的权重，默认为0
 
         # 增加一系列属性,是entity级别的信息
@@ -46,9 +41,9 @@ class Mention(object):
         self.ner = self.__set_ner(lst_tokens) # 命名实体标签
         self.pos_info = self.__set_pos(lst_tokens)    # pos
         self.parse = self.__set_parse(lst_tokens)     # parse
-        self.gender = self.__set_gender()
-        self.animacy = self.__set_animacy()
-        self.single = self.__set_single()
+        self.gender = self.__set_gender()           # unknown-0/Male-1/Female--1
+        self.animacy = self.__set_animacy()         # unknown-0/Animal-1/Inanimate--1
+        self.single = self.__set_single()           # unknown-0/Single-1/Plural--1
 
 
     def __set_chinese_word(self,lst_tokens):
@@ -94,8 +89,8 @@ class Mention(object):
     def __set_animacy(self):
         if self.ner == 'PERSON' or self.pos_info == 'PN':
             return 1
-        # elif self.chinese_word in constant.pronouns:
-        #     return 1
+        elif self.chinese_word in ConstantVariable.pronouns:
+            return 1
         # elif self.chinese_word in UserCorpus.get_adj_nation():
         #     return -1
         elif self.chinese_word in ['它','它们']:
@@ -113,7 +108,7 @@ class Mention(object):
                 return -1
         if '们' in self.chinese_word:
             return -1
-        # if self.chinese_word in constant.pronouns:
+        # if self.chinese_word in ConstantVariable.pronouns:
         #     return 1
         # if self.chinese_word in UserCorpus.get_adj_nation():
         #     return 1

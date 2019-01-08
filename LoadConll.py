@@ -15,8 +15,7 @@ from ClassDefinition.Definition_Entity import Entity
 import config
 import logging
 
-logging.basicConfig(filename="load_data.log",
-                    level=logging.INFO)
+
 logger = logging.getLogger("load_data")
 
 from pprint import pprint
@@ -63,6 +62,7 @@ def load_one_file(str_iter_file_path):
         for str_line in hdl_file.readlines():  # 一行数据
             str_line = str_line.strip('\n')
             str_line = str_line.strip('\r\n')
+            str_line = str_line.decode('utf-8')
 
             # document的开头
             if '#begin document' in str_line:
@@ -121,7 +121,7 @@ def load_one_file(str_iter_file_path):
                     word_id = tup_token[2]  #
                     word_itself = tup_token[3]
                     pos_info = tup_token[4]  # 词性
-                    syntax_info = tup_token[5]  # 句法树
+                    syntax_info = tup_token[5].strip('\r\n').strip('\n')  # 句法树
                     speaker = tup_token[9]  # speaker,有的文件没有
                     attribute = tup_token[10]
                     coref_info = tup_token[-1]  # 最后一列的信息

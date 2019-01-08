@@ -237,13 +237,13 @@ class Document(object):
                 tmp += len(tmp_candidate_mentions)
         return candidate_mentions
 
-    def set_coref(self, mention_id_1, mention_id_2):
+    def set_coref(self, mention_1, mention_2):
         """
         2018-5-4 重写的函数,写好后替代上面的函数.
         调用方法:self.obj_document.set_coref(candidate_mention.mention_id,mention.mention_id)
         """
-        mention_1 = self.lst_mentions[mention_id_1]
-        mention_2 = self.lst_mentions[mention_id_2]
+        # mention_1 = self.lst_mentions[mention_id_1]
+        # mention_2 = self.lst_mentions[mention_id_2]
 
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)

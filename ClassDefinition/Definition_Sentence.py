@@ -8,6 +8,18 @@ class Sentence(object):
         self.lst_tokens = []    # 里面放的是token
         self.lst_mentions = []  # 放mention
 
+    def get_sent(self):
+        tmp = ''
+        for token in self.lst_tokens:
+            tmp += token.word_itself
+        return tmp
+
+    def get_sent_parse(self):
+        parse = ''
+        for token in self.lst_tokens:
+            parse += token.parse_info.strip('\n')
+        return parse
+
     def get_class_attribute(self):
         return self.__dict__
 

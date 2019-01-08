@@ -16,7 +16,7 @@ def extract_mention(lst_tokens):
     lst_cols = [token.np_info for token in lst_tokens]  # 抽取最后一列的共指信息
 
     mention_id = 0  # 表述的唯一uid
-    entity_id = 0   # 表述对应的实体id，初始化
+    entity_id = -1   # 表述对应的实体id，初始化
 
     for int_index_content, str_iter_content in enumerate(lst_cols):
         for int_index_each_char, str_each_char in enumerate(str_iter_content):  # str_each_char是每个信息的每个字符
@@ -45,6 +45,7 @@ def extract_mention(lst_tokens):
                 obj_mention = Mention()
                 obj_mention.mention_id = mention_id
                 obj_mention.entity_id = entity_id
+                obj_mention.gold_entity_id = str_coref_id
                 obj_mention.lst_tokens = lst_tokens_in_np    # !注意，这里是浅拷贝，token的id是相同的
                 obj_mention.set_other_attributes(obj_mention.lst_tokens)  # 调用此方法，设置其他的属性
                 obj_mention.coref_id = str_coref_id
@@ -57,6 +58,6 @@ def extract_mention(lst_tokens):
                 lst_all_mentions.append(obj_mention)
 
                 mention_id += 1 # 更新
-                entity_id += 1  # 更新
+                # entity_id += 1  # 更新
     # self.lst_mentions = lst_all_mentions
     return lst_all_mentions # 其实是可以不返回的
