@@ -37,8 +37,7 @@ def get_candidate_mentions(obj_document, obj_mention):
             break
     return candidate_mentions
 
-
-def get_modifier(mention):
+def get_modifier_old(mention):
     """
     获取当前表述的修饰语
     的：DEC\DEG
@@ -64,7 +63,6 @@ def get_modifier(mention):
     else:
         return ConstantVariable.CONST_STRING_NO_MODIFIER
 
-
 def get_determiner(mention):
     """
     获取当前表述的限定词，token的pos tag为：DT/CD/OD
@@ -77,3 +75,45 @@ def get_determiner(mention):
         if token.pos_info in ['DT','CD','OD']:
             return token.word_itself
     return ConstantVariable.CONST_STRING_NO_DETERMINER
+
+def get_modifier(obj_sentence, mention):
+    """
+    获取修饰语
+    """
+    # 1. 先检查是否有 ‘的地得’
+    for token_idx, token in enumerate(mention.lst_tokens):
+        if token.pos_info in ['DEC', 'DEG', 'DEV']:    # 是 的地得
+            return ''.join([t.word_itself for t in mention.lst_tokens[:token_idx]])
+
+    # 2. 如果没有，那么检查包含这个表述的这个句子
+    if mention not in obj_sentence.lst_mentions:
+        return ConstantVariable.CONST_STRING_NO_MODIFIER
+
+    DEC_token_idx = -1  # 存放DEC DEG的候选token idx
+    for token_idx, token in enumerate(obj_sentence.lst_tokens):
+        # 如果循环到这个表述前面还没有找到那么就返回固定字符串
+        if token.token_id >= mention.lst_tokens[0].token_id:
+            return ConstantVariable.CONST_STRING_NO_MODIFIER
+        # 这一步的目的是找到离表述最近的那个‘的地得’的相对位置
+        if token.pos_info in ['DEC', 'DEG', 'DEV']:
+            DEC_token_idx = token_idx
+
+    if DEC_token_idx != -1:
+        try:
+            return obj_sentence.lst_tokens[DEC_token_idx + 1].word_itself
+        except IndexError:
+            return ConstantVariable.CONST_STRING_NO_MODIFIER
+
+def get_cluster(obj_document, mention):
+    """
+    根据mention的entity id，如果以E开头，说明有cluster了，返回obj_document.dic_entity[~]；否则返回[mention]
+    返回以后需要多做一步类型检查
+    """
+    # if str(mention.entity_id).startswith('E_'):
+    #     return obj_document.dic_entity.get(mention.entity_id, [mention])
+    # return [mention]
+    res = []
+    for m in obj_document.lst_mentions:
+        if m.entity_id != -1 and m.entity_id == mention.entity_id:
+            res.append(m)
+    return res

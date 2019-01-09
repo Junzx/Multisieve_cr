@@ -18,10 +18,14 @@ def exact_match(obj_document):
 
     for mention in obj_document.lst_mentions:
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
-        modifier_this_mention = sieve_util.get_modifier(mention)
+        sent_this_mention = obj_document.dic_sentences.get(mention.sent_id)
+        modifier_this_mention = sieve_util.get_modifier(sent_this_mention, mention)
+        # modifier_this_mention = sieve_util.get_modifier(mention)  # old
         determiner_this_mention = sieve_util.get_determiner(mention)
         for candidate_m in candidate_mentions:
-            modifier_candidate_mention = sieve_util.get_modifier(candidate_m)
+            sent_candidate_mention = obj_document.dic_sentences.get(candidate_m.sent_id)
+            modifier_candidate_mention = sieve_util.get_modifier(sent_candidate_mention, candidate_m)
+            # modifier_candidate_mention = sieve_util.get_modifier(candidate_m) # old
             determiner_candidate_mention = sieve_util.get_determiner(candidate_m)
 
             if modifier_candidate_mention == modifier_this_mention and \

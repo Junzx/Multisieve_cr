@@ -63,6 +63,9 @@ class Mention(object):
 
         # 取最后一个token的中文作为head word
         elif len(lst_tokens) > 1:
+            for token_idx, token in enumerate(lst_tokens):
+                if token.pos_info == 'DT':
+                    return ''.join([i.word_itself for i in lst_tokens[token_idx + 1:]])
             return lst_tokens[-1].word_itself
 
     def __set_ner(self,lst_tokens):

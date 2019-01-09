@@ -3,11 +3,12 @@ from textrank4zh import TextRank4Keyword, TextRank4Sentence
 from copy import deepcopy
 
 from ClassDefinition.Definition_Sentence import Sentence
+from ClassDefinition.Definition_Entity import Entity
 # from load_conll import load_one_file
 import Definition_Mention
 import Definition_Token
 import Definition_Sentence
-import Definition_Entity
+# import Definition_Entity
 import config
 import MentionDetection
 
@@ -244,7 +245,7 @@ class Document(object):
         """
         # mention_1 = self.lst_mentions[mention_id_1]
         # mention_2 = self.lst_mentions[mention_id_2]
-
+        logger.info("设置共指： %s , %s"%(mention_1.chinese_word, mention_2.chinese_word))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
 
@@ -255,7 +256,7 @@ class Document(object):
             mention_1.entity_id = entity_id
             mention_2.entity_id = entity_id
             # ii) 创建cluster object
-            obj_entity = Definition_Entity.Entity()
+            obj_entity = Entity()
             # iii) 设置obj_cluster的相关属性
             obj_entity.entity_id = entity_id
             obj_entity.lst_mentions.append(mention_1)
