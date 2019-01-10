@@ -22,7 +22,7 @@ def precise_constructs(obj_document):
                 res_is_acronym = is_acronym(candidate_m, mention)           #
                 res_is_demonym = is_demonym(candidate_m, mention)
 
-                if True in {res_is_appositive, res_is_predicate_, res_is_role_, res_is_acronym, res_is_demonym}:
+                if True in {res_is_predicate_, res_is_role_, res_is_acronym, res_is_demonym}:
                     obj_document.set_coref(candidate_m, mention)
             else:
                 continue
@@ -73,7 +73,7 @@ def is_predicate_nominative(obj_sentence, candidate_mention, mention):
     """
     谓语主格，这里主要判断是否是mention1 is mention2
     """
-    if fabs(candidate_mention.mention_id - mention.mention_id) < 3:
+    if mention.mention_id - candidate_mention.mention_id < 8:
         # 如果有逗号分割，判断为松散同位语
         candidate_m_end_token_idx = candidate_mention.lst_tokens[-1].token_id
         mention_start_token_idx = mention.lst_tokens[0].token_id

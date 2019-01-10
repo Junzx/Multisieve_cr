@@ -80,7 +80,7 @@ def get_modifier(obj_sentence, mention):
     """
     获取修饰语
     """
-    # 1. 先检查是否有 ‘的地得’
+    # 1. 先检查mention中是否有 ‘的地得’
     for token_idx, token in enumerate(mention.lst_tokens):
         if token.pos_info in ['DEC', 'DEG', 'DEV']:    # 是 的地得
             return ''.join([t.word_itself for t in mention.lst_tokens[:token_idx]])
@@ -89,10 +89,34 @@ def get_modifier(obj_sentence, mention):
     if mention not in obj_sentence.lst_mentions:
         return ConstantVariable.CONST_STRING_NO_MODIFIER
 
+    # DEC_token_idx = -1  # 存放DEC DEG的候选token idx
+    # for token_idx, token in enumerate(obj_sentence.lst_tokens):
+    #     # 如果循环到这个表述前面还没有找到那么就返回固定字符串
+    #     if token.token_id > mention.lst_tokens[-1].token_id:
+    #         return ConstantVariable.CONST_STRING_NO_MODIFIER
+    #     # 这一步的目的是找到离表述最近的那个‘的地得’的相对位置
+    #     if token.pos_info in ['DEC', 'DEG', 'DEV']:
+    #         DEC_token_idx = token_idx
+    #
+    # if DEC_token_idx != -1:
+    #     try:
+    #         return obj_sentence.lst_tokens[DEC_token_idx + 1].word_itself
+    #     except IndexError:
+    #         return ConstantVariable.CONST_STRING_NO_MODIFIER
+
+    # 3. 如果表述中含有 和 与表示并列的词语
+    if u'和' in mention.chinese_word or \
+        u'与' in mention.chinese_word:
+        return mention.chinese_word
+
+    # 4. 如果mention中 都是由NP组成，那么返回最后一个NP token
+    if mention.lst_tokens[-1].pos_info in ['NN', 'NR', 'NT']:
+        return mention.lst_tokens[-1].word_itself
+
     DEC_token_idx = -1  # 存放DEC DEG的候选token idx
     for token_idx, token in enumerate(obj_sentence.lst_tokens):
         # 如果循环到这个表述前面还没有找到那么就返回固定字符串
-        if token.token_id >= mention.lst_tokens[0].token_id:
+        if token.token_id > mention.lst_tokens[-1].token_id:
             return ConstantVariable.CONST_STRING_NO_MODIFIER
         # 这一步的目的是找到离表述最近的那个‘的地得’的相对位置
         if token.pos_info in ['DEC', 'DEG', 'DEV']:
@@ -104,6 +128,11 @@ def get_modifier(obj_sentence, mention):
         except IndexError:
             return ConstantVariable.CONST_STRING_NO_MODIFIER
 
+
+
+    return ConstantVariable.CONST_STRING_NO_MODIFIER
+    #
+
 def get_cluster(obj_document, mention):
     """
     根据mention的entity id，如果以E开头，说明有cluster了，返回obj_document.dic_entity[~]；否则返回[mention]
@@ -112,7 +141,7 @@ def get_cluster(obj_document, mention):
     # if str(mention.entity_id).startswith('E_'):
     #     return obj_document.dic_entity.get(mention.entity_id, [mention])
     # return [mention]
-    res = []
+    res = [mention]
     for m in obj_document.lst_mentions:
         if m.entity_id != -1 and m.entity_id == mention.entity_id:
             res.append(m)

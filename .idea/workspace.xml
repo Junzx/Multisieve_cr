@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Multisieve/exact_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/exact_match.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multisieve/precise_constructs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/precise_constructs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/load_data.log" beforeDir="false" afterPath="$PROJECT_DIR$/load_data.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            <state relative-caret-position="318">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#41#45#0" expanded="true" />
               </folding>
@@ -33,16 +32,44 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="39" column="40" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="40" />
+              <folding>
+                <element signature="e#24#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="947">
+              <caret line="303" selection-start-line="303" selection-end-line="303" />
+              <folding>
+                <element signature="e#24#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/load_data.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state>
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_A.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="104" />
+            <state relative-caret-position="118">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#51#96#0" expanded="true" />
               </folding>
@@ -53,59 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_B.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding>
-                <element signature="e#24#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_C.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="82" selection-start-line="15" selection-start-column="82" selection-end-line="15" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
-              <folding>
-                <element signature="e#24#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
-              <folding>
-                <element signature="e#126#147#0" expanded="true" />
-                <element signature="e#281#1089#0" />
-                <element signature="e#1123#1772#0" />
-                <element signature="e#1808#2134#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multisieve/precise_constructs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding>
-                <element signature="e#55#76#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="200">
+              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -113,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multisieve/exact_match.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="483">
+              <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
               <folding>
                 <element signature="e#349#363#0" expanded="true" />
               </folding>
@@ -148,8 +124,6 @@
       <find>sentence</find>
       <find>parse_</find>
       <find>pos_info</find>
-      <find>是</find>
-      <find>print</find>
       <find>anima</find>
       <find>animacy</find>
       <find>get_a</find>
@@ -159,6 +133,13 @@
       <find>的</find>
       <find>dic_sentence</find>
       <find>dic_se</find>
+      <find>一项振兴上海，建设现代化经济、贸易、金融中心的跨世纪工程</find>
+      <find>是</find>
+      <find>True</find>
+      <find>print</find>
+      <find>:</find>
+      <find>set_c</find>
+      <find>set_coref</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,16 +157,17 @@
         <option value="$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py" />
         <option value="$PROJECT_DIR$/UserCorpus/Corpus/abbreviation.txt" />
         <option value="$PROJECT_DIR$/UserCorpus/api_user_corpus.py" />
-        <option value="$PROJECT_DIR$/Multisieve/precise_constructs.py" />
         <option value="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" />
         <option value="$PROJECT_DIR$/ConstantVariable.py" />
-        <option value="$PROJECT_DIR$/Multisieve/exact_match.py" />
-        <option value="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching.py" />
-        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
-        <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" />
+        <option value="$PROJECT_DIR$/Multisieve/exact_match.py" />
+        <option value="$PROJECT_DIR$/Multisieve/precise_constructs.py" />
+        <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" />
+        <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" />
+        <option value="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" />
         <option value="$PROJECT_DIR$/experiments.py" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
       </list>
     </option>
   </component>
@@ -206,6 +188,11 @@
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+              <item name="ClassDefinition" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
@@ -358,16 +345,16 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.20203602" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.25841817" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039154" side_tool="true" weight="0.3431677" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3431677" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39751554" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.5217391" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4099379" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -375,6 +362,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.22709475" />
+      <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039154" side_tool="true" weight="0.3431677" />
+      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.2468944" />
+      <window_info active="true" anchor="bottom" id="Debug" order="7" visible="true" weight="0.39751554" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -394,11 +400,51 @@
           <line>78</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Multisieve/precise_constructs.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Multisieve/precise_constructs.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/experiments.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py</url>
+          <line>252</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>id(token)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>id(mention_tokens[0])</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>tree.subtrees()</expression-string>
         <language-id>Python</language-id>
@@ -456,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/pca.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -504,16 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-302">
@@ -538,39 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="118" column="14" selection-start-line="118" selection-start-column="14" selection-end-line="118" selection-end-column="14" />
-          <folding>
-            <element signature="e#126#147#0" expanded="true" />
-            <element signature="e#281#1089#0" />
-            <element signature="e#1123#1772#0" />
-            <element signature="e#1808#2134#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="250" lean-forward="true" selection-start-line="250" selection-end-line="250" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-          <folding>
-            <element signature="e#24#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_C.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -578,48 +574,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/experiments.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding>
-            <element signature="e#41#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="104" />
-          <folding>
-            <element signature="e#51#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/precise_constructs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#55#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/exact_match.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="25" column="63" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+        <state relative-caret-position="483">
+          <caret line="36" column="100" selection-start-line="36" selection-start-column="100" selection-end-line="36" selection-end-column="100" />
           <folding>
             <element signature="e#349#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/precise_constructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#55#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_B.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#41#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="35" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="e#126#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_A.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#51#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/load_data.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state>
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="947">
+          <caret line="303" selection-start-line="303" selection-end-line="303" />
+          <folding>
+            <element signature="e#24#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

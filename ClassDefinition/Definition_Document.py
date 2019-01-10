@@ -252,6 +252,11 @@ class Document(object):
         # 1. 两个mention不以'E_'开头 → 没有任何一个表述的entity_id在dic_entity中
         if not mention_1_entity_id.startswith('E_') and not mention_2_entity_id.startswith('E_'):
             # i) 取j的mention_id,并将两个表述的entity_id设置相同
+
+            # update： 如果是-1 那么就先设置为mention id
+            if mention_2_entity_id == '-1':
+                mention_2_entity_id = mention_2.mention_id
+
             entity_id = 'E_' + str(mention_2_entity_id)
             mention_1.entity_id = entity_id
             mention_2.entity_id = entity_id
