@@ -245,7 +245,8 @@ class Document(object):
         """
         # mention_1 = self.lst_mentions[mention_id_1]
         # mention_2 = self.lst_mentions[mention_id_2]
-        logger.info("设置共指： %s , %s"%(mention_1.chinese_word, mention_2.chinese_word))
+        logger.info("设置共指： %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
+                                                    mention_2.chinese_word, str(mention_2.mention_id)))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
 
@@ -285,9 +286,9 @@ class Document(object):
             # iv) 更新entity的属性
             obj_entity.set_entity_attribute()
             # v) 遍历所有的mention,统一entity id
-            # for mention in self.lst_mentions:
-            #     if mention.entity_id == mention_1.entity_id:
-            #         mention.entity_id = entity_id
+            for mention in self.lst_mentions:
+                if mention.entity_id == mention_1.entity_id and str(mention.entity_id) != '-1':
+                    mention.entity_id = entity_id
 
         # 3. 第一个表述以E_开头,第二个不是,这里可能需要更新所有的表述的entity id
         elif mention_1_entity_id.startswith('E_') and not mention_2_entity_id.startswith('E_'):
@@ -302,7 +303,7 @@ class Document(object):
             obj_entity.set_entity_attribute()
             # v)
             for mention in self.lst_mentions:
-                if str(mention.entity_id) == mention_2_entity_id:
+                if str(mention.entity_id) == mention_2_entity_id and str(mention.entity_id) != '-1':
                     mention.entity_id = entity_id
 
         # 4. 均以'E_'开头,但是两个表述都是相同的EntityID,这时候仅仅需要更新Entity object即可
@@ -383,6 +384,8 @@ class Document(object):
             token.np_info = '-'
 
         for mention in self.lst_mentions:
+            if mention.entity_id == '-1':
+                continue
             # for index_token,token in enumerate(mention.lst_tokens):
             len_tokens = len(mention.lst_tokens)
             entity_id = mention.entity_id
