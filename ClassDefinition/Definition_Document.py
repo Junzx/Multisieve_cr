@@ -6,11 +6,9 @@ from ClassDefinition.Definition_Sentence import Sentence
 from ClassDefinition.Definition_Entity import Entity
 # from load_conll import load_one_file
 import Definition_Mention
-import Definition_Token
-import Definition_Sentence
 # import Definition_Entity
 import config
-import MentionDetection
+from MentionDetection.exact_np_by_tree import extract_mention
 
 import logging
 logger = logging.getLogger("load_data")
@@ -72,7 +70,7 @@ class Document(object):
             self.dic_tokens.setdefault(token.token_id, token)
 
         # 构建mention list
-        self.lst_mentions = MentionDetection.extract_mention(self.lst_tokens)
+        self.lst_mentions = extract_mention(self.lst_tokens)
 
         # 构建mention dict
         self.dic_mentions = {}
@@ -406,6 +404,7 @@ class Document(object):
 
         with open(file_path,'a') as hdl:
             hdl.write(self.first_line)
+            hdl.write(EOF)
             sent_id = 0
             for token in self.dic_tokens.values():
 
