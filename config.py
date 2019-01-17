@@ -14,6 +14,7 @@ if name == 'posix':
         basic_folder = "/media/zz/3188e54f-274b-49fa-ac08-3585cf577a28/zz/conll_test/"
         path_log_folder = basic_folder + 'log'
         gold_train = 'train/data_go/'
+        gold_test = 'test/'
 
 elif name == 'nt':
     pass
