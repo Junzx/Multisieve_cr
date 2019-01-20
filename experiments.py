@@ -77,11 +77,11 @@ def main(file_):
     print '-=' * 20
     unit_test_utils.print_cluster(document_object)
 
-    document_object.write_to_file("test.conll")
+    document_object.write_to_file("test.v4_res_conll")
 
 
 if __name__ == '__main__':
     # test_file = 'small_test2.conll'
     test_file = 'test.v4_gold_conll'
-    # main(test_file)
-    __test(test_file)
+    main(test_file)
+    # __test(test_file)

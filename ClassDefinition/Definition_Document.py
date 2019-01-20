@@ -390,17 +390,17 @@ class Document(object):
 
             if len_tokens == 1:
                 # token.np_info = '(' + str(entity_id) + ')'
-                self.adding_np_info(self.dic_tokens.get(mention.lst_tokens[0]),'(' + str(entity_id) + ')')
+                self.adding_np_info(self.dic_tokens.get(mention.lst_tokens[0].token_id),'(' + str(entity_id) + ')')
             else:
                 first_token_string = '(' + str(entity_id)
                 # if mention.lst_tokens[0].np_info == '-':
-                self.adding_np_info(self.dic_tokens.get(mention.lst_tokens[0]),first_token_string)
+                self.adding_np_info(self.dic_tokens.get(mention.lst_tokens[0].token_id),first_token_string)
                 # elif mention.lst_tokens[0].np_info == first_token_string:
                     # first_token_string = first_token_string *2
                     # self.adding_np_info(mention.lst_tokens[0],first_token_string)
 
                 second_token_string = str(entity_id) + ')'
-                self.adding_np_info(self.dic_tokens.get(mention.lst_tokens[-1]),second_token_string)
+                self.adding_np_info(self.dic_tokens.get(mention.lst_tokens[-1].token_id),second_token_string)
 
         with open(file_path,'a') as hdl:
             hdl.write(self.first_line)

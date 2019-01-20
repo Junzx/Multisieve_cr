@@ -27,5 +27,12 @@ def get_prf(gold_file, auto_file, method="muc"):
 
 
 if __name__ == '__main__':
-    res = get_prf('test.v4_gold_conll', 'test.v4_auto_conll', 'bcub')
-    print res
+    res_bcub = get_prf('test.v4_gold_conll', 'test.v4_res_conll', 'bcub')
+    res_muc = get_prf('test.v4_gold_conll', 'test.v4_res_conll', 'muc')
+    res_ceafe = get_prf('test.v4_gold_conll', 'test.v4_res_conll', 'ceafe')
+    res_blanc = get_prf('test.v4_gold_conll', 'test.v4_res_conll', 'blanc')
+    print 'Precision | recall | f1_score'
+    print res_bcub
+    print res_muc
+    print res_ceafe
+    print res_blanc
