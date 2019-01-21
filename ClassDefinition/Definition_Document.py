@@ -11,7 +11,7 @@ import config
 from MentionDetection.exact_np_by_tree import extract_mention
 
 import logging
-logger = logging.getLogger("load_data")
+logger = logging.getLogger("设置共指：")
 
 EOF = '\n'
 
@@ -243,7 +243,7 @@ class Document(object):
         """
         # mention_1 = self.lst_mentions[mention_id_1]
         # mention_2 = self.lst_mentions[mention_id_2]
-        logger.info("设置共指： %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
+        logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
                                                     mention_2.chinese_word, str(mention_2.mention_id)))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)

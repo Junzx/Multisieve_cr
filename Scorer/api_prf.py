@@ -1,5 +1,5 @@
 # encoding: utf-8
-from os import popen
+from os import popen, getcwd
 from re import findall
 
 def get_prf(gold_file, auto_file, method="muc"):
@@ -9,9 +9,11 @@ def get_prf(gold_file, auto_file, method="muc"):
     :param method: muc, bcub, ceafe, blanc
     :return: precision, recall, f1_score
     """
-    order = 'perl scorer.pl {method} {gold_file} {auto_file}'.format(method = method,
-                                                                      gold_file = gold_file,
-                                                                      auto_file = auto_file)
+    perl_path = getcwd() + '/Scorer/scorer.pl'
+    order = 'perl {perl_path} {method} {gold_file} {auto_file}'.format(perl_path = perl_path,
+                                                                        method = method,
+                                                                        gold_file = gold_file,
+                                                                        auto_file = auto_file)
     res = popen(order)
     for line in res:
         if line.startswith('Coreference') and \
@@ -36,3 +38,4 @@ if __name__ == '__main__':
     print res_muc
     print res_ceafe
     print res_blanc
+    # print get_prf('test.v4_gold_conll', 'test.v4_res_conll', 'all')
