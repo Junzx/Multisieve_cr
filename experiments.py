@@ -7,12 +7,14 @@ from cPickle import load, dump
 from shutil import copyfile
 from LoadConll import load_one_file
 from os import remove, getcwd
+from pprint import pprint
 import numpy as np
 import matplotlib.pyplot as plt
 from pylab import *
 
 from SubjectUtils.sieve_utils import get_modifier
 
+# ---------- 7 pass -------------
 from Multisieve.test_sieve import test_sieve
 from Multisieve.exact_match import exact_match
 from Multisieve.precise_constructs import precise_constructs
@@ -21,11 +23,16 @@ from Multisieve.strict_head_matching_B import strict_head_matching_B
 from Multisieve.strict_head_matching_C import strict_head_matching_C
 from Multisieve.relaxing_head_matching import relaxing_head_matching
 from Multisieve.pronounce_cr import pronoun_sieve
+# ------
+from Multisieve.discourse_processing import discourse_processing
+from Multisieve.proper_head_word_match import proper_header_word_match_sieve
+from Multisieve.other_sieve import other_sieve
+# -------------------------------
+
 
 import SubjectUtils.unit_test_utils as unit_test_utils
 import SubjectUtils.sieve_utils as sieve_utils
 import Scorer.api_prf
-
 
 import logging
 logging.basicConfig(filename="./RunResults/MyLog.log",
@@ -34,25 +41,9 @@ logger = logging.getLogger("experiments")
 
 def __test(file_):
     document_object = load_one_file(file_)
-    document_object.write_to_file()
-    # unit_test_utils.print_gold_cluster(document_object)
-    # for mention in document_object.lst_mentions:
-    #     print '---------------'
-    #     print mention.mention_id, mention.chinese_word
-    #     candidate_ = sieve_utils.get_candidate_mentions(document_object, mention)
-    #     print len(candidate_)
-    #     for c in candidate_:
-    #         print c.chinese_word, c.mention_id, '|',
-    #     print
-
-
-        # obj_sent = document_object.dic_sentences.get(mention.sent_id)
-        # print mention.chinese_word, "|", obj_sent.get_sent()
-        # mod_ = get_modifier(obj_sent, mention)
-        # print mod_
-        # print
-    a = document_object
-    print a.__dict__
+    # document_object = discourse_processing(document_object)
+    document_object = other_sieve(document_object)
+    pprint(write_log_prf(document_object))
 
 def write_log_prf(obj_document):
     document_prf = {
@@ -102,18 +93,12 @@ def write_log_prf(obj_document):
 
 def plot_result(res_dict):
     """
-    这个函数用来画图，回应称
-    :param res_dict:
-    :return:
+    画图
     """
     def __precent_2_float(str_):
         return float(str_.strip('%')) * 0.01
 
-    # with open('./RunResults/Scorer_prf.dict', 'wb') as hdl:
-    #     dump(res_dict, hdl)
-
     sieve_order = res_dict.get('order_list')
-
     for score_name, scores in res_dict.items():
         if score_name == 'order_list':
             continue
@@ -136,8 +121,6 @@ def plot_result(res_dict):
         plt.xlabel(u"Sieves") #X轴标签
         plt.ylabel(u"Values") #Y轴标签
         plt.title(u"Matrix of " + score_name + u" | PRF of Each Sieves")
-        # ax = axes()
-        # ax.set_xticklabels(ax.xaxis.get_majorticklabels(), rotation=45)
 
         plt.savefig('./RunResults/' + score_name + '.png')
         plt.close()
@@ -156,6 +139,9 @@ def main(file_):
         strict_head_matching_C,
         relaxing_head_matching,
         pronoun_sieve,
+        proper_header_word_match_sieve,
+        discourse_processing,
+        other_sieve,
     ]
     all_result = {
         'muc': [],
@@ -185,9 +171,11 @@ def main(file_):
         # unit_test_utils.print_cluster(document_object)
         print '-' * 30
 
+    with open('./RunResults/Scorer_prf.dict', 'wb') as hdl:
+        dump(all_result, hdl)
+
     plot_result(all_result) # 画图
 
-    print ''
     logger.info("总用时：%f"%(clock() - start))
     # unit_test_utils.print_gold_cluster(document_object)
     # print '-=' * 20
@@ -196,10 +184,13 @@ def main(file_):
     # document_object.write_to_file("test.v4_res_conll")
 
 
+
 if __name__ == '__main__':
     # test_file = 'small_test2.conll'
-    # test_file = 'test.v4_gold_conll'
-    # main(test_file)
+    test_file = 'test.v4_gold_conll'
+
+    main(test_file)
     # __test(test_file)
-    res_dic = load(open('./RunResults/Scorer_prf.dict', 'rb'))
-    plot_result(res_dic)
+
+    # res_dic = load(open('./RunResults/Scorer_prf.dict', 'rb'))
+    # plot_result(res_dic)

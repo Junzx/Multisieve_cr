@@ -158,5 +158,11 @@ class Mention(object):
                 return token.word_itself
         return 'No-determiner'
 
+    def get_head_word_token(self):
+        """
+        获取中心词的那个token
+        """
+        return self.lst_tokens[-1]
+
     def get_class_attribute(self):
         return self.__dict__

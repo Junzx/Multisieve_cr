@@ -148,3 +148,33 @@ def get_cluster(obj_document, mention):
         if m.entity_id != -1 and m.entity_id == mention.entity_id:
             res.append(m)
     return res
+
+
+def is_numeric_mismatches(candidate_mention,mention):
+    """
+    第二个表述不能有再先行词中没出现的数字（people / around 200 people）
+    :return:如果满足以上条件返回true；否则返回False
+    """
+    the_word = the_candidate_word = 'No'
+    if u'百' in mention.chinese_word or \
+        u'千' in mention.chinese_word or \
+        u'万' in mention.chinese_word or \
+        u'亿' in mention.chinese_word:
+        number = [u'百',u'千',u'万',u'亿']
+        number.extend(list(u'1234567890'))
+        for token in mention.lst_tokens:
+            # if token.word_itself in [u'百',u'千',u'万',u'亿'].extend(list(u'1234567890')):
+            if token.word_itself in number:
+                the_word = token.word_itself
+        if u'百' in candidate_mention.chinese_word or \
+            u'千' in candidate_mention.chinese_word or \
+            u'万' in candidate_mention.chinese_word or \
+            u'亿' in candidate_mention.chinese_word:
+            for token in candidate_mention.lst_tokens:
+                # if token.word_itself in [u'百',u'千',u'万',u'亿'].extend(list('1234567890')):
+                if token.word_itself in number:
+                    the_candidate_word = token.word_itself
+
+            if the_word == the_candidate_word and the_word != 'No' and the_candidate_word != 'No':
+                return False
+    return True
