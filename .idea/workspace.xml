@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Multisieve/other_sieve.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/cilin.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/cilin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/cilin.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/cilin_call.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/dataset.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/libcilin.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/discourse_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Scorer_prf.dict" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/bcub.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/blanc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/ceafe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/ceafm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/muc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/experiments.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,14 +15,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/experiments.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="191" column="19" lean-forward="true" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="19" />
+            <state relative-caret-position="2754">
+              <caret line="192" column="23" lean-forward="true" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
-                <element signature="e#1262#1403#0" />
-                <element signature="e#1773#2657#0" />
-                <element signature="e#3312#4371#0" />
-                <element signature="e#3363#3399#0" />
               </folding>
             </state>
           </provider>
@@ -53,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multisieve/other_sieve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+            <state relative-caret-position="1040">
+              <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
               <folding>
                 <element signature="e#24#45#0" expanded="true" />
               </folding>
@@ -65,7 +39,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="180">
               <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
               <folding>
                 <element signature="e#17#30#0" expanded="true" />
@@ -155,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1380" />
     <option name="height" value="735" />
@@ -349,7 +323,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.21848081" />
@@ -360,7 +333,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49960846" visible="true" weight="0.3416149" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.3416149" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3431677" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -573,12 +546,8 @@
     <entry file="file://$PROJECT_DIR$/Scorer/config.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/test.v4_gold_conll">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/test.v4_auto_conll">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Scorer/test.v4_gold_conll" />
+    <entry file="file://$PROJECT_DIR$/Scorer/test.v4_auto_conll" />
     <entry file="file://$PROJECT_DIR$/demo.txt" />
     <entry file="file://$PROJECT_DIR$/config.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -590,19 +559,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.v4_res_conll">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="254" column="39" selection-start-line="254" selection-start-column="37" selection-end-line="254" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/test.v4_res_conll">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/call_perl.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test.v4_res_conll" />
+    <entry file="file://$PROJECT_DIR$/Scorer/test.v4_res_conll" />
+    <entry file="file://$PROJECT_DIR$/Scorer/call_perl.py" />
     <entry file="file://$PROJECT_DIR$/Scorer/count_prf.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -628,13 +587,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/load_data.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-280">
-          <caret line="16" column="14" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/load_data.log" />
     <entry file="file://$USER_HOME$/anaconda2/lib/python2.7/logging/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
@@ -642,15 +595,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bcub.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bcub.png" />
     <entry file="file://$PROJECT_DIR$/RunResults/bcub.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/RunResults/load_data.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/RunResults/load_data.log" />
     <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -778,39 +727,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py">
+    <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="2754">
+          <caret line="192" column="23" lean-forward="true" selection-start-line="192" selection-start-column="23" selection-end-line="192" selection-end-column="23" />
           <folding>
-            <element signature="e#17#30#0" expanded="true" />
+            <element signature="e#41#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/other_sieve.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="53" column="65" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
+        <state relative-caret-position="1040">
+          <caret line="53" column="65" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="65" />
           <folding>
             <element signature="e#24#45#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/experiments.py">
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="191" column="19" lean-forward="true" selection-start-line="191" selection-start-column="19" selection-end-line="191" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
           <folding>
-            <element signature="e#41#63#0" expanded="true" />
-            <element signature="e#1262#1403#0" />
-            <element signature="e#1773#2657#0" />
-            <element signature="e#3312#4371#0" />
-            <element signature="e#3363#3399#0" />
+            <element signature="e#17#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
