@@ -2,7 +2,7 @@
 S'bcub'
 p2
 (lp3
-cnumpy.core.multiarray
+cnumpy.core._multiarray_umath
 _reconstruct
 p4
 (cnumpy

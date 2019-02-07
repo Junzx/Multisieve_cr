@@ -38,13 +38,15 @@ def discourse_processing(obj_document):
                 # 句子距离小于2、表述指代前一个speaker
                 if 0 < mention_speaker.sent_id - mention.sent_id < 2:
                     # 如果符合条件 将代词指向speaker
-                    obj_document.set_coref(mention_speaker_id, mention_candidate_id)
+                    obj_document.set_coref(obj_document.get_mention_by_id(mention_speaker_id),
+                                           obj_document.get_mention_by_id(mention_candidate_id))
 
             # 如果是第二人称
             if mention.chinese_word in ConstantVariable.second_person_pronouns:
                 # 句子距离小于4、表述指代后一个speaker
                 if 0 < mention.sent_id - mention_speaker.sent_id < 4:
                     # 如果符合条件 将代词指向speaker
-                    obj_document.set_coref(mention_candidate_id, mention_speaker_id)
+                    obj_document.set_coref(obj_document.get_mention_by_id(mention_candidate_id),
+                                           obj_document.get_mention_by_id(mention_speaker_id))
 
     return obj_document

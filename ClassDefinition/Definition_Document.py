@@ -51,6 +51,7 @@ class Document(object):
     # -----------------------------以上是定义的一些方法 ----------------------------------
 
     def api_set_some_attribute(self):
+        self.document_file_name = self.document_name.split('/')[-1]
         self.result_document_path = self.original_document_path.replace('gold','result')
         self.__set_dict_attribute()
         self.__set_abstracts()
@@ -243,8 +244,8 @@ class Document(object):
         """
         # mention_1 = self.lst_mentions[mention_id_1]
         # mention_2 = self.lst_mentions[mention_id_2]
-        logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
-                                                    mention_2.chinese_word, str(mention_2.mention_id)))
+        # logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
+        #                                             mention_2.chinese_word, str(mention_2.mention_id)))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
 

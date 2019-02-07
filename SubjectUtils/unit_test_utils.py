@@ -15,8 +15,6 @@ def print_str(string):
         print(string)
 
 
-def get_prf(obj_document):
-    pass
 
 
 def __mention_2_entity(obj_document, var='gold'):
@@ -59,4 +57,3 @@ def print_cluster(obj_document):
             print_str('Entity_id: (' + str(entity_id) + ') ')
             for m in mention_list:
                 print_str("词： %s | mention id: %d"%(m.chinese_word, m.mention_id))
-

@@ -29,8 +29,7 @@ def pronoun_sieve(obj_document):
         for candidate_m in candidate_mentions:
             # - rule 如果动物属性相同（只有相同的适合相乘才可能等于1）
             if candidate_m.animacy * p_m.animacy == 1:
-                obj_document.set_coref(candidate_m.mention_id, p_m.mention_id)
-                print('shit')
+                obj_document.set_coref(candidate_m, p_m)
 
     return obj_document
 
