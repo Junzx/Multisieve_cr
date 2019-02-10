@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SubjectUtils/experiment_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_all_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/experiment_result/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Multisieve_cr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Multisieve_cr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/experiment_result/read_result.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/discourse_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/discourse_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/Scorer_prf.dict" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/Scorer_prf.dict" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_result.other_sieve" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/all_result.other_sieve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_result.pronoun_sieve" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/all_result.pronoun_sieve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_result.strict_head_matching_B" beforeDir="false" afterPath="$PROJECT_DIR$/experiment_result/all_result.strict_head_matching_B" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_all_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_one_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="684">
+              <caret line="66" column="15" selection-start-line="62" selection-start-column="14" selection-end-line="66" selection-end-column="15" />
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
               </folding>
@@ -38,23 +31,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multisieve/discourse_processing.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api_all_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+            <state relative-caret-position="484">
+              <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
+              <folding>
+                <element signature="e#24#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api_all_file.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiment_result/read_result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-              <folding>
-                <element signature="e#24#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -146,6 +139,7 @@
         <option value="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/api_one_file.py" />
+        <option value="$PROJECT_DIR$/experiment_result/read_result.py" />
         <option value="$PROJECT_DIR$/api_all_file.py" />
       </list>
     </option>
@@ -160,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,10 +161,16 @@
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment_result" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -179,17 +178,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/experiment_result" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/MentionDetection" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/SubjectUtils" />
       <recent name="$PROJECT_DIR$/Scorer" />
       <recent name="$PROJECT_DIR$/MentionDetection" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/Multisieve" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/experiment_result" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/MentionDetection" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,27 +217,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_all_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="api_prf" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scorer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scorer/api_prf.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,6 +267,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="read_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment_result" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment_result/read_result.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="word_similarity" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -313,10 +312,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.api_all_file" />
+        <item itemvalue="Python.read_result" />
         <item itemvalue="Python.config" />
         <item itemvalue="Python.experiments" />
         <item itemvalue="Python.word_similarity" />
-        <item itemvalue="Python.api_prf" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +334,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.19655442" />
@@ -346,7 +344,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49960846" visible="true" weight="0.378882" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.378882" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.5590062" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -459,16 +457,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Multisieve/relaxing_head_matching.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="e#120#149#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scorer/lib/Data/Dumper.pm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-780" />
@@ -759,18 +747,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api_one_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="684">
+          <caret line="66" column="15" selection-start-line="62" selection-start-column="14" selection-end-line="66" selection-end-column="15" />
           <folding>
             <element signature="e#41#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_result/read_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api_all_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="484">
+          <caret line="70" column="43" selection-start-line="70" selection-start-column="43" selection-end-line="70" selection-end-column="43" />
           <folding>
             <element signature="e#24#43#0" expanded="true" />
           </folding>

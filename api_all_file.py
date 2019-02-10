@@ -65,7 +65,7 @@ if __name__ == '__main__':
     print api_one_file.sieve_order[-1].__name__
     # get_result('train')
 
-    # get_result('test')
+    get_result('test')
     test()
 
     print 'use time:', time.clock() - start

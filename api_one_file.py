@@ -36,8 +36,9 @@ logging.basicConfig(filename="./RunResults/MyLog.log",
 logger = logging.getLogger("experiments")
 
 
-sieve_order = [
-        test_sieve,
+# 原始顺序
+# sieve_order = [
+        # test_sieve,
         # exact_match,
         # precise_constructs,
         # strict_head_matching_A,
@@ -47,9 +48,24 @@ sieve_order = [
         # pronoun_sieve,
         # proper_header_word_match_sieve,
         # discourse_processing,
+        # other_sieve,
+    # ]
+
+
+
+sieve_order = [
+        # test_sieve,
+        discourse_processing,
+        exact_match,
+        precise_constructs,
+        pronoun_sieve,
+        relaxing_head_matching,
+        strict_head_matching_A,
+        strict_head_matching_B,
+        strict_head_matching_C,
+        proper_header_word_match_sieve,
         other_sieve,
     ]
-
 
 
 def __test(file_):
