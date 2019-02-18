@@ -20,6 +20,8 @@ def get_candidate_mentions(obj_document, obj_mention):
         1. 获取mention的句子id
         2. 获取前n=3个sent对象（包括当前表述所在的句子）
         3. 从后向前选择sent对象，其中表述按照从左向右选取
+
+    update： 跳过代词
     """
     sentence_distance = 1  # 表示 表述所在的句子，以及之前的 n 个句子
     if obj_mention.mention_id == 0:
@@ -28,8 +30,11 @@ def get_candidate_mentions(obj_document, obj_mention):
     sent_id = obj_mention.sent_id
     mention_id = obj_mention.mention_id
     for candidate_m in obj_document.lst_mentions:
-        if str(candidate_m.entity_id).startswith('E_'):
+        # if str(candidate_m.entity_id).startswith('E_'):
+        #     continue
+        if candidate_m.chinese_word in ConstantVariable.pronouns:
             continue
+
         if candidate_m.sent_id <= sent_id and \
                 fabs(candidate_m.sent_id - sent_id) <= sentence_distance and \
                 candidate_m.mention_id != mention_id:

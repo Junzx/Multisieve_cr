@@ -11,6 +11,9 @@ def proper_header_word_match_sieve(obj_document):
     3. 非数量不匹配：第二个表述不能有再先行词中没出现的数字（people / around 200 people）
     """
     for index_mention, mention in enumerate(obj_document.lst_mentions):
+        if str(mention.entity_id).startswith('E_'):
+            continue
+
         if index_mention == 0:
             continue
         if mention.get_head_word_token().ner == '-':

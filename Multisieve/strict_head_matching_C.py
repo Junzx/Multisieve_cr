@@ -6,6 +6,9 @@ logger = logging.getLogger("multi_sieve")
 
 def strict_head_matching_C(obj_document):
     for mention in obj_document.lst_mentions:
+        if str(mention.entity_id).startswith('E_'):
+            continue
+
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         for candidate_m in candidate_mentions:
             candidate_m_entity = sieve_util.get_cluster(obj_document, candidate_m)

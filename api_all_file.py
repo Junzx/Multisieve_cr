@@ -27,7 +27,13 @@ def get_result(vars = 'train'):
         print
 
         prf = api_one_file.main(file_)
-        pprint(prf)
+        if (prf['muc'] == np.array(['0%', '0%', '0%'])).all() and \
+            (prf['ceafm'] == np.array(['0%', '0%', '0%'])).all() and \
+            (prf['bcub'] == np.array(['0%', '0%', '0%'])).all():
+            # print '可能未找到 跳过'
+            # print prf
+            continue
+        # pprint(prf)
 
         for key in all_res.keys():
             if key == 'counter':
@@ -52,6 +58,7 @@ def test():
     with open('all_result.' + api_one_file.sieve_order[-1].__name__, 'rb') as hdl:
         all_res = cPickle.load(hdl)
 
+    print '----- 最终结果 -------'
     for key in all_res:
         if key == 'counter':
             continue

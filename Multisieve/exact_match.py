@@ -17,6 +17,8 @@ logger = logging.getLogger("multi_sieve")
 def exact_match(obj_document):
 
     for mention in obj_document.lst_mentions:
+        if str(mention.entity_id).startswith('E_'):
+            continue
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         sent_this_mention = obj_document.dic_sentences.get(mention.sent_id)
         modifier_this_mention = sieve_util.get_modifier(sent_this_mention, mention)

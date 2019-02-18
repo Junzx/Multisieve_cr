@@ -6,6 +6,10 @@ logger = logging.getLogger("multi_sieve")
 
 def strict_head_matching_B(obj_document):
     for mention in obj_document.lst_mentions:
+
+        if str(mention.entity_id).startswith('E_'):
+            continue
+
         # print '--------------'
 
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)

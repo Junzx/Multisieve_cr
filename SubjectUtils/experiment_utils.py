@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
-# import matplotlib.pyplot as plt
-# from pylab import *
+import matplotlib.pyplot as plt
+from pylab import *
 from os import remove, getcwd
 from shutil import copyfile
 import Scorer.api_prf

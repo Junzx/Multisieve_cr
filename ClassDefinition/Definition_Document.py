@@ -244,8 +244,8 @@ class Document(object):
         """
         # mention_1 = self.lst_mentions[mention_id_1]
         # mention_2 = self.lst_mentions[mention_id_2]
-        # logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
-        #                                             mention_2.chinese_word, str(mention_2.mention_id)))
+        logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
+                                                    mention_2.chinese_word, str(mention_2.mention_id)))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
 
@@ -329,6 +329,12 @@ class Document(object):
             obj_entity.lst_mentions.extend(lst_del_mentions)
             # v) 删除要被合并的entity object
             del self.dic_entity[mention_1_entity_id]
+
+        # ---
+        # print 'set coref: ',
+        # print mention_1.chinese_word, mention_2.chinese_word, ' | ',
+        # print mention_1.mention_id, mention_2.mention_id, ' | ',
+        # print mention_1.entity_id, mention_2.entity_id
 
     # ----------------------------- 定义写入文件的方法 -----------------------------------
 

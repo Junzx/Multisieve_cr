@@ -19,6 +19,9 @@ def discourse_processing(obj_document):
     # 找speaker
     lst_speaker_mention_id = []  # 存放mention id
     for mention in obj_document.lst_mentions:
+        if str(mention.entity_id).startswith('E_'):
+            continue
+
         for report_verb_index in lst_report_token_index:
             if 0 < (mention.end_token_id - obj_document.get_token_by_id(report_verb_index).token_id) < 10:
                 # print self.obj_document.get_token_by_id(mention.end_token_id).word_itself,self.obj_document.get_token_by_id(report_verb_index).token_id,self.obj_document.get_token_by_id(report_verb_index).word_itself

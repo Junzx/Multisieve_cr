@@ -37,35 +37,41 @@ logger = logging.getLogger("experiments")
 
 
 # 原始顺序
-# sieve_order = [
-        # test_sieve,
-        # exact_match,
-        # precise_constructs,
-        # strict_head_matching_A,
-        # strict_head_matching_B,
-        # strict_head_matching_C,
-        # relaxing_head_matching,
-        # pronoun_sieve,
-        # proper_header_word_match_sieve,
-        # discourse_processing,
-        # other_sieve,
-    # ]
-
-
-
 sieve_order = [
         # test_sieve,
-        discourse_processing,
         exact_match,
         precise_constructs,
-        pronoun_sieve,
-        relaxing_head_matching,
         strict_head_matching_A,
         strict_head_matching_B,
         strict_head_matching_C,
+        relaxing_head_matching,
+        pronoun_sieve,
         proper_header_word_match_sieve,
+        discourse_processing,
         other_sieve,
     ]
+
+
+
+# sieve_order = [
+#         # test_sieve,
+#         discourse_processing,
+#         exact_match,
+#         precise_constructs,
+#         pronoun_sieve,
+#         relaxing_head_matching,
+#         strict_head_matching_A,
+#         strict_head_matching_B,
+#         strict_head_matching_C,
+#         proper_header_word_match_sieve,
+#         other_sieve,
+#     ]
+
+#
+# sieve_order = [
+#     exact_match
+# ]
+
 
 
 def __test(file_):
@@ -118,10 +124,13 @@ def main(file_):
 
 
 if __name__ == '__main__':
-    # test_file = 'small_test2.conll'
-    test_file = 'test.v4_gold_conll'
+    test_file = 'small_test2.conll'
+    # test_file = 'test.v4_gold_conll'
+    # test_file_2 = '/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll'
 
-    main(test_file)
+    res = main(test_file)
+    print res
+
     # __test(test_file)
 
     # res_dic = load(open('./RunResults/Scorer_prf.dict', 'rb'))
