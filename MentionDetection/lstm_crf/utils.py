@@ -283,12 +283,16 @@ def file_content_iterator(file_name):
             yield line.strip()
 
 
-def write_result_to_file(iterator, tags):
+def write_result_to_file(iterator, tags, hdl_res):
     raw_content = next(iterator)
     words = raw_content.split()
     assert len(words) == len(tags)
+    tmp_sentence = ''
     for w,t in zip(words, tags):
+        tmp_sentence += (t + ' ')
         print w, '(' + t + ')',
+    tmp_sentence += '\n'
+    hdl_res.write(tmp_sentence)
     print
     print '*' * 100
 
