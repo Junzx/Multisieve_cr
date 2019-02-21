@@ -40,15 +40,15 @@ logger = logging.getLogger("experiments")
 sieve_order = [
         # test_sieve,
         exact_match,
-        precise_constructs,
-        strict_head_matching_A,
-        strict_head_matching_B,
-        strict_head_matching_C,
-        relaxing_head_matching,
-        pronoun_sieve,
-        proper_header_word_match_sieve,
-        discourse_processing,
-        other_sieve,
+        # precise_constructs,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # relaxing_head_matching,
+        # pronoun_sieve,
+        # proper_header_word_match_sieve,
+        # discourse_processing,
+        # other_sieve,
     ]
 
 

@@ -4,1569 +4,1752 @@ DEBUG:jieba:Loading model from cache /tmp/jieba.cache
 DEBUG:jieba:Loading model cost 0.285 seconds.
 DEBUG:jieba:Prefix dict has been built succesfully.
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.743697
+INFO:experiments:加载数据用时： 0.745103
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 诺贝尔(id:0) , 这项荣誉(id:5)
-INFO:设置共指：: 千禧年诺贝尔文学奖(id:1) , 这项荣誉(id:5)
-INFO:设置共指：: 法国籍的大陆作家高行健(id:2) , 这项荣誉(id:5)
-INFO:设置共指：: 这项殊荣(id:3) , 这项荣誉(id:5)
-INFO:设置共指：: 诺贝尔(id:0) , 中国(id:6)
-INFO:设置共指：: 千禧年诺贝尔文学奖(id:1) , 中国(id:6)
-INFO:设置共指：: 法国籍的大陆作家高行健(id:2) , 中国(id:6)
-INFO:设置共指：: 这项殊荣(id:3) , 中国(id:6)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.942056
-INFO:experiments:总用时：1.705882
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001035
+INFO:experiments:总用时：0.764538
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0059_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.000486
+INFO:experiments:加载数据用时： 1.017311
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 塞尔维亚(id:7) , 南斯拉夫联盟(id:8)
-INFO:设置共指：: 这首歌(id:16) , 塞尔维亚(id:17)
-INFO:设置共指：: 这首歌(id:16) , 米洛舍维奇(id:18)
-INFO:设置共指：: 这首歌(id:16) , 他(id:19)
-INFO:设置共指：: ２０岁的玛丽亚．卡甫拉雷维奇(id:47) , 她(id:48)
-INFO:设置共指：: ２０岁的玛丽亚．卡甫拉雷维奇(id:47) , 米洛舍维奇(id:49)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：2.491936
-INFO:experiments:总用时：3.511319
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005249
+INFO:experiments:总用时：1.041459
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnn_0004_001.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 2.610626
+INFO:experiments:加载数据用时： 2.579448
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 斯科特(id:8) , 我(id:10)
-INFO:设置共指：: 斯科特(id:8) , 你(id:11)
-INFO:设置共指：: 斯科特(id:8) , 你(id:12)
-INFO:设置共指：: 斯科特(id:8) , 你(id:13)
-INFO:设置共指：: 斯科特(id:8) , 你(id:14)
-INFO:设置共指：: 斯科特(id:8) , 你(id:15)
-INFO:设置共指：: 麦克莱伦(id:20) , 水门事件(id:22)
-INFO:设置共指：: 水门事情(id:21) , 水门事件(id:22)
-INFO:设置共指：: 现在(id:45) , 联邦调查局(id:49)
-INFO:设置共指：: 深喉马克·费尔特(id:47) , 联邦调查局(id:49)
-INFO:设置共指：: 那本书，啊《惊天大阴谋》(id:110) , 深喉(id:115)
-INFO:设置共指：: 卡尔(id:111) , 深喉(id:115)
-INFO:设置共指：: 卡尔和我(id:113) , 深喉(id:115)
-INFO:设置共指：: 联邦调查局(id:126) , 泄密者(id:130)
-INFO:设置共指：: 那份联邦调查局的备忘录，他签过名的(id:128) , 泄密者(id:130)
-INFO:设置共指：: 伍德沃德和伯斯坦(id:129) , 泄密者(id:130)
-INFO:设置共指：: 联邦调查局(id:126) , 他(id:131)
-INFO:设置共指：: 那份联邦调查局的备忘录，他签过名的(id:128) , 他(id:131)
-INFO:设置共指：: 伍德沃德和伯斯坦(id:129) , 他(id:131)
-INFO:设置共指：: 联邦调查局(id:126) , 你(id:132)
-INFO:设置共指：: 那份联邦调查局的备忘录，他签过名的(id:128) , 你(id:132)
-INFO:设置共指：: 伍德沃德和伯斯坦(id:129) , 你(id:132)
-INFO:设置共指：: 联邦调查局(id:126) , 你(id:133)
-INFO:设置共指：: 那份联邦调查局的备忘录，他签过名的(id:128) , 你(id:133)
-INFO:设置共指：: 伍德沃德和伯斯坦(id:129) , 你(id:133)
-INFO:设置共指：: 一个具体的故事(id:134) , 这个故事(id:136)
-INFO:设置共指：: 备忘录(id:137) , 联邦调查局(id:139)
-INFO:设置共指：: 泄密者(id:142) , 白宫(id:143)
-INFO:设置共指：: 泄密者(id:142) , 他(id:144)
-INFO:设置共指：: 白宫(id:143) , 他(id:144)
-INFO:设置共指：: 费尔特(id:151) , ＂气象人＂地下激进组织(id:152)
-INFO:设置共指：: 这(id:163) , 尼克森(id:164)
-INFO:设置共指：: 这(id:163) , 尼克森所做的事情(id:165)
-INFO:设置共指：: 理查德·科恩，《华盛顿邮报》的专栏作家(id:175) , 一个专栏(id:177)
-INFO:设置共指：: 理查德·科恩，《华盛顿邮报》的专栏作家(id:175) , 他(id:178)
-INFO:设置共指：: 理查德·科恩，《华盛顿邮报》的专栏作家(id:175) , 费尔特(id:179)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：4.048677
-INFO:experiments:总用时：6.683615
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.015378
+INFO:experiments:总用时：2.615531
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0069_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.363816
+INFO:experiments:加载数据用时： 0.347145
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 报导(id:8) , 他(id:11)
-INFO:设置共指：: 萨尔斯堡市长苏贝尔克(id:9) , 他(id:11)
-INFO:设置共指：: 这(id:10) , 他(id:11)
-INFO:设置共指：: 这场意外(id:12) , 格林威治时间１１号早上８点，台北时间下午４点(id:13)
-INFO:设置共指：: 这场意外(id:12) , 当时(id:14)
-INFO:设置共指：: 这场意外(id:12) , 缆车(id:15)
-INFO:设置共指：: 这场意外(id:12) , 长约３２００公尺的隧道(id:16)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.653302
-INFO:experiments:总用时：1.036007
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000846
+INFO:experiments:总用时：0.365528
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.227856
+INFO:experiments:加载数据用时： 1.155137
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 现在(id:1) , 一九一八年(id:2)
-INFO:设置共指：: 目前这个阶段(id:5) , 我们(id:7)
-INFO:设置共指：: 目前这个阶段(id:5) , 一九一八年(id:8)
-INFO:设置共指：: 目前这个阶段(id:10) , 全球(id:12)
-INFO:设置共指：: 我个人(id:11) , 全球(id:12)
-INFO:设置共指：: 现在(id:18) , 我们(id:21)
-INFO:设置共指：: 目前(id:27) , 禽流感(id:28)
-INFO:设置共指：: 目前(id:27) , 现在(id:29)
-INFO:设置共指：: 目前(id:27) , 达菲(id:30)
-INFO:设置共指：: 目前(id:27) , 我(id:31)
-INFO:设置共指：: 目前(id:27) , 达菲(id:32)
-INFO:设置共指：: 流感病毒(id:33) , 其中(id:37)
-INFO:设置共指：: 一定可以用于预防和治疗的药物(id:35) , 其中(id:37)
-INFO:设置共指：: 达菲(id:36) , 其中(id:37)
-INFO:设置共指：: 目前(id:40) , 达菲(id:41)
-INFO:设置共指：: 现在(id:42) , 高致病性禽流感(id:43)
-INFO:设置共指：: 中国(id:65) , 一期临床实验(id:66)
-INFO:设置共指：: 中国(id:71) , 一期临床实验(id:72)
-INFO:设置共指：: 一种产品(id:74) , 一种被批准的用于＜Ｅｎｌｇｉｓｈ＞Ｈ＜／Ｅｎｌｇｉｓｈ＞五＜Ｅｎｇｌｉｓｈ＞Ｎ＜／Ｅｎｇｌｉｓｈ＞一所引起的这种高致病性禽流感病毒的疫苗(id:75)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.765800
-INFO:experiments:总用时：3.014599
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这个手段(id:53) , 这个手段(id:54)
+INFO:multi_sieve:修饰语： 手段 手段
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：: 二期临床实验(id:68) , 二期临床实验(id:70)
+INFO:multi_sieve:修饰语： 实验 实验
+INFO:multi_sieve:限定词： 二 二
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004296
+INFO:experiments:总用时：1.180407
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_004.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.253441
+INFO:experiments:加载数据用时： 1.242397
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 吕家陀矿(id:33) , 当时(id:35)
-INFO:设置共指：: 吕家陀矿(id:33) , 井下(id:36)
-INFO:设置共指：: 吕家陀矿(id:33) , 当时滞留井下的(id:37)
-INFO:设置共指：: 当时(id:38) , 一个，副矿长贾邦友(id:39)
-INFO:设置共指：: 当时(id:38) , 这时候(id:40)
-INFO:设置共指：: 当时(id:38) , 一千多人(id:41)
-INFO:设置共指：: 一个，副矿长贾邦友(id:39) , 一千多人(id:41)
-INFO:设置共指：: 这时候(id:40) , 一千多人(id:41)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.452235
-INFO:experiments:总用时：2.724287
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.003870
+INFO:experiments:总用时：1.265984
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0109_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.151879
+INFO:experiments:加载数据用时： 0.142759
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 以色列(id:0) , 加沙等４个城镇(id:6)
-INFO:设置共指：: 约旦河西岸和加沙地带(id:1) , 加沙等４个城镇(id:6)
-INFO:设置共指：: 四名巴勒斯坦抗议者(id:2) , 加沙等４个城镇(id:6)
-INFO:设置共指：: 以色列(id:3) , 加沙等４个城镇(id:6)
-INFO:设置共指：: 以色列军方(id:4) , 加沙等４个城镇(id:6)
-INFO:设置共指：: 这些巴勒斯坦人(id:5) , 加沙等４个城镇(id:6)
-INFO:设置共指：: 以色列(id:0) , 以色列(id:7)
-INFO:设置共指：: 约旦河西岸和加沙地带(id:1) , 以色列(id:7)
-INFO:设置共指：: 四名巴勒斯坦抗议者(id:2) , 以色列(id:7)
-INFO:设置共指：: 以色列(id:3) , 以色列(id:7)
-INFO:设置共指：: 以色列军方(id:4) , 以色列(id:7)
-INFO:设置共指：: 这些巴勒斯坦人(id:5) , 以色列(id:7)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.791630
-INFO:experiments:总用时：0.962791
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000382
+INFO:experiments:总用时：0.160141
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0049_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.569572
+INFO:experiments:加载数据用时： 0.538441
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 今年第一季度(id:24) , 公司(id:25)
-INFO:设置共指：: 今年第一季度(id:24) , 我们(id:26)
-INFO:设置共指：: 第一季度(id:30) , 我们(id:32)
-INFO:设置共指：: 第一季度(id:30) , 我们(id:33)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.275125
-INFO:experiments:总用时：1.865171
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001821
+INFO:experiments:总用时：0.559456
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0059_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.331869
+INFO:experiments:加载数据用时： 0.309973
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.770929
-INFO:experiments:总用时：1.119032
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000834
+INFO:experiments:总用时：0.328423
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0109_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.441993
+INFO:experiments:加载数据用时： 0.408157
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 当时(id:4) , 家属(id:5)
-INFO:设置共指：: 当时(id:4) , 那个时候(id:6)
-INFO:设置共指：: 当时(id:4) , 闻姓学生(id:7)
-INFO:设置共指：: 当时(id:4) , 三年级李姓学生(id:8)
-INFO:设置共指：: 当时(id:4) , 被告家属(id:9)
-INFO:设置共指：: 李姓学生(id:12) , 当时(id:13)
-INFO:设置共指：: 李姓学生(id:12) , 当时本校(id:14)
-INFO:设置共指：: 李姓学生(id:12) , 死者家属(id:15)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.646671
-INFO:experiments:总用时：1.107627
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000706
+INFO:experiments:总用时：0.427532
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0089_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.426543
+INFO:experiments:加载数据用时： 0.412443
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 巴以(id:29) , 巴勒斯坦(id:32)
-INFO:设置共指：: 近４００人(id:30) , 巴勒斯坦(id:32)
-INFO:设置共指：: 其中(id:31) , 巴勒斯坦(id:32)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：2.641370
-INFO:experiments:总用时：3.085760
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002185
+INFO:experiments:总用时：0.432381
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0129_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.073441
+INFO:experiments:加载数据用时： 0.072969
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.044099
-INFO:experiments:总用时：0.135815
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000062
+INFO:experiments:总用时：0.089607
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0049_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 2.297280
+INFO:experiments:加载数据用时： 2.278477
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 图们江三角洲(id:58) , 中国(id:65)
-INFO:设置共指：: 中国、俄罗斯、朝鲜三国交界的图们江三角洲(id:59) , 中国(id:65)
-INFO:设置共指：: 物流枢纽和经贸中心(id:60) , 中国(id:65)
-INFO:设置共指：: 世界性物流枢纽和经贸中心(id:61) , 中国(id:65)
-INFO:设置共指：: 图们江(id:62) , 中国(id:65)
-INFO:设置共指：: 开发计划(id:63) , 中国(id:65)
-INFO:设置共指：: 旨在将中国、俄罗斯、朝鲜三国交界的图们江三角洲建成世界性物流枢纽和经贸中心的图们江开发计划(id:64) , 中国(id:65)
-INFO:设置共指：: 中国、俄罗斯、朝鲜三国交界的图们江三角洲(id:59) , 专家(id:66)
-INFO:设置共指：: 物流枢纽和经贸中心(id:60) , 专家(id:66)
-INFO:设置共指：: 世界性物流枢纽和经贸中心(id:61) , 专家(id:66)
-INFO:设置共指：: 图们江(id:62) , 专家(id:66)
-INFO:设置共指：: 开发计划(id:63) , 专家(id:66)
-INFO:设置共指：: 旨在将中国、俄罗斯、朝鲜三国交界的图们江三角洲建成世界性物流枢纽和经贸中心的图们江开发计划(id:64) , 专家(id:66)
-INFO:设置共指：: 物流枢纽和经贸中心(id:60) , 丁士晟等中国专家(id:67)
-INFO:设置共指：: 世界性物流枢纽和经贸中心(id:61) , 丁士晟等中国专家(id:67)
-INFO:设置共指：: 图们江(id:62) , 丁士晟等中国专家(id:67)
-INFO:设置共指：: 开发计划(id:63) , 丁士晟等中国专家(id:67)
-INFO:设置共指：: 旨在将中国、俄罗斯、朝鲜三国交界的图们江三角洲建成世界性物流枢纽和经贸中心的图们江开发计划(id:64) , 丁士晟等中国专家(id:67)
-INFO:设置共指：: 世界性物流枢纽和经贸中心(id:61) , 联合国开发计划署(id:68)
-INFO:设置共指：: 图们江(id:62) , 联合国开发计划署(id:68)
-INFO:设置共指：: 开发计划(id:63) , 联合国开发计划署(id:68)
-INFO:设置共指：: 旨在将中国、俄罗斯、朝鲜三国交界的图们江三角洲建成世界性物流枢纽和经贸中心的图们江开发计划(id:64) , 联合国开发计划署(id:68)
-INFO:设置共指：: 图们江(id:62) , 全球(id:69)
-INFO:设置共指：: 开发计划(id:63) , 全球(id:69)
-INFO:设置共指：: 旨在将中国、俄罗斯、朝鲜三国交界的图们江三角洲建成世界性物流枢纽和经贸中心的图们江开发计划(id:64) , 全球(id:69)
-INFO:设置共指：: 支持和参与(id:156) , 珲春(id:163)
-INFO:设置共指：: 国际社会的支持和参与(id:157) , 珲春(id:163)
-INFO:设置共指：: 珲春(id:158) , 珲春(id:163)
-INFO:设置共指：: 开发开放(id:159) , 珲春(id:163)
-INFO:设置共指：: 珲春的开发开放(id:160) , 珲春(id:163)
-INFO:设置共指：: 作用(id:161) , 珲春(id:163)
-INFO:设置共指：: 积极而关键的作用(id:162) , 珲春(id:163)
-INFO:设置共指：: 国际社会的支持和参与(id:157) , 实力(id:164)
-INFO:设置共指：: 珲春(id:158) , 实力(id:164)
-INFO:设置共指：: 开发开放(id:159) , 实力(id:164)
-INFO:设置共指：: 珲春的开发开放(id:160) , 实力(id:164)
-INFO:设置共指：: 作用(id:161) , 实力(id:164)
-INFO:设置共指：: 积极而关键的作用(id:162) , 实力(id:164)
-INFO:设置共指：: 珲春(id:158) , 综合实力(id:165)
-INFO:设置共指：: 开发开放(id:159) , 综合实力(id:165)
-INFO:设置共指：: 珲春的开发开放(id:160) , 综合实力(id:165)
-INFO:设置共指：: 作用(id:161) , 综合实力(id:165)
-INFO:设置共指：: 积极而关键的作用(id:162) , 综合实力(id:165)
-INFO:设置共指：: 开发开放(id:159) , 时期(id:166)
-INFO:设置共指：: 珲春的开发开放(id:160) , 时期(id:166)
-INFO:设置共指：: 作用(id:161) , 时期(id:166)
-INFO:设置共指：: 积极而关键的作用(id:162) , 时期(id:166)
-INFO:设置共指：: 珲春的开发开放(id:160) , 珲春综合实力增强最显著、城乡面貌变化最明显、人民得到实惠最多的时期(id:167)
-INFO:设置共指：: 作用(id:161) , 珲春综合实力增强最显著、城乡面貌变化最明显、人民得到实惠最多的时期(id:167)
-INFO:设置共指：: 积极而关键的作用(id:162) , 珲春综合实力增强最显著、城乡面貌变化最明显、人民得到实惠最多的时期(id:167)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：26.071933
-INFO:experiments:总用时：28.389506
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 中国、俄罗斯、朝鲜三国(id:55) , 中、俄、朝三国(id:73)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：: 该计划(id:71) , 该计划(id:80)
+INFO:multi_sieve:修饰语： 计划 计划
+INFO:multi_sieve:限定词： 该 该
+INFO:设置共指：: 很多国家政府和企业(id:121) , 很多国家政府和企业的大力支持(id:123)
+INFO:multi_sieve:修饰语： 很多国家政府和企业 很多国家政府和企业
+INFO:multi_sieve:限定词： 很多 很多
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.037363
+INFO:experiments:总用时：2.334061
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0289_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.201043
+INFO:experiments:加载数据用时： 0.205215
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 他本人(id:7) , 埃斯特拉达(id:9)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.627489
-INFO:experiments:总用时：0.847100
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000830
+INFO:experiments:总用时：0.223218
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0139_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.403530
+INFO:experiments:加载数据用时： 0.401173
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 中国(id:13) , 中国(id:20)
-INFO:设置共指：: 中国工作组(id:14) , 中国(id:20)
-INFO:设置共指：: 中国工作组会议(id:15) , 中国(id:20)
-INFO:设置共指：: 中国(id:16) , 中国(id:20)
-INFO:设置共指：: 世贸组织(id:17) , 中国(id:20)
-INFO:设置共指：: 龙永图(id:18) , 中国(id:20)
-INFO:设置共指：: 下次会议(id:19) , 中国(id:20)
-INFO:设置共指：: 中国工作组(id:14) , 世贸组织(id:21)
-INFO:设置共指：: 中国工作组会议(id:15) , 世贸组织(id:21)
-INFO:设置共指：: 中国(id:16) , 世贸组织(id:21)
-INFO:设置共指：: 世贸组织(id:17) , 世贸组织(id:21)
-INFO:设置共指：: 龙永图(id:18) , 世贸组织(id:21)
-INFO:设置共指：: 下次会议(id:19) , 世贸组织(id:21)
-INFO:设置共指：: 中国工作组会议(id:15) , 这次谈判(id:22)
-INFO:设置共指：: 中国(id:16) , 这次谈判(id:22)
-INFO:设置共指：: 世贸组织(id:17) , 这次谈判(id:22)
-INFO:设置共指：: 龙永图(id:18) , 这次谈判(id:22)
-INFO:设置共指：: 下次会议(id:19) , 这次谈判(id:22)
-INFO:设置共指：: 世贸组织(id:24) , 世界贸易组织(id:28)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.551588
-INFO:experiments:总用时：3.973532
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002782
+INFO:experiments:总用时：0.421299
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0069_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.626556
+INFO:experiments:加载数据用时： 0.631392
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 联合国(id:13) , 联合国(id:18)
-INFO:设置共指：: 巴以(id:14) , 联合国(id:18)
-INFO:设置共指：: 巴以暴力事件(id:15) , 联合国(id:18)
-INFO:设置共指：: 紧急会议(id:16) , 联合国(id:18)
-INFO:设置共指：: 这次会议(id:17) , 联合国(id:18)
-INFO:设置共指：: 联合国(id:13) , 巴勒斯坦(id:19)
-INFO:设置共指：: 巴以(id:14) , 巴勒斯坦(id:19)
-INFO:设置共指：: 巴以暴力事件(id:15) , 巴勒斯坦(id:19)
-INFO:设置共指：: 紧急会议(id:16) , 巴勒斯坦(id:19)
-INFO:设置共指：: 这次会议(id:17) , 巴勒斯坦(id:19)
-INFO:设置共指：: 联合国(id:13) , 会议(id:20)
-INFO:设置共指：: 巴以(id:14) , 会议(id:20)
-INFO:设置共指：: 巴以暴力事件(id:15) , 会议(id:20)
-INFO:设置共指：: 紧急会议(id:16) , 会议(id:20)
-INFO:设置共指：: 这次会议(id:17) , 会议(id:20)
-INFO:设置共指：: 阿拉伯国家(id:21) , 美国(id:28)
-INFO:设置共指：: 以色列(id:22) , 美国(id:28)
-INFO:设置共指：: 美国(id:23) , 美国(id:28)
-INFO:设置共指：: 联合国(id:24) , 美国(id:28)
-INFO:设置共指：: １００多人(id:25) , 美国(id:28)
-INFO:设置共指：: 最近导致１００多人死亡的流血事件(id:26) , 美国(id:28)
-INFO:设置共指：: 死者(id:27) , 美国(id:28)
-INFO:设置共指：: 以色列(id:22) , 这个地区(id:29)
-INFO:设置共指：: 美国(id:23) , 这个地区(id:29)
-INFO:设置共指：: 联合国(id:24) , 这个地区(id:29)
-INFO:设置共指：: １００多人(id:25) , 这个地区(id:29)
-INFO:设置共指：: 最近导致１００多人死亡的流血事件(id:26) , 这个地区(id:29)
-INFO:设置共指：: 死者(id:27) , 这个地区(id:29)
-INFO:设置共指：: 叙利亚(id:46) , 叙利亚(id:51)
-INFO:设置共指：: 叙利亚总统巴沙尔·阿萨德(id:47) , 叙利亚(id:51)
-INFO:设置共指：: 巴以(id:48) , 叙利亚(id:51)
-INFO:设置共指：: 目前的巴以危机(id:49) , 叙利亚(id:51)
-INFO:设置共指：: 阿甫杜拉国王(id:50) , 叙利亚(id:51)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.419077
-INFO:experiments:总用时：4.064367
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.003401
+INFO:experiments:总用时：0.652249
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_004.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.554235
+INFO:experiments:加载数据用时： 1.665247
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 弗兰克·沃夫(id:26) , 联谊基金会(id:27)
-INFO:设置共指：: 共和党(id:34) , 布奇曼(id:36)
-INFO:设置共指：: 参议员Ｈ·亚历山大·史密斯（共和党－新泽西州）(id:35) , 布奇曼(id:36)
-INFO:设置共指：: 共和党(id:34) , 他(id:37)
-INFO:设置共指：: 参议员Ｈ·亚历山大·史密斯（共和党－新泽西州）(id:35) , 他(id:37)
-INFO:设置共指：: 共和党(id:34) , 他(id:38)
-INFO:设置共指：: 参议员Ｈ·亚历山大·史密斯（共和党－新泽西州）(id:35) , 他(id:38)
-INFO:设置共指：: 共和党(id:34) , 联谊会(id:39)
-INFO:设置共指：: 参议员Ｈ·亚历山大·史密斯（共和党－新泽西州）(id:35) , 联谊会(id:39)
-INFO:设置共指：: 共和党(id:34) , 华盛顿(id:40)
-INFO:设置共指：: 参议员Ｈ·亚历山大·史密斯（共和党－新泽西州）(id:35) , 华盛顿(id:40)
-INFO:设置共指：: 柯尔生(id:54) , 该邪教(id:55)
-INFO:设置共指：: 柯尔生(id:54) , 美国(id:56)
-INFO:设置共指：: 基督教联盟共同创始人帕特·罗伯逊自己(id:66) , 联谊会(id:67)
-INFO:设置共指：: 罗伯逊(id:68) , 弗州(id:69)
-INFO:设置共指：: 哈洛德·布雷德森(id:70) , 联谊会集团(id:73)
-INFO:设置共指：: 帕特(id:71) , 联谊会集团(id:73)
-INFO:设置共指：: 哈洛德(id:72) , 联谊会集团(id:73)
-INFO:设置共指：: 哈洛德·布雷德森(id:70) , 他(id:74)
-INFO:设置共指：: 帕特(id:71) , 他(id:74)
-INFO:设置共指：: 哈洛德(id:72) , 他(id:74)
-INFO:设置共指：: 帕特·罗伯逊(id:75) , 布雷德森(id:76)
-INFO:设置共指：: 帕特·罗伯逊(id:75) , 后者(id:77)
-INFO:设置共指：: 帕特·罗伯逊(id:75) , 罗伯逊(id:78)
-INFO:设置共指：: 帕特·罗伯逊(id:75) , 布雷德森(id:79)
-INFO:设置共指：: 帕特·罗伯逊(id:75) , 弗吉尼亚州(id:80)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：2.470529
-INFO:experiments:总用时：4.045852
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006688
+INFO:experiments:总用时：1.691185
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_004.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.583594
+INFO:experiments:加载数据用时： 0.573096
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.532559
-INFO:experiments:总用时：1.134467
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000903
+INFO:experiments:总用时：0.591672
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0039_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.266855
+INFO:experiments:加载数据用时： 0.264268
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 民航局(id:13) , 马尼拉(id:15)
-INFO:设置共指：: 菲律宾(id:14) , 马尼拉(id:15)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.444232
-INFO:experiments:总用时：0.728289
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000482
+INFO:experiments:总用时：0.281197
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0089_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.969894
+INFO:experiments:加载数据用时： 0.952705
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 科特迪瓦(id:1) , 非洲(id:5)
-INFO:设置共指：: 星期天(id:2) , 非洲(id:5)
-INFO:设置共指：: 星期天进行的总统选举(id:3) , 非洲(id:5)
-INFO:设置共指：: 这次选举(id:4) , 非洲(id:5)
-INFO:设置共指：: 这次总统选举(id:7) , 他(id:11)
-INFO:设置共指：: 科特迪瓦(id:8) , 他(id:11)
-INFO:设置共指：: 这(id:9) , 他(id:11)
-INFO:设置共指：: 多年来倡导多党政治的反对派领导人巴勃(id:10) , 他(id:11)
-INFO:设置共指：: 这次总统选举(id:7) , 军人统治者盖伊(id:12)
-INFO:设置共指：: 科特迪瓦(id:8) , 军人统治者盖伊(id:12)
-INFO:设置共指：: 这(id:9) , 军人统治者盖伊(id:12)
-INFO:设置共指：: 多年来倡导多党政治的反对派领导人巴勃(id:10) , 军人统治者盖伊(id:12)
-INFO:设置共指：: 巴勃(id:13) , 科特迪瓦(id:14)
-INFO:设置共指：: 巴勃(id:13) , 他(id:15)
-INFO:设置共指：: 这个星期天(id:16) , 盖伊将军(id:19)
-INFO:设置共指：: 这个星期天举行的总统选举(id:17) , 盖伊将军(id:19)
-INFO:设置共指：: 巴勃(id:18) , 盖伊将军(id:19)
-INFO:设置共指：: 一位２５岁的学生(id:20) , 科特迪瓦(id:24)
-INFO:设置共指：: 巴勃(id:21) , 科特迪瓦(id:24)
-INFO:设置共指：: 科特迪瓦(id:22) , 科特迪瓦(id:24)
-INFO:设置共指：: 巴勃的科特迪瓦人民正线(id:23) , 科特迪瓦(id:24)
-INFO:设置共指：: 一位２５岁的学生(id:20) , 他(id:25)
-INFO:设置共指：: 巴勃(id:21) , 他(id:25)
-INFO:设置共指：: 科特迪瓦(id:22) , 他(id:25)
-INFO:设置共指：: 巴勃的科特迪瓦人民正线(id:23) , 他(id:25)
-INFO:设置共指：: 这位２５岁的学生(id:26) , 科特迪瓦(id:29)
-INFO:设置共指：: 科特迪瓦(id:27) , 科特迪瓦(id:29)
-INFO:设置共指：: 科特迪瓦人民正线(id:28) , 科特迪瓦(id:29)
-INFO:设置共指：: 这位２５岁的学生(id:26) , 科特迪瓦人民正线(id:30)
-INFO:设置共指：: 科特迪瓦(id:27) , 科特迪瓦人民正线(id:30)
-INFO:设置共指：: 科特迪瓦人民正线(id:28) , 科特迪瓦人民正线(id:30)
-INFO:设置共指：: 这位２５岁的学生(id:26) , 这个国家(id:31)
-INFO:设置共指：: 科特迪瓦(id:27) , 这个国家(id:31)
-INFO:设置共指：: 科特迪瓦人民正线(id:28) , 这个国家(id:31)
-INFO:设置共指：: 科特迪瓦(id:29) , 这个国家(id:31)
-INFO:设置共指：: 科特迪瓦人民正线(id:30) , 这个国家(id:31)
-INFO:设置共指：: 这位２５岁的学生(id:26) , 目前(id:32)
-INFO:设置共指：: 科特迪瓦(id:27) , 目前(id:32)
-INFO:设置共指：: 科特迪瓦人民正线(id:28) , 目前(id:32)
-INFO:设置共指：: 科特迪瓦(id:29) , 目前(id:32)
-INFO:设置共指：: 科特迪瓦人民正线(id:30) , 目前(id:32)
-INFO:设置共指：: 科特迪瓦(id:36) , 他们(id:37)
-INFO:设置共指：: 科特迪瓦(id:36) , 这个过程(id:38)
-INFO:设置共指：: 这次选举(id:62) , 盖伊将军(id:63)
-INFO:设置共指：: 这次选举(id:62) , 科特迪瓦(id:64)
-INFO:设置共指：: 目前(id:68) , 这个国家(id:69)
-INFO:设置共指：: 这(id:71) , 科特迪瓦(id:72)
-INFO:设置共指：: 这(id:71) , 这(id:73)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：2.778423
-INFO:experiments:总用时：3.767360
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这次总统选举(id:61) , 这次选举(id:62)
+INFO:multi_sieve:修饰语： 选举 选举
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004410
+INFO:experiments:总用时：0.975395
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0009_001.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.786318
+INFO:experiments:加载数据用时： 0.759828
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 中国(id:3) , 20％的富人(id:4)
-INFO:设置共指：: 中国(id:5) , 这20％的人(id:6)
-INFO:设置共指：: 中国(id:7) , 这20％的高等公民们(id:8)
-INFO:设置共指：: 人家(id:28) , 个税(id:29)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.472442
-INFO:experiments:总用时：1.278506
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这20％的人(id:6) , 这20％的高等公民们(id:8)
+INFO:multi_sieve:修饰语： 这20％ 这20％
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001359
+INFO:experiments:总用时：0.780167
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0219_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.379555
+INFO:experiments:加载数据用时： 1.323980
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 农业(id:33) , 技术(id:40)
-INFO:设置共指：: 技术(id:34) , 技术(id:40)
-INFO:设置共指：: 高新技术(id:35) , 技术(id:40)
-INFO:设置共指：: 开发示范区(id:36) , 技术(id:40)
-INFO:设置共指：: 农业高新技术开发示范区(id:37) , 技术(id:40)
-INFO:设置共指：: 目的(id:38) , 技术(id:40)
-INFO:设置共指：: 主要目的(id:39) , 技术(id:40)
-INFO:设置共指：: 技术(id:34) , 国内外农业高新技术(id:41)
-INFO:设置共指：: 高新技术(id:35) , 国内外农业高新技术(id:41)
-INFO:设置共指：: 开发示范区(id:36) , 国内外农业高新技术(id:41)
-INFO:设置共指：: 农业高新技术开发示范区(id:37) , 国内外农业高新技术(id:41)
-INFO:设置共指：: 目的(id:38) , 国内外农业高新技术(id:41)
-INFO:设置共指：: 主要目的(id:39) , 国内外农业高新技术(id:41)
-INFO:设置共指：: 高新技术(id:35) , 农业(id:42)
-INFO:设置共指：: 开发示范区(id:36) , 农业(id:42)
-INFO:设置共指：: 农业高新技术开发示范区(id:37) , 农业(id:42)
-INFO:设置共指：: 目的(id:38) , 农业(id:42)
-INFO:设置共指：: 主要目的(id:39) , 农业(id:42)
-INFO:设置共指：: 开发示范区(id:36) , 技术(id:43)
-INFO:设置共指：: 农业高新技术开发示范区(id:37) , 技术(id:43)
-INFO:设置共指：: 目的(id:38) , 技术(id:43)
-INFO:设置共指：: 主要目的(id:39) , 技术(id:43)
-INFO:设置共指：: 农业高新技术开发示范区(id:37) , 高新技术(id:44)
-INFO:设置共指：: 目的(id:38) , 高新技术(id:44)
-INFO:设置共指：: 主要目的(id:39) , 高新技术(id:44)
-INFO:设置共指：: 目的(id:38) , 成果(id:45)
-INFO:设置共指：: 主要目的(id:39) , 成果(id:45)
-INFO:设置共指：: 主要目的(id:39) , 农业高新技术成果(id:46)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：17.832604
-INFO:experiments:总用时：19.231076
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.018278
+INFO:experiments:总用时：1.360865
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_010.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.448079
+INFO:experiments:加载数据用时： 0.454685
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.779749
-INFO:experiments:总用时：1.247003
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001276
+INFO:experiments:总用时：0.474243
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0209_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.237697
+INFO:experiments:加载数据用时： 1.285900
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：15.675849
-INFO:experiments:总用时：16.931907
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 全市(id:53) , 全市(id:72)
+INFO:multi_sieve:修饰语： 市 市
+INFO:multi_sieve:限定词： 全 全
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.012597
+INFO:experiments:总用时：1.315664
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0319_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.102511
+INFO:experiments:加载数据用时： 0.101078
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.213563
-INFO:experiments:总用时：0.333721
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000268
+INFO:experiments:总用时：0.118387
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0029_001.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.308794
+INFO:experiments:加载数据用时： 0.303540
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.000028
-INFO:experiments:总用时：0.325782
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000191
+INFO:experiments:总用时：0.319538
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0049_001.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.362578
+INFO:experiments:加载数据用时： 0.379334
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.450525
-INFO:experiments:总用时：0.830699
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000653
+INFO:experiments:总用时：0.397700
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_004.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.766617
+INFO:experiments:加载数据用时： 0.828158
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 现在(id:0) , 他(id:3)
-INFO:设置共指：: 现在的病例(id:1) , 他(id:3)
-INFO:设置共指：: 高致病性禽流感(id:2) , 他(id:3)
-INFO:设置共指：: 我们通常所说的这个流感(id:5) , 我们所说的流感，感冒(id:6)
-INFO:设置共指：: 我们通常所说的这个流感(id:5) , 自己(id:7)
-INFO:设置共指：: 我们通常所说的这个流感(id:5) , 自己(id:8)
-INFO:设置共指：: 高致病性禽流感(id:18) , 他(id:19)
-INFO:设置共指：: 受感染一些，发病的人(id:26) , 发病的人(id:27)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.790544
-INFO:experiments:总用时：1.576076
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001639
+INFO:experiments:总用时：0.848094
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0219_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.293282
+INFO:experiments:加载数据用时： 0.309066
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 高萍大桥(id:0) , 她(id:2)
-INFO:设置共指：: 高萍大桥的修复工程(id:1) , 她(id:2)
-INFO:设置共指：: 高萍大桥(id:0) , 工地(id:3)
-INFO:设置共指：: 高萍大桥的修复工程(id:1) , 工地(id:3)
-INFO:设置共指：: 高萍大桥(id:0) , 她(id:4)
-INFO:设置共指：: 高萍大桥的修复工程(id:1) , 她(id:4)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.322373
-INFO:experiments:总用时：0.634981
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000284
+INFO:experiments:总用时：0.325489
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0029_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.544613
+INFO:experiments:加载数据用时： 1.543907
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 我的邻居(id:9) , 父母(id:12)
-INFO:设置共指：: 车(id:11) , 父母(id:12)
-INFO:设置共指：: 我的邻居(id:9) , 我家的车(id:13)
-INFO:设置共指：: 车(id:11) , 我家的车(id:13)
-INFO:设置共指：: 我的邻居(id:9) , 父母(id:14)
-INFO:设置共指：: 车(id:11) , 父母(id:14)
-INFO:设置共指：: 我的邻居(id:9) , 我(id:15)
-INFO:设置共指：: 车(id:11) , 我(id:15)
-INFO:设置共指：: 那位邻居(id:16) , 车(id:18)
-INFO:设置共指：: 那位邻居(id:16) , 他(id:19)
-INFO:设置共指：: 邻居(id:24) , 父亲(id:26)
-INFO:设置共指：: 爱车(id:40) , 朋友(id:42)
-INFO:设置共指：: 我的车(id:53) , 我(id:54)
-INFO:设置共指：: 我的车(id:53) , 我的车(id:55)
-INFO:设置共指：: 我的车(id:53) , 车(id:56)
-INFO:设置共指：: 我的车(id:53) , 我(id:57)
-INFO:设置共指：: 我的车(id:55) , 我(id:57)
-INFO:设置共指：: 车(id:56) , 我(id:57)
-INFO:设置共指：: 我的车(id:53) , 我(id:58)
-INFO:设置共指：: 我的车(id:55) , 我(id:58)
-INFO:设置共指：: 车(id:56) , 我(id:58)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：2.304616
-INFO:experiments:总用时：3.869427
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004687
+INFO:experiments:总用时：1.567938
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_003.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.963533
+INFO:experiments:加载数据用时： 0.958501
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.869312
-INFO:experiments:总用时：1.851870
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001990
+INFO:experiments:总用时：0.978629
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0199_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.129054
+INFO:experiments:加载数据用时： 0.107145
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.230605
-INFO:experiments:总用时：0.377699
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000154
+INFO:experiments:总用时：0.124788
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_003.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.386272
+INFO:experiments:加载数据用时： 0.353270
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.000055
-INFO:experiments:总用时：0.403274
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000171
+INFO:experiments:总用时：0.371396
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0149_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.479090
+INFO:experiments:加载数据用时： 0.481454
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 人(id:12) , 清晨５点(id:16)
-INFO:设置共指：: 遭人蓄意纵火的加油岛(id:13) , 清晨５点(id:16)
-INFO:设置共指：: 收费亭(id:14) , 清晨５点(id:16)
-INFO:设置共指：: 现场(id:15) , 清晨５点(id:16)
-INFO:设置共指：: 人(id:12) , 湖尾镇(id:17)
-INFO:设置共指：: 遭人蓄意纵火的加油岛(id:13) , 湖尾镇(id:17)
-INFO:设置共指：: 收费亭(id:14) , 湖尾镇(id:17)
-INFO:设置共指：: 现场(id:15) , 湖尾镇(id:17)
-INFO:设置共指：: 人(id:12) , 中油(id:18)
-INFO:设置共指：: 遭人蓄意纵火的加油岛(id:13) , 中油(id:18)
-INFO:设置共指：: 收费亭(id:14) , 中油(id:18)
-INFO:设置共指：: 现场(id:15) , 中油(id:18)
-INFO:设置共指：: 人(id:12) , 这家位在湖尾镇新生路上的中油加油站(id:19)
-INFO:设置共指：: 遭人蓄意纵火的加油岛(id:13) , 这家位在湖尾镇新生路上的中油加油站(id:19)
-INFO:设置共指：: 收费亭(id:14) , 这家位在湖尾镇新生路上的中油加油站(id:19)
-INFO:设置共指：: 现场(id:15) , 这家位在湖尾镇新生路上的中油加油站(id:19)
-INFO:设置共指：: 遭人蓄意纵火的加油岛(id:13) , 一名骑机车的男子(id:20)
-INFO:设置共指：: 收费亭(id:14) , 一名骑机车的男子(id:20)
-INFO:设置共指：: 现场(id:15) , 一名骑机车的男子(id:20)
-INFO:设置共指：: 收费亭(id:14) , 当时(id:21)
-INFO:设置共指：: 现场(id:15) , 当时(id:21)
-INFO:设置共指：: 现场(id:15) , 加油站(id:22)
-INFO:设置共指：: 湖尾镇(id:17) , 收费亭(id:24)
-INFO:设置共指：: 中油(id:18) , 收费亭(id:24)
-INFO:设置共指：: 这家位在湖尾镇新生路上的中油加油站(id:19) , 收费亭(id:24)
-INFO:设置共指：: 一名骑机车的男子(id:20) , 收费亭(id:24)
-INFO:设置共指：: 当时(id:21) , 收费亭(id:24)
-INFO:设置共指：: 加油站(id:22) , 收费亭(id:24)
-INFO:设置共指：: 歹徒(id:23) , 收费亭(id:24)
-INFO:设置共指：: 中油(id:18) , 一旁的加油枪(id:25)
-INFO:设置共指：: 这家位在湖尾镇新生路上的中油加油站(id:19) , 一旁的加油枪(id:25)
-INFO:设置共指：: 一名骑机车的男子(id:20) , 一旁的加油枪(id:25)
-INFO:设置共指：: 当时(id:21) , 一旁的加油枪(id:25)
-INFO:设置共指：: 加油站(id:22) , 一旁的加油枪(id:25)
-INFO:设置共指：: 歹徒(id:23) , 一旁的加油枪(id:25)
-INFO:设置共指：: 这家位在湖尾镇新生路上的中油加油站(id:19) , 汽油(id:26)
-INFO:设置共指：: 一名骑机车的男子(id:20) , 汽油(id:26)
-INFO:设置共指：: 当时(id:21) , 汽油(id:26)
-INFO:设置共指：: 加油站(id:22) , 汽油(id:26)
-INFO:设置共指：: 歹徒(id:23) , 汽油(id:26)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.238843
-INFO:experiments:总用时：3.736159
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001894
+INFO:experiments:总用时：0.500656
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.543772
+INFO:experiments:加载数据用时： 0.579937
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 小吠(id:7) , 你(id:10)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.277510
-INFO:experiments:总用时：0.838372
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000635
+INFO:experiments:总用时：0.598971
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1009_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 8.596787
+INFO:experiments:加载数据用时： 8.275161
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 酒店(id:42) , 远从哈尔滨来推销汽车模具的台商(id:43)
-INFO:设置共指：: 酒店(id:42) , 自己(id:44)
-INFO:设置共指：: 酒店(id:42) , 一个台北市(id:45)
-INFO:设置共指：: 东莞(id:79) , 十余年的发展(id:80)
-INFO:设置共指：: 东莞(id:79) , 现在(id:81)
-INFO:设置共指：: 东莞(id:79) , 加工区(id:82)
-INFO:设置共指：: 东莞(id:79) , 一处「没有围墙的加工区」(id:83)
-INFO:设置共指：: 东莞(id:79) , 面积有二千五百二十平方公里，人口超过五百万的东莞(id:84)
-INFO:设置共指：: 东莞(id:79) , 三千多家台商(id:85)
-INFO:设置共指：: 台商(id:97) , 东莞(id:98)
-INFO:设置共指：: 台商(id:97) , 东莞(id:99)
-INFO:设置共指：: 台商(id:97) , 台港澳资(id:100)
-INFO:设置共指：: 台商(id:97) , 台港澳资(id:101)
-INFO:设置共指：: 东莞(id:102) , 全大陆(id:103)
-INFO:设置共指：: 东莞(id:102) , 台商(id:104)
-INFO:设置共指：: 高文来(id:113) , 它(id:115)
-INFO:设置共指：: 东莞(id:114) , 它(id:115)
-INFO:设置共指：: 王勇铎(id:141) , 大陆(id:147)
-INFO:设置共指：: 九○年(id:142) , 大陆(id:147)
-INFO:设置共指：: 马来西亚(id:143) , 大陆(id:147)
-INFO:设置共指：: 马来西亚(id:145) , 大陆(id:147)
-INFO:设置共指：: 大陆(id:146) , 大陆(id:147)
-INFO:设置共指：: 王勇铎(id:141) , 他(id:148)
-INFO:设置共指：: 九○年(id:142) , 他(id:148)
-INFO:设置共指：: 马来西亚(id:143) , 他(id:148)
-INFO:设置共指：: 马来西亚(id:145) , 他(id:148)
-INFO:设置共指：: 大陆(id:146) , 他(id:148)
-INFO:设置共指：: 九○年(id:142) , 大陆(id:149)
-INFO:设置共指：: 马来西亚(id:143) , 大陆(id:149)
-INFO:设置共指：: 马来西亚(id:145) , 大陆(id:149)
-INFO:设置共指：: 大陆(id:146) , 大陆(id:149)
-INFO:设置共指：: 马来西亚(id:143) , 大陆(id:150)
-INFO:设置共指：: 马来西亚(id:145) , 大陆(id:150)
-INFO:设置共指：: 大陆(id:146) , 大陆(id:150)
-INFO:设置共指：: 马来西亚(id:145) , 他(id:151)
-INFO:设置共指：: 大陆(id:146) , 他(id:151)
-INFO:设置共指：: 马来西亚(id:145) , 现在(id:152)
-INFO:设置共指：: 大陆(id:146) , 现在(id:152)
-INFO:设置共指：: 大量台商(id:160) , 东莞(id:162)
-INFO:设置共指：: 东莞(id:161) , 东莞(id:162)
-INFO:设置共指：: 大量台商(id:160) , 台商(id:163)
-INFO:设置共指：: 东莞(id:161) , 台商(id:163)
-INFO:设置共指：: 大量台商(id:160) , 产业(id:164)
-INFO:设置共指：: 东莞(id:161) , 产业(id:164)
-INFO:设置共指：: 大量台商(id:160) , 十数年来东莞建立起的台商产业及人际网络(id:165)
-INFO:设置共指：: 东莞(id:161) , 十数年来东莞建立起的台商产业及人际网络(id:165)
-INFO:设置共指：: 大量台商(id:160) , 这(id:166)
-INFO:设置共指：: 东莞(id:161) , 这(id:166)
-INFO:设置共指：: 大量台商(id:160) , 东莞(id:167)
-INFO:设置共指：: 东莞(id:161) , 东莞(id:167)
-INFO:设置共指：: 东莞(id:162) , 东莞(id:167)
-INFO:设置共指：: 台商(id:163) , 东莞(id:167)
-INFO:设置共指：: 产业(id:164) , 东莞(id:167)
-INFO:设置共指：: 十数年来东莞建立起的台商产业及人际网络(id:165) , 东莞(id:167)
-INFO:设置共指：: 这(id:166) , 东莞(id:167)
-INFO:设置共指：: 东莞(id:161) , 台商(id:168)
-INFO:设置共指：: 东莞(id:162) , 台商(id:168)
-INFO:设置共指：: 台商(id:163) , 台商(id:168)
-INFO:设置共指：: 产业(id:164) , 台商(id:168)
-INFO:设置共指：: 十数年来东莞建立起的台商产业及人际网络(id:165) , 台商(id:168)
-INFO:设置共指：: 这(id:166) , 台商(id:168)
-INFO:设置共指：: 东莞(id:162) , 台商投资企业(id:169)
-INFO:设置共指：: 台商(id:163) , 台商投资企业(id:169)
-INFO:设置共指：: 产业(id:164) , 台商投资企业(id:169)
-INFO:设置共指：: 十数年来东莞建立起的台商产业及人际网络(id:165) , 台商投资企业(id:169)
-INFO:设置共指：: 这(id:166) , 台商投资企业(id:169)
-INFO:设置共指：: 台商(id:163) , 东莞台商投资企业协会(id:170)
-INFO:设置共指：: 产业(id:164) , 东莞台商投资企业协会(id:170)
-INFO:设置共指：: 十数年来东莞建立起的台商产业及人际网络(id:165) , 东莞台商投资企业协会(id:170)
-INFO:设置共指：: 这(id:166) , 东莞台商投资企业协会(id:170)
-INFO:设置共指：: 产业(id:164) , 东莞台商投资企业协会第二、三届会长(id:171)
-INFO:设置共指：: 十数年来东莞建立起的台商产业及人际网络(id:165) , 东莞台商投资企业协会第二、三届会长(id:171)
-INFO:设置共指：: 这(id:166) , 东莞台商投资企业协会第二、三届会长(id:171)
-INFO:设置共指：: 十数年来东莞建立起的台商产业及人际网络(id:165) , 曾任东莞台商投资企业协会第二、三届会长的叶宏灯(id:172)
-INFO:设置共指：: 这(id:166) , 曾任东莞台商投资企业协会第二、三届会长的叶宏灯(id:172)
-INFO:设置共指：: 这(id:166) , 台湾(id:173)
-INFO:设置共指：: 叶宏灯(id:174) , 台商(id:175)
-INFO:设置共指：: 台商(id:184) , 他(id:187)
-INFO:设置共指：: 高尔夫球(id:185) , 他(id:187)
-INFO:设置共指：: 卡拉OK(id:186) , 他(id:187)
-INFO:设置共指：: 台湾(id:207) , 下游厂(id:208)
-INFO:设置共指：: 台湾(id:207) , 东莞(id:209)
-INFO:设置共指：: 台湾(id:207) , 中上游厂(id:210)
-INFO:设置共指：: 东莞(id:211) , 「大新」(id:214)
-INFO:设置共指：: 大新(id:212) , 「大新」(id:214)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 「大新」(id:214)
-INFO:设置共指：: 东莞(id:211) , 台湾(id:215)
-INFO:设置共指：: 大新(id:212) , 台湾(id:215)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 台湾(id:215)
-INFO:设置共指：: 东莞(id:211) , 纸箱(id:216)
-INFO:设置共指：: 大新(id:212) , 纸箱(id:216)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 纸箱(id:216)
-INFO:设置共指：: 东莞(id:211) , 东莞(id:217)
-INFO:设置共指：: 大新(id:212) , 东莞(id:217)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 东莞(id:217)
-INFO:设置共指：: 东莞(id:211) , 纸箱(id:218)
-INFO:设置共指：: 大新(id:212) , 纸箱(id:218)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 纸箱(id:218)
-INFO:设置共指：: 大新(id:212) , 制作纸箱的纸板(id:219)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 制作纸箱的纸板(id:219)
-INFO:设置共指：: 东莞的大新彩印纸品公司(id:213) , 纸板(id:220)
-INFO:设置共指：: 叶宏灯(id:235) , 中国(id:242)
-INFO:设置共指：: 东莞东聚电业(id:236) , 中国(id:242)
-INFO:设置共指：: 台湾(id:237) , 中国(id:242)
-INFO:设置共指：: 母公司(id:238) , 中国(id:242)
-INFO:设置共指：: 台湾母公司「台湾致伸实业」(id:239) , 中国(id:242)
-INFO:设置共指：: 生产基地(id:240) , 中国(id:242)
-INFO:设置共指：: 「台湾致伸」(id:241) , 中国(id:242)
-INFO:设置共指：: 东莞东聚电业(id:236) , 概念股(id:243)
-INFO:设置共指：: 台湾(id:237) , 概念股(id:243)
-INFO:设置共指：: 母公司(id:238) , 概念股(id:243)
-INFO:设置共指：: 台湾母公司「台湾致伸实业」(id:239) , 概念股(id:243)
-INFO:设置共指：: 生产基地(id:240) , 概念股(id:243)
-INFO:设置共指：: 「台湾致伸」(id:241) , 概念股(id:243)
-INFO:设置共指：: 台湾(id:237) , 电子股中少见的「中国概念股」(id:244)
-INFO:设置共指：: 母公司(id:238) , 电子股中少见的「中国概念股」(id:244)
-INFO:设置共指：: 台湾母公司「台湾致伸实业」(id:239) , 电子股中少见的「中国概念股」(id:244)
-INFO:设置共指：: 生产基地(id:240) , 电子股中少见的「中国概念股」(id:244)
-INFO:设置共指：: 「台湾致伸」(id:241) , 电子股中少见的「中国概念股」(id:244)
-INFO:设置共指：: 东莞(id:273) , 叶春荣(id:277)
-INFO:设置共指：: 东莞最大的宝成鞋厂(id:274) , 叶春荣(id:277)
-INFO:设置共指：: 工厂(id:275) , 叶春荣(id:277)
-INFO:设置共指：: 东莞(id:278) , 台湾(id:280)
-INFO:设置共指：: 东莞的台商(id:279) , 台湾(id:280)
-INFO:设置共指：: 东莞(id:278) , 精神(id:281)
-INFO:设置共指：: 东莞的台商(id:279) , 精神(id:281)
-INFO:设置共指：: 东莞(id:278) , 「爱拚才会赢」的「台湾精神」(id:282)
-INFO:设置共指：: 东莞的台商(id:279) , 「爱拚才会赢」的「台湾精神」(id:282)
-INFO:设置共指：: 台协(id:303) , 台商(id:306)
-INFO:设置共指：: 秘书长(id:304) , 台商(id:306)
-INFO:设置共指：: 台协秘书长陈明致(id:305) , 台商(id:306)
-INFO:设置共指：: 台协(id:303) , 猝死的台商(id:307)
-INFO:设置共指：: 秘书长(id:304) , 猝死的台商(id:307)
-INFO:设置共指：: 台协秘书长陈明致(id:305) , 猝死的台商(id:307)
-INFO:设置共指：: 台协(id:303) , 他(id:308)
-INFO:设置共指：: 秘书长(id:304) , 他(id:308)
-INFO:设置共指：: 台协秘书长陈明致(id:305) , 他(id:308)
-INFO:设置共指：: 目前(id:313) , 台商(id:315)
-INFO:设置共指：: 东莞市(id:314) , 台商(id:315)
-INFO:设置共指：: 三千家台资企业(id:321) , 「台商自己人」(id:324)
-INFO:设置共指：: 至少一、两万台商及眷属(id:322) , 「台商自己人」(id:324)
-INFO:设置共指：: 东莞(id:323) , 「台商自己人」(id:324)
-INFO:设置共指：: 「台湾街」(id:325) , 台商(id:327)
-INFO:设置共指：: 东莞厚街镇最热闹的市区，当地人戏称「台湾街」的地方(id:326) , 台商(id:327)
-INFO:设置共指：: 台湾(id:409) , 许多大陆干部(id:411)
-INFO:设置共指：: 现在(id:410) , 许多大陆干部(id:411)
-INFO:设置共指：: 台湾(id:409) , 台商(id:412)
-INFO:设置共指：: 现在(id:410) , 台商(id:412)
-INFO:设置共指：: 台湾(id:409) , 台商的工厂(id:413)
-INFO:设置共指：: 现在(id:410) , 台商的工厂(id:413)
-INFO:设置共指：: 台湾(id:409) , 徒弟(id:414)
-INFO:设置共指：: 现在(id:410) , 徒弟(id:414)
-INFO:设置共指：: 台湾(id:409) , 师傅(id:415)
-INFO:设置共指：: 现在(id:410) , 师傅(id:415)
-INFO:设置共指：: 台湾(id:409) , 母厂(id:416)
-INFO:设置共指：: 现在(id:410) , 母厂(id:416)
-INFO:设置共指：: 现在(id:410) , 杨惠德(id:417)
-INFO:设置共指：: 台商(id:418) , 杨惠德(id:420)
-INFO:设置共指：: 台湾(id:419) , 杨惠德(id:420)
-INFO:设置共指：: 台商(id:418) , 台商本身(id:421)
-INFO:设置共指：: 台湾(id:419) , 台商本身(id:421)
-INFO:设置共指：: 台商(id:418) , 大陆(id:422)
-INFO:设置共指：: 台湾(id:419) , 大陆(id:422)
-INFO:设置共指：: 杨惠德(id:420) , 大陆(id:422)
-INFO:设置共指：: 台商本身(id:421) , 大陆(id:422)
-INFO:设置共指：: 台商(id:418) , 叶宏灯(id:423)
-INFO:设置共指：: 台湾(id:419) , 叶宏灯(id:423)
-INFO:设置共指：: 杨惠德(id:420) , 叶宏灯(id:423)
-INFO:设置共指：: 台商本身(id:421) , 叶宏灯(id:423)
-INFO:设置共指：: 目前(id:505) , 东莞台协(id:507)
-INFO:设置共指：: 台湾(id:506) , 东莞台协(id:507)
-INFO:设置共指：: 目前(id:505) , 东莞台协(id:508)
-INFO:设置共指：: 台湾(id:506) , 东莞台协(id:508)
-INFO:设置共指：: 目前(id:505) , 全大陆(id:509)
-INFO:设置共指：: 台湾(id:506) , 全大陆(id:509)
-INFO:设置共指：: 东莞台协(id:507) , 全大陆(id:509)
-INFO:设置共指：: 东莞台协(id:508) , 全大陆(id:509)
-INFO:设置共指：: 两岸(id:510) , 台商(id:512)
-INFO:设置共指：: 大陆(id:511) , 台商(id:512)
-INFO:设置共指：: 两岸(id:510) , 自我(id:513)
-INFO:设置共指：: 大陆(id:511) , 自我(id:513)
-INFO:设置共指：: 两岸(id:510) , 台商(id:514)
-INFO:设置共指：: 大陆(id:511) , 台商(id:514)
-INFO:设置共指：: 两岸(id:510) , 大陆(id:515)
-INFO:设置共指：: 大陆(id:511) , 大陆(id:515)
-INFO:设置共指：: 两岸(id:510) , 大陆(id:516)
-INFO:设置共指：: 大陆(id:511) , 大陆(id:516)
-INFO:设置共指：: 两岸(id:510) , 台湾(id:517)
-INFO:设置共指：: 大陆(id:511) , 台湾(id:517)
-INFO:设置共指：: 大陆(id:511) , 台湾(id:518)
-INFO:设置共指：: 杨惠德(id:540) , 台湾(id:543)
-INFO:设置共指：: 台商(id:541) , 台湾(id:543)
-INFO:设置共指：: 大陆(id:542) , 台湾(id:543)
-INFO:设置共指：: 杨惠德(id:545) , 台商(id:547)
-INFO:设置共指：: 大陆(id:546) , 台商(id:547)
-INFO:设置共指：: 杨惠德(id:545) , 她(id:548)
-INFO:设置共指：: 大陆(id:546) , 她(id:548)
-INFO:设置共指：: 台商(id:547) , 她(id:548)
-INFO:设置共指：: 台商(id:549) , 东莞(id:551)
-INFO:设置共指：: 中共(id:550) , 东莞(id:551)
-INFO:设置共指：: 台商(id:549) , 在东莞拚劲十足的台商(id:552)
-INFO:设置共指：: 中共(id:550) , 在东莞拚劲十足的台商(id:552)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：42.878232
-INFO:experiments:总用时：51.505989
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这些台商(id:455) , 这些台商(id:466)
+INFO:multi_sieve:修饰语： 台商 台商
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：: 全大陆(id:503) , 全大陆(id:509)
+INFO:multi_sieve:修饰语： 大陆 大陆
+INFO:multi_sieve:限定词： 全 全
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.170240
+INFO:experiments:总用时：8.473839
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0119_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.488719
+INFO:experiments:加载数据用时： 0.476814
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 消防人员(id:10) , 屋子(id:11)
-INFO:设置共指：: 消防人员(id:10) , 整座房子(id:12)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.965798
-INFO:experiments:总用时：2.471778
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: ４个人(id:22) , ４个人(id:23)
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： ４ ４
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001515
+INFO:experiments:总用时：0.499065
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.226515
+INFO:experiments:加载数据用时： 1.166558
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 当时(id:13) , 梅世蓉，副主任(id:14)
-INFO:设置共指：: 当时(id:13) , 他(id:15)
-INFO:设置共指：: 当时(id:13) , 分析预报室(id:16)
-INFO:设置共指：: 梅世蓉，副主任(id:14) , 分析预报室(id:16)
-INFO:设置共指：: 当时(id:13) , 刘英勇局长(id:17)
-INFO:设置共指：: 梅世蓉，副主任(id:14) , 刘英勇局长(id:17)
-INFO:设置共指：: 当时(id:13) , 当时(id:18)
-INFO:设置共指：: 梅世蓉，副主任(id:14) , 当时(id:18)
-INFO:设置共指：: 分析预报室(id:16) , 当时(id:18)
-INFO:设置共指：: 刘英勇局长(id:17) , 当时(id:18)
-INFO:设置共指：: 当时(id:13) , 梅世蓉，副主任，就他是分析预报室的副主任主管华北震前的和刘英勇局长，就是当时的地震局局长刘英勇(id:19)
-INFO:设置共指：: 当时(id:13) , 他们两个人(id:20)
-INFO:设置共指：: 梅世蓉，副主任(id:14) , 他们两个人(id:20)
-INFO:设置共指：: 分析预报室(id:16) , 他们两个人(id:20)
-INFO:设置共指：: 刘英勇局长(id:17) , 他们两个人(id:20)
-INFO:设置共指：: 唐山(id:22) , 个突发性的地震(id:24)
-INFO:设置共指：: 唐山这个地震(id:23) , 个突发性的地震(id:24)
-INFO:设置共指：: 这(id:27) , 梅世蓉(id:28)
-INFO:设置共指：: 华国峰(id:52) , 他们(id:59)
-INFO:设置共指：: 党中央(id:53) , 他们(id:59)
-INFO:设置共指：: 你们这个地震预报地震界的同志(id:54) , 他们(id:59)
-INFO:设置共指：: 党中央(id:56) , 他们(id:59)
-INFO:设置共指：: 毛主席(id:57) , 他们(id:59)
-INFO:设置共指：: 这(id:58) , 他们(id:59)
-INFO:设置共指：: 您所说的话(id:61) , 梅世蓉(id:64)
-INFO:设置共指：: 您所叙述的事实(id:63) , 梅世蓉(id:64)
-INFO:设置共指：: 您所说的话(id:61) , 梅世蓉讲的话(id:65)
-INFO:设置共指：: 您所叙述的事实(id:63) , 梅世蓉讲的话(id:65)
-INFO:设置共指：: 在座的(id:82) , 我们(id:84)
-INFO:设置共指：: 地震局(id:83) , 我们(id:84)
-INFO:设置共指：: 在座的(id:82) , 刘英勇局长(id:85)
-INFO:设置共指：: 地震局(id:83) , 刘英勇局长(id:85)
-INFO:设置共指：: 在座的(id:82) , 梅世蓉副主任(id:86)
-INFO:设置共指：: 地震局(id:83) , 梅世蓉副主任(id:86)
-INFO:设置共指：: 在座的(id:82) , 我(id:87)
-INFO:设置共指：: 地震局(id:83) , 我(id:87)
-INFO:设置共指：: 在座的(id:82) , 刘英勇局长，梅世蓉副主任，还有我(id:88)
-INFO:设置共指：: 地震局(id:83) , 刘英勇局长，梅世蓉副主任，还有我(id:88)
-INFO:设置共指：: 国家领导人(id:89) , 华国峰(id:90)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.012338
-INFO:experiments:总用时：4.258593
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005365
+INFO:experiments:总用时：1.190519
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0259_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.210054
+INFO:experiments:加载数据用时： 0.198670
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 台北市(id:1) , 台北市(id:2)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.043919
-INFO:experiments:总用时：0.272723
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000144
+INFO:experiments:总用时：0.217787
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1069_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 3.476719
+INFO:experiments:加载数据用时： 3.310444
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 中年(id:2) , 人生(id:3)
-INFO:设置共指：: 中年(id:2) , 角色(id:4)
-INFO:设置共指：: 中年(id:2) , 人生中角色最多、责任最重的年纪(id:5)
-INFO:设置共指：: 中年(id:2) , 少数人(id:6)
-INFO:设置共指：: 中年(id:7) , 人生(id:8)
-INFO:设置共指：: 中年(id:7) , 人生中光环最耀眼，却也最容易被忽略的年龄(id:9)
-INFO:设置共指：: 中年人(id:10) , 自己(id:11)
-INFO:设置共指：: 中年人(id:10) , 活泉身心灵整合中心(id:12)
-INFO:设置共指：: 中年人(id:10) , 曾辅导过不少中年个案的活泉身心灵整合中心主任邱加利(id:13)
-INFO:设置共指：: 中年人(id:10) , 社会(id:14)
-INFO:设置共指：: 中年人(id:10) , 情绪(id:15)
-INFO:设置共指：: 政大心理学系教授李良哲(id:21) , 中年(id:24)
-INFO:设置共指：: 中年(id:22) , 中年(id:24)
-INFO:设置共指：: 政大心理学系教授李良哲(id:21) , 每一个阶段(id:25)
-INFO:设置共指：: 中年(id:22) , 每一个阶段(id:25)
-INFO:设置共指：: 中年(id:37) , 时代变化(id:38)
-INFO:设置共指：: 中年(id:37) , 我(id:39)
-INFO:设置共指：: 中年(id:37) , 「老我」(id:40)
-INFO:设置共指：: 中年(id:37) , 自己(id:41)
-INFO:设置共指：: 这一代的中年女性(id:52) , 自我(id:53)
-INFO:设置共指：: 这一代的中年女性(id:52) , 她们(id:54)
-INFO:设置共指：: 这一代的中年女性(id:52) , 自己(id:55)
-INFO:设置共指：: 许多双生涯女性(id:56) , 自己(id:57)
-INFO:设置共指：: 许多双生涯女性(id:56) , 新角色范本(id:58)
-INFO:设置共指：: 人生(id:62) , 『外』(id:63)
-INFO:设置共指：: 人生(id:62) , 国际家庭生活教育中心主任吕丽丝(id:64)
-INFO:设置共指：: 人生(id:62) , 中年(id:65)
-INFO:设置共指：: 每个人(id:67) , 外界(id:68)
-INFO:设置共指：: 每个人(id:67) , 中年(id:69)
-INFO:设置共指：: 中年(id:70) , 我(id:76)
-INFO:设置共指：: 外界(id:71) , 我(id:76)
-INFO:设置共指：: 这时候(id:72) , 我(id:76)
-INFO:设置共指：: 疑问(id:73) , 我(id:76)
-INFO:设置共指：: 吕丽丝(id:74) , 我(id:76)
-INFO:设置共指：: 许多中年人(id:75) , 我(id:76)
-INFO:设置共指：: 中年(id:70) , 我(id:77)
-INFO:设置共指：: 外界(id:71) , 我(id:77)
-INFO:设置共指：: 这时候(id:72) , 我(id:77)
-INFO:设置共指：: 疑问(id:73) , 我(id:77)
-INFO:设置共指：: 吕丽丝(id:74) , 我(id:77)
-INFO:设置共指：: 许多中年人(id:75) , 我(id:77)
-INFO:设置共指：: 中年(id:83) , 自己(id:84)
-INFO:设置共指：: 中年(id:83) , 开始倾听内在声音，和自己展开心灵对话的年纪(id:85)
-INFO:设置共指：: 中年(id:83) , 吕丽丝(id:86)
-INFO:设置共指：: 中年(id:83) , 自己(id:87)
-INFO:设置共指：: 中年(id:83) , 眼前的自己(id:88)
-INFO:设置共指：: 中年(id:83) , 这时候(id:89)
-INFO:设置共指：: 中年(id:83) , 自己(id:90)
-INFO:设置共指：: 中年(id:118) , 张德聪(id:119)
-INFO:设置共指：: 父母(id:147) , 中年人(id:149)
-INFO:设置共指：: 人生(id:148) , 中年人(id:149)
-INFO:设置共指：: 中年(id:155) , 自己(id:157)
-INFO:设置共指：: 人(id:156) , 自己(id:157)
-INFO:设置共指：: 张德聪(id:158) , 自己(id:159)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：6.251046
-INFO:experiments:总用时：9.752404
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 少数人(id:1) , 少数人(id:6)
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 少数 少数
+INFO:设置共指：: 人生每一阶段(id:20) , 每一个阶段(id:25)
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：: 每个人(id:93) , 每个人(id:95)
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 每 每
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.021958
+INFO:experiments:总用时：3.358998
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0069_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.382524
+INFO:experiments:加载数据用时： 0.362647
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：2.649288
-INFO:experiments:总用时：3.051139
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001093
+INFO:experiments:总用时：0.382817
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_002.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.356120
+INFO:experiments:加载数据用时： 0.345157
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.393872
-INFO:experiments:总用时：0.767943
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000458
+INFO:experiments:总用时：0.363814
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0039_002.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.315966
+INFO:experiments:加载数据用时： 0.299968
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.175666
-INFO:experiments:总用时：0.510764
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000258
+INFO:experiments:总用时：0.317974
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0199_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.337107
+INFO:experiments:加载数据用时： 0.315450
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.674853
-INFO:experiments:总用时：1.030870
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000737
+INFO:experiments:总用时：0.334737
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0179_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.921252
+INFO:experiments:加载数据用时： 0.868318
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：10.687305
-INFO:experiments:总用时：11.626407
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.008766
+INFO:experiments:总用时：0.896657
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0059_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.202809
+INFO:experiments:加载数据用时： 0.192404
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.685459
-INFO:experiments:总用时：0.905775
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000439
+INFO:experiments:总用时：0.211072
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0149_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.895895
+INFO:experiments:加载数据用时： 1.000554
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：13.217366
-INFO:experiments:总用时：14.131890
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.009102
+INFO:experiments:总用时：1.026718
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0139_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.384574
+INFO:experiments:加载数据用时： 0.365593
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 我们自己(id:10) , 我们(id:11)
-INFO:设置共指：: 这里(id:12) , 这里(id:13)
-INFO:设置共指：: 这里(id:12) , ２０世纪末的台北市(id:14)
-INFO:设置共指：: 这里(id:13) , ２０世纪末的台北市(id:14)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.533703
-INFO:experiments:总用时：0.937314
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000414
+INFO:experiments:总用时：0.385115
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0099_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.371926
+INFO:experiments:加载数据用时： 0.337231
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 四川卧龙(id:0) , 中国(id:7)
-INFO:设置共指：: 中国(id:1) , 中国(id:7)
-INFO:设置共指：: 四川卧龙中国保护大熊猫研究中心(id:2) , 中国(id:7)
-INFO:设置共指：: 成都大熊猫繁育基地(id:3) , 中国(id:7)
-INFO:设置共指：: 四川卧龙中国保护大熊猫研究中心和成都大熊猫繁育基地(id:4) , 中国(id:7)
-INFO:设置共指：: 今年(id:5) , 中国(id:7)
-INFO:设置共指：: 其中(id:6) , 中国(id:7)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.211157
-INFO:experiments:总用时：1.601677
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001089
+INFO:experiments:总用时：0.355586
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_003.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.587936
+INFO:experiments:加载数据用时： 1.498261
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 迈克尔·杰克逊(id:20) , 耶和华见证会(id:21)
-INFO:设置共指：: 一样事情(id:34) , 这里(id:37)
-INFO:设置共指：: 那(id:36) , 这里(id:37)
-INFO:设置共指：: 一样事情(id:34) , 这里所有的发帖人(id:38)
-INFO:设置共指：: 那(id:36) , 这里所有的发帖人(id:38)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.409621
-INFO:experiments:总用时：3.017286
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005922
+INFO:experiments:总用时：1.528019
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0179_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.341446
+INFO:experiments:加载数据用时： 0.331910
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 工时案的再度方案(id:0) , 全国总工会(id:1)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.323859
-INFO:experiments:总用时：0.683766
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000469
+INFO:experiments:总用时：0.353877
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0009_004.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.928582
+INFO:experiments:加载数据用时： 0.914797
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: Ｓｉｍｐｓｏｎ(id:11) , 辛普森(id:12)
-INFO:设置共指：: Ｓｉｍｐｓｏｎ(id:11) , 你(id:13)
-INFO:设置共指：: 辛普森(id:12) , 你(id:13)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.474123
-INFO:experiments:总用时：1.422171
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002099
+INFO:experiments:总用时：0.935872
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0149_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.278090
+INFO:experiments:加载数据用时： 0.303407
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.563934
-INFO:experiments:总用时：1.860279
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001106
+INFO:experiments:总用时：0.322532
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0049_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.498048
+INFO:experiments:加载数据用时： 0.523998
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 华盛顿(id:28) , 巴勒斯坦(id:34)
-INFO:设置共指：: 以色列(id:29) , 巴勒斯坦(id:34)
-INFO:设置共指：: 当天(id:30) , 巴勒斯坦(id:34)
-INFO:设置共指：: 美国国务卿阿尔布莱特(id:31) , 巴勒斯坦(id:34)
-INFO:设置共指：: 以巴(id:32) , 巴勒斯坦(id:34)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 巴勒斯坦(id:34)
-INFO:设置共指：: 华盛顿(id:28) , 巴勒斯坦首席谈判代表艾迪卡特(id:35)
-INFO:设置共指：: 以色列(id:29) , 巴勒斯坦首席谈判代表艾迪卡特(id:35)
-INFO:设置共指：: 当天(id:30) , 巴勒斯坦首席谈判代表艾迪卡特(id:35)
-INFO:设置共指：: 美国国务卿阿尔布莱特(id:31) , 巴勒斯坦首席谈判代表艾迪卡特(id:35)
-INFO:设置共指：: 以巴(id:32) , 巴勒斯坦首席谈判代表艾迪卡特(id:35)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 巴勒斯坦首席谈判代表艾迪卡特(id:35)
-INFO:设置共指：: 以色列(id:29) , 华盛顿(id:36)
-INFO:设置共指：: 当天(id:30) , 华盛顿(id:36)
-INFO:设置共指：: 美国国务卿阿尔布莱特(id:31) , 华盛顿(id:36)
-INFO:设置共指：: 以巴(id:32) , 华盛顿(id:36)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 华盛顿(id:36)
-INFO:设置共指：: 当天(id:30) , 阿尔布莱特(id:37)
-INFO:设置共指：: 美国国务卿阿尔布莱特(id:31) , 阿尔布莱特(id:37)
-INFO:设置共指：: 以巴(id:32) , 阿尔布莱特(id:37)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 阿尔布莱特(id:37)
-INFO:设置共指：: 美国国务卿阿尔布莱特(id:31) , 他(id:38)
-INFO:设置共指：: 以巴(id:32) , 他(id:38)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 他(id:38)
-INFO:设置共指：: 以巴(id:32) , 以军(id:39)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 以军(id:39)
-INFO:设置共指：: 目前的以巴冲突(id:33) , 他(id:40)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.691481
-INFO:experiments:总用时：4.208827
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002589
+INFO:experiments:总用时：0.545725
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnn_0004_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 2.013840
+INFO:experiments:加载数据用时： 1.923594
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 现在(id:6) , 最近出的一本名为《神秘男人》的新书(id:12)
-INFO:设置共指：: 朱迪思·米勒(id:7) , 最近出的一本名为《神秘男人》的新书(id:12)
-INFO:设置共指：: 卡尔·罗夫(id:8) , 最近出的一本名为《神秘男人》的新书(id:12)
-INFO:设置共指：: 瓦莱丽·普莱姆(id:9) , 最近出的一本名为《神秘男人》的新书(id:12)
-INFO:设置共指：: 鲍勃·伍德沃德(id:10) , 最近出的一本名为《神秘男人》的新书(id:12)
-INFO:设置共指：: 鲍勃(id:11) , 最近出的一本名为《神秘男人》的新书(id:12)
-INFO:设置共指：: 现在(id:6) , 这本新书(id:13)
-INFO:设置共指：: 朱迪思·米勒(id:7) , 这本新书(id:13)
-INFO:设置共指：: 卡尔·罗夫(id:8) , 这本新书(id:13)
-INFO:设置共指：: 瓦莱丽·普莱姆(id:9) , 这本新书(id:13)
-INFO:设置共指：: 鲍勃·伍德沃德(id:10) , 这本新书(id:13)
-INFO:设置共指：: 鲍勃(id:11) , 这本新书(id:13)
-INFO:设置共指：: 朱迪思·米勒(id:7) , 他(id:14)
-INFO:设置共指：: 卡尔·罗夫(id:8) , 他(id:14)
-INFO:设置共指：: 瓦莱丽·普莱姆(id:9) , 他(id:14)
-INFO:设置共指：: 鲍勃·伍德沃德(id:10) , 他(id:14)
-INFO:设置共指：: 鲍勃(id:11) , 他(id:14)
-INFO:设置共指：: 最近出的一本名为《神秘男人》的新书(id:12) , 他(id:14)
-INFO:设置共指：: 这本新书(id:13) , 他(id:14)
-INFO:设置共指：: 卡尔·罗夫(id:8) , 水门事件(id:15)
-INFO:设置共指：: 瓦莱丽·普莱姆(id:9) , 水门事件(id:15)
-INFO:设置共指：: 鲍勃·伍德沃德(id:10) , 水门事件(id:15)
-INFO:设置共指：: 鲍勃(id:11) , 水门事件(id:15)
-INFO:设置共指：: 最近出的一本名为《神秘男人》的新书(id:12) , 水门事件(id:15)
-INFO:设置共指：: 这本新书(id:13) , 水门事件(id:15)
-INFO:设置共指：: 瓦莱丽·普莱姆(id:9) , 著名的水门事件报料人深喉(id:16)
-INFO:设置共指：: 鲍勃·伍德沃德(id:10) , 著名的水门事件报料人深喉(id:16)
-INFO:设置共指：: 鲍勃(id:11) , 著名的水门事件报料人深喉(id:16)
-INFO:设置共指：: 最近出的一本名为《神秘男人》的新书(id:12) , 著名的水门事件报料人深喉(id:16)
-INFO:设置共指：: 这本新书(id:13) , 著名的水门事件报料人深喉(id:16)
-INFO:设置共指：: 她的消息来源(id:20) , 她(id:22)
-INFO:设置共指：: 朱迪思·米勒(id:21) , 她(id:22)
-INFO:设置共指：: 乔·威尔逊(id:41) , 他(id:42)
-INFO:设置共指：: 乔·威尔逊(id:41) , 他妻子(id:43)
-INFO:设置共指：: 乔·威尔逊(id:41) , 中情局(id:44)
-INFO:设置共指：: 乔·威尔逊(id:41) , 他(id:45)
-INFO:设置共指：: 乔·威尔逊(id:41) , 他(id:46)
-INFO:设置共指：: 乔·威尔逊(id:41) , 他(id:47)
-INFO:设置共指：: 《纽约时报》总编(id:76) , 朱迪·米勒(id:77)
-INFO:设置共指：: 罗夫(id:122) , 瓦莱丽·普莱姆(id:123)
-INFO:设置共指：: 罗夫(id:122) , 中情局(id:124)
-INFO:设置共指：: 罗夫(id:122) , 她(id:125)
-INFO:设置共指：: 某人(id:126) , 中情局(id:127)
-INFO:设置共指：: 某人(id:126) , 她(id:128)
-INFO:设置共指：: 某人(id:126) , 她丈夫(id:129)
-INFO:设置共指：: 她的丈夫(id:131) , 白宫(id:132)
-INFO:设置共指：: 她的丈夫(id:131) , 他(id:133)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.718384
-INFO:experiments:总用时：5.754563
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 十八个月(id:29) , 十八个月(id:30)
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： 十八 十八
+INFO:设置共指：: 这个人(id:86) , 这个人(id:91)
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.009987
+INFO:experiments:总用时：1.955862
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0109_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.343086
+INFO:experiments:加载数据用时： 0.328577
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 庄逢甘(id:19) , 中国(id:25)
-INFO:设置共指：: 中国(id:20) , 中国(id:25)
-INFO:设置共指：: 邪教(id:21) , 中国(id:25)
-INFO:设置共指：: 中国反邪教协会(id:22) , 中国(id:25)
-INFO:设置共指：: 邪教(id:24) , 中国(id:25)
-INFO:设置共指：: 庄逢甘(id:19) , 邪教(id:26)
-INFO:设置共指：: 中国(id:20) , 邪教(id:26)
-INFO:设置共指：: 邪教(id:21) , 邪教(id:26)
-INFO:设置共指：: 中国反邪教协会(id:22) , 邪教(id:26)
-INFO:设置共指：: 邪教(id:24) , 邪教(id:26)
-INFO:设置共指：: 中国(id:20) , 中国反邪教协会(id:27)
-INFO:设置共指：: 邪教(id:21) , 中国反邪教协会(id:27)
-INFO:设置共指：: 中国反邪教协会(id:22) , 中国反邪教协会(id:27)
-INFO:设置共指：: 邪教(id:24) , 中国反邪教协会(id:27)
-INFO:设置共指：: 邪教(id:21) , 邪教组织(id:28)
-INFO:设置共指：: 中国反邪教协会(id:22) , 邪教组织(id:28)
-INFO:设置共指：: 邪教(id:24) , 邪教组织(id:28)
-INFO:设置共指：: 中国反邪教协会(id:22) , 邪教组织(id:29)
-INFO:设置共指：: 邪教(id:24) , 邪教组织(id:29)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：3.260295
-INFO:experiments:总用时：3.622219
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002201
+INFO:experiments:总用时：0.351281
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0169_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.222150
+INFO:experiments:加载数据用时： 0.214977
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 伊拉克(id:0) , 联合国(id:2)
-INFO:设置共指：: 俄罗斯(id:1) , 联合国(id:2)
-INFO:设置共指：: 伊拉克(id:0) , 巴格达(id:3)
-INFO:设置共指：: 俄罗斯(id:1) , 巴格达(id:3)
-INFO:设置共指：: 伊拉克(id:0) , 对巴格达的制裁(id:4)
-INFO:设置共指：: 俄罗斯(id:1) , 对巴格达的制裁(id:4)
-INFO:设置共指：: 联合国(id:14) , 联合国(id:19)
-INFO:设置共指：: 巴格达(id:15) , 联合国(id:19)
-INFO:设置共指：: 伊拉克(id:16) , 联合国(id:19)
-INFO:设置共指：: 伊拉克(id:17) , 联合国(id:19)
-INFO:设置共指：: 伊拉克(id:18) , 联合国(id:19)
-INFO:设置共指：: 联合国(id:14) , 其(id:20)
-INFO:设置共指：: 巴格达(id:15) , 其(id:20)
-INFO:设置共指：: 伊拉克(id:16) , 其(id:20)
-INFO:设置共指：: 伊拉克(id:17) , 其(id:20)
-INFO:设置共指：: 伊拉克(id:18) , 其(id:20)
-INFO:设置共指：: 联合国(id:14) , 对其制裁(id:21)
-INFO:设置共指：: 巴格达(id:15) , 对其制裁(id:21)
-INFO:设置共指：: 伊拉克(id:16) , 对其制裁(id:21)
-INFO:设置共指：: 伊拉克(id:17) , 对其制裁(id:21)
-INFO:设置共指：: 伊拉克(id:18) , 对其制裁(id:21)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.449687
-INFO:experiments:总用时：1.689580
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000864
+INFO:experiments:总用时：0.234685
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0129_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.225565
+INFO:experiments:加载数据用时： 0.215056
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 这(id:5) , 克林顿(id:6)
-INFO:设置共指：: 这(id:5) , 亚太经济合作组织(id:7)
-INFO:设置共指：: 克林顿(id:8) , 亚太经合(id:9)
-INFO:设置共指：: 克林顿总统(id:14) , 越南(id:17)
-INFO:设置共指：: 越南(id:15) , 越南(id:17)
-INFO:设置共指：: 克林顿总统(id:14) , 美国(id:18)
-INFO:设置共指：: 越南(id:15) , 美国(id:18)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.572058
-INFO:experiments:总用时：0.814579
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000549
+INFO:experiments:总用时：0.234049
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0169_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.321072
+INFO:experiments:加载数据用时： 0.322092
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 已经延续举办１９届的初跑杯陆跑赛(id:0) , 将近２万的民众(id:2)
-INFO:设置共指：: 这项标榜‘为健康而跑’的小型公路马拉松(id:1) , 将近２万的民众(id:2)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.088148
-INFO:experiments:总用时：0.428144
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000171
+INFO:experiments:总用时：0.342932
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0119_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.660538
+INFO:experiments:加载数据用时： 0.636722
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.954558
-INFO:experiments:总用时：2.634427
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002011
+INFO:experiments:总用时：0.658355
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0009_002.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.787614
+INFO:experiments:加载数据用时： 0.755399
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.171977
-INFO:experiments:总用时：0.976104
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 有的老师(id:24) , 有的老师(id:25)
+INFO:multi_sieve:修饰语： 老师 老师
+INFO:multi_sieve:限定词： 有的 有的
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000903
+INFO:experiments:总用时：0.774865
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0009_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.317048
+INFO:experiments:加载数据用时： 0.281280
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 哈塔米总统(id:19) , 伊斯兰会议组织(id:20)
-INFO:设置共指：: 哈塔米总统(id:19) , 他(id:21)
-INFO:设置共指：: 哈塔米总统(id:19) , 伊斯兰会议组织(id:22)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.761700
-INFO:experiments:总用时：1.096622
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000733
+INFO:experiments:总用时：0.300975
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0099_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.259058
+INFO:experiments:加载数据用时： 1.325257
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：17.738496
-INFO:experiments:总用时：19.016952
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.014384
+INFO:experiments:总用时：1.357543
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_005.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.052546
+INFO:experiments:加载数据用时： 1.019640
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.345756
-INFO:experiments:总用时：1.417897
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002086
+INFO:experiments:总用时：1.040074
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_005.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.791768
+INFO:experiments:加载数据用时： 0.742563
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 现在(id:1) , 高致病性禽流感(id:2)
-INFO:设置共指：: 禽流感(id:3) , 儿童(id:6)
-INFO:设置共指：: 很多传染病(id:4) , 儿童(id:6)
-INFO:设置共指：: 禽流感(id:3) , 他(id:7)
-INFO:设置共指：: 很多传染病(id:4) , 他(id:7)
-INFO:设置共指：: 儿童(id:6) , 他(id:7)
-INFO:设置共指：: 这两个人群(id:8) , 之(id:9)
-INFO:设置共指：: 现在(id:15) , 目前(id:16)
-INFO:设置共指：: 现在(id:15) , 他(id:17)
-INFO:设置共指：: 现在(id:15) , 这些人群(id:18)
-INFO:设置共指：: 目前阶段(id:19) , 禽流感(id:20)
-INFO:设置共指：: 目前阶段(id:19) , 禽流感的这个防治(id:21)
-INFO:设置共指：: 这(id:22) , 目前(id:23)
-INFO:设置共指：: 现在(id:24) , 大部分人(id:25)
-INFO:设置共指：: 现在(id:24) , 他(id:26)
-INFO:设置共指：: 现在(id:24) , 他(id:27)
-INFO:设置共指：: 禽流感(id:45) , 我们(id:46)
-INFO:设置共指：: 禽流感(id:45) , 他们(id:47)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.079801
-INFO:experiments:总用时：1.891858
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001796
+INFO:experiments:总用时：0.764739
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0039_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.949220
+INFO:experiments:加载数据用时： 0.898049
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 中国(id:88) , 议员(id:95)
-INFO:设置共指：: 贸易最惠国待遇(id:89) , 议员(id:95)
-INFO:设置共指：: 中国的贸易最惠国待遇(id:90) , 议员(id:95)
-INFO:设置共指：: 游说(id:91) , 议员(id:95)
-INFO:设置共指：: 这次游说(id:92) , 议员(id:95)
-INFO:设置共指：: 重点(id:93) , 议员(id:95)
-INFO:设置共指：: 这次游说的重点(id:94) , 议员(id:95)
-INFO:设置共指：: 贸易最惠国待遇(id:89) , 那些较保守的议员(id:96)
-INFO:设置共指：: 中国的贸易最惠国待遇(id:90) , 那些较保守的议员(id:96)
-INFO:设置共指：: 游说(id:91) , 那些较保守的议员(id:96)
-INFO:设置共指：: 这次游说(id:92) , 那些较保守的议员(id:96)
-INFO:设置共指：: 重点(id:93) , 那些较保守的议员(id:96)
-INFO:设置共指：: 这次游说的重点(id:94) , 那些较保守的议员(id:96)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：14.858676
-INFO:experiments:总用时：15.827082
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这次游说(id:71) , 这次游说(id:92)
+INFO:multi_sieve:修饰语： 游说 游说
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：: 这次游说的后续行动(id:73) , 这次游说的重点(id:94)
+INFO:multi_sieve:修饰语： 这次游说 这次游说
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.013772
+INFO:experiments:总用时：0.930140
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0119_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.170055
+INFO:experiments:加载数据用时： 0.158536
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.293200
-INFO:experiments:总用时：0.480886
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000332
+INFO:experiments:总用时：0.177476
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_004.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.444621
+INFO:experiments:加载数据用时： 0.416538
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.200486
-INFO:experiments:总用时：0.665084
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000408
+INFO:experiments:总用时：0.435126
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0049_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.564066
+INFO:experiments:加载数据用时： 0.535660
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 检调单位(id:21) , 他们(id:26)
-INFO:设置共指：: 我们县政府(id:22) , 他们(id:26)
-INFO:设置共指：: 我个人(id:23) , 他们(id:26)
-INFO:设置共指：: 南投县政(id:24) , 他们(id:26)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.738682
-INFO:experiments:总用时：1.321108
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000950
+INFO:experiments:总用时：0.556081
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0159_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.440066
+INFO:experiments:加载数据用时： 0.428547
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.950205
-INFO:experiments:总用时：2.409018
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002177
+INFO:experiments:总用时：0.446695
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0169_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.316589
+INFO:experiments:加载数据用时： 0.302954
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 海关外勤工作纪律的九个不准(id:10) , 海关工作人员(id:11)
-INFO:设置共指：: 海关外勤工作纪律的九个不准(id:10) , 他(id:12)
-INFO:设置共指：: 海关外勤工作纪律的九个不准(id:10) , 我们(id:13)
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：0.586861
-INFO:experiments:总用时：0.922174
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000616
+INFO:experiments:总用时：0.321610
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0279_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.293953
+INFO:experiments:加载数据用时： 0.295596
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:experiments:<function precise_constructs at 0x7fd9fe9a1140>用时：1.411068
-INFO:experiments:总用时：1.723934
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000838
+INFO:experiments:总用时：0.314880
 INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0119_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.552232
+INFO:experiments:加载数据用时： 1.887503
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function precise_constructs at 0x7fd9fe9a1140>
-INFO:设置共指：: 国家外汇管理局(id:12) , 境内机构(id:16)
-INFO:设置共指：: 规定(id:13) , 境内机构(id:16)
-INFO:设置共指：: 国家外汇管理局的规定(id:14) , 境内机构(id:16)
-INFO:设置共指：: 国际商业贷款(id:15) , 境内机构(id:16)
-INFO:设置共指：: 国家外汇管理局(id:12) , 中国(id:17)
-INFO:设置共指：: 规定(id:13) , 中国(id:17)
-INFO:设置共指：: 国家外汇管理局的规定(id:14) , 中国(id:17)
-INFO:设置共指：: 国际商业贷款(id:15) , 中国(id:17)
-INFO:设置共指：: 国家外汇管理局(id:12) , 境外(id:18)
-INFO:设置共指：: 规定(id:13) , 境外(id:18)
-INFO:设置共指：: 国家外汇管理局的规定(id:14) , 境外(id:18)
-INFO:设置共指：: 国际商业贷款(id:15) , 境外(id:18)
-INFO:设置共指：: 国家外汇管理局(id:12) , 中国境外(id:19)
-INFO:设置共指：: 规定(id:13) , 中国境外(id:19)
-INFO:设置共指：: 国家外汇管理局的规定(id:14) , 中国境外(id:19)
-INFO:设置共指：: 国际商业贷款(id:15) , 中国境外(id:19)
-INFO:设置共指：: 规定(id:13) , 经济组织(id:20)
-INFO:设置共指：: 国家外汇管理局的规定(id:14) , 经济组织(id:20)
-INFO:设置共指：: 国际商业贷款(id:15) , 经济组织(id:20)
-INFO:设置共指：: 国家外汇管理局的规定(id:14) , 其他经济组织(id:21)
-INFO:设置共指：: 国际商业贷款(id:15) , 其他经济组织(id:21)
-INFO:设置共指：: 国际商业贷款(id:15) , 金融机构、企业、个人或其他经济组织(id:22)
-INFO:设置共指：: 规定(id:47) , 境内机构(id:49)
-INFO:设置共指：: 中国人民银行(id:48) , 境内机构(id:49)
-INFO:设置共指：: 规定(id:47) , 国际商业贷款(id:50)
-INFO:设置共指：: 中国人民银行(id:48) , 国际商业贷款(id:50)
-INFO:设置共指：: 规定(id:47) , 审批机关(id:51)
-INFO:设置共指：: 中国人民银行(id:48) , 审批机关(id:51)
-INFO:设置共指：: 规定(id:47) , 境内机构借用国际商业贷款的审批机关(id:52)
-INFO:设置共指：: 中国人民银行(id:48) , 境内机构借用国际商业贷款的审批机关(id:52)
-INFO:设置共指：: 规定(id:47) , 中国人民银行(id:53)
-INFO:设置共指：: 中国人民银行(id:48) , 中国人民银行(id:53)
-INFO:设置共指：: 规定(id:47) , 国家外汇管理局(id:54)
-INFO:设置共指：: 中国人民银行(id:48) , 国家外汇管理局(id:54)
-INFO:设置共指：: 中国人民银行(id:48) , 境内机构(id:55)
-INFO:设置共指：: 国际商业贷款(id:87) , 国家(id:94)
-INFO:设置共指：: 金融企业(id:88) , 国家(id:94)
-INFO:设置共指：: 非金融企业(id:89) , 国家(id:94)
-INFO:设置共指：: 法人(id:90) , 国家(id:94)
-INFO:设置共指：: 对外直接借用国际商业贷款的非金融企业法人(id:91) , 国家(id:94)
-INFO:设置共指：: 条件(id:92) , 国家(id:94)
-INFO:设置共指：: 这样几个条件(id:93) , 国家(id:94)
-INFO:设置共指：: 金融企业(id:88) , 行业(id:95)
-INFO:设置共指：: 非金融企业(id:89) , 行业(id:95)
-INFO:设置共指：: 法人(id:90) , 行业(id:95)
-INFO:设置共指：: 对外直接借用国际商业贷款的非金融企业法人(id:91) , 行业(id:95)
-INFO:设置共指：: 条件(id:92) , 行业(id:95)
-INFO:设置共指：: 这样几个条件(id:93) , 行业(id:95)
-INFO:设置共指：: 非金融企业(id:89) , 国家鼓励行业(id:96)
-INFO:设置共指：: 法人(id:90) , 国家鼓励行业(id:96)
-INFO:设置共指：: 对外直接借用国际商业贷款的非金融企业法人(id:91) , 国家鼓励行业(id:96)
-INFO:设置共指：: 条件(id:92) , 国家鼓励行业(id:96)
-INFO:设置共指：: 这样几个条件(id:93) , 国家鼓励行业(id:96)
-INFO:设置共指：: 法人(id:90) , 财务管理制度(id:97)
-INFO:设置共指：: 对外直接借用国际商业贷款的非金融企业法人(id:91) , 财务管理制度(id:97)
-INFO:设置共指：: 条件(id:92) , 财务管理制度(id:97)
-INFO:设置共指：: 这样几个条件(id:93) , 财务管理制度(id:97)
-INFO:设置共指：: 对外直接借用国际商业贷款的非金融企业法人(id:91) , 完善的财务管理制度(id:98)
-INFO:设置共指：: 条件(id:92) , 完善的财务管理制度(id:98)
-INFO:设置共指：: 这样几个条件(id:93) , 完善的财务管理制度(id:98)
-INFO:设置共指：: 条件(id:92) , 金融企业(id:99)
-INFO:设置共指：: 这样几个条件(id:93) , 金融企业(id:99)
-INFO:设置共指：: 这样几个条件(id:93) , 非金融企业(id:100)
-INFO:load_data:加载文档：small_test2.conll
-DEBUG:jieba:Building prefix dict from the default dictionary ...
-DEBUG:jieba:Loading model from cache /tmp/jieba.cache
-DEBUG:jieba:Loading model cost 0.302 seconds.
-DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 其他经济组织(id:21) , 金融机构、企业、个人或其他经济组织(id:22)
+INFO:multi_sieve:修饰语： 组织 组织
+INFO:multi_sieve:限定词： 其他 其他
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.039092
+INFO:experiments:总用时：1.943897
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0059_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.318554
+INFO:experiments:加载数据用时： 0.308545
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function exact_match at 0x7f5108dc2f50>
-INFO:experiments:<function exact_match at 0x7f5108dc2f50>用时：0.000003
-INFO:experiments:Run <function precise_constructs at 0x7f5108dcd140>
-INFO:experiments:<function precise_constructs at 0x7f5108dcd140>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_A at 0x7f5108dcd488>
-INFO:experiments:<function strict_head_matching_A at 0x7f5108dcd488>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_B at 0x7f5108dcd848>
-INFO:experiments:<function strict_head_matching_B at 0x7f5108dcd848>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_C at 0x7f5108dcd938>
-INFO:experiments:<function strict_head_matching_C at 0x7f5108dcd938>用时：0.000003
-INFO:experiments:Run <function relaxing_head_matching at 0x7f5108dcd9b0>
-INFO:experiments:<function relaxing_head_matching at 0x7f5108dcd9b0>用时：0.000003
-INFO:experiments:Run <function pronoun_sieve at 0x7f5108dcda28>
-INFO:experiments:<function pronoun_sieve at 0x7f5108dcda28>用时：0.000003
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f5108dcdb18>
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f5108dcdb18>用时：0.000004
-INFO:experiments:Run <function discourse_processing at 0x7f5108dcdaa0>
-INFO:experiments:<function discourse_processing at 0x7f5108dcdaa0>用时：0.000017
-INFO:experiments:Run <function other_sieve at 0x7f5108dcdc08>
-INFO:experiments:<function other_sieve at 0x7f5108dcdc08>用时：0.000004
-INFO:experiments:总用时：0.343747
-INFO:load_data:加载文档：small_test2.conll
-INFO:load_data:加载文档：small_test2.conll
-DEBUG:jieba:Building prefix dict from the default dictionary ...
-DEBUG:jieba:Loading model from cache /tmp/jieba.cache
-DEBUG:jieba:Loading model cost 0.288 seconds.
-DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000310
+INFO:experiments:总用时：0.327451
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0229_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.304330
+INFO:experiments:加载数据用时： 0.303117
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function exact_match at 0x7fb412319f50>
-INFO:experiments:<function exact_match at 0x7fb412319f50>用时：0.000002
-INFO:experiments:Run <function precise_constructs at 0x7fb41231f1b8>
-INFO:experiments:<function precise_constructs at 0x7fb41231f1b8>用时：0.000003
-INFO:experiments:Run <function strict_head_matching_A at 0x7fb41231f500>
-INFO:experiments:<function strict_head_matching_A at 0x7fb41231f500>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_B at 0x7fb41231f848>
-INFO:experiments:<function strict_head_matching_B at 0x7fb41231f848>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_C at 0x7fb41231f938>
-INFO:experiments:<function strict_head_matching_C at 0x7fb41231f938>用时：0.000002
-INFO:experiments:Run <function relaxing_head_matching at 0x7fb41231f9b0>
-INFO:experiments:<function relaxing_head_matching at 0x7fb41231f9b0>用时：0.000002
-INFO:experiments:Run <function pronoun_sieve at 0x7fb41231fa28>
-INFO:experiments:<function pronoun_sieve at 0x7fb41231fa28>用时：0.000003
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7fb41231fb18>
-INFO:experiments:<function proper_header_word_match_sieve at 0x7fb41231fb18>用时：0.000003
-INFO:experiments:Run <function discourse_processing at 0x7fb41231faa0>
-INFO:experiments:<function discourse_processing at 0x7fb41231faa0>用时：0.000012
-INFO:experiments:Run <function other_sieve at 0x7fb41231fc08>
-INFO:experiments:<function other_sieve at 0x7fb41231fc08>用时：0.000006
-INFO:experiments:总用时：0.327318
-INFO:load_data:加载文档：small_test2.conll
-DEBUG:jieba:Building prefix dict from the default dictionary ...
-DEBUG:jieba:Loading model from cache /tmp/jieba.cache
-DEBUG:jieba:Loading model cost 0.287 seconds.
-DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000586
+INFO:experiments:总用时：0.321319
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1059_000.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.303408
+INFO:experiments:加载数据用时： 4.238864
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function exact_match at 0x7f3e96aeaf50>
-INFO:experiments:<function exact_match at 0x7f3e96aeaf50>用时：0.000003
-INFO:experiments:Run <function precise_constructs at 0x7f3e96af01b8>
-INFO:experiments:<function precise_constructs at 0x7f3e96af01b8>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_A at 0x7f3e96af0500>
-INFO:experiments:<function strict_head_matching_A at 0x7f3e96af0500>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_B at 0x7f3e96af0848>
-INFO:experiments:<function strict_head_matching_B at 0x7f3e96af0848>用时：0.000002
-INFO:experiments:Run <function strict_head_matching_C at 0x7f3e96af0938>
-INFO:experiments:<function strict_head_matching_C at 0x7f3e96af0938>用时：0.000002
-INFO:experiments:Run <function relaxing_head_matching at 0x7f3e96af09b0>
-INFO:experiments:<function relaxing_head_matching at 0x7f3e96af09b0>用时：0.000002
-INFO:experiments:Run <function pronoun_sieve at 0x7f3e96af0a28>
-INFO:experiments:<function pronoun_sieve at 0x7f3e96af0a28>用时：0.000003
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f3e96af0b18>
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f3e96af0b18>用时：0.000003
-INFO:experiments:Run <function discourse_processing at 0x7f3e96af0aa0>
-INFO:experiments:<function discourse_processing at 0x7f3e96af0aa0>用时：0.000014
-INFO:experiments:Run <function other_sieve at 0x7f3e96af0c08>
-INFO:experiments:<function other_sieve at 0x7f3e96af0c08>用时：0.000004
-INFO:experiments:总用时：0.327160
-INFO:load_data:加载文档：small_test2.conll
-DEBUG:jieba:Building prefix dict from the default dictionary ...
-DEBUG:jieba:Loading model from cache /tmp/jieba.cache
-DEBUG:jieba:Loading model cost 0.294 seconds.
-DEBUG:jieba:Prefix dict has been built succesfully.
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.038999
+INFO:experiments:总用时：4.299613
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_001.v4_gold_conll
 INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.402231
+INFO:experiments:加载数据用时： 0.896892
 INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function exact_match at 0x7f758c4dc140>
-INFO:experiments:<function exact_match at 0x7f758c4dc140>用时：0.000056
-INFO:experiments:Run <function precise_constructs at 0x7f758c4dc320>
-INFO:experiments:<function precise_constructs at 0x7f758c4dc320>用时：0.000042
-INFO:experiments:Run <function strict_head_matching_A at 0x7f758c4dc668>
-INFO:experiments:<function strict_head_matching_A at 0x7f758c4dc668>用时：0.000042
-INFO:experiments:Run <function strict_head_matching_B at 0x7f758c4dc9b0>
-INFO:experiments:<function strict_head_matching_B at 0x7f758c4dc9b0>用时：0.142243
-INFO:experiments:Run <function strict_head_matching_C at 0x7f758c4dcaa0>
-INFO:experiments:<function strict_head_matching_C at 0x7f758c4dcaa0>用时：0.000056
-INFO:experiments:Run <function relaxing_head_matching at 0x7f758c4dcb18>
-INFO:experiments:<function relaxing_head_matching at 0x7f758c4dcb18>用时：0.000050
-INFO:experiments:Run <function pronoun_sieve at 0x7f758c4dcb90>
-INFO:experiments:<function pronoun_sieve at 0x7f758c4dcb90>用时：0.000053
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f758c4dcc80>
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f758c4dcc80>用时：0.000048
-INFO:experiments:Run <function discourse_processing at 0x7f758c4dcc08>
-INFO:experiments:<function discourse_processing at 0x7f758c4dcc08>用时：0.000087
-INFO:experiments:Run <function other_sieve at 0x7f758c4dce60>
-INFO:experiments:<function other_sieve at 0x7f758c4dce60>用时：0.000051
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000928
+INFO:experiments:总用时：0.916263
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0089_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.996988
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.032485
+INFO:experiments:总用时：2.049957
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0299_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.559556
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000742
+INFO:experiments:总用时：0.577058
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0049_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.448556
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这种新型的玻璃窗(id:4) , 这种新型的玻璃窗两层玻璃(id:5)
+INFO:multi_sieve:修饰语： 这种新型 这种新型
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：: 这种玻璃窗(id:8) , 这种玻璃窗(id:14)
+INFO:multi_sieve:修饰语： 玻璃窗 玻璃窗
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001934
+INFO:experiments:总用时：0.468100
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0149_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.581260
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001513
+INFO:experiments:总用时：0.600761
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0079_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.669599
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002581
+INFO:experiments:总用时：0.689989
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0149_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.287924
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006833
+INFO:experiments:总用时：1.313482
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0109_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.727831
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.018323
+INFO:experiments:总用时：1.764502
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.573086
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006455
+INFO:experiments:总用时：1.598876
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0169_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.161893
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 澳门的贸易、工业、金融、保险、旅游、饮食、交通运输、建筑地产等多个领域(id:40) , 澳门的贸易、工业、金融、保险、旅游、饮食、交通运输、建筑地产等多个领域的经营活动(id:42)
+INFO:multi_sieve:修饰语： 澳门 澳门
+INFO:multi_sieve:限定词： 多 多
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.010662
+INFO:experiments:总用时：1.192024
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0139_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.480412
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000651
+INFO:experiments:总用时：0.498297
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0049_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.175455
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000283
+INFO:experiments:总用时：0.193437
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0029_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.195065
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002234
+INFO:experiments:总用时：1.216791
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0179_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.193702
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000537
+INFO:experiments:总用时：0.213482
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0129_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.330825
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001265
+INFO:experiments:总用时：0.349805
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0039_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.063566
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001816
+INFO:experiments:总用时：1.083441
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0289_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.708045
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.023703
+INFO:experiments:总用时：1.749767
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0129_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.427588
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 刚刚走出药局的这位太太(id:16) , 刚刚走出药局的这位太太手上拿的(id:17)
+INFO:multi_sieve:修饰语： 刚刚走出药局 刚刚走出药局
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002122
+INFO:experiments:总用时：0.447205
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 2.014468
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.009025
+INFO:experiments:总用时：2.042695
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_011.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.189956
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000274
+INFO:experiments:总用时：0.209208
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0239_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.254859
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000701
+INFO:experiments:总用时：0.272767
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0239_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.836815
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006923
+INFO:experiments:总用时：0.860337
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0129_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.286869
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000817
+INFO:experiments:总用时：0.305903
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.793388
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001175
+INFO:experiments:总用时：0.813333
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0189_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.229143
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000932
+INFO:experiments:总用时：0.249500
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 5.281967
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 数万个基因(id:261) , 数万个基因(id:264)
+INFO:multi_sieve:修饰语： 基因 基因
+INFO:multi_sieve:限定词： 数万 数万
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.065473
+INFO:experiments:总用时：5.371807
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0249_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.198452
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000593
+INFO:experiments:总用时：0.218296
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.061994
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000069
+INFO:experiments:总用时：0.079763
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0099_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.313590
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000862
+INFO:experiments:总用时：0.333742
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.518018
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 去年同期(id:11) , 去年同期(id:20)
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:设置共指：: 去年同期(id:20) , 去年同期(id:38)
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:设置共指：: 全省(id:31) , 全省(id:40)
+INFO:multi_sieve:修饰语： 省 省
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：: 去年同期(id:20) , 去年同期(id:47)
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:设置共指：: 去年同期(id:38) , 去年同期(id:47)
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005916
+INFO:experiments:总用时：0.541861
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0089_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.858207
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002237
+INFO:experiments:总用时：0.878546
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0079_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.085536
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000213
+INFO:experiments:总用时：0.102787
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0219_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.201078
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000582
+INFO:experiments:总用时：0.218894
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0299_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.061009
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.016633
+INFO:experiments:总用时：1.095585
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.381728
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000748
+INFO:experiments:总用时：0.398930
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_006.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.100637
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.003318
+INFO:experiments:总用时：1.124245
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0179_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.736797
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 两院(id:16) , 行政、立法两院(id:19)
+INFO:multi_sieve:修饰语： 院 院
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.003190
+INFO:experiments:总用时：0.757926
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0159_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.699127
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 两国(id:43) , 两国(id:47)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005879
+INFO:experiments:总用时：0.722980
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0189_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.484781
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001552
+INFO:experiments:总用时：0.503870
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.301683
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000748
+INFO:experiments:总用时：0.322391
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0059_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.376495
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001559
+INFO:experiments:总用时：0.397663
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.405230
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000900
+INFO:experiments:总用时：0.423807
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0259_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.667427
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 中国沿海、沿边、沿江和各省会城市(id:22) , 中国沿海、沿边、沿江和各省会城市的全面开放(id:24)
+INFO:multi_sieve:修饰语： 中国沿海、沿边、沿江和各省会城市 中国沿海、沿边、沿江和各省会城市
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：: 全省(id:116) , 全省(id:120)
+INFO:multi_sieve:修饰语： 省 省
+INFO:multi_sieve:限定词： 全 全
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.031728
+INFO:experiments:总用时：1.722231
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_003.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.463105
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这情况(id:12) , 这种情况(id:13)
+INFO:multi_sieve:修饰语： 情况 情况
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001139
+INFO:experiments:总用时：0.481947
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.350011
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000316
+INFO:experiments:总用时：0.368480
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1049_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 4.251821
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 一座淡江大桥(id:171) , 一座大桥(id:172)
+INFO:multi_sieve:修饰语： 大桥 大桥
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.028666
+INFO:experiments:总用时：4.304126
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_006.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.535233
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000818
+INFO:experiments:总用时：0.553538
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0229_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.304558
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000436
+INFO:experiments:总用时：0.322543
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0279_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 2.240177
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 经济贸易、科学技术和文化等各个领域(id:140) , 经济贸易、科学技术和文化等各个领域的关系(id:142)
+INFO:multi_sieve:修饰语： 经济贸易、科学技术和文化等各个领域 经济贸易、科学技术和文化等各个领域
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.036166
+INFO:experiments:总用时：2.298428
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnn_0004_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 2.567864
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.013761
+INFO:experiments:总用时：2.603334
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.192053
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000145
+INFO:experiments:总用时：0.210289
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.125250
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000049
+INFO:experiments:总用时：0.142055
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0069_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.485509
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001027
+INFO:experiments:总用时：0.505406
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.960033
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这个会(id:19) , 这个会(id:20)
+INFO:multi_sieve:修饰语： 会 会
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：: 唐山二中(id:46) , 唐山二中(id:47)
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 二 二
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.013219
+INFO:experiments:总用时：1.995165
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_006.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.277561
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004681
+INFO:experiments:总用时：1.302323
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0009_003.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.270890
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002850
+INFO:experiments:总用时：1.292549
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0159_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.381193
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这艘渔船(id:4) , 这艘渔船(id:6)
+INFO:multi_sieve:修饰语： 渔船 渔船
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001485
+INFO:experiments:总用时：0.399946
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0179_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 2.175867
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.021975
+INFO:experiments:总用时：2.218833
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0289_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.449616
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000651
+INFO:experiments:总用时：0.469888
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.166896
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000854
+INFO:experiments:总用时：0.186037
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0319_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.914022
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.007507
+INFO:experiments:总用时：0.941940
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0049_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.056310
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000080
+INFO:experiments:总用时：0.073797
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_009.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.172765
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000175
+INFO:experiments:总用时：0.192717
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0119_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.060916
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 澳大利亚、新西兰两国(id:33) , 澳、新两国(id:35)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 澳、新两国(id:35) , 澳、新两国(id:40)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 澳、新两国的农场主(id:36) , 澳、新两国的牧场主(id:41)
+INFO:multi_sieve:修饰语： 澳、新两国 澳、新两国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 澳新两国(id:61) , 澳新两国(id:65)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.008328
+INFO:experiments:总用时：1.090097
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_006.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.946138
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001881
+INFO:experiments:总用时：0.967730
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0119_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.379845
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001898
+INFO:experiments:总用时：0.400583
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0269_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.223665
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 最后一届立法局、两个市政局、区议会(id:37) , 即港英最后一届立法局、两个市政局、区议会(id:38)
+INFO:multi_sieve:修饰语： 区议会 区议会
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：: 第一届立法会(id:54) , 香港特别行政区第一届立法会(id:77)
+INFO:multi_sieve:修饰语： 立法会 立法会
+INFO:multi_sieve:限定词： 第一 第一
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.019056
+INFO:experiments:总用时：1.261251
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0039_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.159216
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000311
+INFO:experiments:总用时：0.176631
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0239_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.116197
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000139
+INFO:experiments:总用时：0.136609
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0209_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.554787
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002092
+INFO:experiments:总用时：0.573261
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_008.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.402564
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000408
+INFO:experiments:总用时：0.422703
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.212901
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000914
+INFO:experiments:总用时：0.233159
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0139_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.306135
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001631
+INFO:experiments:总用时：0.325301
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0059_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.386178
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 全市(id:97) , 全市(id:105)
+INFO:multi_sieve:修饰语： 市 市
+INFO:multi_sieve:限定词： 全 全
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.017499
+INFO:experiments:总用时：1.424858
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_005.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.116189
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.003434
+INFO:experiments:总用时：1.139212
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.508261
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001474
+INFO:experiments:总用时：0.528170
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.150912
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000243
+INFO:experiments:总用时：0.169462
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0079_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.215501
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000369
+INFO:experiments:总用时：0.235891
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0009_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.285553
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000158
+INFO:experiments:总用时：0.305104
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0159_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.155869
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000458
+INFO:experiments:总用时：0.173785
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0189_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.750164
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006982
+INFO:experiments:总用时：0.776905
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.809630
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.008257
+INFO:experiments:总用时：1.839054
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0099_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.104591
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000151
+INFO:experiments:总用时：0.122946
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.103054
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004592
+INFO:experiments:总用时：1.128071
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0039_007.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.511735
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000663
+INFO:experiments:总用时：0.532894
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0039_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.054402
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002035
+INFO:experiments:总用时：1.074533
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0029_003.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.863621
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这个学校(id:29) , 这个学校(id:33)
+INFO:multi_sieve:修饰语： 学校 学校
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：: 那个Ｏｈｉｏ学校(id:30) , 那个学校(id:34)
+INFO:multi_sieve:修饰语： 学校 学校
+INFO:multi_sieve:限定词： 那个 那个
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004420
+INFO:experiments:总用时：0.887563
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_002.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.698101
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这个讲话(id:2) , 她这个讲话(id:7)
+INFO:multi_sieve:修饰语： 讲话 讲话
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001832
+INFO:experiments:总用时：0.722047
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0079_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.192852
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000242
+INFO:experiments:总用时：0.211398
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0009_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.409104
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000553
+INFO:experiments:总用时：0.429920
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0069_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.096844
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000034
+INFO:experiments:总用时：0.114652
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0249_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.576482
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001321
+INFO:experiments:总用时：0.597101
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0099_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.396256
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001377
+INFO:experiments:总用时：0.416664
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0139_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.069276
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006461
+INFO:experiments:总用时：1.095678
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.464135
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000390
+INFO:experiments:总用时：0.482223
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0069_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.131234
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.012399
+INFO:experiments:总用时：1.163436
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_005.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.238451
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000190
+INFO:experiments:总用时：0.256784
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0029_001.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.372198
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001152
+INFO:experiments:总用时：0.391906
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.409017
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001218
+INFO:experiments:总用时：0.428255
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.729675
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 第二阶段(id:7) , 第二阶段(id:11)
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 第二 第二
+INFO:设置共指：: 第二阶段(id:49) , 第二阶段(id:56)
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 第二 第二
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005438
+INFO:experiments:总用时：0.752960
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0199_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.115878
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000148
+INFO:experiments:总用时：0.134742
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 2.452734
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.038686
+INFO:experiments:总用时：2.510664
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0079_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.304388
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.032239
+INFO:experiments:总用时：1.357676
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0159_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.992420
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这个协议(id:48) , 这个协议(id:52)
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：: 这个协议(id:52) , 这个协议(id:55)
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：: 这个协议(id:102) , 这个协议(id:104)
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.009501
+INFO:experiments:总用时：1.024401
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.103107
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.014661
+INFO:experiments:总用时：1.139323
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0309_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.435634
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001114
+INFO:experiments:总用时：0.453828
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0209_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.637798
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: ３名机师(id:6) , ３名机师(id:11)
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：: ３名机师(id:6) , ３名机师(id:14)
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：: ３名机师(id:11) , ３名机师(id:14)
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：: ３名机师(id:27) , ３名机师(id:40)
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.004320
+INFO:experiments:总用时：0.660147
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.532058
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.017731
+INFO:experiments:总用时：1.568574
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0039_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.109624
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000233
+INFO:experiments:总用时：0.128659
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0039_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.140213
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000517
+INFO:experiments:总用时：0.157412
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.234111
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000251
+INFO:experiments:总用时：0.254916
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.203033
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000776
+INFO:experiments:总用时：0.224662
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.167722
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000496
+INFO:experiments:总用时：0.185762
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_005.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.229403
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005368
+INFO:experiments:总用时：1.255759
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0089_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.176050
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000207
+INFO:experiments:总用时：0.193717
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0229_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.991646
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 各地(id:69) , 广东各地(id:70)
+INFO:multi_sieve:修饰语： 地 地
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.008685
+INFO:experiments:总用时：1.017682
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.731948
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 保税区的各项功能(id:16) , 中国各保税区(id:19)
+INFO:multi_sieve:修饰语： 保税区 保税区
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006438
+INFO:experiments:总用时：0.757479
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0299_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.510843
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这次谈判(id:8) , 这次谈判(id:15)
+INFO:multi_sieve:修饰语： 谈判 谈判
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002411
+INFO:experiments:总用时：0.531902
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0099_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.681825
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002676
+INFO:experiments:总用时：0.703484
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0189_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.389413
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000811
+INFO:experiments:总用时：0.406844
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0269_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.328932
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000835
+INFO:experiments:总用时：0.350534
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_006.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.991867
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这种能力(id:50) , 这种能力(id:52)
+INFO:multi_sieve:修饰语： 能力 能力
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002552
+INFO:experiments:总用时：1.013464
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0269_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.179772
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000528
+INFO:experiments:总用时：0.199155
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0129_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.827629
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 一批高速公路项目(id:132) , 一批城市公用基础设施招商项目(id:138)
+INFO:multi_sieve:修饰语： 项目 项目
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.026598
+INFO:experiments:总用时：1.872831
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0019_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.215670
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.008355
+INFO:experiments:总用时：1.242945
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cmn_0039_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.755956
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001031
+INFO:experiments:总用时：0.778797
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0029_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.168450
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000661
+INFO:experiments:总用时：0.188696
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0019_007.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.318455
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000192
+INFO:experiments:总用时：0.337767
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0079_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.472409
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002837
+INFO:experiments:总用时：0.493776
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0309_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.135035
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这份建议(id:32) , 这份建议(id:39)
+INFO:multi_sieve:修饰语： 建议 建议
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005761
+INFO:experiments:总用时：1.158846
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0259_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.662120
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 美、日两国(id:1) , 两国(id:3)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 美、日两国(id:14) , 日、美两国(id:21)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 日、美两国(id:21) , 两国(id:35)
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005924
+INFO:experiments:总用时：0.687762
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0109_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.126768
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.000225
+INFO:experiments:总用时：0.145292
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_1039_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.848316
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 两岸(id:12) , 两岸(id:17)
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 两岸(id:17) , 两岸(id:22)
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 两岸关系(id:18) , 两岸关系(id:23)
+INFO:multi_sieve:修饰语： 关系 关系
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：: 一中(id:48) , 一中(id:61)
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：: 两岸(id:160) , 两岸(id:169)
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.021980
+INFO:experiments:总用时：1.890358
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0139_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.358493
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001433
+INFO:experiments:总用时：0.381572
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0109_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.711016
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.003170
+INFO:experiments:总用时：0.734991
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0089_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.412134
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001377
+INFO:experiments:总用时：0.432068
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0169_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.538609
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001993
+INFO:experiments:总用时：0.558932
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ch_0029_004.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.804359
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.002403
+INFO:experiments:总用时：0.828053
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0279_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 0.479829
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.001898
+INFO:experiments:总用时：0.500106
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.270915
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 这个禽流感(id:38) , 这个高致病性禽流感(id:39)
+INFO:multi_sieve:修饰语： 禽流感 禽流感
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.006274
+INFO:experiments:总用时：1.297364
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0309_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.764043
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:设置共指：: 一些国家和地区(id:95) , 一些国家和地区的残疾人体育组织(id:97)
+INFO:multi_sieve:修饰语： 一些国家和地区 一些国家和地区
+INFO:multi_sieve:限定词： 一些 一些
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.021501
+INFO:experiments:总用时：1.804984
+INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/e2c_0009_000.v4_gold_conll
+INFO:load_data:加载文档完毕！此文档共有1个doc对象
+INFO:experiments:加载数据用时： 1.539147
+INFO:experiments:开始调用multi-sieve
+INFO:experiments:Run <function exact_match at 0x7fe5525ba410>
+INFO:experiments:<function exact_match at 0x7fe5525ba410>用时：0.005961
+INFO:experiments:总用时：1.563980

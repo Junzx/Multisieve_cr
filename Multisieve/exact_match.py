@@ -35,7 +35,7 @@ def exact_match(obj_document):
                 if determiner_candidate_mention == determiner_this_mention and \
                     ConstantVariable.CONST_STRING_NO_DETERMINER not in (determiner_this_mention, determiner_candidate_mention):
                     obj_document.set_coref(candidate_m, mention)
-                    logger.debug("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
-                    logger.debug("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
+                    logger.info("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
+                    logger.info("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
 
     return obj_document
