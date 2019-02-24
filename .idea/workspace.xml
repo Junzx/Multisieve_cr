@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/merge_conll_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/exact_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/exact_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_all_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/Multisieve/exact_match.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="52">
-              <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
               <folding>
                 <element signature="e#349#363#0" expanded="true" />
               </folding>
@@ -27,25 +29,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="401">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#126#147#0" expanded="true" />
+                <element signature="e#104#140#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api_all_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-702">
+              <caret selection-end-column="23" />
               <folding>
                 <element signature="e#24#43#0" expanded="true" />
+                <element signature="e#1769#2083#0" />
               </folding>
             </state>
           </provider>
@@ -54,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_one_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            <state relative-caret-position="286">
+              <caret line="50" column="14" selection-start-line="42" selection-start-column="15" selection-end-line="50" selection-end-column="14" />
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
               </folding>
@@ -66,10 +69,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SubjectUtils/experiment_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="522">
+              <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
+                <element signature="e#1244#2767#0" />
               </folding>
             </state>
           </provider>
@@ -86,7 +90,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>head_wo</find>
       <find>的</find>
       <find>dic_sentence</find>
       <find>dic_se</find>
@@ -116,6 +119,7 @@
       <find>B</find>
       <find>DEBUG</find>
       <find>修饰语</find>
+      <find>#begin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,9 +155,7 @@
         <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/test_source.txt" />
         <option value="$PROJECT_DIR$/tmp_2.py" />
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" />
-        <option value="$PROJECT_DIR$/api_all_file.py" />
         <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
         <option value="$PROJECT_DIR$/Multisieve/precise_constructs.py" />
         <option value="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" />
@@ -168,8 +170,11 @@
         <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/error_test.txt" />
         <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/rnn.py" />
         <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/config.py" />
-        <option value="$PROJECT_DIR$/api_one_file.py" />
         <option value="$PROJECT_DIR$/Multisieve/exact_match.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/api_all_file.py" />
+        <option value="$PROJECT_DIR$/api_one_file.py" />
+        <option value="$PROJECT_DIR$/merge_conll_file.py" />
       </list>
     </option>
   </component>
@@ -190,27 +195,6 @@
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="Multisieve" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="RunResults" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="UserCorpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="UserCorpus" type="462c0819:PsiDirectoryNode" />
-              <item name="Corpus" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +234,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api_all_file">
+  <component name="RunManager" selected="Python.merge_conll_file">
     <configuration name="api_all_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -293,7 +277,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="read_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="merge_conll_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -301,11 +285,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiment_result" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiment_result/read_result.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge_conll_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,11 +342,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.merge_conll_file" />
         <item itemvalue="Python.api_all_file" />
-        <item itemvalue="Python.rnn" />
         <item itemvalue="Python.experiments" />
+        <item itemvalue="Python.rnn" />
         <item itemvalue="Python.tmp_2" />
-        <item itemvalue="Python.read_result" />
       </list>
     </recent_temporary>
   </component>
@@ -380,8 +364,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-35" width="1368" height="804" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.19655442" />
@@ -392,8 +375,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" visible="true" weight="0.3167702" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.60248446" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.3167702" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39596274" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -476,12 +459,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api_one_file.py</url>
-          <line>131</line>
+          <line>152</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/api_one_file.py</url>
-          <line>117</line>
+          <line>121</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -493,6 +476,21 @@
           <url>file://$PROJECT_DIR$/Multisieve/exact_match.py</url>
           <line>32</line>
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_one_file.py</url>
+          <line>144</line>
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_one_file.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_one_file.py</url>
+          <line>133</line>
+          <option name="timeStamp" value="108" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -547,23 +545,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#18#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConstantVariable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="15" selection-start-line="22" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="93">
@@ -652,16 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-          <folding>
-            <element signature="e#104#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,69 +828,98 @@
         <state relative-caret-position="-1620" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_all_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-          <folding>
-            <element signature="e#41#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/experiment_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/det.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-648" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="127">
+          <caret line="1744" column="20" selection-start-line="1744" selection-start-column="17" selection-end-line="1744" selection-end-column="20" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#104#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+          <folding>
+            <element signature="e#126#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/exact_match.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
-          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
           <folding>
             <element signature="e#349#363#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="127">
-          <caret line="1744" column="20" selection-start-line="1744" selection-start-column="17" selection-end-line="1744" selection-end-column="20" />
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/experiment_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+            <element signature="e#1244#2767#0" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
+    <entry file="file://$PROJECT_DIR$/api_one_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="286">
+          <caret line="50" column="14" selection-start-line="42" selection-start-column="15" selection-end-line="50" selection-end-column="14" />
           <folding>
-            <element signature="e#126#147#0" expanded="true" />
+            <element signature="e#41#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merged_test.v4_result_conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="271" column="7" selection-start-line="271" selection-start-column="7" selection-end-line="271" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/merge_conll_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#45#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_all_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret selection-end-column="23" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+            <element signature="e#1769#2083#0" />
           </folding>
         </state>
       </provider>

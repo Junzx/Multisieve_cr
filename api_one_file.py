@@ -28,7 +28,7 @@ from Multisieve.other_sieve import other_sieve
 import SubjectUtils.unit_test_utils as unit_test_utils
 import SubjectUtils.sieve_utils as sieve_utils
 import SubjectUtils.experiment_utils as experiment_utils
-
+import config
 
 import logging
 logging.basicConfig(filename="./RunResults/MyLog.log",
@@ -40,15 +40,15 @@ logger = logging.getLogger("experiments")
 sieve_order = [
         # test_sieve,
         exact_match,
-        # precise_constructs,
-        # strict_head_matching_A,
-        # strict_head_matching_B,
-        # strict_head_matching_C,
-        # relaxing_head_matching,
-        # pronoun_sieve,
-        # proper_header_word_match_sieve,
-        # discourse_processing,
-        # other_sieve,
+        precise_constructs,
+        strict_head_matching_A,
+        strict_head_matching_B,
+        strict_head_matching_C,
+        relaxing_head_matching,
+        pronoun_sieve,
+        proper_header_word_match_sieve,
+        discourse_processing,
+        other_sieve,
     ]
 
 
@@ -82,7 +82,11 @@ def __test(file_):
 
 
 
-def main(file_):
+def main_old(file_):
+    """
+    update： 2019-2-24
+    弃用此函数，不在运行的时候评价
+    """
     start = clock()
     document_object = load_one_file(file_)
     logger.info("加载数据用时： %f"%(clock() - start))
@@ -120,15 +124,32 @@ def main(file_):
 
     return file_prf
 
+def main(file_):
+    """
+    新函数，只进行multisieve
+    """
+    start = clock()
+    document_object = load_one_file(file_)
+    logger.info("加载数据用时： %f" % (clock() - start))
+    logger.info("开始调用multi-sieve")
+    for sieve in sieve_order:
+        print sieve
+        logger.info("Run " + str(sieve))
+        sieve_start = clock()
+        document_object = sieve(document_object)
+        sieve_end = clock()
+        logger.info("%s用时：%f" % (str(sieve), sieve_end - sieve_start))
 
-
+    # 然后写入文件
+    result_file_path = config.result_folder + document_object.document_file_name + '.v4_result_conll'
+    document_object.write_to_file(result_file_path)
 
 if __name__ == '__main__':
     test_file = 'small_test2.conll'
     # test_file = 'test.v4_gold_conll'
-    # test_file_2 = '/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll'
+    test_file_2 = '/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll'
 
-    res = main(test_file)
+    res = main(test_file_2)
     print res
 
     # __test(test_file)

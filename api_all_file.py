@@ -66,13 +66,28 @@ def test():
         print all_res[key] / all_res['counter']
     print '-' * 30
 
+def run(vars = 'train'):
+    if vars == 'train':
+        folder_path = config.gold_train
+    elif vars == 'test':
+        folder_path = config.gold_test
+
+    test_files = config.get_var_files(folder_path)
+    for file_idx, file_ in enumerate(test_files):
+        print file_
+        print 'File: %s of %s' % (file_idx, len(test_files))
+        print
+
+        prf = api_one_file.main(file_)
+
 if __name__ == '__main__':
     import time
     start = time.clock()
     print api_one_file.sieve_order[-1].__name__
     # get_result('train')
 
-    get_result('test')
-    test()
+    # get_result('test')
+    # test()
+    run('test')
 
     print 'use time:', time.clock() - start
