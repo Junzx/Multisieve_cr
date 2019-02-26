@@ -3,9 +3,10 @@
 获取各类词表，返回的是unicode的list
 """
 import json
+import config
 from os import getcwd
 
-corpus_path = './UserCorpus/Corpus/'
+corpus_path = config.project_path + '/UserCorpus/Corpus/'
 EOF = '\n'
 
 def format_words(func):

@@ -9,6 +9,11 @@ first_person_pronouns = [u'我',u'我们',u'咱',u'咱们',u'本人']
 second_person_pronouns = [u'你',u'你们',u'您',u'您们',u'尔',u'尔等']
 third_person_pronouns = [u'他',u'她',u'它',u'他们',u'她们',u'它们']
 
+# 表达是人的代词
+human_pronounces = [u'他',u'她',u'他们',u'她们']
+human_pronounces.extend(first_person_pronouns)
+human_pronounces.extend(second_person_pronouns)
+
 pronouns = deepcopy(first_person_pronouns)
 pronouns.extend(second_person_pronouns)
 pronouns.extend(third_person_pronouns)

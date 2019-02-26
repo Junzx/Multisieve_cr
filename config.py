@@ -2,6 +2,7 @@
 """
 所有的配置文件
 """
+import os
 conll_EOF = "\n"
 flag_print_sieve_name = False   # 是否打印sieve名字
 
@@ -11,6 +12,7 @@ from getpass import getuser
 def get_var_files(folder_path, var = 'gold'):
     return [folder_path  + f_ for f_ in listdir(folder_path) if var in f_]
 
+project_path = os.path.dirname(__file__)
 # ====================================================
 
 if name == 'posix':
@@ -40,6 +42,7 @@ def __unit_test():
     pprint(path_log_folder)
     pprint(gold_test)
     pprint(gold_train)
+    pprint(project_path)
 
 if __name__ == '__main__':
     __unit_test()
