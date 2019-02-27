@@ -51,5 +51,6 @@ def discourse_processing(obj_document):
                     # 如果符合条件 将代词指向speaker
                     obj_document.set_coref(obj_document.get_mention_by_id(mention_candidate_id),
                                            obj_document.get_mention_by_id(mention_speaker_id))
+                    break
 
     return obj_document

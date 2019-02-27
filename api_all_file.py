@@ -4,7 +4,7 @@ import config
 import cPickle
 import numpy as np
 from pprint import pprint
-
+from os import remove
 
 def get_result(vars = 'train'):
     if vars == 'train':
@@ -66,7 +66,14 @@ def test():
         print all_res[key] / all_res['counter']
     print '-' * 30
 
-def run(vars = 'train'):
+# --------------------------------------------
+
+def __del_result_files():
+    for file_ in config.get_var_files(config.result_folder, 'result'):
+        remove(file_)
+    print '删除所有result文件！'
+
+def run(vars = 'test'):
     if vars == 'train':
         folder_path = config.gold_train
     elif vars == 'test':
@@ -78,7 +85,7 @@ def run(vars = 'train'):
         print 'File: %s of %s' % (file_idx, len(test_files))
         print
 
-        prf = api_one_file.main(file_)
+        api_one_file.main(file_)
 
 if __name__ == '__main__':
     import time
@@ -88,6 +95,7 @@ if __name__ == '__main__':
 
     # get_result('test')
     # test()
+    __del_result_files()
     run('test')
 
     print 'use time:', time.clock() - start

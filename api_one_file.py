@@ -40,14 +40,14 @@ logger = logging.getLogger("experiments")
 sieve_order = [
         # test_sieve,
         exact_match,
-        precise_constructs,
+        # precise_constructs,
         strict_head_matching_A,
         strict_head_matching_B,
         strict_head_matching_C,
         relaxing_head_matching,
         pronoun_sieve,
         proper_header_word_match_sieve,
-        discourse_processing,
+        # discourse_processing,
         other_sieve,
     ]
 
@@ -79,7 +79,6 @@ def __test(file_):
     # document_object = discourse_processing(document_object)
     document_object = other_sieve(document_object)
     # pprint(write_log_prf(document_object))
-
 
 
 def main_old(file_):
@@ -126,7 +125,7 @@ def main_old(file_):
 
 def main(file_):
     """
-    新函数，只进行multisieve
+    新函数，只进行multisieve，并写入
     """
     start = clock()
     document_object = load_one_file(file_)

@@ -46,7 +46,7 @@ class CNN(object):
                     char_emb = list(char_emb_moedl[k])
                 except KeyError:
                     char_emb = list(np.random.rand(300))
-                all_char_emb.append(char_emb)
+                all_char_emb.append(12)
             all_char_emb = np.array(all_char_emb)   # 每个字都被用一个300d的数组表示
 
             # TODO:这干嘛

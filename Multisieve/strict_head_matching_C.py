@@ -6,8 +6,8 @@ logger = logging.getLogger("multi_sieve")
 
 def strict_head_matching_C(obj_document):
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        # if str(mention.entity_id).startswith('E_'):
+        #     continue
 
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         for candidate_m in candidate_mentions:
@@ -19,4 +19,5 @@ def strict_head_matching_C(obj_document):
             if False not in {res_is_cluster_head_match, res_is_compatible_modifier} and \
                 res_is_i_within_i == False:
                 obj_document.set_coref(candidate_m, mention)
+                break
     return obj_document

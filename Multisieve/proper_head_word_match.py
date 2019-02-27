@@ -11,8 +11,8 @@ def proper_header_word_match_sieve(obj_document):
     3. 非数量不匹配：第二个表述不能有再先行词中没出现的数字（people / around 200 people）
     """
     for index_mention, mention in enumerate(obj_document.lst_mentions):
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        # if str(mention.entity_id).startswith('E_'):
+        #     continue
 
         if index_mention == 0:
             continue
@@ -29,5 +29,6 @@ def proper_header_word_match_sieve(obj_document):
                     not is_i_within_i(candidate_mention, mention) and \
                     is_numeric_mismatches(candidate_mention, mention):
                 obj_document.set_coref(candidate_mention, mention)
+                break
                 # print candidate_mention.chinese_word,mention.chinese_word
     return obj_document

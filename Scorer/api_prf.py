@@ -53,6 +53,7 @@ if __name__ == '__main__':
 
     merge_conll_file.api_('result')
     print '生成 新 %s 成功！' % res_file
+    print '开始进行评价！'
 
     # 以下进行评价
     res_bcub = get_prf(key_file, res_file, 'bcub')
@@ -60,10 +61,7 @@ if __name__ == '__main__':
     res_ceafe = get_prf(key_file, res_file, 'ceafe')
     res_blanc = get_prf(key_file, res_file, 'blanc')
     print '       Precision | recall | f1_score'
-    print 'bcub:', res_bcub
-    print 'muc:', res_muc
-    print 'ceafe: ', res_ceafe
-    print 'blanc: ', res_blanc
+
 
     dic = {
         'bcub': res_bcub,

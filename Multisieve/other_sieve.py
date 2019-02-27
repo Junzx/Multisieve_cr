@@ -61,5 +61,6 @@ def other_sieve(obj_document):
             if get_similarity_API(
                     lst_no_core_mentions[index_mention - 1].chinese_word, mention.chinese_word) > 0.6:
                 obj_document.set_coref(lst_no_core_mentions[index_mention - 1], mention)
+                break
 
     return obj_document

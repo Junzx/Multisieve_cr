@@ -11,8 +11,8 @@ logger = logging.getLogger("multi_sieve")
 
 def precise_constructs(obj_document):
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        # if str(mention.entity_id).startswith('E_'):
+        #     continue
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         for candidate_m in candidate_mentions:
             # 如果两个表述在同一个句子中才可能是同位语关系
@@ -26,6 +26,7 @@ def precise_constructs(obj_document):
 
                 if True in {res_is_predicate_, res_is_role_, res_is_acronym, res_is_demonym}:
                     obj_document.set_coref(candidate_m, mention)
+                    break
             else:
                 continue
 

@@ -33,6 +33,10 @@ def __mention_2_entity(obj_document, var='gold'):
         dic[entity_id].append(mention)
     return dic
 
+
+def get_entities(obj_document):
+    return __mention_2_entity(obj_document, 'gold')
+
 def print_gold_cluster(obj_document):
     """
     输出这个document的标准答案

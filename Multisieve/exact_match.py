@@ -17,8 +17,8 @@ logger = logging.getLogger("multi_sieve")
 def exact_match(obj_document):
 
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        # if str(mention.entity_id).startswith('E_'):
+        #     continue
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         sent_this_mention = obj_document.dic_sentences.get(mention.sent_id)
         modifier_this_mention = sieve_util.get_modifier(sent_this_mention, mention)
@@ -37,5 +37,6 @@ def exact_match(obj_document):
                     obj_document.set_coref(candidate_m, mention)
                     logger.info("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
                     logger.info("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
+                    break
 
     return obj_document
