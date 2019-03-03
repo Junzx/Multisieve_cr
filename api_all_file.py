@@ -5,6 +5,7 @@ import cPickle
 import numpy as np
 from pprint import pprint
 from os import remove
+import ConstantVariable
 
 def get_result(vars = 'train'):
     if vars == 'train':

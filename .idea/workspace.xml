@@ -2,29 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/conll_file_counter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/实验结果统计.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment/ExperimentResult/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment/ExperimentResult/temp.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment/Init_Data_Set/test.v4_gold_conll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserCorpus/Corpus/animals.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserCorpus/Corpus/botanical.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserCorpus/api_user_corpus_old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserCorpus/load_corpus.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConstantVariable.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConstantVariable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment/Animacy_Classification/CNN_Network.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/Animacy_Classification/CNN_Network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment/Init_Data_Set/test_human.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/discourse_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/discourse_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/exact_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/exact_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/other_sieve.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/other_sieve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/precise_constructs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/precise_constructs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scorer/api_prf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/api_prf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserCorpus/api_user_corpus.py" beforeDir="false" afterPath="$PROJECT_DIR$/UserCorpus/api_user_corpus.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_all_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conll_file_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/conll_file_counter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_test.conll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/small_test2.conll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp.py" beforeDir="false" afterPath="$PROJECT_DIR$/tmp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验结果统计.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,70 +38,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#18#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SubjectUtils/unit_test_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/实验结果统计.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="374">
-                <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conll_file_counter.py">
+        <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="141">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#16#25#0" expanded="true" />
+                <element signature="e#82#95#0" expanded="true" />
+                <element signature="e#287#1198#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_all_file.py">
+        <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test.v4_gold_conll">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1674">
-              <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
-              <folding>
-                <element signature="e#24#43#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="77" column="41" selection-start-line="61" selection-start-column="37" selection-end-line="77" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_one_file.py">
+        <entry file="file://$PROJECT_DIR$/ConstantVariable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="39" selection-start-line="39" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="144">
+              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
               <folding>
-                <element signature="e#41#63#0" expanded="true" />
+                <element signature="e#40#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -114,8 +83,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>一项振兴上海，建设现代化经济、贸易、金融中心的跨世纪工程</find>
-      <find>是</find>
       <find>:</find>
       <find>entity</find>
       <find>set_c</find>
@@ -137,13 +104,15 @@
       <find>还 有 最</find>
       <find>print</find>
       <find>file_iter</find>
-      <find>B</find>
       <find>DEBUG</find>
       <find>修饰语</find>
       <find>#begin</find>
       <find>18</find>
       <find>Coreference</find>
       <find>input_y</find>
+      <find>a</find>
+      <find>anim</find>
+      <find>B</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,22 +121,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MentionDetection/conll2words.py" />
-        <option value="$PROJECT_DIR$/conll2words.py" />
-        <option value="$PROJECT_DIR$/Scorer/util_score.py" />
-        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" />
-        <option value="$PROJECT_DIR$/SubjectUtils/get_similarity/cilin.h" />
-        <option value="$PROJECT_DIR$/SubjectUtils/get_similarity/README.md" />
-        <option value="$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py" />
         <option value="$PROJECT_DIR$/experiments.py" />
         <option value="$PROJECT_DIR$/LoadConll.py" />
         <option value="$PROJECT_DIR$/experiment_result/readme.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/experiment_result/read_result.py" />
-        <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/test_source.txt" />
         <option value="$PROJECT_DIR$/tmp_2.py" />
-        <option value="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" />
         <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
         <option value="$PROJECT_DIR$/small_test2.conll" />
         <option value="$PROJECT_DIR$/SubjectUtils/experiment_utils.py" />
@@ -180,11 +139,8 @@
         <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/data/train/train_human.txt" />
         <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/train.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/UserCorpus/api_user_corpus.py" />
         <option value="$PROJECT_DIR$/merge_conll_file.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/train_human.txt" />
-        <option value="$PROJECT_DIR$/Scorer/merge_conll_file.py" />
-        <option value="$PROJECT_DIR$/ConstantVariable.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py" />
         <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/CNN_Network.py" />
         <option value="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" />
@@ -192,17 +148,30 @@
         <option value="$PROJECT_DIR$/Multisieve/precise_constructs.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" />
-        <option value="$PROJECT_DIR$/api_all_file.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" />
-        <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
         <option value="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" />
         <option value="$PROJECT_DIR$/Multisieve/discourse_processing.py" />
         <option value="$PROJECT_DIR$/Multisieve/other_sieve.py" />
-        <option value="$PROJECT_DIR$/api_one_file.py" />
         <option value="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" />
         <option value="$PROJECT_DIR$/Scorer/api_prf.py" />
-        <option value="$PROJECT_DIR$/实验结果统计.md" />
         <option value="$PROJECT_DIR$/conll_file_counter.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Scorer/merge_conll_file.py" />
+        <option value="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" />
+        <option value="$PROJECT_DIR$/tmp.py" />
+        <option value="$PROJECT_DIR$/tmp2.py" />
+        <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
+        <option value="$PROJECT_DIR$/api_all_file.py" />
+        <option value="$PROJECT_DIR$/Experiment/ExperimentResult/__init__.py" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" />
+        <option value="$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py" />
+        <option value="$PROJECT_DIR$/实验结果统计.md" />
+        <option value="$PROJECT_DIR$/api_one_file.py" />
+        <option value="$PROJECT_DIR$/UserCorpus/api_user_corpus_old.py" />
+        <option value="$PROJECT_DIR$/UserCorpus/api_user_corpus.py" />
+        <option value="$PROJECT_DIR$/UserCorpus/load_corpus.py" />
+        <option value="$PROJECT_DIR$/ConstantVariable.py" />
+        <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py" />
       </list>
     </option>
   </component>
@@ -217,6 +186,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -224,36 +194,30 @@
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassDefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../NoGithubCodes/cnn-text-classification-tf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Subject" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UserCorpus" />
+      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
+      <recent name="$PROJECT_DIR$/Experiment" />
+      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
+      <recent name="$PROJECT_DIR$/Scorer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
+      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
+      <recent name="$PROJECT_DIR$/UserCorpus/Corpus" />
       <recent name="$PROJECT_DIR$/SubjectUtils" />
-      <recent name="$PROJECT_DIR$/Scorer" />
-      <recent name="$PROJECT_DIR$/MentionDetection" />
-      <recent name="$PROJECT_DIR$/Multisieve" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Scorer" />
-      <recent name="$PROJECT_DIR$/SubjectUtils" />
-      <recent name="$PROJECT_DIR$/MentionDetection/lstm_crf/resource" />
-      <recent name="$PROJECT_DIR$/experiment_result" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +232,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.conll_file_counter">
+  <component name="RunManager" selected="Python.make_mention_detection_data">
+    <configuration name="LoadConll" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LoadConll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="api_all_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -282,27 +267,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_all_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="api_one_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_one_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -332,28 +296,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="conll_file_counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conll_file_counter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="make_animacy_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="make_mention_detection_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -365,7 +308,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="merge_conll_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scorer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scorer/merge_conll_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,11 +340,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.conll_file_counter" />
+        <item itemvalue="Python.make_mention_detection_data" />
+        <item itemvalue="Python.LoadConll" />
         <item itemvalue="Python.api_prf" />
-        <item itemvalue="Python.api_one_file" />
+        <item itemvalue="Python.merge_conll_file" />
         <item itemvalue="Python.api_all_file" />
-        <item itemvalue="Python.make_animacy_data" />
       </list>
     </recent_temporary>
   </component>
@@ -399,10 +363,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.13782302" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.22239624" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039154" side_tool="true" weight="0.3431677" />
@@ -410,8 +373,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.2826087" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39596274" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.5124224" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.621118" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -421,7 +384,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.1386061" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.22239624" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039154" side_tool="true" weight="0.3431677" />
@@ -429,8 +392,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" visible="true" weight="0.2826087" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39596274" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.3416149" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.621118" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -451,11 +414,6 @@
           <url>file://$PROJECT_DIR$/LoadConll.py</url>
           <line>277</line>
           <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UserCorpus/api_user_corpus.py</url>
-          <line>79</line>
-          <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Multisieve/precise_constructs.py</url>
@@ -503,9 +461,14 @@
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/conll_file_counter.py</url>
-          <line>18</line>
-          <option name="timeStamp" value="110" />
+          <url>file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -516,6 +479,15 @@
         </breakpoint>
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="last_item" />
+        <watch expression="hash_map_new" />
+        <watch expression="hash_map" />
+        <watch expression="item" />
+        <watch expression="hash_id" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
@@ -560,172 +532,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MentionDetection/lstm_crf/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/lstm_crf/rnn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34">
-          <caret line="140" column="49" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
-          <folding>
-            <element signature="e#23#72#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/lstm_crf/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="287" selection-start-line="287" selection-end-line="287" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Token.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-200" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/det.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="127">
-          <caret line="1744" column="20" selection-start-line="1744" selection-start-column="17" selection-end-line="1744" selection-end-column="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
-          <folding>
-            <element signature="e#126#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merged_test.v4_result_conll" />
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data/test/test_non_human.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2425">
-          <caret line="568" selection-start-line="568" selection-end-line="568" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data/test/test_human.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3001">
-          <caret line="523" selection-start-line="523" selection-end-line="523" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data/train/train_non_human.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65132" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data/train/train_human_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166465" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data/train/train_human.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102427">
-          <caret line="311" selection-start-line="311" selection-end-line="311" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data/train/human_tongyici.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/error1.txt" />
-    <entry file="file://$PROJECT_DIR$/UserCorpus/api_user_corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#56#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/experiment_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="4" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/config.py" />
-    <entry file="file://$PROJECT_DIR$/Scorer/util_score.py" />
-    <entry file="file://$PROJECT_DIR$/Scorer/merged_test.v4_result_conll">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/shit.txt" />
-    <entry file="file://$PROJECT_DIR$/Scorer/merge_conll_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="e#45#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/data_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" selection-start-line="6" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/parameters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConstantVariable.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.v4_gold_conll">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1586">
-          <caret line="418" lean-forward="true" selection-start-line="418" selection-end-line="418" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_human.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/train_human.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6463">
@@ -741,28 +547,6 @@
     <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/train_non_human.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-91960" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="116" column="59" lean-forward="true" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="59" />
-          <folding>
-            <element signature="e#72#85#0" expanded="true" />
-            <element signature="e#225#1119#0" />
-            <element signature="e#1179#1579#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="63" column="18" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
-          <folding>
-            <element signature="e#15#38#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/CNN_Network.py">
@@ -820,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/discourse_processing.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -848,39 +625,174 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SubjectUtils/unit_test_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
+        <state relative-caret-position="344">
           <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
+    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/eval.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        <state relative-caret-position="308">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
           <folding>
-            <element signature="e#18#46#0" expanded="true" />
+            <element signature="e#15#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Animacy_Classification/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#15#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/pca.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52326" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/abbreviation-1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/abbreviation.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/动物词汇大全【官方推荐】.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/animals.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/botanical.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="98" column="21" selection-start-line="98" selection-start-column="21" selection-end-line="98" selection-end-column="21" />
+          <folding>
+            <element signature="e#24#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="25" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/conll_file_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#68#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2058">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/candidate_mentions.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/ExperimentResult/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
+          <folding>
+            <element signature="e#39#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="e#71#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#48#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.v4_gold_conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="114" lean-forward="true" selection-start-line="1" selection-start-column="112" selection-end-line="6" selection-end-column="114" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/api_all_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="93" column="25" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_one_file.py">
+    <entry file="file://$PROJECT_DIR$/Scorer/count_prf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="39" selection-start-line="39" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="-546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scorer/merge_conll_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
           <folding>
-            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#45#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,29 +800,104 @@
     <entry file="file://$PROJECT_DIR$/实验结果统计.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="374">
-            <caret line="99" column="5" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <first_editor relative-caret-position="502">
+            <caret line="149" column="4" lean-forward="true" selection-start-line="149" selection-start-column="4" selection-end-line="149" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+    <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        <state relative-caret-position="218">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
           <folding>
-            <element signature="e#482#20169#0" />
+            <element signature="e#18#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conll_file_counter.py">
+    <entry file="file://$PROJECT_DIR$/api_one_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="108">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
-            <element signature="e#16#25#0" expanded="true" />
+            <element signature="e#41#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/api_user_corpus_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding>
+            <element signature="e#56#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/load_corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UserCorpus/api_user_corpus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadConll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#35#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConstantVariable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding>
+            <element signature="e#40#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test.v4_gold_conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="77" column="41" selection-start-line="61" selection-start-column="37" selection-end-line="77" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_target.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#82#95#0" expanded="true" />
+            <element signature="e#287#1198#0" />
           </folding>
         </state>
       </provider>

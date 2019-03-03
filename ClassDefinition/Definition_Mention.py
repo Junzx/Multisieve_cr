@@ -84,42 +84,85 @@ class Mention(object):
             return ''.join([token.parse_info for token in lst_tokens])
 
     def __set_gender(self):
-        if u'他' in self.chinese_word:
-            return 1
-        elif u'她' in self.chinese_word:
-            return -1
-        elif self.chinese_word in user_corpus.get_pca_list():
+        """
+        unknown-0/Male-1/Female--1
+
+        """
+        gender_male = (u'他', u'男', u'父')
+        gender_female = (u'她', u'女', u'母')
+
+        for char in self.chinese_word:
+            if char in gender_male:
+                return 1
+            elif char in gender_female:
+                return -1
+
+        if self.chinese_word in user_corpus.get_pca_list():
             return -1
         return 0
 
     def __set_animacy(self):
-        if self.ner == 'PERSON' or self.pos_info == 'PN':
+        """
+        unknown-0/Animal-1/Inanimate--1
+        """
+
+        # 规则 1
+        if self.chinese_word in ConstantVariable.human_pronounces:
             return 1
-        elif self.chinese_word in ConstantVariable.pronouns:
+        elif self.chinese_word in ConstantVariable.no_human_pronounces:
+            return -1
+
+        # 规则 2
+        if self.chinese_word in user_corpus.get_nation():
+            return -1
+        elif self.chinese_word in user_corpus.get_pca_list():
+            return -1
+        elif self.chinese_word in user_corpus.get_animals() or \
+                self.chinese_word in user_corpus.get_botanical():
+            return 1
+
+        # 规则 3, 4
+        if self.ner == 'PERSON' or self.pos_info == 'PN':
             return 1
         elif self.ner in ConstantVariable.ner_labels:
             return -1
-        elif self.chinese_word in user_corpus.get_nation():
-            return -1
-        elif self.chinese_word in ['它','它们']:
-            return -1
-        elif self.chinese_word in user_corpus.get_pca_list():
-            return -1
+
+        if self.animacy == 0:
+            return ConstantVariable.get_animacy(self.chinese_word)
+
         return 0
 
     def __set_single(self):
-        # 设置single
-        if self.ner in ('ORGANIZATION', 'GPE'):
+        """
+        unknown - 0 / Single - 1 / Plural - -1
+        按照论文中的规则编写
+        """
+        # 规则 1
+        if self.chinese_word in (u'它', u'他', u'她', u'我', u'你'):
+            return 1
+        elif self.chinese_word in (u'它们', u'他们', u'她们', u'我们', u'你们'):
+            return -1
+
+        # 规则 2
+        if '们' in self.chinese_word:
+            return -1
+
+
+        # 规则 3
+        if self.ner in ('ORGANIZATION'):#, 'GPE'):
             return -1
         elif self.ner == 'PERSON':
             return 1
-        for char in list(u'多一二三四五六七八九十百千万'):
+
+        # 规则 4
+        for char in list(u'多二三四五六七八九十百千万'):
             if char in self.chinese_word:
                 return -1
-        if '们' in self.chinese_word:
-            return -1
-        elif self.chinese_word in user_corpus.get_pca_list():
+
+        # 规则 5
+        if self.chinese_word in user_corpus.get_pca_list():
             return 1
+
         # if self.chinese_word in ConstantVariable.pronouns:
         #     return 1
         # if self.chinese_word in UserCorpus.get_adj_nation():

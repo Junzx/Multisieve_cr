@@ -2,5 +2,7 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/SubjectUtils/get_similarity/cilin.h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/UserCorpus/Corpus/动物词汇大全【官方推荐】.txt" charset="GB2312" />
+    <file url="file://$PROJECT_DIR$/UserCorpus/Corpus/动物词汇大全【官方推荐】.txt" charset="UTF-16BE" />
   </component>
 </project>

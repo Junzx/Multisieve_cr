@@ -3,7 +3,7 @@
 一些定义的常量
 """
 from copy import deepcopy
-
+from time import clock
 
 first_person_pronouns = [u'我',u'我们',u'咱',u'咱们',u'本人']
 second_person_pronouns = [u'你',u'你们',u'您',u'您们',u'尔',u'尔等']
@@ -35,3 +35,36 @@ ner_labels = ['*', 'ORDINAL', 'LOC', 'PRODUCT', 'NORP',
              'WORK_OF_ART', 'LANGUAGE', 'PERCENT', 'GPE',
              'MONEY', 'TIME', 'CARDINAL', 'FAC', 'DATE',
              'ORG', 'LAW', 'EVENT', 'QUANTITY']
+
+# 读取cnn结果
+from Experiment.ExperimentResult.load_animacy_info import get_animacy_info_dict
+__animcay_dict = get_animacy_info_dict()
+
+def get_animacy(str_):
+    tmp_ = __animcay_dict.get(str_, None)
+    if tmp_ == 0.0:
+        return 1
+    elif tmp_ == 1.0:
+        return -1
+    else:
+        return 0
+
+# 加载字典
+from UserCorpus import load_corpus
+start = clock()
+corpus_dict = {
+    'quantifier': load_corpus.get_quantifier(),
+    'nation': load_corpus.get_nation(),
+    'adj_nation': load_corpus.get_adj_nation(),
+    'stop_word': load_corpus.get_stop_words(),
+    'report_verb': load_corpus.get_report_verbs(),
+    'determiner_word': load_corpus.get_determiner_words(),
+    'conjunction_word': load_corpus.get_conjunction_words(),
+    'verb': load_corpus.get_verbs(),
+    'animal': load_corpus.get_animals(),
+    'botanical': load_corpus.get_botanical(),
+    'synonym_word': load_corpus.get_synonym_words(),
+    'pca_list': load_corpus.get_pca_list(),
+    'abbreviation_dict': load_corpus.get_abbreviation_dict(),
+}
+print 'load corpus: ', clock() - start

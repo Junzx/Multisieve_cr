@@ -23,7 +23,7 @@ def get_candidate_mentions(obj_document, obj_mention):
 
     update： 跳过代词
     """
-    sentence_distance = 1  # 表示 表述所在的句子，以及之前的 n 个句子
+    sentence_distance = 2  # 表示 表述所在的句子，以及之前的 n 个句子
     if obj_mention.mention_id == 0:
         return []
     candidate_mentions = []
@@ -32,6 +32,8 @@ def get_candidate_mentions(obj_document, obj_mention):
     for candidate_m in obj_document.lst_mentions:
         # if str(candidate_m.entity_id).startswith('E_'):
         #     continue
+
+        # 如果是代词则跳过去
         if candidate_m.chinese_word in ConstantVariable.pronouns:
             continue
 

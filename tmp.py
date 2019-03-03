@@ -1,4 +1,7 @@
 # coding:utf-8
+"""
+用在LSTM+CRF上
+"""
 import config
 import os
 import LoadConll

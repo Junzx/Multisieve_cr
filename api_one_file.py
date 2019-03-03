@@ -31,24 +31,26 @@ import SubjectUtils.experiment_utils as experiment_utils
 import config
 
 import logging
+
 logging.basicConfig(filename="./RunResults/MyLog.log",
                     level=logging.INFO)
 logger = logging.getLogger("experiments")
 
 
+
 # 原始顺序
 sieve_order = [
         # test_sieve,
-        exact_match,
+        # exact_match,
         # precise_constructs,
-        strict_head_matching_A,
-        strict_head_matching_B,
-        strict_head_matching_C,
-        relaxing_head_matching,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # relaxing_head_matching,
         pronoun_sieve,
-        proper_header_word_match_sieve,
+        # proper_header_word_match_sieve,
         # discourse_processing,
-        other_sieve,
+        # other_sieve,
     ]
 
 
