@@ -59,12 +59,12 @@ logger = logging.getLogger("experiments")
 # 我的顺序
 sieve_order = [
         # test_sieve,
-        # exact_match,
-        # strict_head_matching_A,
-        # strict_head_matching_B,
-        # strict_head_matching_C,
-        # proper_header_word_match_sieve,
-        # precise_constructs,
+        exact_match,
+        strict_head_matching_A,
+        strict_head_matching_B,
+        strict_head_matching_C,
+        proper_header_word_match_sieve,
+        precise_constructs,
         # relaxing_head_matching,
         # discourse_processing,
         pronoun_sieve,

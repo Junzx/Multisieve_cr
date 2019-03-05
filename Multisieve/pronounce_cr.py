@@ -44,8 +44,7 @@ def pronoun_sieve(obj_document):
 
 
             # 实验2： 仅使用动物属性
-            if candidate_m.animacy == p_m.animacy and \
-                fabs(candidate_m.sent_id - p_m.sent_id) <= 3:
+            if candidate_m.animacy == p_m.animacy:# and \
                 obj_document.set_coref(candidate_m, p_m)
                 break
 
