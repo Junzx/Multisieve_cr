@@ -9,14 +9,21 @@ import os
 import LoadConll
 from math import fabs
 
-# file_list = config.get_var_files(config.gold_test)
-# source_txt = open('test_source.txt', 'w')
-# target_txt = open('test_target.txt', 'w')
+file_list = config.get_var_files(config.gold_test)
+source_txt = open('test_source.txt', 'w')
+target_txt = open('test_target.txt', 'w')
+test_example = open('test_example.txt', 'w')
 
 
-file_list = config.get_var_files(config.gold_train)
-source_txt = open('train_source.txt', 'w')
-target_txt = open('train_target.txt', 'w')
+# file_list = config.get_var_files(config.gold_train)
+# source_txt = open('train_source.txt', 'w')
+# target_txt = open('train_target.txt', 'w')
+# test_example = open('train_example.txt', 'w')
+
+# file_list = config.get_var_files(config.gold_dev)
+# source_txt = open('dev_source.txt', 'w')
+# target_txt = open('dev_target.txt', 'w')
+# test_example = open('dev_example.txt', 'w')
 
 
 def conll2txt(file_):
@@ -50,58 +57,84 @@ def conll2txt(file_):
 def conll2txt_new(file_):
     data = LoadConll.load_one_file(file_)
 
-    lst_mention_id = []
-    for mention in data.lst_mentions:
-        _tmp = (mention.lst_tokens[0].token_id, mention.lst_tokens[-1].token_id)
-        lst_mention_id.append(_tmp)
+    for sentence in data.dic_sentences.values():
 
-    hash_map = {}
-    for tmp in lst_mention_id:
-        if tmp[0] not in hash_map:
-            hash_map.setdefault(tmp[0], tmp)
-        elif tmp[0] in hash_map:
-            shit = hash_map[tmp[0]]
-            if tmp[1] > shit[1]:
+        lst_mention_id = []
+        for mention in sentence.lst_mentions:
+            _tmp = (mention.lst_tokens[0].token_id, mention.lst_tokens[-1].token_id)
+            lst_mention_id.append(_tmp)
+
+        hash_map = {}
+        for tmp in lst_mention_id:
+            if tmp[0] not in hash_map:
                 hash_map.setdefault(tmp[0], tmp)
-            else:
+            elif tmp[0] in hash_map:
+                shit = hash_map[tmp[0]]
+                if tmp[1] > shit[1]:
+                    hash_map.setdefault(tmp[0], tmp)
+                else:
+                    continue
+
+        # 删去重叠的，保留短的
+        # 如果长度相同，保留后面的
+        hash_map_new = {}
+        last_item = [-1, -1]    # 初始化
+        for hash_id, item in hash_map.items():
+            if hash_id in range(last_item[0], last_item[1] + 1):
+                if fabs(last_item[0] - last_item[1]) > fabs(item[0] - item[1]) or \
+                       item[1] > last_item[1]:
+                    del hash_map_new[last_item[0]]  #
+                elif item[1] <= last_item[1]:
+                    continue
+            hash_map_new.setdefault(hash_id, item)
+
+            last_item = item
+
+        # 然后统一执行写入
+        source_list = []
+        target_list = []
+        jump = -1
+        write_jump = False
+
+        for token in sentence.lst_tokens:
+            _tmp_write = []
+
+            if token.word_itself == 'ＥＭＰＴＹ':
+                write_jump = True
+                continue
+            if token.word_itself == '－－' or token.word_itself == '－':
+                write_jump = True
+                continue
+            source_list.append(token.word_itself)
+            _tmp_write.append(token.word_itself)
+            if token.token_id in hash_map_new:
+                shit = hash_map_new.get(token.token_id)
+                jump = shit[1]
+                target_list.append('B')
+                _tmp_write.append('B')
+                test_example.write(' '.join(_tmp_write) + '\n')
+                del _tmp_write
                 continue
 
-    # 删去重叠的，保留短的
-    # 如果长度相同，保留后面的
-    hash_map_new = {}
-    last_item = [-1, -1]    # 初始化
-    for hash_id, item in hash_map.items():
-        if hash_id in range(last_item[0], last_item[1] + 1):
-            if fabs(last_item[0] - last_item[1]) > fabs(item[0] - item[1]) or \
-                   item[1] > last_item[1]:
-                del hash_map_new[last_item[0]]  #
-            elif item[1] <= last_item[1]:
+            if token.token_id <= jump:
+                target_list.append('I')
+                _tmp_write.append('I')
+                test_example.write(' '.join(_tmp_write) + '\n')
+                del _tmp_write
                 continue
-        hash_map_new.setdefault(hash_id, item)
 
-        last_item = item
+            target_list.append('O')
+            _tmp_write.append('O')
 
-    # 然后统一执行写入
-    source_list = []
-    target_list = []
-    jump = -1
-    for token in data.lst_tokens:
-        source_list.append(token.word_itself)
-        if token.token_id in hash_map_new:
-            shit = hash_map_new.get(token.token_id)
-            jump = shit[1]
-            target_list.append('B')
-            continue
-
-        if token.token_id <= jump:
-            target_list.append('I')
-            continue
-        target_list.append('O')
+            test_example.write(' '.join(_tmp_write) + '\n')
+            del _tmp_write
 
 
-    if len(source_list) == len(target_list):
-        source_txt.write(' '.join(source_list) + '\n')
-        target_txt.write(' '.join(target_list) + '\n')
+
+        if len(source_list) == len(target_list) and write_jump == False and 1 < len(source_list) < 100:
+            source_txt.write(' '.join(source_list) + '\n')
+            target_txt.write(' '.join(target_list) + '\n')
+            write_jump = False
 
 
 
@@ -114,6 +147,10 @@ if __name__ == '__main__':
 
     #
     for file_ in file_list:
-        print file_
-        conll2txt_new(file_)
+        try:
+            print file_
+            conll2txt_new(file_)
+        except IndexError:
+            print "Error!",file_
+            continue
 

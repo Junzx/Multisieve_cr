@@ -22,6 +22,7 @@ from Multisieve.pronounce_cr import pronoun_sieve
 from Multisieve.discourse_processing import discourse_processing
 from Multisieve.proper_head_word_match import proper_header_word_match_sieve
 from Multisieve.other_sieve import other_sieve
+from Multisieve.final_sieve import filter_sieve
 # -------------------------------
 
 
@@ -39,7 +40,7 @@ logger = logging.getLogger("experiments")
 
 
 # 原始顺序
-sieve_order = [
+# sieve_order = [
         # test_sieve,
         # exact_match,
         # precise_constructs,
@@ -47,27 +48,29 @@ sieve_order = [
         # strict_head_matching_B,
         # strict_head_matching_C,
         # relaxing_head_matching,
-        pronoun_sieve,
+        # pronoun_sieve,
         # proper_header_word_match_sieve,
         # discourse_processing,
         # other_sieve,
+        # filter_sieve,
+    # ]
+
+
+# 我的顺序
+sieve_order = [
+        # test_sieve,
+        # exact_match,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # proper_header_word_match_sieve,
+        # precise_constructs,
+        # relaxing_head_matching,
+        # discourse_processing,
+        pronoun_sieve,
+        # other_sieve,
+        filter_sieve,
     ]
-
-
-
-# sieve_order = [
-#         # test_sieve,
-#         discourse_processing,
-#         exact_match,
-#         precise_constructs,
-#         pronoun_sieve,
-#         relaxing_head_matching,
-#         strict_head_matching_A,
-#         strict_head_matching_B,
-#         strict_head_matching_C,
-#         proper_header_word_match_sieve,
-#         other_sieve,
-#     ]
 
 #
 # sieve_order = [

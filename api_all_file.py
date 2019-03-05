@@ -79,9 +79,15 @@ def run(vars = 'test'):
         folder_path = config.gold_train
     elif vars == 'test':
         folder_path = config.gold_test
+    elif vars == 'error':
+        folder_path = config.error_file_test
 
     test_files = config.get_var_files(folder_path)
     for file_idx, file_ in enumerate(test_files):
+        # if 'cbs_0029_000' in file_ or \
+        #     'dev_09_cmn_0039_000' in file_ or \
+        #     'cts_0309_000' in file_:
+        #     continue
         print file_
         print 'File: %s of %s' % (file_idx, len(test_files))
         print
@@ -97,6 +103,8 @@ if __name__ == '__main__':
     # get_result('test')
     # test()
     __del_result_files()
+
     run('test')
+    # run('error')
 
     print 'use time:', time.clock() - start

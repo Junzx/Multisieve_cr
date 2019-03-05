@@ -31,17 +31,17 @@ speak_verbs_set = (u'说',u'表示',u'认为')         # 表示 说的词语
 
 
 # 所有遇到的NER标签
-ner_labels = ['*', 'ORDINAL', 'LOC', 'PRODUCT', 'NORP',
+ner_labels = ['ORDINAL', 'LOC', 'PRODUCT', 'NORP',
              'WORK_OF_ART', 'LANGUAGE', 'PERCENT', 'GPE',
              'MONEY', 'TIME', 'CARDINAL', 'FAC', 'DATE',
              'ORG', 'LAW', 'EVENT', 'QUANTITY']
 
 # 读取cnn结果
 from Experiment.ExperimentResult.load_animacy_info import get_animacy_info_dict
-__animcay_dict = get_animacy_info_dict()
+__animacy_dict = get_animacy_info_dict()
 
 def get_animacy(str_):
-    tmp_ = __animcay_dict.get(str_, None)
+    tmp_ = __animacy_dict.get(str_, None)
     if tmp_ == 0.0:
         return 1
     elif tmp_ == 1.0:

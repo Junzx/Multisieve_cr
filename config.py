@@ -26,8 +26,10 @@ if name == 'posix':
 
     path_log_folder = basic_folder + 'log'
     gold_train = basic_folder + 'train/data_go/'
+    gold_dev = basic_folder + 'development/data_go/'
     gold_test = basic_folder + 'test/'
     result_folder = basic_folder+ 'result/'
+    error_file_test = basic_folder + 'Error_/'
 
 # ----------------------------
 

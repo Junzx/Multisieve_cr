@@ -56,17 +56,23 @@ class Mention(object):
     def __set_head_word(self, lst_tokens):
         """
         得到中心词，这种方法不准确，需要再处理
+        update: 删掉之前的方法，使用新方法
         """
+        # ----------------- 之前的方法 删掉 --------------------
         # 说明NP的head word是本身
-        if len(lst_tokens) == 1:
-            return self.chinese_word
-
-        # 取最后一个token的中文作为head word
-        elif len(lst_tokens) > 1:
-            for token_idx, token in enumerate(lst_tokens):
-                if token.pos_info == 'DT':
-                    return ''.join([i.word_itself for i in lst_tokens[token_idx + 1:]])
-            return lst_tokens[-1].word_itself
+        # if len(lst_tokens) == 1:
+        #     return self.chinese_word
+        #
+        # # 取最后一个token的中文作为head word
+        # elif len(lst_tokens) > 1:
+        #     for token_idx, token in enumerate(lst_tokens):
+        #         if token.pos_info == 'DT':
+        #             return ''.join([i.word_itself for i in lst_tokens[token_idx + 1:]])
+        #     return lst_tokens[-1].word_itself
+        # ----------------- 之前的方法 删掉 --------------------
+        # ----------------- 新的方法 --------------------
+        _tmp_token_list = self.get_head_word_token()
+        return ''.join([token.word_itself for token in _tmp_token_list])
 
     def __set_ner(self,lst_tokens):
         return lst_tokens[-1].ner
@@ -127,10 +133,12 @@ class Mention(object):
         elif self.ner in ConstantVariable.ner_labels:
             return -1
 
-        if self.animacy == 0:
-            return ConstantVariable.get_animacy(self.chinese_word)
+        # if self.animacy == 0:
 
-        return 0
+        tmp =  ConstantVariable.get_animacy(self.chinese_word)
+        return tmp
+
+        # return 0
 
     def __set_single(self):
         """
@@ -205,7 +213,28 @@ class Mention(object):
         """
         获取中心词的那个token
         """
-        return self.lst_tokens[-1]
+        if len(self.lst_tokens) == 1:
+            return self.lst_tokens
+
+        idx = -1
+        for token_idx, token in enumerate(self.lst_tokens):
+            if token.word_itself == u'的':
+                idx = token_idx
+        if idx == -1:
+            return [self.lst_tokens[-1]]
+        elif idx == len(self.lst_tokens) - 1:
+            return self.lst_tokens
+        else:
+            return self.lst_tokens[idx + 1:]
+
+    def get_head_word_token_ner(self):
+        head_word_tokens = self.get_head_word_token()
+        ner = '-'
+        for token in head_word_tokens:
+            if token.ner != ner:
+                ner = token.ner
+        return ner
+
 
     def get_class_attribute(self):
         return self.__dict__

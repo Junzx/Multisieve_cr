@@ -34,9 +34,18 @@ def pronoun_sieve(obj_document):
             # - rule 如果动物属性相同（只有相同的适合相乘才可能等于1）
             # if candidate_m.animacy * p_m.animacy == 1:
 
-            # candidate_m.gender == p_m.gender and \
-            if candidate_m.animacy == p_m.animacy:# and \
-                # candidate_m.single == p_m.single:
+
+            # 实验1： 使用所有属性
+            # if candidate_m.gender == p_m.gender and \
+            #     candidate_m.animacy == p_m.animacy and \
+            #     candidate_m.single == p_m.single:
+            #     obj_document.set_coref(candidate_m, p_m)
+            #     break
+
+
+            # 实验2： 仅使用动物属性
+            if candidate_m.animacy == p_m.animacy and \
+                fabs(candidate_m.sent_id - p_m.sent_id) <= 3:
                 obj_document.set_coref(candidate_m, p_m)
                 break
 

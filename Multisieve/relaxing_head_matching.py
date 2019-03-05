@@ -10,8 +10,8 @@ import SubjectUtils.sieve_utils as sieve_util
 
 def relaxing_head_matching(obj_document):
     for mention in obj_document.lst_mentions:
-        # if str(mention.entity_id).startswith('E_'):
-        #     continue
+        if str(mention.entity_id).startswith('E_'):
+            continue
 
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         # print '------------'

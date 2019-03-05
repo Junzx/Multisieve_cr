@@ -34,8 +34,8 @@ def __mention_2_entity(obj_document, var='gold'):
     return dic
 
 
-def get_entities(obj_document):
-    return __mention_2_entity(obj_document, 'gold')
+def get_entities(obj_document, var='gold'):
+    return __mention_2_entity(obj_document, var)
 
 def print_gold_cluster(obj_document):
     """

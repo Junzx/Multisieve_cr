@@ -274,7 +274,7 @@ if __name__ == '__main__':
     # files = [folder + i for i in listdir(folder) if 'gold' in i]
     # test = load_one_file('test.v4_gold_conll')
     logger.info("开始执行")
-    test = load_one_file('small_test.conll')
+    test = load_one_file('test.v4_gold_conll')
     logger.info("结束执行")
     # pprint(test.get_class_attribute())
     # from sys import getsizeof

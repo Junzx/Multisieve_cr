@@ -246,6 +246,9 @@ class Document(object):
         # mention_2 = self.lst_mentions[mention_id_2]
         logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
                                                     mention_2.chinese_word, str(mention_2.mention_id)))
+
+        # print "设置共指： %s(id:%s) , %s(id:%s)" % (mention_1.chinese_word, str(mention_1.mention_id), \
+        #                                        mention_2.chinese_word, str(mention_2.mention_id))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
 
@@ -387,6 +390,7 @@ class Document(object):
         self.update_entity_id() # 去掉E_ 开头
         for token in self.dic_tokens.values():
             token.np_info = '-'
+
 
         for mention in self.lst_mentions:
             if mention.entity_id == '-1':
