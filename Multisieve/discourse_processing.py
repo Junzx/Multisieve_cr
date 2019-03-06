@@ -19,10 +19,13 @@ def discourse_processing(obj_document):
     # 找speaker
     lst_speaker_mention_id = []  # 存放mention id
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        # if str(mention.entity_id).startswith('E_'):
+        #     continue
 
         for report_verb_index in lst_report_token_index:
+            mention_end_token_id = mention.end_token_id
+            if report_verb_index > mention_end_token_id:
+                break
             if 0 < (mention.end_token_id - obj_document.get_token_by_id(report_verb_index).token_id) < 10:
                 # print self.obj_document.get_token_by_id(mention.end_token_id).word_itself,self.obj_document.get_token_by_id(report_verb_index).token_id,self.obj_document.get_token_by_id(report_verb_index).word_itself
                 lst_speaker_mention_id.append(mention.mention_id)
@@ -30,6 +33,8 @@ def discourse_processing(obj_document):
     # 考虑所有的代词与speaker的关系
     for mention_speaker_id in lst_speaker_mention_id:
         mention_speaker = obj_document.get_mention_by_id(mention_speaker_id)
+        if mention_speaker.chinese_word in ConstantVariable.third_person_pronouns:
+            continue
         for mention in obj_document.lst_mentions:
             # 这里只考虑第一二三人称代词
             if mention.pos_info != 'PN':
@@ -39,7 +44,7 @@ def discourse_processing(obj_document):
             # 如果是第一人称
             if mention.chinese_word in ConstantVariable.first_person_pronouns:
                 # 句子距离小于2、表述指代前一个speaker
-                if 0 < mention_speaker.sent_id - mention.sent_id < 2:
+                if 0 < mention_speaker.sent_id - mention.sent_id < 5:
                     # 如果符合条件 将代词指向speaker
                     obj_document.set_coref(obj_document.get_mention_by_id(mention_speaker_id),
                                            obj_document.get_mention_by_id(mention_candidate_id))

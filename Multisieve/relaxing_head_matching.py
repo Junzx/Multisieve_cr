@@ -24,8 +24,10 @@ def relaxing_head_matching(obj_document):
             for tmp_m in candidate_mention_entity:
                 if tmp_m.head_word == mention.head_word:
                     res_is_head_relax_match = True
-                if tmp_m.ner == mention.ner:
-                    res_is_same_ner = True
+                # if tmp_m.ner == mention.ner:
+                #     res_is_same_ner = True
+            if candidate_m.ner == mention.ner:
+                res_is_same_ner = True
             res_is_word_clusion = strict_head_matching_A.is_word_inclusion(candidate_m, mention)
             res_is_i_within_i = strict_head_matching_A.is_i_within_i(candidate_m, mention)
             # print res_is_head_relax_match, res_is_same_ner, res_is_word_clusion, res_is_i_within_i
