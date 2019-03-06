@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_source.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_target.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实验结果统计-当前版本.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计-当前版本.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +17,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api_one_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="59" selection-start-line="59" selection-end-line="71" selection-end-column="21" />
+            <state relative-caret-position="172">
+              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="283" selection-start-line="283" selection-end-line="283" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -62,7 +52,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#begin</find>
       <find>18</find>
       <find>Coreference</find>
       <find>input_y</find>
@@ -92,6 +81,7 @@
       <find>前总统</find>
       <find>设置</find>
       <find>在 今天 的</find>
+      <find>在 达沃斯</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -149,8 +139,8 @@
         <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
         <option value="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" />
         <option value="$PROJECT_DIR$/Multisieve/discourse_processing.py" />
-        <option value="$PROJECT_DIR$/api_one_file.py" />
         <option value="$PROJECT_DIR$/实验结果统计-当前版本.md" />
+        <option value="$PROJECT_DIR$/api_one_file.py" />
       </list>
     </option>
   </component>
@@ -175,23 +165,7 @@
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassDefinition" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="Init_Data_Set" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="RunResults" type="462c0819:PsiDirectoryNode" />
+              <item name="MentionDetection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -205,19 +179,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MentionDetection/LSTM_labeled" />
+      <recent name="$PROJECT_DIR$/MentionDetection" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
+      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/UserCorpus" />
       <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
       <recent name="$PROJECT_DIR$/Experiment" />
       <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
       <recent name="$PROJECT_DIR$/Scorer" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
-      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
-      <recent name="$PROJECT_DIR$/UserCorpus/Corpus" />
-      <recent name="$PROJECT_DIR$/SubjectUtils" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,7 +340,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.19342208" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.19342208" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5011746" side_tool="true" weight="0.3167702" />
@@ -374,7 +348,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49882537" visible="true" weight="0.3167702" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49882537" visible="true" weight="0.3167702" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4937888" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -509,12 +483,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/abbreviation.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-702" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/动物词汇大全【官方推荐】.txt" />
     <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/animals.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -843,23 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27675">
-          <caret line="2825" column="6" selection-start-line="2825" selection-end-line="2825" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="59" selection-start-line="59" selection-end-line="71" selection-end-column="21" />
-          <folding>
-            <element signature="e#41#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/final_sieve.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -870,13 +821,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5273">
+          <caret line="2876" column="5" selection-start-line="2876" selection-end-line="2876" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/final_res.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
+          <first_editor relative-caret-position="270">
             <caret line="283" selection-start-line="283" selection-end-line="283" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
