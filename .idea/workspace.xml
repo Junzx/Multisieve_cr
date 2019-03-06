@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/discourse_processing.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/discourse_processing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/实验结果统计-当前版本.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计-当前版本.md" afterDir="false" />
@@ -21,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_one_file.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="90" selection-start-line="90" selection-end-line="102" selection-end-column="1" />
+            <state relative-caret-position="64">
+              <caret line="59" selection-start-line="59" selection-end-line="71" selection-end-column="21" />
               <folding>
                 <element signature="e#41#63#0" expanded="true" />
               </folding>
@@ -34,8 +31,8 @@
         <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="244">
-                <caret line="286" column="4" lean-forward="true" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="4" />
+              <first_editor relative-caret-position="216">
+                <caret line="283" selection-start-line="283" selection-end-line="283" />
               </first_editor>
               <second_editor />
             </state>
@@ -45,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multisieve/final_sieve.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="208">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#39#92#0" expanded="true" />
@@ -65,7 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>修饰语</find>
       <find>#begin</find>
       <find>18</find>
       <find>Coreference</find>
@@ -95,6 +91,7 @@
       <find>说</find>
       <find>前总统</find>
       <find>设置</find>
+      <find>在 今天 的</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -179,6 +176,17 @@
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
               <item name="ClassDefinition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="Init_Data_Set" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
@@ -773,13 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-34203">
-          <caret line="2451" column="4" selection-start-line="2451" selection-end-line="2451" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_A.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -818,16 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/final_sieve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#39#92#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="180">
@@ -852,12 +843,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27675">
+          <caret line="2825" column="6" selection-start-line="2825" selection-end-line="2825" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api_one_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="90" selection-start-line="90" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="64">
+          <caret line="59" selection-start-line="59" selection-end-line="71" selection-end-column="21" />
           <folding>
             <element signature="e#41#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/final_sieve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#39#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -865,8 +873,8 @@
     <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="244">
-            <caret line="286" column="4" lean-forward="true" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="4" />
+          <first_editor relative-caret-position="216">
+            <caret line="283" selection-start-line="283" selection-end-line="283" />
           </first_editor>
           <second_editor />
         </state>
