@@ -2,6 +2,8 @@
 """
 读取文件用
 """
+import config
+from sklearn.metrics import classification_report
 
 class one_line(object):
     def __init__(self):
@@ -18,10 +20,10 @@ def __load(file_):
 
 def load_lstm_data():
     dic_all_data = {}
-
-    sentence_file = 'test_source.txt'
-    true_label_file = 'test_target.txt'
-    pred_label_file = 'lstm_labeled_result.txt'
+    basic_folder = config.project_path + '/MentionDetection/LSTM_labeled_data/'
+    sentence_file = basic_folder + 'test_source.txt'
+    true_label_file = basic_folder + 'test_target.txt'
+    pred_label_file = basic_folder + 'lstm_labeled_result.txt'
 
     sentence = __load(sentence_file)
     true_label = __load(true_label_file)
@@ -54,11 +56,41 @@ def load_lstm_data():
 
     return dic_all_data
 
+def count_prf_of_lstm():
+    """
+    计算序列标注的准确性
+    """
+    basic_folder = config.project_path + '/MentionDetection/LSTM_labeled_data/'
+    sentence_file = basic_folder + 'test_source.txt'
+    true_label_file = basic_folder + 'test_target.txt'
+    pred_label_file = basic_folder + 'lstm_labeled_result.txt'
+
+    sentence = __load(sentence_file)
+    true_label = __load(true_label_file)
+    pred_label = __load(pred_label_file)
+
+    assert len(sentence) == len(true_label) == len(pred_label)
+    line_length = len(sentence)
+
+    y_true = []
+    y_pred = []
+
+    for line_idx in range(line_length):
+        line_true_label = true_label[line_idx].split(' ')
+        line_pred_label = pred_label[line_idx].split(' ')
+        try:
+            assert len(line_true_label) == len(line_pred_label)
+        except AssertionError:
+            continue
+        else:
+            y_true.extend(true_label[line_idx])
+            y_pred.extend(pred_label[line_idx])
+
+    print len(y_true), len(y_pred)
+    res = classification_report(y_true, y_pred)
+
+    print res
 
 if __name__ == '__main__':
-    dic_all = load_lstm_data()
-    print 'shit'
-    for s, o in dic_all.items():
-        print s
-        print o.__dict__
-        print '-------------------------'
+    # dic_all = load_lstm_data()
+    count_prf_of_lstm()
