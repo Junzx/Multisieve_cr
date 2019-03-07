@@ -59,6 +59,21 @@ class Document(object):
         # logger.info("加载数据完成")
         self.dic_entity = {}   # cluster_id : cluster_object
 
+    def api_set_mention_detection_attribute(self):
+        """
+        专门用于Mention Detection实验
+        """
+        self.document_file_name = self.document_name.split('/')[-1]
+        self.result_document_path = self.original_document_path.replace('gold', 'result')
+
+        # 构建token dict
+        self.dic_tokens = {}  # token_id : token object
+        for token in self.lst_tokens:
+            self.dic_tokens.setdefault(token.token_id, token)
+
+        self.gold_mention = extract_mention(self.lst_tokens)    # 从文件中读取的数据
+
+
 
     def __set_dict_attribute(self):
         """

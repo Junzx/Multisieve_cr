@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_source.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_target.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Experiment/Init_Data_Set/no_label_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadConll.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadConll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,25 +17,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api_one_file.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+            <state relative-caret-position="194">
+              <caret line="193" selection-start-line="193" selection-end-line="193" />
               <folding>
-                <element signature="e#41#63#0" expanded="true" />
+                <element signature="e#58#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="286">
+                <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LoadConll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="322" column="74" selection-start-line="322" selection-start-column="74" selection-end-line="322" selection-end-column="74" />
+              <folding>
+                <element signature="e#35#75#0" expanded="true" />
+                <element signature="e#1426#8439#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multisieve/final_sieve.py">
+        <entry file="file://$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="54">
+              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
               <folding>
-                <element signature="e#39#92#0" expanded="true" />
+                <element signature="e#24#83#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,7 +86,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>18</find>
       <find>Coreference</find>
       <find>input_y</find>
       <find>a</find>
@@ -82,6 +115,7 @@
       <find>设置</find>
       <find>在 今天 的</find>
       <find>在 达沃斯</find>
+      <find>entity</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,8 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/test_source.txt" />
-        <option value="$PROJECT_DIR$/tmp_2.py" />
         <option value="$PROJECT_DIR$/small_test2.conll" />
         <option value="$PROJECT_DIR$/SubjectUtils/experiment_utils.py" />
         <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/utils.py" />
@@ -109,7 +141,6 @@
         <option value="$PROJECT_DIR$/Multisieve/other_sieve.py" />
         <option value="$PROJECT_DIR$/Scorer/api_prf.py" />
         <option value="$PROJECT_DIR$/conll_file_counter.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Scorer/merge_conll_file.py" />
         <option value="$PROJECT_DIR$/tmp.py" />
         <option value="$PROJECT_DIR$/tmp2.py" />
@@ -120,7 +151,6 @@
         <option value="$PROJECT_DIR$/UserCorpus/load_corpus.py" />
         <option value="$PROJECT_DIR$/ConstantVariable.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py" />
-        <option value="$PROJECT_DIR$/LoadConll.py" />
         <option value="$PROJECT_DIR$/实验结果统计-上一个版本代码.md" />
         <option value="$PROJECT_DIR$/Multisieve/exact_match.py" />
         <option value="$PROJECT_DIR$/实验结果统计.md" />
@@ -128,7 +158,6 @@
         <option value="$PROJECT_DIR$/SubjectUtils/sieve_utils.py" />
         <option value="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" />
         <option value="$PROJECT_DIR$/api_all_file.py" />
-        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
         <option value="$PROJECT_DIR$/Multisieve/precise_constructs.py" />
         <option value="$PROJECT_DIR$/Multisieve/final_sieve.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" />
@@ -141,6 +170,11 @@
         <option value="$PROJECT_DIR$/Multisieve/discourse_processing.py" />
         <option value="$PROJECT_DIR$/实验结果统计-当前版本.md" />
         <option value="$PROJECT_DIR$/api_one_file.py" />
+        <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/no_label_data.txt" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
+        <option value="$PROJECT_DIR$/LoadConll.py" />
+        <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -176,22 +210,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Subject" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/MentionDetection/LSTM_labeled" />
-      <recent name="$PROJECT_DIR$/MentionDetection" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
-      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/UserCorpus" />
       <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
       <recent name="$PROJECT_DIR$/Experiment" />
       <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
       <recent name="$PROJECT_DIR$/Scorer" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MentionDetection" />
+      <recent name="$PROJECT_DIR$/MentionDetection/LSTM_labeled" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
+      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,7 +241,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.api_prf">
+  <component name="RunManager" selected="Python.MentionDetection_by_parse">
     <configuration name="LoadConll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,6 +255,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LoadConll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="MentionDetection_by_parse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MentionDetection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,34 +347,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_conll_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Scorer" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Scorer/merge_conll_file.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MentionDetection_by_parse" />
         <item itemvalue="Python.api_prf" />
         <item itemvalue="Python.api_all_file" />
         <item itemvalue="Python.LoadConll" />
         <item itemvalue="Python.make_mention_detection_data" />
-        <item itemvalue="Python.merge_conll_file" />
       </list>
     </recent_temporary>
   </component>
@@ -340,7 +375,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.19342208" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.2090838" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5011746" side_tool="true" weight="0.3167702" />
@@ -348,8 +383,8 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49882537" visible="true" weight="0.3167702" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4937888" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49882537" weight="0.3167702" />
+      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.41925466" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -417,7 +452,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/LoadConll.py</url>
-          <line>277</line>
+          <line>370</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -429,6 +464,11 @@
           <url>file://$PROJECT_DIR$/Multisieve/discourse_processing.py</url>
           <line>34</line>
           <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py</url>
+          <line>193</line>
+          <option name="timeStamp" value="157" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -483,35 +523,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/animals.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCorpus/Corpus/botanical.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/conll_file_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#68#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2058">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/candidate_mentions.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/ExperimentResult/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -615,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LoadConll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1912">
-          <caret line="277" selection-start-line="277" selection-end-line="277" />
-          <folding>
-            <element signature="e#35#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.v4_gold_conll">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="151">
@@ -656,28 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/experiment_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/unit_test_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="424" selection-start-line="424" selection-end-line="424" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,13 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/precise_constructs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/other_sieve.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-58">
@@ -780,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="160" column="7" lean-forward="true" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="180">
@@ -804,10 +769,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/discourse_processing.py">
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="-5273">
+          <caret line="2876" column="5" selection-start-line="2876" selection-end-line="2876" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/final_res.txt" />
+    <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="283" selection-start-line="283" selection-end-line="283" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/precise_constructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -821,36 +814,101 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_source.txt">
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5273">
-          <caret line="2876" column="5" selection-start-line="2876" selection-end-line="2876" selection-end-column="5" />
+        <state relative-caret-position="455">
+          <caret line="2835" column="46" selection-start-line="2835" selection-start-column="46" selection-end-line="2835" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/final_res.txt">
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_source.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="4146" selection-start-line="4146" selection-end-line="4146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/no_label_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="1537" column="39" selection-start-line="1537" selection-start-column="39" selection-end-line="1537" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/test.v4_gold_conll">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2862">
+          <caret line="160" column="7" lean-forward="true" selection-start-line="160" selection-start-column="7" selection-end-line="160" selection-end-column="7" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/experiment_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/unit_test_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/discourse_processing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="56" column="36" selection-start-line="56" selection-start-column="36" selection-end-line="56" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#24#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoadConll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="322" column="74" selection-start-line="322" selection-start-column="74" selection-end-line="322" selection-end-column="74" />
+          <folding>
+            <element signature="e#35#75#0" expanded="true" />
+            <element signature="e#1426#8439#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="193" selection-start-line="193" selection-end-line="193" />
+          <folding>
+            <element signature="e#58#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="283" selection-start-line="283" selection-end-line="283" />
+          <first_editor relative-caret-position="286">
+            <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-          <folding>
-            <element signature="e#41#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
