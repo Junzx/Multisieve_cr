@@ -5,7 +5,12 @@
     1. load conll
 """
 from nltk import Tree
+from copy import deepcopy
 from LoadConll import load_one_file,load_one_file_for_md
+from ClassDefinition.Definition_Sentence import Sentence
+from ClassDefinition.Definition_Mention import Mention
+import SubjectUtils.mention_detection_utils as mention_detection_utils
+import exact_np_by_tree
 
 class MentionDetectionUtils(object):
     """
@@ -189,8 +194,193 @@ class MentionDetection(object):
             elif ')' in token.np_info:
                 token.np_info = new_np_info + '|' + token.np_info
 
+# ==================================================================================================
+# ==================================================================================================
+# ==================================================================================================
+# ================================== 以 下 是 新 的 方 法 ============================================
+# ==================================================================================================
+# ==================================================================================================
+# ==================================================================================================
+
+def Mention_Detection(obj_document):
+    """
+    MD主程序
+    以句子为单位，提取表述
+    """
+    dic_sentence = {}
+    obj_document.lst_mentions = []
+    obj_document.dic_mentions = {}
+
+    # 根据token list构建sent对象
+    sent_id = 0
+    sent_lst_tokens = []
+    # 以句子为单位创建sentence对象并提取表述
+    for token in obj_document.lst_tokens:
+        if token.sent_id == sent_id:
+            sent_lst_tokens.append(token)
+
+        if token.sent_id != sent_id:
+            obj_sentence = init_sentence_object(lst_tokens=sent_lst_tokens)
+            # obj_sentence = extract_mention_from_sentence(obj_sentence)
+            dic_sentence.setdefault(sent_id, obj_sentence)
+            sent_id += 1    # 更新sent id
+            del sent_lst_tokens[:]
+            sent_lst_tokens.append(token)
+
+            for mention in obj_sentence.lst_mentions:
+                obj_document.lst_mentions.append(mention)
+
+    # 有的document可能就有一句话
+    if sent_lst_tokens != []:
+        obj_sentence = init_sentence_object(lst_tokens=sent_lst_tokens)
+        # obj_sentence = extract_mention_from_sentence(obj_sentence)
+        dic_sentence.setdefault(sent_id, obj_sentence)
+        sent_id += 1  # 更新sent id
+        del sent_lst_tokens[:]
+        sent_lst_tokens.append(token)
+
+        for mention in obj_sentence.lst_mentions:
+            obj_document.lst_mentions.append(mention)
+
+
+    obj_document.dic_sentences = dic_sentence
+    for m in obj_document.lst_mentions:
+        obj_document.dic_mentions.setdefault(m.mention_id, m)
+    return obj_document
+
+def init_sentence_object(lst_tokens):
+    obj_sentence = Sentence()
+    obj_sentence.sent_id = lst_tokens[0].sent_id
+    for token in lst_tokens:
+        obj_sentence.lst_tokens.append(token)
+
+    # parse tree
+    lst_mentions_from_parse = extract_mention_from_sentence(obj_sentence)  # 提取sent对象中的表述
+    for m in lst_mentions_from_parse:
+        obj_sentence.lst_mentions.append(m)
+
+    # ner
+    lst_mentions_from_ner = extract_named_entity(obj_sentence)
+
+    return obj_sentence
+
+def extract_mention_from_sentence(obj_sentence):
+    """
+    接受一个句子，抽取Mention
+    :param obj_sentence:
+    :return: obj_sentence, lst_mentions
+    """
+    # 根据句法树提取
+    composition = 'NP'
+    str_sentence = mention_detection_utils.make_to_sentence(obj_sentence.lst_tokens)  # 构成一句话
+    composition = mention_detection_utils.exact_composition(str_sentence, composition)  # 抽取NP
+    num_composition = mention_detection_utils.exact_word(composition)
+    obj_sentence = set_mention_info(obj_sentence, num_composition)
+    lst_mentions = exact_np_by_tree.extract_mention(obj_sentence.lst_tokens)
+
+    return lst_mentions
+
+def set_mention_info(obj_sentence, lst_all_num_composition):
+    """
+    设置mention中的每个token的npinfo
+    2018年2月28日
+    """
+    # 例如：lst_all_candidate_mention = [(0, 0), (1, 1), (5, 5), (8, 9), (9, 9)]
+    for index_mention,tup_candidate_mention in enumerate(lst_all_num_composition):
+        int_first_token_id = tup_candidate_mention[0]
+        int_second_token_id = tup_candidate_mention[1]
+
+        if int_first_token_id == int_second_token_id:    # （9，9） 两个相等
+            str_new_np_info = '(' + str(index_mention) + ')'
+            __add_np_info(obj_sentence.get_token_by_id(int_first_token_id),str_new_np_info)
+
+        elif int_first_token_id != int_second_token_id:  # （8，10）两个不等
+            obj_start_token = obj_sentence.get_token_by_id(int_first_token_id)
+            obj_end_token = obj_sentence.get_token_by_id(int_second_token_id)
+
+            str_start_token_info = '(' + str(index_mention)
+            str_end_token_info = str(index_mention) + ')'
+
+            __add_np_info(obj_start_token,str_start_token_info)
+            __add_np_info(obj_end_token,str_end_token_info)
+    return obj_sentence
+
+def __add_np_info( token, new_np_info):
+    if token.np_info == '-':
+        token.np_info = str(new_np_info)
+    else:
+        if '(' in token.np_info:
+            token.np_info = token.np_info + '|' + new_np_info
+        elif ')' in token.np_info:
+            token.np_info = new_np_info + '|' + token.np_info
+
+# ================================================================
+def extract_named_entity(obj_sentence):
+    mention_id = len(obj_sentence.lst_mentions)
+    entity_id = len(obj_sentence.lst_mentions)
+
+    for token in obj_sentence.lst_tokens:
+        if token.ner != '-':
+            flag_new_mention = True # 检测这个mention是不是已经在原list中存在
+            for obj_iter_m in obj_sentence.lst_mentions:
+                if (obj_iter_m.lst_tokens) == 1 and \
+                    obj_iter_m.lst_tokens[0] == token:
+                    flag_new_mention = False
+                if flag_new_mention:
+                    obj_mention = Mention()
+                    obj_mention.mention_id = mention_id
+                    # TODO：没写完
+
+                    mention_id += 1
+                    entity_id += 1
+                    flag_new_mention = False
+
+def old_extract_named_entity(obj_document):
+    """
+    提取命名实体
+    """
+    lst_all_mentions = []
+
+    mention_id = len(obj_document.lst_mentions)
+    entity_id = len(obj_document.lst_mentions)
+
+    for token in obj_document.lst_tokens:
+        if token.ner != '-':
+            # 检测这个mention是不是已经在原list中存在
+            flag_new_mention = True
+            for obj_iter_mention in obj_document.lst_mentions:
+                if len(obj_iter_mention.lst_tokens) > 1:
+                    continue
+                else:
+                    if obj_iter_mention.lst_tokens[0] == token:
+                        flag_new_mention = False
+            if flag_new_mention:
+                obj_mention = Mention()
+                obj_mention.mention_id = mention_id
+                obj_mention.entity_id = entity_id
+                obj_mention.lst_tokens = [token]
+                obj_mention.set_other_attributes(obj_document.lst_tokens)
+                lst_all_mentions.append(obj_mention)
+
+                mention_id += 1
+                entity_id += 1
+    return lst_all_mentions
+
+def mention_filter(obj_sentence):
+    pass
+
+
+
 def __unit_test():
+    from pprint import pprint
     data = load_one_file_for_md('test.v4_gold_conll')
+    # res_data = Mention_Detection(data)
+    data.lst_mentions = []
+    name_eneity = extract_named_entity(data)
+
+    for mention in res_data.lst_mentions:
+        pprint(mention.__dict__)
+        print '--------------------'
     print 'shit'
 
 if __name__ == '__main__':

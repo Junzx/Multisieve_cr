@@ -8,13 +8,26 @@ class Sentence(object):
         self.lst_tokens = []    # 里面放的是token
         self.lst_mentions = []  # 放mention
 
+    def get_token_by_id(self, token_id):
+        for token in self.lst_tokens:
+            if token.token_id == token_id:
+                return token
+
+
     def get_sent(self):
+        """
+        获取这句话的文本
+        """
         tmp = ''
         for token in self.lst_tokens:
             tmp += token.word_itself
         return tmp
 
     def get_sent_parse(self):
+        """
+        获取这句话的句法树信息
+        :return:
+        """
         parse = ''
         for token in self.lst_tokens:
             parse += token.parse_info.strip('\n')

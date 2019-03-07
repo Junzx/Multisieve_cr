@@ -66,6 +66,11 @@ class Document(object):
         self.document_file_name = self.document_name.split('/')[-1]
         self.result_document_path = self.original_document_path.replace('gold', 'result')
 
+        # 清理token 的 np_info
+        for token in self.lst_tokens:
+            token.np_info = '-'
+
+
         # 构建token dict
         self.dic_tokens = {}  # token_id : token object
         for token in self.lst_tokens:

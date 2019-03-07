@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Experiment/Init_Data_Set/no_label_data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/load_lstm_labeled_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/lstm_labeled_result.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_lstm_crf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubjectUtils/mention_detection_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_md_all_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api_md_one_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实验结果统计-MD.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadConll.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadConll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_source.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/test_source.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_target.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/test_target.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/error_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/final_res.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/predict.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/source_vocab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/target_vocab.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/test_source.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/test_target.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/train_source.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/train_target.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/rnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MentionDetection/lstm_crf/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_result.exact_match" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,66 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="193" selection-start-line="193" selection-end-line="193" />
-              <folding>
-                <element signature="e#58#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="286">
-                <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoadConll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="322" column="74" selection-start-line="322" selection-start-column="74" selection-end-line="322" selection-end-column="74" />
-              <folding>
-                <element signature="e#35#75#0" expanded="true" />
-                <element signature="e#1426#8439#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#24#83#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,8 +51,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Coreference</find>
-      <find>input_y</find>
       <find>a</find>
       <find>data</find>
       <find>他们 创造</find>
@@ -116,6 +79,8 @@
       <find>在 今天 的</find>
       <find>在 达沃斯</find>
       <find>entity</find>
+      <find>num_composition</find>
+      <find>(280, 280)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,17 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/small_test2.conll" />
-        <option value="$PROJECT_DIR$/SubjectUtils/experiment_utils.py" />
-        <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/utils.py" />
-        <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/resource/error_test.txt" />
-        <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/rnn.py" />
-        <option value="$PROJECT_DIR$/MentionDetection/lstm_crf/config.py" />
-        <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/data/test/test_human.txt" />
-        <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/data/test/test_non_human.txt" />
-        <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/data/train/train_human.txt" />
-        <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/train.py" />
-        <option value="$PROJECT_DIR$/merge_conll_file.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/train_human.txt" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_animacy_data.py" />
         <option value="$PROJECT_DIR$/Experiment/Animacy_Classification/CNN_Network.py" />
@@ -171,10 +125,21 @@
         <option value="$PROJECT_DIR$/实验结果统计-当前版本.md" />
         <option value="$PROJECT_DIR$/api_one_file.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/no_label_data.txt" />
-        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
         <option value="$PROJECT_DIR$/LoadConll.py" />
-        <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
+        <option value="$PROJECT_DIR$/SubjectUtils/mention_detection_utils.py" />
+        <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_lstm_crf.py" />
+        <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" />
+        <option value="$PROJECT_DIR$/api_md_one_file.py" />
+        <option value="$PROJECT_DIR$/api_md_all_file.py" />
+        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled/lstm_labeled_result.txt" />
+        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_source.txt" />
+        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_target.txt" />
+        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/__init__.py" />
+        <option value="$PROJECT_DIR$/实验结果统计-MD.md" />
+        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/load_lstm_labeled_data.py" />
       </list>
     </option>
   </component>
@@ -199,7 +164,18 @@
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
               <item name="MentionDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
+              <item name="MentionDetection" type="462c0819:PsiDirectoryNode" />
+              <item name="LSTM_labeled_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,28 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MentionDetection_by_parse">
-    <configuration name="LoadConll" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LoadConll.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.load_lstm_labeled_data">
     <configuration name="MentionDetection_by_parse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="api_all_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="api_md_all_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,7 +251,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_all_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_md_all_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_md_one_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_md_one_file.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,7 +302,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="make_mention_detection_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="load_lstm_labeled_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -334,11 +310,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Experiment/Init_Data_Set" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_mention_detection_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/load_lstm_labeled_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,11 +325,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.load_lstm_labeled_data" />
+        <item itemvalue="Python.api_md_all_file" />
+        <item itemvalue="Python.api_md_one_file" />
         <item itemvalue="Python.MentionDetection_by_parse" />
         <item itemvalue="Python.api_prf" />
-        <item itemvalue="Python.api_all_file" />
-        <item itemvalue="Python.LoadConll" />
-        <item itemvalue="Python.make_mention_detection_data" />
       </list>
     </recent_temporary>
   </component>
@@ -372,19 +348,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.2090838" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.192639" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5011746" side_tool="true" weight="0.3167702" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
-      <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49882537" weight="0.3167702" />
-      <window_info anchor="bottom" id="Debug" order="7" visible="true" weight="0.41925466" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32919255" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32919255" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32919255" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49882537" visible="true" weight="0.44875777" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39130434" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -394,16 +369,16 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.14722005" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49881235" visible="true" weight="0.192639" />
       <window_info id="Structure" order="2" sideWeight="0.5011876" side_tool="true" weight="0.17227878" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.50039154" side_tool="true" weight="0.3431677" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5011746" side_tool="true" weight="0.3167702" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.32919255" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49960846" weight="0.3167702" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.52329195" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49882537" weight="0.46118012" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4332298" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -467,8 +442,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py</url>
-          <line>193</line>
-          <option name="timeStamp" value="157" />
+          <line>337</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_md_one_file.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py</url>
+          <line>204</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py</url>
+          <line>250</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/load_lstm_labeled_data.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="189" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
@@ -523,84 +518,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="85" selection-start-line="11" selection-start-column="85" selection-end-line="11" selection-end-column="85" />
-          <folding>
-            <element signature="e#39#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#48#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/count_prf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-546" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/merge_conll_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#45#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCorpus/api_user_corpus_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          <folding>
-            <element signature="e#56#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCorpus/load_corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="53" column="15" lean-forward="true" selection-start-line="53" selection-start-column="15" selection-end-line="53" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UserCorpus/api_user_corpus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test.v4_gold_conll">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-389">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/train_source.txt" />
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/train_target.txt" />
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_target.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Token.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -657,26 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="224" column="2" selection-start-line="224" selection-start-column="2" selection-end-line="224" selection-end-column="2" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_all_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -777,30 +674,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MentionDetection/final_res.txt" />
-    <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="283" selection-start-line="283" selection-end-line="283" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multisieve/precise_constructs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-          <folding>
-            <element signature="e#41#63#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -814,17 +691,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled/final_res.txt">
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/final_res.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="2835" column="46" selection-start-line="2835" selection-start-column="46" selection-end-line="2835" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled/test_source.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="4146" selection-start-line="4146" selection-end-line="4146" />
         </state>
       </provider>
     </entry>
@@ -834,9 +704,6 @@
           <caret line="1537" column="39" selection-start-line="1537" selection-start-column="39" selection-end-line="1537" selection-end-column="39" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/test.v4_gold_conll">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SubjectUtils/sieve_utils.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -864,20 +731,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-          <folding>
-            <element signature="e#24#83#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="286">
+            <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py">
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="201">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#83#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -892,23 +762,169 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
+    <entry file="file://$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SubjectUtils/mention_detection_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#58#79#0" expanded="true" />
+            <element signature="e#30#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/candidate_mentions.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/test.v4_gold_conll">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="83" lean-forward="true" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/py27/lib/python2.7/site-packages/sklearn/metrics/classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_all_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="97" column="4" lean-forward="true" selection-start-line="97" selection-start-column="4" selection-end-line="109" selection-end-column="43" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_lstm_crf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="29" selection-start-column="20" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#16#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_md_all_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/lstm_labeled_result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="4376" column="29" selection-start-line="4376" selection-start-column="29" selection-end-line="4376" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/test_target.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="4376" column="29" selection-start-line="4376" selection-start-column="29" selection-end-line="4376" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/test_source.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="4376" column="39" selection-start-line="4376" selection-start-column="39" selection-end-line="4376" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-MD.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="286">
-            <caret line="55" column="43" selection-start-line="55" selection-start-column="43" selection-end-line="55" selection-end-column="43" />
+          <first_editor relative-caret-position="36">
+            <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-当前版本.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret line="283" selection-start-line="283" selection-end-line="283" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/load_lstm_labeled_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="232" column="23" selection-start-line="232" selection-start-column="23" selection-end-line="232" selection-end-column="23" />
+          <folding>
+            <element signature="e#58#79#0" expanded="true" />
+            <element signature="e#2190#3161#0" />
+            <element signature="e#2921#3272#0" />
+            <element signature="e#3338#4586#0" />
+            <element signature="e#4645#4936#0" />
+            <element signature="e#9882#10337#0" />
+            <element signature="e#10539#11585#0" />
+            <element signature="e#11712#12003#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
