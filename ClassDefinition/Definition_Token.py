@@ -15,6 +15,7 @@ class Token(object):
         self.parse_info = ''   # 该token的句法树信息
         self.speaker = ''   # ！
         self.ner = '-' # 命名实体标签
+        self.original_ner = '-'
         self.np_info = '-'  # coref id
         self.line = ''      # token那一行数据
 

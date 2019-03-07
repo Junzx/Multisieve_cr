@@ -15,14 +15,20 @@ def run(vars = 'test'):
     for file_idx, file_ in enumerate(test_files):
         # if 'cnr_0019_000.v4_gold_conll' not in file_:
         #     continue
-        print file_
-        print 'File: %s of %s' % (file_idx, len(test_files))
-        res = api_md_one_file.main(file_)
-        print res
-        all_counter += 1
-        all_p += res[0]
-        all_r += res[1]
-        all_f += res[2]
+
+        try:
+            res = api_md_one_file.main(file_)
+            print res
+            all_counter += 1
+            all_p += res[0]
+            all_r += res[1]
+            all_f += res[2]
+        except ZeroDivisionError:
+            print '出错！'
+            continue
+        finally:
+            print file_
+            print 'File: %s of %s' % (file_idx, len(test_files))
 
     print '---------------', all_counter, '-------------'
     print all_p / all_counter

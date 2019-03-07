@@ -11,6 +11,7 @@ from ClassDefinition.Definition_Sentence import Sentence
 from ClassDefinition.Definition_Mention import Mention
 import SubjectUtils.mention_detection_utils as mention_detection_utils
 import exact_np_by_tree
+import ConstantVariable
 
 class MentionDetectionUtils(object):
     """
@@ -221,7 +222,6 @@ def Mention_Detection(obj_document):
 
         if token.sent_id != sent_id:
             obj_sentence = init_sentence_object(lst_tokens=sent_lst_tokens)
-            # obj_sentence = extract_mention_from_sentence(obj_sentence)
             dic_sentence.setdefault(sent_id, obj_sentence)
             sent_id += 1    # 更新sent id
             del sent_lst_tokens[:]
@@ -233,7 +233,6 @@ def Mention_Detection(obj_document):
     # 有的document可能就有一句话
     if sent_lst_tokens != []:
         obj_sentence = init_sentence_object(lst_tokens=sent_lst_tokens)
-        # obj_sentence = extract_mention_from_sentence(obj_sentence)
         dic_sentence.setdefault(sent_id, obj_sentence)
         sent_id += 1  # 更新sent id
         del sent_lst_tokens[:]
@@ -260,7 +259,10 @@ def init_sentence_object(lst_tokens):
         obj_sentence.lst_mentions.append(m)
 
     # ner
-    lst_mentions_from_ner = extract_named_entity(obj_sentence)
+    obj_sentence = extract_named_entity(obj_sentence)
+
+    # 代词
+    obj_sentence = extract_pronoun(obj_sentence)
 
     return obj_sentence
 
@@ -316,55 +318,69 @@ def __add_np_info( token, new_np_info):
 
 # ================================================================
 def extract_named_entity(obj_sentence):
+
     mention_id = len(obj_sentence.lst_mentions)
     entity_id = len(obj_sentence.lst_mentions)
 
+    tmp_ner_tokens = []
+    flag_new_mention = False
+
+    now_mention_list = [(m.lst_tokens[0].token_id, m.lst_tokens[0].token_id)
+                        for m in obj_sentence.lst_mentions]
+
     for token in obj_sentence.lst_tokens:
-        if token.ner != '-':
-            flag_new_mention = True # 检测这个mention是不是已经在原list中存在
-            for obj_iter_m in obj_sentence.lst_mentions:
-                if (obj_iter_m.lst_tokens) == 1 and \
-                    obj_iter_m.lst_tokens[0] == token:
-                    flag_new_mention = False
-                if flag_new_mention:
-                    obj_mention = Mention()
-                    obj_mention.mention_id = mention_id
-                    # TODO：没写完
-
-                    mention_id += 1
-                    entity_id += 1
-                    flag_new_mention = False
-
-def old_extract_named_entity(obj_document):
-    """
-    提取命名实体
-    """
-    lst_all_mentions = []
-
-    mention_id = len(obj_document.lst_mentions)
-    entity_id = len(obj_document.lst_mentions)
-
-    for token in obj_document.lst_tokens:
-        if token.ner != '-':
-            # 检测这个mention是不是已经在原list中存在
+        if '(' in token.original_ner and ')' not in token.original_ner:   # （（DATA ----）的形式
+            tmp_ner_tokens.append(token)
+        elif '(' not in token.original_ner and ')' in token.original_ner: # 接上，是闭合的括号
+            tmp_ner_tokens.append(token)
             flag_new_mention = True
-            for obj_iter_mention in obj_document.lst_mentions:
-                if len(obj_iter_mention.lst_tokens) > 1:
-                    continue
-                else:
-                    if obj_iter_mention.lst_tokens[0] == token:
-                        flag_new_mention = False
-            if flag_new_mention:
-                obj_mention = Mention()
-                obj_mention.mention_id = mention_id
-                obj_mention.entity_id = entity_id
-                obj_mention.lst_tokens = [token]
-                obj_mention.set_other_attributes(obj_document.lst_tokens)
-                lst_all_mentions.append(obj_mention)
+        elif '(' in token.original_ner and ')' in token.original_ner: # （ORG）
+            tmp_ner_tokens.append(token)
+            flag_new_mention = True
 
-                mention_id += 1
-                entity_id += 1
-    return lst_all_mentions
+        if flag_new_mention:
+            # 检查这个idx范围是否出现在已有的表述中
+            tmp = (tmp_ner_tokens[0].token_id, tmp_ner_tokens[-1].token_id)
+            if tmp in now_mention_list:
+                continue
+
+            # 以下说明没有，将新建一个表述
+            obj_mention = Mention()
+            obj_mention.mention_id = mention_id
+            obj_mention.entity_id = entity_id
+            for t in tmp_ner_tokens:
+                obj_mention.lst_tokens.append(t)
+
+            obj_mention.set_other_attributes(obj_mention.lst_tokens)
+
+            obj_sentence.lst_mentions.append(obj_mention)
+
+            mention_id += 1
+            entity_id += 1
+
+            flag_new_mention = False
+            del tmp_ner_tokens[:]   # 清空
+    return obj_sentence
+
+def extract_pronoun(obj_sentence):
+    mention_id = len(obj_sentence.lst_mentions)
+    entity_id = len(obj_sentence.lst_mentions)
+    for token in obj_sentence.lst_tokens:
+        if token.word_itself in ConstantVariable.pronouns:
+            obj_mention = Mention()
+            obj_mention = Mention()
+            obj_mention.mention_id = mention_id
+            obj_mention.entity_id = entity_id
+            obj_mention.lst_tokens.append(token)
+
+            obj_mention.set_other_attributes(obj_mention.lst_tokens)
+            obj_sentence.lst_mentions.append(obj_mention)
+
+            mention_id += 1
+            entity_id += 1
+
+            obj_sentence.lst_mentions.append(obj_mention)
+    return obj_sentence
 
 def mention_filter(obj_sentence):
     pass
@@ -374,14 +390,13 @@ def mention_filter(obj_sentence):
 def __unit_test():
     from pprint import pprint
     data = load_one_file_for_md('test.v4_gold_conll')
-    # res_data = Mention_Detection(data)
-    data.lst_mentions = []
-    name_eneity = extract_named_entity(data)
-
-    for mention in res_data.lst_mentions:
-        pprint(mention.__dict__)
-        print '--------------------'
-    print 'shit'
+    res_data = Mention_Detection(data)
+    # name_eneity = extract_named_entity(data)
+    print len(res_data.lst_mentions)
+    # for mention in res_data.lst_mentions:
+    #     pprint(mention.__dict__)
+    #     print '--------------------'
+    # print 'shit'
 
 if __name__ == '__main__':
     __unit_test()

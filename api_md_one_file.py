@@ -32,10 +32,12 @@ def count_md_prf(obj_gold_data, obj_result_data):
 
     set_right = set(gold_data)
     set_auto = set(result_data)
-
-    precision = len(set_right.intersection(set_auto)) / len(set_auto)
-    recall = len(set_right.intersection(set_auto)) / len(set_right)
-    f_score = (precision * recall * 2) / (precision + recall)
+    try:
+        precision = len(set_right.intersection(set_auto)) / len(set_auto)
+        recall = len(set_right.intersection(set_auto)) / len(set_right)
+        f_score = (precision * recall * 2) / (precision + recall)
+    except ZeroDivisionError:
+        return (0, 0, 0)
 
     return (precision, recall, f_score)
 

@@ -126,6 +126,8 @@ def load_one_file(str_iter_file_path):
                     attribute = tup_token[10]
                     coref_info = tup_token[-1]  # 最后一列的信息
 
+                    _ner = attribute    # 仅仅在MD.MD_by_parse.py的extract_name_entity中有用
+
                     # 处理一下attribute标签
                     attribute = attribute.strip('(').strip(')')
                     if len(attribute) > 1:
@@ -148,6 +150,8 @@ def load_one_file(str_iter_file_path):
                     # 创建token对象
                     obj_token = Token()
                     obj_token.set_attribute(tup_data)
+
+                    obj_token.original_ner = _ner
                     # print(obj_token.get_class_attribute())
 
                     # 将token对象放在这个document的obj里
@@ -282,6 +286,8 @@ def load_one_file_for_md(str_iter_file_path):
                     attribute = tup_token[10]
                     coref_info = tup_token[-1]  # 最后一列的信息
 
+                    _ner = attribute  # 仅仅在MD.MD_by_parse.py的extract_name_entity中有用
+
                     # 处理一下attribute标签
                     attribute = attribute.strip('(').strip(')')
                     if len(attribute) > 1:
@@ -304,6 +310,7 @@ def load_one_file_for_md(str_iter_file_path):
                     # 创建token对象
                     obj_token = Token()
                     obj_token.set_attribute(tup_data)
+                    obj_token.original_ner = _ner
                     # print(obj_token.get_class_attribute())
 
                     # 将token对象放在这个document的obj里
