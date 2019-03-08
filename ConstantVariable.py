@@ -4,6 +4,7 @@
 """
 from copy import deepcopy
 from time import clock
+import config
 
 first_person_pronouns = [u'我',u'我们',u'咱',u'咱们',u'本人']
 second_person_pronouns = [u'你',u'你们',u'您',u'您们',u'尔',u'尔等']
@@ -68,3 +69,7 @@ corpus_dict = {
     'abbreviation_dict': load_corpus.get_abbreviation_dict(),
 }
 print 'load corpus: ', clock() - start
+
+if config.flag_load_corenlp:
+    from stanfordcorenlp import StanfordCoreNLP
+    nlp_handle = StanfordCoreNLP(config.nlp_path, lang='zh')

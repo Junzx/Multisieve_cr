@@ -30,9 +30,9 @@ def run(vars = 'test'):
             print file_
             print 'File: %s of %s' % (file_idx, len(test_files))
 
-    print '---------------', all_counter, '-------------'
-    print all_p / all_counter
-    print all_r / all_counter
+    print '--------------- 完成：', all_counter, '-------------'
+    print all_p / all_counter,
+    print all_r / all_counter,
     print all_f / all_counter
     print
 

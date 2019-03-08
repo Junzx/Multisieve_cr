@@ -9,17 +9,30 @@ flag_print_sieve_name = False   # 是否打印sieve名字
 from os import listdir, name, getcwd
 from getpass import getuser
 
+
+# ========================================
+# =============== 开 关 ===================
+# ========================================
+flag_load_corenlp = True
+
+
+
 def get_var_files(folder_path, var = 'gold'):
     return [folder_path  + f_ for f_ in listdir(folder_path) if var in f_]
 
 project_path = os.path.dirname(__file__)
-# ====================================================
+
+
+# ========================================
+# ============= 基本属性 ==================
+# ========================================
 
 if name == 'posix':
     separator = '/'
 
     if getuser() == 'zz':   # sony linux
         basic_folder = '/opt/tmp/DataSets/conll_test/'
+        nlp_path = '/opt/tmp/stanford-corenlp-full-2018-10-05'
 
     elif getuser() == 'yqzhu':  # server linux
         basic_folder = '/home/yqzhu/conll_test/'

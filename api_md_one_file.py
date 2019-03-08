@@ -57,5 +57,5 @@ if __name__ == '__main__':
     # 其实md_org_data 和 md_res_data的id一样
     md_org_data = LoadConll.load_one_file_for_md(test)
     md_res_data = Mention_Detection(md_org_data)
-    count_md_prf(md_gold_data, md_res_data)
+    print count_md_prf(md_gold_data, md_res_data)
     print 'shit'
