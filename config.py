@@ -13,12 +13,12 @@ from getpass import getuser
 # ========================================
 # =============== 开 关 ===================
 # ========================================
-flag_load_corenlp = True
+flag_load_corenlp = False
 
 
 
 def get_var_files(folder_path, var = 'gold'):
-    return [folder_path  + f_ for f_ in listdir(folder_path) if var in f_]
+    return [folder_path + f_ for f_ in listdir(folder_path) if var in f_]
 
 project_path = os.path.dirname(__file__)
 
@@ -47,7 +47,15 @@ if name == 'posix':
 # ----------------------------
 
 elif name == 'nt':
-    pass
+    separator = '\\'
+    basic_folder = r'E:\conll_test\\'
+    path_log_folder = basic_folder + 'log\\'
+    gold_train = basic_folder + 'train\data_go\\'
+    gold_dev = basic_folder + 'development\data_go\\'
+    gold_test = basic_folder + 'test\\'
+    result_folder = basic_folder+ 'result\\'
+    error_file_test = basic_folder + 'Error_\\'
+
 
 # ====================================================
 
