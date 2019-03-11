@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Experiment/api_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Multisieve_cr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Multisieve_cr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment/conll_file_counter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/conll_file_counter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_lstm.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutoMention消解结果.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" beforeDir="false" afterPath="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/exact_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/exact_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/other_sieve.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/other_sieve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/precise_constructs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/precise_constructs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/proper_head_word_match.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/relaxing_head_matching.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_B.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/strict_head_matching_C.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_all_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_md_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_md_one_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_one_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoMention消解结果.md" beforeDir="false" afterPath="$PROJECT_DIR$/AutoMention消解结果.md" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,13 +25,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Experiment/conll_file_counter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-              <folding>
-                <element signature="e#68#77#0" expanded="true" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/AutoMention消解结果.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="522">
+                <caret line="86" column="14" selection-start-line="83" selection-start-column="13" selection-end-line="86" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -155,8 +134,8 @@
         <option value="$PROJECT_DIR$/Experiment/api_system.py" />
         <option value="$PROJECT_DIR$/api_one_file.py" />
         <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py" />
-        <option value="$PROJECT_DIR$/AutoMention消解结果.md" />
         <option value="$PROJECT_DIR$/Experiment/conll_file_counter.py" />
+        <option value="$PROJECT_DIR$/AutoMention消解结果.md" />
       </list>
     </option>
   </component>
@@ -552,13 +531,13 @@
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17932655" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17932655" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32919255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.51086956" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1087,16 +1066,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AutoMention消解结果.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api_one_file.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -1132,6 +1101,16 @@
           <folding>
             <element signature="e#68#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AutoMention消解结果.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="522">
+            <caret line="86" column="14" selection-start-line="83" selection-start-column="13" selection-end-line="86" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
