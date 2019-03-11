@@ -2,6 +2,7 @@
 from strict_head_matching_A import is_i_within_i
 from SubjectUtils.sieve_utils import is_numeric_mismatches
 import SubjectUtils.sieve_utils as sieve_util
+import config
 
 def proper_header_word_match_sieve(obj_document):
     """
@@ -11,8 +12,9 @@ def proper_header_word_match_sieve(obj_document):
     3. 非数量不匹配：第二个表述不能有再先行词中没出现的数字（people / around 200 people）
     """
     for index_mention, mention in enumerate(obj_document.lst_mentions):
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        if config.flag_jump_corefed_mention:
+            if str(mention.entity_id).startswith('E_'):
+                continue
 
         if index_mention == 0:
             continue

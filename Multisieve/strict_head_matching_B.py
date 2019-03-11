@@ -2,13 +2,14 @@
 from Multisieve.strict_head_matching_A import *
 import SubjectUtils.sieve_utils as sieve_util
 import logging
+import config
 logger = logging.getLogger("multi_sieve")
 
 def strict_head_matching_B(obj_document):
     for mention in obj_document.lst_mentions:
-
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        if config.flag_jump_corefed_mention:
+            if str(mention.entity_id).startswith('E_'):
+                continue
 
         # print '--------------'
 

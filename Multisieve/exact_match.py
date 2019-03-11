@@ -12,13 +12,15 @@ As expected, this model is extremely precise, with a pairwise precision over 96%
 import logging
 import ConstantVariable
 import SubjectUtils.sieve_utils as sieve_util
+import config
 logger = logging.getLogger("multi_sieve")
 
 def exact_match(obj_document):
 
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        if config.flag_jump_corefed_mention:
+            if str(mention.entity_id).startswith('E_'):
+                continue
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         sent_this_mention = obj_document.dic_sentences.get(mention.sent_id)
 

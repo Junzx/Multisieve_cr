@@ -7,12 +7,14 @@ import SubjectUtils.sieve_utils as sieve_util
 from UserCorpus.api_user_corpus import get_abbreviation_dict, get_nation, get_adj_nation
 import ConstantVariable
 import logging
+import config
 logger = logging.getLogger("multi_sieve")
 
 def precise_constructs(obj_document):
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        if config.flag_jump_corefed_mention:
+            if str(mention.entity_id).startswith('E_'):
+                continue
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         for candidate_m in candidate_mentions:
             # 如果两个表述在同一个句子中才可能是同位语关系

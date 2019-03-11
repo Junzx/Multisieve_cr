@@ -14,6 +14,7 @@ from getpass import getuser
 # =============== 开 关 ===================
 # ========================================
 flag_load_corenlp = False
+flag_jump_corefed_mention = False   # 是否跳过已经指代的表述
 
 
 

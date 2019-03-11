@@ -33,7 +33,7 @@ import config
 
 import logging
 
-logging.basicConfig(filename="./RunResults/MyLog.log",
+logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
                     level=logging.INFO)
 logger = logging.getLogger("experiments")
 
@@ -59,16 +59,16 @@ logger = logging.getLogger("experiments")
 # 我的顺序
 sieve_order = [
         test_sieve,
-        # exact_match,
-        # strict_head_matching_A,
-        # strict_head_matching_B,
-        # strict_head_matching_C,
-        # proper_header_word_match_sieve,
+        exact_match,
+        strict_head_matching_A,
+        strict_head_matching_B,
+        strict_head_matching_C,
+        proper_header_word_match_sieve,
         # precise_constructs,
         # relaxing_head_matching,
-        # discourse_processing,
+        discourse_processing,
         pronoun_sieve,
-        # other_sieve,
+        other_sieve,
         filter_sieve,
     ]
 
@@ -123,7 +123,10 @@ def main_old(file_):
     弃用此函数，不在运行的时候评价
     """
     start = clock()
-    document_object = load_one_file(file_)
+    if isinstance(file_, unicode):
+        document_object = load_one_file(file_)
+    else:
+        document_object = file_
     logger.info("加载数据用时： %f"%(clock() - start))
 
     all_result = {
@@ -164,7 +167,10 @@ def main(file_):
     新函数，只进行multisieve，并写入
     """
     start = clock()
-    document_object = load_one_file(file_)
+    if isinstance(file_, str):
+        document_object = load_one_file(file_)
+    else:
+        document_object = file_
     logger.info("加载数据用时： %f" % (clock() - start))
     logger.info("开始调用multi-sieve")
     for sieve in sieve_order:
@@ -178,6 +184,7 @@ def main(file_):
     # 然后写入文件
     result_file_path = config.result_folder + document_object.document_file_name + '.v4_result_conll'
     document_object.write_to_file(result_file_path)
+    return document_object
 
 if __name__ == '__main__':
     test_file = 'small_test2.conll'

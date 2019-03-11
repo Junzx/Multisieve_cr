@@ -30,6 +30,7 @@ def Mention_Detection(obj_document):
     dic_sentence = {}
     obj_document.lst_mentions = []
     obj_document.dic_mentions = {}
+    obj_document.dic_entity = {}
 
     # 根据token list构建sent对象
     sent_id = 0
@@ -72,15 +73,15 @@ def init_sentence_object(lst_tokens):
         obj_sentence.lst_tokens.append(token)
 
     # parse tree
-    # lst_mentions_from_parse = extract_mention_from_sentence(obj_sentence)  # 提取sent对象中的表述
-    # for m in lst_mentions_from_parse:
-    #     obj_sentence.lst_mentions.append(m)
+    lst_mentions_from_parse = extract_mention_from_sentence(obj_sentence)  # 提取sent对象中的表述
+    for m in lst_mentions_from_parse:
+        obj_sentence.lst_mentions.append(m)
 
     # ner
     # obj_sentence = extract_named_entity(obj_sentence)
 
     # 代词
-    obj_sentence = extract_pronoun(obj_sentence)
+    # obj_sentence = extract_pronoun(obj_sentence)
 
     # 过滤器
     # obj_sentence = mention_filter(obj_sentence)

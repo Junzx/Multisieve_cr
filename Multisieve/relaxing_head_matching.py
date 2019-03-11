@@ -7,11 +7,13 @@ not i-within-i
 """
 import strict_head_matching_A
 import SubjectUtils.sieve_utils as sieve_util
+import config
 
 def relaxing_head_matching(obj_document):
     for mention in obj_document.lst_mentions:
-        if str(mention.entity_id).startswith('E_'):
-            continue
+        if config.flag_jump_corefed_mention:
+            if str(mention.entity_id).startswith('E_'):
+                continue
 
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         # print '------------'

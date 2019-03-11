@@ -2,14 +2,16 @@
 import ctypes
 from getpass import getuser
 from os import name, listdir, getcwd
+import config
 
 if __name__ == '__main__':
     cilin_lib_path = getcwd() + '/libcilin.so'
     cilin_lib_data = getcwd() + '/dataset.txt'
 else:
     # cilin_lib_path = getcwd() + '/libcilin.so'
-    cilin_lib_path = './SubjectUtils/get_similarity' + '/libcilin.so'
-    cilin_lib_data = './SubjectUtils/get_similarity' + '/dataset.txt'
+
+    cilin_lib_path = config.project_path + '/SubjectUtils/get_similarity' + '/libcilin.so'
+    cilin_lib_data = config.project_path + '/SubjectUtils/get_similarity' + '/dataset.txt'
     # cilin_lib_data = getcwd() + '/dataset.txt'
 
 

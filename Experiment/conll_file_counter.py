@@ -6,6 +6,7 @@ import os
 from SubjectUtils import unit_test_utils
 import config
 import LoadConll
+import ConstantVariable
 
 def get_var_files(folder, var='bn'):
     return [folder + i for i in os.listdir(folder) if i.startswith(var)]
@@ -30,6 +31,27 @@ def get_result(var='bn'):
         counter_entity += len(unit_test_utils.get_entities(data).keys())
     return result_file_nums, counter_token, counter_mention, counter_entity
 
+def count_mention_variabels(vars="test"):
+    if vars == 'train':
+        files_ = config.get_var_files(config.gold_train)
+    elif vars == 'test':
+        files_ = config.get_var_files(config.gold_test)
+
+    counter_pron_mention = 0
+    counter_noun_mention = 0
+    for file_ in files_:#[:5]:
+        data = LoadConll.load_one_file(file_)
+        for mention in data.lst_mentions:
+            if mention.chinese_word in ConstantVariable.pronouns:
+                counter_pron_mention += 1
+            else:
+                counter_noun_mention += 1
+
+    print counter_noun_mention
+    print counter_pron_mention
+
+
+
 
 
 if __name__ == '__main__':
@@ -40,4 +62,9 @@ if __name__ == '__main__':
     #     print get_result(var)
 
     # 统计test文件
-    print get_result()
+    # print get_result()
+
+    # ===============================
+    # ===============================
+    # ===============================
+    count_mention_variabels('train')

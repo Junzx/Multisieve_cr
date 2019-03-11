@@ -47,7 +47,10 @@ def main(file_):
     # 其实md_org_data 和 md_res_data的id一样
     md_org_data = LoadConll.load_one_file_for_md(file_)
     md_res_data = Mention_Detection(md_org_data)
-    return count_md_prf(md_gold_data, md_res_data)
+    print count_md_prf(md_gold_data, md_res_data)
+    return md_res_data
+
+    # return count_md_prf(md_gold_data, md_res_data)
 
 
 if __name__ == '__main__':
