@@ -83,7 +83,7 @@ def run(vars = 'test'):
     elif vars == 'error':
         folder_path = config.error_file_test
 
-    test_files = config.get_var_files(folder_path)
+    test_files = config.get_var_files(folder_path)[:15]
     for file_idx, file_ in enumerate(test_files):
         # if 'cbs_0029_000' in file_ or \
         #     'dev_09_cmn_0039_000' in file_ or \

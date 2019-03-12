@@ -34,7 +34,7 @@ import config
 import logging
 
 logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
-                    level=logging.INFO)
+                    level=logging.INFO, filemode='w')
 logger = logging.getLogger("experiments")
 
 
@@ -59,17 +59,17 @@ logger = logging.getLogger("experiments")
 # 我的顺序
 sieve_order = [
         test_sieve,
-        exact_match,
-        strict_head_matching_A,
-        strict_head_matching_B,
-        strict_head_matching_C,
+        # exact_match,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
         proper_header_word_match_sieve,
         # precise_constructs,
         # relaxing_head_matching,
-        discourse_processing,
-        pronoun_sieve,
-        other_sieve,
-        filter_sieve,
+        # discourse_processing,
+        # pronoun_sieve,
+        # other_sieve,
+        # filter_sieve,
     ]
 
 # # 按照Precision降序
@@ -184,6 +184,7 @@ def main(file_):
     # 然后写入文件
     result_file_path = config.result_folder + document_object.document_file_name + '.v4_result_conll'
     document_object.write_to_file(result_file_path)
+    # unit_test_utils.print_gold_cluster(document_object)
     return document_object
 
 if __name__ == '__main__':

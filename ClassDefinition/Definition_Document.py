@@ -264,13 +264,20 @@ class Document(object):
         """
         # mention_1 = self.lst_mentions[mention_id_1]
         # mention_2 = self.lst_mentions[mention_id_2]
-        logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
-                                                    mention_2.chinese_word, str(mention_2.mention_id)))
+        # logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
+        #                                             mention_2.chinese_word, str(mention_2.mention_id)))
+        # logger.info("设置共指：")
 
         # print "设置共指： %s(id:%s) , %s(id:%s)" % (mention_1.chinese_word, str(mention_1.mention_id), \
         #                                        mention_2.chinese_word, str(mention_2.mention_id))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
+
+        log_info = " %s(m_id:%s, e_id:%s) , %s(m_id:%s, e_id:%s)" % \
+                        (
+                        mention_1.chinese_word, str(mention_1.mention_id), str(mention_1.entity_id),
+                        mention_2.chinese_word, str(mention_2.mention_id), str(mention_2.entity_id)
+                        )
 
         # 1. 两个mention不以'E_'开头 → 没有任何一个表述的entity_id在dic_entity中
         if not mention_1_entity_id.startswith('E_') and not mention_2_entity_id.startswith('E_'):
@@ -293,7 +300,9 @@ class Document(object):
             obj_entity.set_entity_attribute()
             # v) 保存这个entity object
             self.dic_entity.setdefault(entity_id, obj_entity)
+            logger.info('条件1，' + log_info + 'now_e_id: %s'%str(entity_id))
             # print mention_1.entity_id,mention_2.entity_id,' / ',mention_1,mention_2,' / ',entity_id#,obj_entity.lst_mentions
+
 
 
         # 2. 第二个mention以E_开头,这种情况通常是出现在上一个if结束后,第二个mention的entity id已经变成了E_开头
@@ -311,6 +320,7 @@ class Document(object):
             for mention in self.lst_mentions:
                 if mention.entity_id == mention_1.entity_id and str(mention.entity_id) != '-1':
                     mention.entity_id = entity_id
+            logger.info('条件2，' + log_info + 'now_e_id: %s' % str(entity_id))
 
         # 3. 第一个表述以E_开头,第二个不是,这里可能需要更新所有的表述的entity id
         elif mention_1_entity_id.startswith('E_') and not mention_2_entity_id.startswith('E_'):
@@ -327,13 +337,14 @@ class Document(object):
             for mention in self.lst_mentions:
                 if str(mention.entity_id) == mention_2_entity_id and str(mention.entity_id) != '-1':
                     mention.entity_id = entity_id
+            logger.info('条件3，' + log_info + 'now_e_id: %s' % str(entity_id))
 
         # 4. 均以'E_'开头,但是两个表述都是相同的EntityID,这时候仅仅需要更新Entity object即可
         elif mention_1_entity_id.startswith('E_') and mention_2_entity_id.startswith('E_') and mention_1_entity_id == mention_2_entity_id:
             # i) 取出entity object
             # obj_entity = self.dic_entity[mention_1_entity_id]
             # ii) 新增
-            pass
+            logger.info('条件4，没处理' + log_info)
 
         # 5. 均以'E_'开头 | 这将导致两个cluster合并,约束取mention时不取E_开头的mention即可
         elif mention_1_entity_id.startswith('E_') and mention_2_entity_id.startswith('E_') and mention_1_entity_id != mention_2_entity_id:
@@ -352,6 +363,7 @@ class Document(object):
             obj_entity.lst_mentions.extend(lst_del_mentions)
             # v) 删除要被合并的entity object
             del self.dic_entity[mention_1_entity_id]
+            logger.info('条件5，合并cluster' + log_info)
 
         # ---
         # print 'set coref: ',
