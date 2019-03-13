@@ -105,6 +105,10 @@ class Mention(object):
 
         if self.chinese_word in user_corpus.get_pca_list():
             return -1
+
+        # return ConstantVariable.get_gender(self.chinese_word)
+        if self.animacy == 1:
+            return ConstantVariable.get_gender(self.chinese_word)
         return 0
 
     def __set_animacy(self):

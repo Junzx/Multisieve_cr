@@ -18,13 +18,17 @@
 - UserCorpus 自定义的语料资源
     - Corpus 个人定义的语料
     - api_user_corpus.py 用来定义调用语料的结构函数
-- api_all_file.py 根据config.py 处理一个文件夹的文档
-- api_one_file.py 设置需要用的sieve，处理一个文档，返回对应的prf
+- api_cr_all_file.py [指代消解部分]根据config.py 处理一个文件夹的文档
+- api_cr_one_file.py [指代消解部分]设置需要用的sieve，处理一个文档，返回对应的prf
+- api_md_all_file.py [表述提取部分]根据config.py 处理一个文件夹的文档
+- api_md_one_file.py [表述提取部分]对一个文档进行表述提取
+- InitDocument.py 处理句子/文章，构成Document对象给MD
+- nlp_tools.py 设置调用斯坦福工具
 - config.py 定义数据路径等内容
 - ConstantVariable.py 定义一些常量
-- LoadConll.py 读取conll格式文件的函数
+- LoadConll.py 读取conll格式文件的函数，分为读取普通的和读取文件用于表述提取实验的
 - tmp.py *
-
+- LAB.py 临时函数
 
 ### 数据统计
 

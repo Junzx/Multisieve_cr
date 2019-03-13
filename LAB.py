@@ -1,7 +1,7 @@
 # coding: utf-8
 
 import InitDocument
-import api_one_file
+import api_cr_one_file
 import api_md_one_file
 import ConstantVariable
 import SubjectUtils.unit_test_utils
@@ -11,7 +11,11 @@ article = '特朗普就任总统以来第一次访问中国，这也是美国总
 
 doc = InitDocument.Article2DocumentObject(article)
 md_obj = api_md_one_file.main(doc)
-coref_obj = api_one_file.main(md_obj)
+for m in md_obj.lst_mentions:
+    print m.chinese_word, m.mention_id, m.start_token_id, m.end_token_id
+
+
+coref_obj = api_cr_one_file.main(md_obj)
 
 
 SubjectUtils.unit_test_utils.print_cluster(coref_obj)
@@ -19,8 +23,7 @@ SubjectUtils.unit_test_utils.print_cluster(coref_obj)
 
 # print id(doc), id(md_obj), id(coref_obj)
 
-for m in coref_obj.lst_mentions:
-    print m.chinese_word, m.mention_id, m.start_token_id, m.end_token_id
+
 
 for t in coref_obj.lst_tokens:
     print t.line

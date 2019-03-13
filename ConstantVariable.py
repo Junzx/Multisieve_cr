@@ -38,11 +38,21 @@ ner_labels = ['ORDINAL', 'LOC', 'PRODUCT', 'NORP',
              'ORG', 'LAW', 'EVENT', 'QUANTITY']
 
 # 读取cnn结果
-from Experiment.ExperimentResult.load_animacy_info import get_animacy_info_dict
+from Experiment.ExperimentResult.load_mention_info_result import get_animacy_info_dict, get_gender_info_dict
 __animacy_dict = get_animacy_info_dict()
+__gender_dict = get_gender_info_dict()
 
 def get_animacy(str_):
     tmp_ = __animacy_dict.get(str_, None)
+    if tmp_ == 0.0:
+        return 1
+    elif tmp_ == 1.0:
+        return -1
+    else:
+        return 0
+
+def get_gender(str_):
+    tmp_ = __gender_dict.get(str_, None)
     if tmp_ == 0.0:
         return 1
     elif tmp_ == 1.0:

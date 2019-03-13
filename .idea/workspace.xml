@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Experiment/ExperimentResult/gender_result.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/实验结果统计-代词消解.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutoMention消解结果.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConstantVariable.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConstantVariable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/ExperimentResult/load_mention_info_result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiment/ExperimentResult/temp.dat" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/ExperimentResult/animacy_result.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Experiment/api_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/api_system.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/InitDocument.py" beforeDir="false" afterPath="$PROJECT_DIR$/InitDocument.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB.py" beforeDir="false" afterPath="$PROJECT_DIR$/LAB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadConll.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadConll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_md_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_md_one_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rebuild_Init_Data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_cr_all_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_cr_one_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cts_0039_000.v4_result_conll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验结果统计-MD.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计-mention detection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验结果统计-上一个版本代码.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验结果统计-当前版本.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计-coreference resolution-gold mention.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/实验结果统计.md" beforeDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,75 +44,7 @@
     <favorites_list name="Multisieve_cr" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LoadConll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="925">
-              <caret line="324" column="29" selection-start-line="324" selection-start-column="29" selection-end-line="324" selection-end-column="29" />
-              <folding>
-                <element signature="e#17#73#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InitDocument.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LAB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding>
-                <element signature="e#17#36#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="61" column="43" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_one_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="169" column="4" lean-forward="true" selection-start-line="169" selection-start-column="4" selection-end-line="172" selection-end-column="31" />
-              <folding>
-                <element signature="e#41#63#0" expanded="true" />
-                <element signature="e#3125#4488#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-              <folding>
-                <element signature="e#576#1294#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -144,17 +93,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/__init__.py" />
-        <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_lstm.py" />
-        <option value="$PROJECT_DIR$/MentionDetection/LSTM_labeled_data/load_lstm_labeled_data.py" />
-        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Token.py" />
         <option value="$PROJECT_DIR$/api_md_all_file.py" />
         <option value="$PROJECT_DIR$/实验结果统计-MD.md" />
         <option value="$PROJECT_DIR$/Rebuild_Init_Data.py" />
-        <option value="$PROJECT_DIR$/ConstantVariable.py" />
         <option value="$PROJECT_DIR$/api_init_data.py" />
-        <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
-        <option value="$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py" />
         <option value="$PROJECT_DIR$/MentionDetection/MentionDetection_by_lstm_crf.py" />
         <option value="$PROJECT_DIR$/Multisieve/exact_match.py" />
         <option value="$PROJECT_DIR$/Multisieve/precise_constructs.py" />
@@ -165,7 +107,6 @@
         <option value="$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py" />
         <option value="$PROJECT_DIR$/Multisieve/other_sieve.py" />
         <option value="$PROJECT_DIR$/Experiment/conll_file_counter.py" />
-        <option value="$PROJECT_DIR$/api_all_file.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/make_gender_data.py" />
         <option value="$PROJECT_DIR$/Multisieve/strict_head_matching_A.py" />
         <option value="$PROJECT_DIR$/Experiment/Init_Data_Set/train_male.txt" />
@@ -181,7 +122,6 @@
         <option value="$PROJECT_DIR$/AttributeExtract/attribute_classification_utils.py" />
         <option value="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" />
         <option value="$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py" />
-        <option value="$PROJECT_DIR$/api_one_file.py" />
         <option value="$PROJECT_DIR$/AttributeExtract/__init__.py" />
         <option value="$PROJECT_DIR$/SubjectUtils/unit_test_utils.py" />
         <option value="$PROJECT_DIR$/ClassDefinition/Definition_Sentence.py" />
@@ -195,6 +135,15 @@
         <option value="$PROJECT_DIR$/api_md_one_file.py" />
         <option value="$PROJECT_DIR$/InitDocument.py" />
         <option value="$PROJECT_DIR$/LAB.py" />
+        <option value="$PROJECT_DIR$/Experiment/ExperimentResult/load_animacy_info.py" />
+        <option value="$PROJECT_DIR$/Experiment/ExperimentResult/load_mention_info_result.py" />
+        <option value="$PROJECT_DIR$/ConstantVariable.py" />
+        <option value="$PROJECT_DIR$/api_all_file.py" />
+        <option value="$PROJECT_DIR$/api_one_file.py" />
+        <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" />
+        <option value="$PROJECT_DIR$/实验结果统计-代词消解.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -204,10 +153,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="441" />
+    <option name="y" value="164" />
+    <option name="width" value="923" />
+    <option name="height" value="515" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -224,7 +173,7 @@
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassDefinition" type="462c0819:PsiDirectoryNode" />
+              <item name="Multisieve" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,11 +198,11 @@
       <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/AttributeExtract" />
       <recent name="$PROJECT_DIR$/MentionDetection" />
       <recent name="$PROJECT_DIR$/MentionDetection/LSTM_labeled" />
-      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.LAB">
+  <component name="RunManager" selected="Python.api_prf">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -392,50 +341,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration name="InitDocument (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InitDocument.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="InitDocument" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Multisieve_cr" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/InitData" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/InitData/InitDocument.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="LAB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -502,6 +407,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="api_all_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_cr_all_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="api_one_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Multisieve_cr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/api_cr_one_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="api_prf" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Multisieve_cr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -557,19 +506,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.InitDocument" />
-      <item itemvalue="Python.api_prf" />
-      <item itemvalue="Python.InitDocument (1)" />
       <item itemvalue="Python.LoadConll" />
       <item itemvalue="Python.LAB" />
+      <item itemvalue="Python.api_one_file" />
+      <item itemvalue="Python.api_all_file" />
+      <item itemvalue="Python.api_prf" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.api_prf" />
+        <item itemvalue="Python.api_all_file" />
+        <item itemvalue="Python.api_one_file" />
         <item itemvalue="Python.LAB" />
         <item itemvalue="Python.LoadConll" />
-        <item itemvalue="Python.InitDocument (1)" />
-        <item itemvalue="Python.api_prf" />
-        <item itemvalue="Python.InitDocument" />
       </list>
     </recent_temporary>
   </component>
@@ -588,22 +537,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60714287" visible="true" weight="0.2685983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60714287" visible="true" weight="0.2685983" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32919255" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38509318" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="运行" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="版本控制" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.39285713" visible="true" weight="0.39285713" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.39285713" weight="0.3400621" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="13" />
@@ -729,7 +677,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Multisieve/pronounce_cr.py</url>
-          <line>68</line>
+          <line>74</line>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -757,6 +705,26 @@
           <line>54</line>
           <option name="timeStamp" value="250" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LAB.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/LAB.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_cr_one_file.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/api_cr_one_file.py</url>
+          <line>199</line>
+          <option name="timeStamp" value="258" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -769,6 +737,12 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>for m in res.lst_mentions:
+    print m.chinese_word, m.gender</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>for m in res.lst_mentions:
     print m.chinese_word, m.mention_id, m.entity_id</expression-string>
@@ -846,85 +820,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SubjectUtils/get_similarity/word_similarity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-          <folding>
-            <element signature="e#17#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/other_sieve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#24#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/实验结果统计-MD.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/conll_file_counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="43" column="41" lean-forward="true" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <element signature="e#68#77#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/train_male.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="3801" column="3" selection-start-line="3801" selection-start-column="3" selection-end-line="3801" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/train_female.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="746" column="2" selection-start-line="746" selection-start-column="2" selection-end-line="746" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_male.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="588" column="3" selection-start-line="588" selection-start-column="3" selection-end-line="588" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_female.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="71" column="11" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/strict_head_matching_A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#51#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/Init_Data_Set/test_example.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/experiment_result/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -989,16 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MentionDetection/exact_np_by_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -1042,16 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_all_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="e#24#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,23 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AutoMention消解结果.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rebuild_Init_Data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
@@ -1180,27 +1038,6 @@
     <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Token.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="169" column="4" lean-forward="true" selection-start-line="169" selection-start-column="4" selection-end-line="172" selection-end-column="31" />
-          <folding>
-            <element signature="e#41#63#0" expanded="true" />
-            <element signature="e#3125#4488#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="50" column="27" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
-          <folding>
-            <element signature="e#576#1294#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LoadConll.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -1211,27 +1048,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="61" column="43" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test.v4_gold_conll">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/InitDocument.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="31">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Document.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="456" column="8" selection-start-line="456" selection-start-column="8" selection-end-line="456" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LAB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="85">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
           <folding>
             <element signature="e#17#36#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConstantVariable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/ExperimentResult/load_mention_info_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#576#1294#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="55" column="19" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-上一个版本代码.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2528" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_cr_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#41#63#0" expanded="true" />
+            <element signature="e#3127#4490#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_cr_all_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="90" column="26" selection-start-line="90" selection-start-column="26" selection-end-line="90" selection-end-column="26" />
+          <folding>
+            <element signature="e#24#43#0" expanded="true" />
+            <element signature="e#202#1797#0" />
+            <element signature="e#1815#2129#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="69" column="21" selection-start-line="66" selection-start-column="27" selection-end-line="69" selection-end-column="21" />
+          <folding>
+            <element signature="e#71#84#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="111" column="16" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+            <element signature="e#2064#2862#0" />
+            <element signature="e#3822#4717#0" />
+            <element signature="e#4755#5663#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-代词消解.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="126">
+            <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-coreference resolution-gold mention.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-525" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="324">
+            <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实验结果统计-mention detection.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-433" />
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -45,7 +45,7 @@ def Article2DocumentObject(article):
                 token.ner = ner[token_idx][1]
             token.word_itself = tokenize[token_idx]
             token.parse_info = parse_done[token_idx]
-            token.line = '    '.join(map(lambda s:str(s),['SPACE', 0, token.word_id, token.word_itself, token.pos_info, token.parse_info, token.speaker, 'COREF']))
+            token.line = '    '.join(map(lambda s:str(s),['SPACE', 0, token.word_id, token.word_itself, token.pos_info, token.parse_info, token.ner, token.speaker, 'COREF']))
 
             #obj_sent.lst_tokens.append(token)
             obj_document.lst_tokens.append(token)

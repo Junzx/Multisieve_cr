@@ -1,6 +1,6 @@
 # coding: utf-8
 
-import api_one_file
+import api_cr_one_file
 import api_md_one_file
 import config
 import LoadConll
@@ -19,7 +19,7 @@ def main(file_):
     # for m in md_res_obj.lst_mentions:
     #     print m.chinese_word, m.mention_id, m
     # print '-------------------'
-    res = api_one_file.main(md_res_obj)
+    res = api_cr_one_file.main(md_res_obj)
 
     # gold_obj = LoadConll.load_one_file(file_)
     # gold_res = api_one_file.main(gold_obj)
