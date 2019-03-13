@@ -58,18 +58,18 @@ logger = logging.getLogger("experiments")
 
 # 我的顺序
 sieve_order = [
-        # test_sieve,
+        test_sieve,
         exact_match,
-        # strict_head_matching_A,
-        # strict_head_matching_B,
-        # strict_head_matching_C,
-        # proper_header_word_match_sieve,
+        strict_head_matching_A,
+        strict_head_matching_B,
+        strict_head_matching_C,
+        proper_header_word_match_sieve,
         # precise_constructs,
         # relaxing_head_matching,
-        # discourse_processing,
-        # pronoun_sieve,
-        # other_sieve,
-        # filter_sieve,
+        discourse_processing,
+        pronoun_sieve,
+        other_sieve,
+        filter_sieve,
     ]
 
 # # 按照Precision降序

@@ -39,6 +39,7 @@ if name == 'posix':
 
     elif getuser() == 'yqzhu':  # server linux
         basic_folder = '/home/yqzhu/conll_test/'
+        nlp_path = '/home/yqzhu/stanford-corenlp-full-2018-10-05'
 
     path_log_folder = basic_folder + 'log'
     gold_train = basic_folder + 'train/data_go/'

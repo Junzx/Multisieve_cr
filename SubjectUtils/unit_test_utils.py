@@ -47,7 +47,7 @@ def print_gold_cluster(obj_document):
     for entity_id, mention_list in dic.items():
         print_str('Entity_id: (' + str(entity_id) + ') ,')
         for m in mention_list:
-            print_str("词： %s | mention id: %d" %(m.chinese_word, m.mention_id))
+            print_str("词： %s | mention id: %d | (%d - %d)" %(m.chinese_word, m.mention_id, m.start_token_id, m.end_token_id))
 
 
 def print_cluster(obj_document):

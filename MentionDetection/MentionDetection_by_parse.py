@@ -69,6 +69,12 @@ def Mention_Detection(obj_document):
             obj_document.lst_mentions.append(mention)
             global_mention_id += 1
 
+    # 删掉完全一样的表述，用token id卡
+    # tmp_dict = {}
+    # for mention in dic_sentence:
+    #     key_ = (mention.start_token_id, mention.end_token_id)
+    #     tmp_dict.setdefault(key_,mention)
+
     # del sent_lst_tokens[:]
     obj_document.dic_sentences = dic_sentence
     for m in obj_document.lst_mentions:
@@ -83,8 +89,14 @@ def init_sentence_object(lst_tokens):
 
     # parse tree
     lst_mentions_from_parse = extract_mention_from_sentence(obj_sentence)  # 提取sent对象中的表述
+
+    # 抽取Mention的token范围，用来去重
+    tmp = []
     for m in lst_mentions_from_parse:
-        obj_sentence.lst_mentions.append(m)
+        m_token_id = (m.start_token_id, m.end_token_id)
+        if  m_token_id not in tmp:
+            obj_sentence.lst_mentions.append(m)
+            tmp.append(m_token_id)
 
     # ner
     # obj_sentence = extract_named_entity(obj_sentence)

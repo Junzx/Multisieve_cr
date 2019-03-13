@@ -365,11 +365,16 @@ def load_one_file_for_md(str_iter_file_path):
 
 if __name__ == '__main__':
     from os import listdir
+    from SubjectUtils.unit_test_utils import print_gold_cluster, print_cluster
+
     # folder = config.path_test_folder
     # files = [folder + i for i in listdir(folder) if 'gold' in i]
     # test = load_one_file('test.v4_gold_conll')
+    f = '/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll'
     logger.info("开始执行")
-    test = load_one_file('test.v4_gold_conll')
+    test = load_one_file(f)
+    print_gold_cluster(test)
+    # print_cluster(test)
     logger.info("结束执行")
     # pprint(test.get_class_attribute())
     # from sys import getsizeof

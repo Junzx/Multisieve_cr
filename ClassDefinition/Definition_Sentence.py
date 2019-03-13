@@ -30,7 +30,7 @@ class Sentence(object):
         """
         parse = ''
         for token in self.lst_tokens:
-            parse += token.parse_info.strip('\n')
+            parse += token.parse_info.strip('\n').replace('*', ' ' + token.word_itself)
         return parse
 
     def get_class_attribute(self):

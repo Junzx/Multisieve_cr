@@ -1,0 +1,258 @@
+#begin document (bn/cts/00/cts_0039); part 000
+bn/cts/00/cts_0039    0    0    千禧年    NT    (TOP(IP(IP(NP(NP*)    -    -    -    -    (DATE)    (ARG0*    *    *    * -
+bn/cts/00/cts_0039    0    1    诺贝尔    NR    (NP*)    -    -    -    -    (WORK_OF_ART*    *    *    *    * (18)
+bn/cts/00/cts_0039    0    2    文学    NN    (NP*    -    -    -    -    *    *    *    *    * (19
+bn/cts/00/cts_0039    0    3    奖    NN    *))    -    -    -    -    *)    *)    *    *    * 19)
+bn/cts/00/cts_0039    0    4    揭晓    VV    (VP(VP*    -    01    -    -    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    5    了    AS    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    6    ，    PU    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    7    由    P    (VP(PP*    -    -    -    -    *    *    (ARG0*    *    * -
+bn/cts/00/cts_0039    0    8    法国籍    NN    (NP(NP(DNP(NP*)    -    -    -    -    (NORP)    *    *    *    * (11
+bn/cts/00/cts_0039    0    9    的    DEG    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    10    大陆    NN    (NP*    -    -    -    -    (GPE)    *    *    *    * (15
+bn/cts/00/cts_0039    0    11    作家    NN    *))    -    -    -    -    *    *    *    *    * 15)
+bn/cts/00/cts_0039    0    12    高行健    NR    (NP*)))    -    -    -    -    (PERSON)    *    *)    *    * 11)|(33)
+bn/cts/00/cts_0039    0    13    获得    VV    (VP*    -    01    -    -    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    14    了    AS    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    15    这    DT    (NP(DP*    -    -    -    -    *    *    (ARG1*    *    * (10
+bn/cts/00/cts_0039    0    16    项    M    (CLP*))    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    17    殊荣    NN    (NP*))))))    -    -    -    -    *    *    *)    *    * 10)|(10)
+bn/cts/00/cts_0039    0    18    ，    PU    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    19    而    AD    (IP(ADVP*)    -    -    -    -    *    *    *    (ARGM-DIS*)    * -
+bn/cts/00/cts_0039    0    20    他    PN    (NP*)    -    -    -    -    *    *    *    (ARG0*)    * (11)
+bn/cts/00/cts_0039    0    21    也    AD    (VP(ADVP*)    -    -    -    -    *    *    *    (ARGM-DIS*)    * -
+bn/cts/00/cts_0039    0    22    是    VC    (VP*    -    01    1    -    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    23    第一    OD    (NP(QP*    -    -    -    -    (ORDINAL)    *    *    (ARG1*    * -
+bn/cts/00/cts_0039    0    24    位    M    (CLP*))    -    -    2    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    25    获得    VV    (CP(CP(IP(VP*    -    01    -    -    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    26    这    DT    (NP(DP*    -    -    -    -    *    *    *    *    (ARG1* (13
+bn/cts/00/cts_0039    0    27    项    M    (CLP*))    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    28    荣誉    NN    (NP*))))    -    -    -    -    *    *    *    *    *) 13)|(13)
+bn/cts/00/cts_0039    0    29    的    DEC    *))    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    30    中国    NR    (NP*)    -    -    -    -    *    *    *    *    * (46)
+bn/cts/00/cts_0039    0    31    作家    NN    (NP*)))))    -    -    -    -    *    *    *    *)    (ARG0*) (15)
+bn/cts/00/cts_0039    0    32    。    PU    *))    -    -    -    -    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    高行健    NR    (TOP(IP(NP*)    -    -    -    -    (PERSON)    *    *    (ARG0*)    *    *    * (33)
+bn/cts/00/cts_0039    0    1    得知    VV    (VP(LCP(IP(VP*    -    01    -    -    *    (V*)    *    (ARGM-TMP*    *    *    * -
+bn/cts/00/cts_0039    0    2    获得    VV    (NP(CP(IP(VP*    -    01    -    -    *    (ARG1*    (V*)    *    *    *    * (22
+bn/cts/00/cts_0039    0    3    诺贝尔    NR    (NP(NP*)    -    -    -    -    (WORK_OF_ART*    *    (ARG1*    *    *    *    * (19|(18)
+bn/cts/00/cts_0039    0    4    文学    NN    (NP*    -    -    -    -    *    *    *    *    *    *    * (19
+bn/cts/00/cts_0039    0    5    奖    NN    *))))    -    -    -    -    *)    *    *)    *    *    *    * 19)|19)
+bn/cts/00/cts_0039    0    6    的    DEC    *)    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    7    消息    NN    (NP*))))    -    -    -    -    *    *)    *    *    *    *    * 22)|(22)
+bn/cts/00/cts_0039    0    8    后    LC    *)    -    -    -    -    *    *    *    *)    *    *    * -
+bn/cts/00/cts_0039    0    9    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    10    直    AD    (ADVP*)    -    -    -    -    *    *    *    (ARGM-ADV*)    *    *    * -
+bn/cts/00/cts_0039    0    11    呼    VV    (VP*    -    01    -    -    *    *    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    12    ‘    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    13    非常    AD    (IP(VP(VP(ADVP*)    -    -    -    -    *    *    *    (ARG1*    (ARGM-ADV*)    *    * -
+bn/cts/00/cts_0039    0    14    意外    VA    (VP*))    -    01    -    -    *    *    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    15    ’    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    16    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    17    还    AD    (VP(ADVP*)    -    -    -    -    *    *    *    *    *    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    18    没    AD    (ADVP*)    -    -    2    -    *    *    *    *    *    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    19    来得及    AD    (ADVP*)    -    -    -    -    *    *    *    *    *    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    20    反应    VV    (VP(VRD*    -    03    2    -    *    *    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    21    过来    VV    *)))))))    -    01    -    -    *    *    *    *)    *    *    (V*) -
+bn/cts/00/cts_0039    0    22    。    PU    *))    -    -    -    -    *    *    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    不过    AD    (TOP(IP(ADVP*)    -    -    -    -    *    *    (ARGM-DIS*)    *    *    * -
+bn/cts/00/cts_0039    0    1    唯一    AD    (NP(CP(CP(IP(VP(ADVP*)    -    -    -    -    *    (ARGM-ADV*)    (ARG0*    *    *    * -
+bn/cts/00/cts_0039    0    2    确定    VV    (VP*)))    -    01    -    -    *    (V*)    *    *    *    * -
+bn/cts/00/cts_0039    0    3    的    DEC    *)))    -    -    -    -    *    *    *)    *    *    * -
+bn/cts/00/cts_0039    0    4    是    VC    (VP*    -    01    1    -    *    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    5    ，    PU    *    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    6    获奖    VV    (IP(NP(CP(VP*))    -    01    -    -    *    *    (ARG1*    (V*)    *    (ARG0* (25
+bn/cts/00/cts_0039    0    7    这    DT    (DP*    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    8    件    M    (CLP*))    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    9    事    NN    (NP*))    -    -    -    -    *    *    *    *    *    *) 25)|(25)
+bn/cts/00/cts_0039    0    10    并不    AD    (VP(ADVP*)    -    -    -    -    *    *    *    *    *    (ARGM-ADV*) -
+bn/cts/00/cts_0039    0    11    会    VV    (VP*    -    01    -    -    *    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    12    改变    VV    (VP*    -    01    -    -    *    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    13    他    PN    (NP(DNP(NP*)    -    -    -    -    *    *    *    *    *    (ARG1* (28|(33)
+bn/cts/00/cts_0039    0    14    的    DEG    *)    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    15    生活    NN    (NP*)))))))    -    -    1    -    *    *    *)    *    *    *) 28)|(28)
+bn/cts/00/cts_0039    0    16    。    PU    *))    -    -    -    -    *    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    ６０    CD    (TOP(IP(IP(NP(DNP(QP*    -    -    -    -    (DATE*    *    (ARG0*    (ARG0*    *    *    * (33
+bn/cts/00/cts_0039    0    1    岁    M    (CLP*))    -    -    -    -    *)    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    2    的    DEG    *)    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    3    他    PN    (NP*))    -    -    -    -    *    *    *)    *)    *    *    * 33)|(33)
+bn/cts/00/cts_0039    0    4    才华洋溢    VV    (VP(VP*)    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    5    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    6    会    VV    (VP*    -    01    -    -    *    (V*)    *    *    *    *    * -
+bn/cts/00/cts_0039    0    7    拉    VV    (VP(VP*    -    01    -    -    *    *    (V*)    *    *    *    * -
+bn/cts/00/cts_0039    0    8    小提琴    NN    (NP*))    -    -    -    -    *    *    (ARG1*)    *    *    *    * -
+bn/cts/00/cts_0039    0    9    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    10    弹    VV    (VP*    -    01    1    -    *    *    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    11    钢琴    NN    (NP*))))    -    -    -    -    *    *    *    (ARG1*)    *    *    * -
+bn/cts/00/cts_0039    0    12    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    13    也    AD    (VP(ADVP*)    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    14    会    VV    (VP*    -    01    -    -    *    *    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    15    画画    VV    (VP*)))))    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    16    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    17    他    PN    (IP(NP*)    -    -    -    -    *    *    *    *    *    (ARG0*)    (ARG0*) (33)
+bn/cts/00/cts_0039    0    18    写    VV    (VP(VP*    -    01    -    -    *    *    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    19    小说    NN    (NP*))    -    -    -    -    *    *    *    *    *    (ARG1*)    * (98)
+bn/cts/00/cts_0039    0    20    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    21    也    AD    (VP(ADVP*)    -    -    -    -    *    *    *    *    *    *    (ARGM-DIS*) -
+bn/cts/00/cts_0039    0    22    创作    VV    (VP*    -    01    -    -    *    *    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    23    剧本    NN    (NP*)))))    -    -    -    -    *    *    *    *    *    *    (ARG1*) -
+bn/cts/00/cts_0039    0    24    。    PU    *))    -    -    -    -    *    *    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    瑞典    NR    (TOP(IP(NP*    -    -    -    -    (ORG*    (ARG0*    *    *    * -
+bn/cts/00/cts_0039    0    1    皇家    NN    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    2    学会    NN    *)    -    -    -    -    *)    *)    *    *    * -
+bn/cts/00/cts_0039    0    3    赞扬    VV    (VP*    -    01    -    -    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    4    他    PN    (NP(DNP(NP*)    -    -    -    -    *    (ARG1*    *    *    * (33)
+bn/cts/00/cts_0039    0    5    的    DEG    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    6    作品    NN    (NP*))    -    -    -    -    *    *)    *    *    * (52)
+bn/cts/00/cts_0039    0    7    具有    VV    (IP(VP(VP*    -    01    -    -    *    (ARG2*    (V*)    *    * -
+bn/cts/00/cts_0039    0    8    锐利    VA    (NP(NP(CP(CP(IP(VP*))    -    01    -    -    *    *    (ARG1*    (V*)    * (44|(41
+bn/cts/00/cts_0039    0    9    的    DEC    *))    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    10    洞察力    NN    (NP*))    -    -    -    -    *    *    *    (ARG0*)    * 41)|(41)
+bn/cts/00/cts_0039    0    11    以及    CC    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    12    语言    NN    (NP(DNP(NP*)    -    -    -    -    *    *    *    *    * (44
+bn/cts/00/cts_0039    0    13    的    DEG    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    14    创新感    NN    (NP*))))    -    -    -    -    *    *    *)    *    * 44)|44)|(44)
+bn/cts/00/cts_0039    0    15    ，    PU    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    16    为    P    (VP(PP*    -    -    4    -    *    *    *    *    (ARGM-PRP* -
+bn/cts/00/cts_0039    0    17    中国    NR    (NP(NP*)    -    -    -    -    (GPE)    *    *    *    * (48|(46)
+bn/cts/00/cts_0039    0    18    文学    NN    (NP*)))    -    -    -    -    *    *    *    *    *) 48)|(48)
+bn/cts/00/cts_0039    0    19    开辟    VV    (VP*    -    01    -    -    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    20    了    AS    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    21    新    JJ    (NP(DNP(ADJP*)    -    -    -    -    *    *    *    *    (ARG1* (50
+bn/cts/00/cts_0039    0    22    的    DEG    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    23    途径    NN    (NP*)))))))    -    -    -    -    *    *)    *    *    *) 50)|(50)
+bn/cts/00/cts_0039    0    24    。    PU    *))    -    -    -    -    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    高行健    NR    (TOP(IP(IP(NP*)    -    -    -    -    (PERSON)    (ARG0*)    (ARG1*)    *    *    *    * (33)
+bn/cts/00/cts_0039    0    1    常    AD    (VP(VP(ADVP*)    -    -    -    -    *    (ARGM-ADV*)    *    *    *    *    * -
+bn/cts/00/cts_0039    0    2    借    P    (VP(PP*    -    -    1    -    *    (ARGM-MNR*    *    *    *    *    * -
+bn/cts/00/cts_0039    0    3    作品    NN    (NP*))    -    -    -    -    *    *)    *    *    *    *    * (52)
+bn/cts/00/cts_0039    0    4    大胆    AD    (ADVP*)    -    -    -    -    *    (ARGM-ADV*)    *    *    *    *    * -
+bn/cts/00/cts_0039    0    5    批评    VV    (VP*    -    01    1    -    *    (V*)    *    *    *    *    * -
+bn/cts/00/cts_0039    0    6    中共    NR    (NP(NP*)    -    -    -    -    (ORG)    (ARG1*    *    *    *    *    * (55|(56)
+bn/cts/00/cts_0039    0    7    当局    NN    (NP*)))))    -    -    -    -    *    *)    *    *    *    *    * 55)|(55)
+bn/cts/00/cts_0039    0    8    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    9    被    LB    (VP*    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    10    中共    NR    (IP(NP*)    -    -    -    -    (ORG)    *    (ARG0*)    *    *    *    * (56)
+bn/cts/00/cts_0039    0    11    列为    VV    (VP*    -    01    -    -    *    *    (V*)    *    *    *    * -
+bn/cts/00/cts_0039    0    12    ‘    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    13    不    AD    (NP(CP(CP(IP(VP(ADVP*)    -    -    -    -    *    *    (ARG2*    (ARGM-ADV*)    *    *    * (59
+bn/cts/00/cts_0039    0    14    受    VV    (VP*    -    01    4    -    *    *    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    15    欢迎    NN    (NP*))))    -    -    -    -    *    *    *    (ARG1*)    *    *    * -
+bn/cts/00/cts_0039    0    16    的    DEC    *))    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    17    人物    NN    (NP*)))))))    -    -    -    -    *    *    *)    (ARG0*)    *    *    * 59)|(59)
+bn/cts/00/cts_0039    0    18    ’    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    19    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    20    因此    AD    (IP(ADVP*)    -    -    -    -    *    *    *    *    (ARGM-DIS*)    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    21    大陆    NN    (NP*    -    -    -    -    (GPE)    *    *    *    (ARG0*    (ARG0*    * -
+bn/cts/00/cts_0039    0    22    民众    NN    *)    -    -    -    -    *    *    *    *    *)    *)    * -
+bn/cts/00/cts_0039    0    23    对    P    (VP(VP(PP*    -    -    3    -    *    *    *    *    (ARG1*    *    * -
+bn/cts/00/cts_0039    0    24    高行健    NR    (NP(NP*)    -    -    -    -    (PERSON)    *    *    *    *    *    * (63|(33)
+bn/cts/00/cts_0039    0    25    其人    NN    (NP*    -    -    -    -    *    *    *    *    *    *    * (63
+bn/cts/00/cts_0039    0    26    其事    NN    *)))    -    -    -    -    *    *    *    *    *)    *    * 63)|63)
+bn/cts/00/cts_0039    0    27    都    AD    (ADVP*)    -    -    -    -    *    *    *    *    (ARGM-ADV*)    *    * -
+bn/cts/00/cts_0039    0    28    不    AD    (ADVP*)    -    -    -    -    *    *    *    *    (ARGM-ADV*)    *    * -
+bn/cts/00/cts_0039    0    29    熟悉    VV    (VP*))    -    01    -    -    *    *    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    30    ，    PU    *    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    31    书店    NN    (VP(LCP(NP*)    -    -    -    -    *    *    *    *    *    (ARGM-LOC*    * -
+bn/cts/00/cts_0039    0    32    里    LC    *)    -    -    -    -    *    *    *    *    *    *)    * -
+bn/cts/00/cts_0039    0    33    更    AD    (ADVP*)    -    -    -    -    *    *    *    *    *    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    34    别    AD    (ADVP*)    -    -    2    -    *    *    *    *    *    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    35    想    VV    (VP*    -    02    6    -    *    *    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    36    找到    VV    (IP(VP*    -    01    -    -    *    *    *    *    *    (ARG1*    (V*) -
+bn/cts/00/cts_0039    0    37    他    PN    (NP(DNP(NP*)    -    -    -    -    *    *    *    *    *    *    (ARG1* (67|(33)
+bn/cts/00/cts_0039    0    38    的    DEG    *)    -    -    -    -    *    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    39    著作    NN    (NP*))))))))    -    -    -    -    *    *    *    *    *    *)    *) 67)|(67)
+bn/cts/00/cts_0039    0    40    。    PU    *))    -    -    -    -    *    *    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    对于    P    (TOP(IP(IP(PP*    -    -    -    -    *    *    (ARG1*    *    * -
+bn/cts/00/cts_0039    0    1    他    PN    (NP(DNP(NP*)    -    -    -    -    *    *    *    *    * (70|(33)
+bn/cts/00/cts_0039    0    2    的    DEG    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    3    获奖    NN    (NP*)))    -    -    -    -    *    *    *)    *    * 70)|(70)
+bn/cts/00/cts_0039    0    4    ，    PU    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    5    中共    NR    (NP(NP*)    -    -    -    -    (GPE)    *    (ARG0*    *    * (73|(56)
+bn/cts/00/cts_0039    0    6    官方    NN    (NP*    -    -    -    -    *    *    *    *    * (73
+bn/cts/00/cts_0039    0    7    反应    NN    *))    -    -    2    -    *    *    *)    *    * 73)|73)
+bn/cts/00/cts_0039    0    8    是    VC    (VP*    -    01    2    -    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    9    相当    AD    (VP(ADVP*)    -    -    -    -    *    *    (ARGM-ADV*)    *    * -
+bn/cts/00/cts_0039    0    10    冷淡    VA    (VP*))))    -    01    -    -    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    11    ，    PU    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    12    倒    AD    (IP(VP(ADVP*)    -    -    7    -    *    *    *    (ARGM-DIS*)    * -
+bn/cts/00/cts_0039    0    13    是    VC    (VP*    -    01    2    -    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    14    译文界    NN    (IP(NP*)    -    -    -    -    *    *    *    (ARG1*    (ARG0*) -
+bn/cts/00/cts_0039    0    15    深    AD    (VP(ADVP*)    -    -    1    -    *    *    *    *    (ARGM-ADV*) -
+bn/cts/00/cts_0039    0    16    感    VV    (VP*    -    01    -    -    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    17    余有荣焉    VV    (IP(VP*))))))))    -    -    -    -    *    *    *    *)    (ARG1*) -
+bn/cts/00/cts_0039    0    18    。    PU    *))    -    -    -    -    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    “    PU    (TOP(IP(IP*    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    1    而且    AD    (ADVP*)    -    -    -    -    *    (ARGM-DIS*)    *    *    *    * -
+bn/cts/00/cts_0039    0    2    我    PN    (NP*)    -    -    -    -    *    (ARG0*)    *    *    *    * -
+bn/cts/00/cts_0039    0    3    觉得    VV    (VP*    -    01    -    -    *    (V*)    *    *    *    * -
+bn/cts/00/cts_0039    0    4    他    PN    (IP(NP*)    -    -    -    -    *    (ARG1*    (ARG0*)    *    *    * (33)
+bn/cts/00/cts_0039    0    5    很    AD    (VP(ADVP*)    -    -    -    -    *    *    (ARGM-ADV*)    *    *    * -
+bn/cts/00/cts_0039    0    6    勇敢    VA    (VP*)))))    -    01    -    -    *    *)    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    7    ，    PU    *    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    8    有些    DT    (IP(NP(DP*)    -    -    -    -    *    *    *    (ARG0*    *    * (15
+bn/cts/00/cts_0039    0    9    作家    NN    (NP*))    -    -    -    -    *    *    *    *)    *    * 15)|(15)
+bn/cts/00/cts_0039    0    10    他    PN    (NP*)    -    -    -    -    *    *    *    (C-ARG0*)    *    * (33)
+bn/cts/00/cts_0039    0    11    总    AD    (VP(ADVP*)    -    -    -    -    *    *    *    (ARGM-ADV*)    *    * -
+bn/cts/00/cts_0039    0    12    找    VV    (VP*    -    01    -    -    *    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    13    一些    CD    (NP(QP*)    -    -    -    -    *    *    *    (ARG1*    *    * (81
+bn/cts/00/cts_0039    0    14    保守    VA    (CP(CP(IP(VP*))    -    01    -    -    *    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    15    的    DEC    *))    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    16    路    NN    (NP*)))))    -    -    -    -    *    *    *    *)    (ARG0*)    * 81)|(81)
+bn/cts/00/cts_0039    0    17    ，    PU    *    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    18    但是    AD    (IP(ADVP*)    -    -    -    -    *    *    *    *    *    (ARGM-ADV*) -
+bn/cts/00/cts_0039    0    19    他    PN    (NP*)    -    -    -    -    *    *    *    *    *    (ARG0*) (33)
+bn/cts/00/cts_0039    0    20    没有    VE    (VP*))    -    03    2    -    *    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    21    。    PU    *    -    -    -    -    *    *    *    *    *    * -
+bn/cts/00/cts_0039    0    22    ”    PU    *))    -    -    -    -    *    *    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    高行健    NR    (TOP(IP(NP*)    -    -    -    -    (PERSON)    *    (ARG0*)    (ARG0*) (33)
+bn/cts/00/cts_0039    0    1    是    VC    (VP(VP*    -    01    2    -    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    2    在    P    (VP(PP*    -    -    2    -    *    *    (ARGM-TMP*    * -
+bn/cts/00/cts_0039    0    3    １９７８年    NT    (LCP(NP*)    -    -    -    -    (DATE)    *    *    * -
+bn/cts/00/cts_0039    0    4    时    LC    *))    -    -    -    -    *    *    *)    * -
+bn/cts/00/cts_0039    0    5    以    P    (PP*    -    -    -    -    *    *    (ARGM-MNR*    * -
+bn/cts/00/cts_0039    0    6    政治    NN    (NP(DNP(NP*    -    -    -    -    *    *    *    * (87
+bn/cts/00/cts_0039    0    7    难民    NN    *)    -    -    -    -    *    *    *    * -
+bn/cts/00/cts_0039    0    8    的    DEG    *)    -    -    -    -    *    *    *    * -
+bn/cts/00/cts_0039    0    9    身份    NN    (NP*)))    -    -    -    -    *    *    *)    * 87)|(87)
+bn/cts/00/cts_0039    0    10    流亡    VV    (VP*    -    01    -    -    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    11    法国    NR    (NP*))))    -    -    -    -    (GPE)    *    (ARG1*)    * -
+bn/cts/00/cts_0039    0    12    ，    PU    *    -    -    -    -    *    *    *    * -
+bn/cts/00/cts_0039    0    13    目前    NT    (VP(NP*)    -    -    -    -    *    *    *    (ARGM-TMP*) -
+bn/cts/00/cts_0039    0    14    定居    VV    (VP*    -    01    -    -    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    15    巴黎    NR    (NP*))))    -    -    -    -    (GPE)    *    *    (ARG1*) -
+bn/cts/00/cts_0039    0    16    。    PU    *))    -    -    -    -    *    *    *    * -
+
+bn/cts/00/cts_0039    0    0    高行健    NR    (TOP(IP(IP(NP(DNP(NP*)    -    -    -    -    (PERSON)    *    *    *    * (33)
+bn/cts/00/cts_0039    0    1    的    DEG    *)    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    2    文学    NN    (NP*    -    -    -    -    *    *    *    *    * (52
+bn/cts/00/cts_0039    0    3    作品    NN    *))    -    -    -    -    *    *    *    *    * 52)
+bn/cts/00/cts_0039    0    4    已    AD    (VP(ADVP*)    -    -    2    -    *    (ARGM-ADV*)    (ARGM-ADV*)    *    * -
+bn/cts/00/cts_0039    0    5    被    SB    (VP*    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    6    译成    VV    (VP(VP*    -    01    -    -    *    (V*)    *    *    * -
+bn/cts/00/cts_0039    0    7    十多    CD    (NP(QP*    -    -    -    -    (CARDINAL)    (ARG2*    *    *    * (95
+bn/cts/00/cts_0039    0    8    种    M    (CLP*))    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    9    文字    NN    (NP*)))    -    -    -    -    *    *)    *    *    * 95)|(95)
+bn/cts/00/cts_0039    0    10    出版    VV    (VP*)))))    -    01    -    -    *    *    (V*)    *    * -
+bn/cts/00/cts_0039    0    11    ，    PU    *    -    -    -    -    *    *    *    *    * -
+bn/cts/00/cts_0039    0    12    其中    NN    (IP(NP(CP(CP(IP(VP(NP*)    -    -    -    -    *    *    *    (ARGM-LOC*)    (ARG0* -
+bn/cts/00/cts_0039    0    13    最    AD    (ADVP*)    -    -    -    -    *    *    *    (ARGM-ADV*)    * -
+bn/cts/00/cts_0039    0    14    著名    VA    (VP*)))    -    01    -    -    *    *    *    (V*)    * -
+bn/cts/00/cts_0039    0    15    的    DEC    *)))    -    -    -    -    *    *    *    *    *) -
+bn/cts/00/cts_0039    0    16    是    VC    (VP*    -    01    1    -    *    *    *    *    (V*) -
+bn/cts/00/cts_0039    0    17    长篇    JJ    (NP(NP(ADJP*)    -    -    -    -    *    *    *    *    (ARG1* (101|(98
+bn/cts/00/cts_0039    0    18    小说    NN    (NP*))    -    -    -    -    *    *    *    *    * 98)|(98)
+bn/cts/00/cts_0039    0    19    《    PU    (NP*    -    -    -    -    *    *    *    *    * (101
+bn/cts/00/cts_0039    0    20    灵山    NR    *    -    -    -    -    (WORK_OF_ART)    *    *    *    * -
+bn/cts/00/cts_0039    0    21    》    PU    *))))    -    -    -    -    *    *    *    *    *) 101)|101)
+bn/cts/00/cts_0039    0    22    。    PU    *))    -    -    -    -    *    *    *    *    * -
+
+#end document

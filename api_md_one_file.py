@@ -55,7 +55,7 @@ def main(file_):
 
 if __name__ == '__main__':
     # test = 'test.v4_gold_conll'
-    test = '/opt/tmp/DataSets/conll_test/test/cts_0039_000.v4_gold_conll'
+    test = '/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll'
     # 用于计算prf
     md_gold_data = LoadConll.load_one_file(test)
     # 其实md_org_data 和 md_res_data的id一样
@@ -64,5 +64,18 @@ if __name__ == '__main__':
     print count_md_prf(md_gold_data, md_res_data)
     print 'shit'
     print md_org_data == md_res_data
-    for m in md_org_data.lst_mentions:
-        print m.chinese_word, m.mention_id
+
+    for sent in md_org_data.dic_sentences.values():
+        print sent.get_sent()
+        for token in sent.lst_tokens:
+            print "%s/%s "%(token.word_itself,token.token_id),
+        print
+        print sent.get_sent_parse()
+        for m in sent.lst_mentions:
+            print m.chinese_word, m.mention_id, m.start_token_id, m.end_token_id,m
+        print '--------------------------------------\n'
+
+
+
+    # for m in md_org_data.lst_mentions:
+        # print m.chinese_word, m.mention_id, m.start_token_id, m.end_token_id,m

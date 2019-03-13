@@ -33,6 +33,8 @@ if __name__ == '__main__':
         #     'dev_09_cmn_0039_000' in file_ or \
         #     'cts_0309_000' in file_:
         #     continue
+        # if 'cmn_0059' not in file_:
+        #     continue
         print file_
         print 'File: %s of %s' % (file_idx, len(files))
         print
