@@ -373,7 +373,9 @@ if __name__ == '__main__':
     f = '/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll'
     logger.info("开始执行")
     test = load_one_file(f)
-    print_gold_cluster(test)
+    for t in test.lst_tokens:
+        print t.line
+    # print_gold_cluster(test)
     # print_cluster(test)
     logger.info("结束执行")
     # pprint(test.get_class_attribute())
