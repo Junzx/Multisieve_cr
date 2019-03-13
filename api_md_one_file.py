@@ -43,18 +43,19 @@ def count_md_prf(obj_gold_data, obj_result_data):
 
 def main(file_):
     # 用于计算prf
-    md_gold_data = LoadConll.load_one_file(file_)
+    # md_gold_data = LoadConll.load_one_file(file_)
     # 其实md_org_data 和 md_res_data的id一样
     md_org_data = LoadConll.load_one_file_for_md(file_)
     md_res_data = Mention_Detection(md_org_data)
-    print count_md_prf(md_gold_data, md_res_data)
+    # print count_md_prf(md_gold_data, md_res_data)
     return md_res_data
 
     # return count_md_prf(md_gold_data, md_res_data)
 
 
 if __name__ == '__main__':
-    test = 'test.v4_gold_conll'
+    # test = 'test.v4_gold_conll'
+    test = '/opt/tmp/DataSets/conll_test/test/cts_0039_000.v4_gold_conll'
     # 用于计算prf
     md_gold_data = LoadConll.load_one_file(test)
     # 其实md_org_data 和 md_res_data的id一样
@@ -62,3 +63,6 @@ if __name__ == '__main__':
     md_res_data = Mention_Detection(md_org_data)
     print count_md_prf(md_gold_data, md_res_data)
     print 'shit'
+    print md_org_data == md_res_data
+    for m in md_org_data.lst_mentions:
+        print m.chinese_word, m.mention_id

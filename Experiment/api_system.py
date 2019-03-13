@@ -3,9 +3,10 @@
 import api_one_file
 import api_md_one_file
 import config
+import LoadConll
 from os import remove
 
-files = config.get_var_files(config.gold_test)
+files = config.get_var_files(config.gold_test)#[:10]
 
 def __del_result_files():
     for file_ in config.get_var_files(config.result_folder, 'result'):
@@ -13,8 +14,15 @@ def __del_result_files():
     print '删除所有result文件！'
 
 def main(file_):
+    # print '=============='
     md_res_obj = api_md_one_file.main(file_)
+    # for m in md_res_obj.lst_mentions:
+    #     print m.chinese_word, m.mention_id, m
+    # print '-------------------'
     res = api_one_file.main(md_res_obj)
+
+    # gold_obj = LoadConll.load_one_file(file_)
+    # gold_res = api_one_file.main(gold_obj)
     return res
 
 if __name__ == '__main__':

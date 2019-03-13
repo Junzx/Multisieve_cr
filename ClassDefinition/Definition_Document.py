@@ -78,7 +78,46 @@ class Document(object):
 
         self.gold_mention = extract_mention(self.lst_tokens)    # 从文件中读取的数据
 
+        self.__set_md_abstracts()
 
+    def __set_md_abstracts(self):
+        """
+        设置关键字、摘要等
+        """
+        # 通过token list获取article
+        self.article = ''  # document文本
+        self.lst_abstract = []  # 放两句摘要 | item.index, item.weight, item.sentence
+        self.lst_key_words = []  # 关键字list | item.word, item.weight
+        # self.key_word = ''  # 关键词短语
+
+        # 文本内容
+        for token in self.lst_tokens:
+            self.article += token.word_itself
+
+        # 关键字
+        tr4w = TextRank4Keyword()
+        tr4w.analyze(text=self.article, lower=True, window=2)
+        self.lst_key_words = deepcopy(tr4w.get_keywords(20, word_min_len=1))
+
+        # 关键短语
+        # lst_tmp_phrases = tr4w.get_keyphrases(keywords_num=20, min_occur_num= 2)
+        # if len(lst_tmp_phrases) == 0:
+        #     self.key_word = 'No-phrases'
+        # else:
+        #     self.key_word = lst_tmp_phrases[0]
+
+        # 摘要
+        tr4s = TextRank4Sentence()
+        tr4s.analyze(text=self.article, lower=True, source='all_filters')
+        self.lst_abstract = deepcopy(tr4s.get_key_sentences(num=2))
+
+        # 对每个mention计算权重
+        lst_key_word = [item['word'] for item in self.lst_key_words]
+
+        # for mention in self.lst_mentions:
+        #     if mention.chinese_word in lst_key_word:  # 说明这个是关键字
+        #         mention.weight = \
+        #         [item['weight'] for item in self.lst_key_words if item['word'] == mention.chinese_word][0]
 
     def __set_dict_attribute(self):
         """

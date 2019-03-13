@@ -27,14 +27,18 @@ def Mention_Detection(obj_document):
     MD主程序
     以句子为单位，提取表述
     """
+    global_mention_id = 0   # 最后的Mention id应该是这个
     dic_sentence = {}
     obj_document.lst_mentions = []
     obj_document.dic_mentions = {}
     obj_document.dic_entity = {}
+    global lst_key_words
+    lst_key_words = obj_document.lst_key_words
 
     # 根据token list构建sent对象
     sent_id = 0
     sent_lst_tokens = []
+
     # 以句子为单位创建sentence对象并提取表述
     for token in obj_document.lst_tokens:
         if token.sent_id == sent_id:
@@ -48,19 +52,24 @@ def Mention_Detection(obj_document):
             sent_lst_tokens.append(token)
 
             for mention in obj_sentence.lst_mentions:
+                mention.mention_id = global_mention_id
                 obj_document.lst_mentions.append(mention)
+                global_mention_id += 1  # 这个是总的Mention
 
-    # 有的document可能就有一句话
+    # 有的document可能就有一句话，或者处理最后一句话
     if sent_lst_tokens != []:
         obj_sentence = init_sentence_object(lst_tokens=sent_lst_tokens)
         dic_sentence.setdefault(sent_id, obj_sentence)
         sent_id += 1  # 更新sent id
         del sent_lst_tokens[:]
-        sent_lst_tokens.append(token)
+        # sent_lst_tokens.append(token)
 
         for mention in obj_sentence.lst_mentions:
+            mention.mention_id = global_mention_id
             obj_document.lst_mentions.append(mention)
+            global_mention_id += 1
 
+    # del sent_lst_tokens[:]
     obj_document.dic_sentences = dic_sentence
     for m in obj_document.lst_mentions:
         obj_document.dic_mentions.setdefault(m.mention_id, m)
@@ -96,11 +105,12 @@ def extract_mention_from_sentence(obj_sentence):
     """
     # 根据句法树提取
     composition = 'NP'
+    global lst_key_words
     str_sentence = mention_detection_utils.make_to_sentence(obj_sentence.lst_tokens)  # 构成一句话
     composition = mention_detection_utils.exact_composition(str_sentence, composition)  # 抽取NP
     num_composition = mention_detection_utils.exact_word(composition)
     obj_sentence = set_mention_info(obj_sentence, num_composition)
-    lst_mentions = exact_np_by_tree.extract_mention(obj_sentence.lst_tokens)
+    lst_mentions = exact_np_by_tree.extract_mention_for_mention_detection(obj_sentence.lst_tokens, lst_key_words)
 
     return lst_mentions
 
@@ -173,6 +183,11 @@ def extract_named_entity(obj_sentence):
             for t in tmp_ner_tokens:
                 obj_mention.lst_tokens.append(t)
 
+            # Mention的权重
+            global lst_key_word
+            if obj_mention.chinese_word in lst_key_word:  # 说明这个是关键字
+                obj_mention.weight = \
+                    [item['weight'] for item in lst_key_word if item['word'] == obj_mention.chinese_word][0]
             obj_mention.set_other_attributes(obj_mention.lst_tokens)
 
             obj_sentence.lst_mentions.append(obj_mention)
@@ -261,10 +276,13 @@ def __unit_test():
     res_data = Mention_Detection(data)
     # name_eneity = extract_named_entity(data)
     print len(res_data.lst_mentions)
+    for m in res_data.lst_mentions:
+        print m.chinese_word, m.mention_id
     # for mention in res_data.lst_mentions:
     #     pprint(mention.__dict__)
     #     print '--------------------'
     # print 'shit'
+    print res_data == data
 
 if __name__ == '__main__':
     __unit_test()

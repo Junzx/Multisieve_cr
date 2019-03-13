@@ -34,6 +34,8 @@ if name == 'posix':
     if getuser() == 'zz':   # sony linux
         basic_folder = '/opt/tmp/DataSets/conll_test/'
         nlp_path = '/opt/tmp/stanford-corenlp-full-2018-10-05'
+        embedding_dim = 50
+        embedding_path = '/opt/tmp/DataSets/zuowen.vectors.50'
 
     elif getuser() == 'yqzhu':  # server linux
         basic_folder = '/home/yqzhu/conll_test/'

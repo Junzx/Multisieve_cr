@@ -1,484 +1,2847 @@
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0039_000.v4_gold_conll
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0039_000.v4_gold_conll
 DEBUG:jieba:Building prefix dict from the default dictionary ...
 DEBUG:jieba:Loading model from cache /tmp/jieba.cache
 DEBUG:jieba:Loading model cost 0.287 seconds.
 DEBUG:jieba:Prefix dict has been built succesfully.
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.707305
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 诺贝尔(m_id:0, e_id:-1) , 诺贝尔(m_id:8, e_id:-1)now_e_id: E_8
-INFO:设置共指：:条件1， 千禧年诺贝尔文学奖(m_id:1, e_id:-1) , 诺贝尔文学奖(m_id:9, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件1， ６０岁的他(m_id:12, e_id:-1) , 他(m_id:13, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， ６０岁的他(m_id:12, e_id:E_13) , 他(m_id:14, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 中国(m_id:6, e_id:-1) , 中国(m_id:15, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件1， 高行健(m_id:7, e_id:-1) , 高行健(m_id:16, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件3， 高行健(m_id:7, e_id:E_16) , 高行健(m_id:19, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件3， ６０岁的他(m_id:12, e_id:E_13) , 他(m_id:20, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， ６０岁的他(m_id:12, e_id:E_13) , 他(m_id:21, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 中共(m_id:18, e_id:-1) , 中共(m_id:23, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件3， ６０岁的他(m_id:12, e_id:E_13) , 他(m_id:24, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， ６０岁的他(m_id:12, e_id:E_13) , 他(m_id:25, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， ６０岁的他(m_id:12, e_id:E_13) , 他(m_id:26, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 高行健(m_id:7, e_id:E_16) , 高行健(m_id:27, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件3， 高行健(m_id:7, e_id:E_16) , 高行健(m_id:28, e_id:-1)now_e_id: E_16
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.001990
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0059_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.025628
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 塞尔维亚(m_id:6, e_id:-1) , 塞尔维亚(m_id:7, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件1， 米洛舍维奇(m_id:2, e_id:-1) , 米洛舍维奇(m_id:10, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件1， 南斯拉夫总统科什图尼察的支持者和米洛舍维奇盟友之间的谈判(m_id:4, e_id:-1) , 这次谈判(m_id:12, e_id:-1)now_e_id: E_12
-INFO:设置共指：:条件1， 南斯拉夫(m_id:0, e_id:-1) , 南斯拉夫(m_id:13, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 首都贝尔格莱德(m_id:14, e_id:-1) , 贝尔格莱德(m_id:15, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 塞尔维亚(m_id:6, e_id:E_7) , 塞尔维亚(m_id:17, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:18, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 前总统米洛舍维奇(m_id:20, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:22, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件1， 一个星期(m_id:9, e_id:-1) , 一星期(m_id:23, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件1， 一场温和革命(m_id:11, e_id:-1) , 温和革命(m_id:24, e_id:-1)now_e_id: E_24
-INFO:设置共指：:条件1， 这首关于前总统米洛舍维奇的歌曲(m_id:21, e_id:-1) , 这首歌曲(m_id:25, e_id:-1)now_e_id: E_25
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:26, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 南斯拉夫总统科什图尼察(m_id:1, e_id:-1) , 南斯拉夫新总统科什图尼察(m_id:27, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:28, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:30, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:33, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 南斯拉夫总统科什图尼察(m_id:1, e_id:E_27) , 科什图尼察(m_id:34, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件1， 双方(m_id:5, e_id:-1) , 双方(m_id:36, e_id:-1)now_e_id: E_36
-INFO:设置共指：:条件3， 南斯拉夫总统科什图尼察(m_id:1, e_id:E_27) , 科什图尼察(m_id:37, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:38, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 南斯拉夫总统科什图尼察(m_id:1, e_id:E_27) , 科什图尼察(m_id:39, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:41, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:43, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:45, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 首都贝尔格莱德(m_id:14, e_id:E_15) , 贝尔格莱德(m_id:46, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:49, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:57, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:62, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:63, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 首都贝尔格莱德(m_id:14, e_id:E_15) , 贝尔格莱德(m_id:64, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:67, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:73, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件1， 米洛舍维奇政府(m_id:31, e_id:-1) , 前政府(m_id:75, e_id:-1)now_e_id: E_75
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:79, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 米洛舍维奇政府(m_id:31, e_id:E_75) , 米洛舍维奇政府(m_id:80, e_id:-1)now_e_id: E_75
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:82, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 南斯拉夫总统科什图尼察(m_id:1, e_id:E_27) , 科什图尼察(m_id:84, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:87, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 南斯拉夫(m_id:0, e_id:E_13) , 南斯拉夫(m_id:88, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 米洛舍维奇(m_id:2, e_id:E_10) , 米洛舍维奇(m_id:89, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 这首关于前总统米洛舍维奇的歌曲(m_id:21, e_id:E_25) , 那首流行的有关米洛舍维奇垮台的歌曲(m_id:90, e_id:-1)now_e_id: E_25
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.011164
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnn_0004_001.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.745393
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 罗夫(m_id:7, e_id:-1) , 罗夫(m_id:18, e_id:-1)now_e_id: E_18
-INFO:设置共指：:条件1， 这件在某种程度上你已经不再谈论的事情(m_id:16, e_id:-1) , 水门事情(m_id:21, e_id:-1)now_e_id: E_21
-INFO:设置共指：:条件3， 这件在某种程度上你已经不再谈论的事情(m_id:16, e_id:E_21) , 这件事情(m_id:23, e_id:-1)now_e_id: E_21
-INFO:设置共指：:条件1， 斯科特·麦克莱伦(m_id:2, e_id:-1) , 斯科特·麦克莱伦(m_id:24, e_id:-1)now_e_id: E_24
-INFO:设置共指：:条件3， 这件在某种程度上你已经不再谈论的事情(m_id:16, e_id:E_21) , 这些事情(m_id:28, e_id:-1)now_e_id: E_21
-INFO:设置共指：:条件1， 现在(m_id:17, e_id:-1) , 现在(m_id:34, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 这件在某种程度上你已经不再谈论的事情(m_id:16, e_id:E_21) , 这件事情(m_id:38, e_id:-1)now_e_id: E_21
-INFO:设置共指：:条件1， 这个问题的答案(m_id:36, e_id:-1) , 这件事情的答案(m_id:39, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件1， 水门事件(m_id:22, e_id:-1) , 水门事件(m_id:40, e_id:-1)now_e_id: E_40
-INFO:设置共指：:条件3， 现在(m_id:17, e_id:E_34) , 现在(m_id:43, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 现在(m_id:17, e_id:E_34) , 现在(m_id:45, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件1， 原因(m_id:57, e_id:-1) , 许多原因(m_id:60, e_id:-1)now_e_id: E_60
-INFO:设置共指：:条件1， 我们刚才看到的协议(m_id:100, e_id:-1) , 协议(m_id:102, e_id:-1)now_e_id: E_102
-INFO:设置共指：:条件1， 联邦调查局(m_id:49, e_id:-1) , 联邦调查局(m_id:106, e_id:-1)now_e_id: E_106
-INFO:设置共指：:条件1， 电影《惊天大阴谋》(m_id:84, e_id:-1) , 那本书，啊《惊天大阴谋》(m_id:110, e_id:-1)now_e_id: E_110
-INFO:设置共指：:条件1， 卡尔和我(m_id:113, e_id:-1) , 我(m_id:114, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件1， 深喉(m_id:81, e_id:-1) , 深喉(m_id:115, e_id:-1)now_e_id: E_115
-INFO:设置共指：:条件1， 你与卡尔·伯斯坦的书(m_id:95, e_id:-1) , 书(m_id:120, e_id:-1)now_e_id: E_120
-INFO:设置共指：:条件1， 深喉马克·费尔特(m_id:47, e_id:-1) , 马克·费尔特(m_id:121, e_id:-1)now_e_id: E_121
-INFO:设置共指：:条件3， 联邦调查局(m_id:49, e_id:E_106) , 联邦调查局(m_id:126, e_id:-1)now_e_id: E_106
-INFO:设置共指：:条件1， 整个故事(m_id:41, e_id:-1) , 一个具体的故事(m_id:134, e_id:-1)now_e_id: E_134
-INFO:设置共指：:条件3， 整个故事(m_id:41, e_id:E_134) , 这个故事(m_id:136, e_id:-1)now_e_id: E_134
-INFO:设置共指：:条件3， 联邦调查局(m_id:49, e_id:E_106) , 联邦调查局(m_id:139, e_id:-1)now_e_id: E_106
-INFO:设置共指：:条件1， 泄密者(m_id:130, e_id:-1) , 泄密者(m_id:142, e_id:-1)now_e_id: E_142
-INFO:设置共指：:条件1， 白宫(m_id:5, e_id:-1) , 白宫(m_id:143, e_id:-1)now_e_id: E_143
-INFO:设置共指：:条件1， 备忘录(m_id:137, e_id:-1) , 这份备忘录(m_id:146, e_id:-1)now_e_id: E_146
-INFO:设置共指：:条件3， 联邦调查局(m_id:49, e_id:E_106) , 联邦调查局(m_id:147, e_id:-1)now_e_id: E_106
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:155, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 水门事件(m_id:22, e_id:E_40) , 尼克森白宫腐败事件(m_id:159, e_id:-1)now_e_id: E_40
-INFO:设置共指：:条件1， 这(m_id:31, e_id:-1) , 这(m_id:163, e_id:-1)now_e_id: E_163
-INFO:设置共指：:条件1， 尼克森(m_id:158, e_id:-1) , 尼克森(m_id:164, e_id:-1)now_e_id: E_164
-INFO:设置共指：:条件3， 这件在某种程度上你已经不再谈论的事情(m_id:16, e_id:E_21) , 尼克森所做的事情(m_id:165, e_id:-1)now_e_id: E_21
-INFO:设置共指：:条件1， ＂气象人＂地下激进组织(m_id:152, e_id:-1) , ＂气象人＂组织(m_id:166, e_id:-1)now_e_id: E_166
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:167, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 深喉马克·费尔特(m_id:47, e_id:E_121) , 马克·费尔特(m_id:169, e_id:-1)now_e_id: E_121
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:172, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件1， 费尔特(m_id:151, e_id:-1) , 费尔特(m_id:179, e_id:-1)now_e_id: E_179
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:181, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 深喉马克·费尔特(m_id:47, e_id:E_121) , 马克·费尔特(m_id:184, e_id:-1)now_e_id: E_121
-INFO:设置共指：:条件3， 费尔特(m_id:151, e_id:E_179) , 费尔特(m_id:187, e_id:-1)now_e_id: E_179
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:189, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:192, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:194, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:195, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:196, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件3， 卡尔和我(m_id:113, e_id:E_114) , 我(m_id:197, e_id:-1)now_e_id: E_114
-INFO:设置共指：:条件1， 情报来源(m_id:190, e_id:-1) , 情报来源(m_id:203, e_id:-1)now_e_id: E_203
-INFO:设置共指：:条件3， 深喉马克·费尔特(m_id:47, e_id:E_121) , 马克·费尔特(m_id:207, e_id:-1)now_e_id: E_121
-INFO:设置共指：:条件1， 鲍勃·伍德沃德(m_id:171, e_id:-1) , 鲍勃·伍德沃德(m_id:209, e_id:-1)now_e_id: E_209
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.029968
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0069_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.326563
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 最新的报导(m_id:1, e_id:-1) , 报导(m_id:6, e_id:-1)now_e_id: E_6
-INFO:设置共指：:条件1， 大火(m_id:5, e_id:-1) , 这场大火(m_id:7, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件3， 最新的报导(m_id:1, e_id:E_6) , 报导(m_id:8, e_id:-1)now_e_id: E_6
-INFO:设置共指：:条件1， 隧道(m_id:3, e_id:-1) , 长约３２００公尺的隧道(m_id:16, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件1， 救援(m_id:17, e_id:-1) , 救援(m_id:19, e_id:-1)now_e_id: E_19
-INFO:设置共指：:条件1， 吉坎坦红冰河(m_id:4, e_id:-1) , 吉坎坦红冰河(m_id:21, e_id:-1)now_e_id: E_21
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.001182
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.923838
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 全球(m_id:0, e_id:-1) , 全球(m_id:4, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 一九一八年(m_id:2, e_id:-1) , 一九一八年(m_id:8, e_id:-1)now_e_id: E_8
-INFO:设置共指：:条件1， 目前这个阶段(m_id:5, e_id:-1) , 目前这个阶段(m_id:10, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 全球(m_id:0, e_id:E_4) , 全球(m_id:12, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 现在(m_id:1, e_id:-1) , 现在(m_id:13, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:15, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:17, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:18, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:23, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:26, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:29, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 达菲(m_id:30, e_id:-1) , 达菲(m_id:32, e_id:-1)now_e_id: E_32
-INFO:设置共指：:条件3， 达菲(m_id:30, e_id:E_32) , 达菲(m_id:36, e_id:-1)now_e_id: E_32
-INFO:设置共指：:条件3， 达菲(m_id:30, e_id:E_32) , 达菲(m_id:38, e_id:-1)now_e_id: E_32
-INFO:设置共指：:条件1， 禽流感(m_id:28, e_id:-1) , 禽流感(m_id:39, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件1， 目前(m_id:27, e_id:-1) , 目前(m_id:40, e_id:-1)now_e_id: E_40
-INFO:设置共指：:条件3， 达菲(m_id:30, e_id:E_32) , 达菲(m_id:41, e_id:-1)now_e_id: E_32
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:42, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 禽流感(m_id:28, e_id:E_39) , 高致病性禽流感(m_id:43, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件3， 禽流感(m_id:28, e_id:E_39) , 禽流感(m_id:47, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件1， 疫苗(m_id:48, e_id:-1) , 流感疫苗(m_id:50, e_id:-1)now_e_id: E_50
-INFO:设置共指：:条件3， 疫苗(m_id:48, e_id:E_50) , 这个疫苗(m_id:52, e_id:-1)now_e_id: E_50
-INFO:设置共指：:条件1， 这个手段(m_id:53, e_id:-1) , 这个手段(m_id:54, e_id:-1)now_e_id: E_54
-INFO:设置共指：:条件3， 目前(m_id:27, e_id:E_40) , 目前(m_id:56, e_id:-1)now_e_id: E_40
-INFO:设置共指：:条件3， 疫苗(m_id:48, e_id:E_50) , 疫苗(m_id:57, e_id:-1)now_e_id: E_50
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:58, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:61, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 禽流感(m_id:28, e_id:E_39) , 高致病性禽流感(m_id:62, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件3， 疫苗(m_id:48, e_id:E_50) , 用于人感染高致病性禽流感这个疫苗(m_id:63, e_id:-1)now_e_id: E_50
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:64, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 一期临床实验(m_id:66, e_id:-1) , 二期临床实验(m_id:68, e_id:-1)now_e_id: E_68
-INFO:设置共指：:条件3， 一期临床实验(m_id:66, e_id:E_68) , 二期临床实验(m_id:70, e_id:-1)now_e_id: E_68
-INFO:设置共指：:条件1， 中国(m_id:65, e_id:-1) , 中国(m_id:71, e_id:-1)now_e_id: E_71
-INFO:设置共指：:条件3， 一期临床实验(m_id:66, e_id:E_68) , 一期临床实验(m_id:72, e_id:-1)now_e_id: E_68
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:73, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 疫苗(m_id:48, e_id:E_50) , 一种被批准的用于＜Ｅｎｌｇｉｓｈ＞Ｈ＜／Ｅｎｌｇｉｓｈ＞五＜Ｅｎｇｌｉｓｈ＞Ｎ＜／Ｅｎｇｌｉｓｈ＞一所引起的这种高致病性禽流感病毒的疫苗(m_id:75, e_id:-1)now_e_id: E_50
-INFO:设置共指：:条件3， 现在(m_id:1, e_id:E_13) , 现在(m_id:76, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 这种方法(m_id:78, e_id:-1) , 这种扑杀的方法(m_id:79, e_id:-1)now_e_id: E_79
-INFO:设置共指：:条件1， 这(m_id:60, e_id:-1) , 这(m_id:80, e_id:-1)now_e_id: E_80
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.008682
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/phoenix_0009_004.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.997562
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 开滦矿务局(m_id:0, e_id:-1) , 开滦矿务局(m_id:2, e_id:-1)now_e_id: E_2
-INFO:设置共指：:条件3， 开滦矿务局(m_id:0, e_id:E_2) , 我开滦矿务局(m_id:16, e_id:-1)now_e_id: E_2
-INFO:设置共指：:条件1， 我开滦矿务局井下矿工(m_id:17, e_id:-1) , 矿工(m_id:19, e_id:-1)now_e_id: E_19
-INFO:设置共指：:条件3， 开滦矿务局(m_id:0, e_id:E_2) , 开滦矿务局(m_id:23, e_id:-1)now_e_id: E_2
-INFO:设置共指：:条件1， 唐山大地震(m_id:22, e_id:-1) , 地震(m_id:26, e_id:-1)now_e_id: E_26
-INFO:设置共指：:条件1， 当时(m_id:24, e_id:-1) , 当时(m_id:27, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 当时(m_id:24, e_id:E_27) , 当时(m_id:29, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 当时(m_id:24, e_id:E_27) , 当时(m_id:31, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件1， 吕家陀矿(m_id:32, e_id:-1) , 吕家陀矿(m_id:33, e_id:-1)now_e_id: E_33
-INFO:设置共指：:条件3， 当时(m_id:24, e_id:E_27) , 当时(m_id:35, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 当时(m_id:24, e_id:E_27) , 当时(m_id:38, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件1， 人(m_id:21, e_id:-1) , 一千多人(m_id:41, e_id:-1)now_e_id: E_41
-INFO:设置共指：:条件3， 人(m_id:21, e_id:E_41) , 一千多人(m_id:42, e_id:-1)now_e_id: E_41
-INFO:设置共指：:条件1， 一个，副矿长贾邦友(m_id:39, e_id:-1) , 贾邦友(m_id:44, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件1， 女同志(m_id:45, e_id:-1) , 女同志(m_id:46, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件1， 人家(m_id:48, e_id:-1) , 人家(m_id:49, e_id:-1)now_e_id: E_49
-INFO:设置共指：:条件1， 新工人(m_id:47, e_id:-1) , 新工人(m_id:50, e_id:-1)now_e_id: E_50
-INFO:设置共指：:条件3， 一个，副矿长贾邦友(m_id:39, e_id:E_44) , 贾邦友(m_id:52, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件3， 当时(m_id:24, e_id:E_27) , 当时(m_id:53, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件1， 共产党员(m_id:51, e_id:-1) , 共产党员(m_id:54, e_id:-1)now_e_id: E_54
-INFO:设置共指：:条件3， 人(m_id:21, e_id:E_41) , 先上井的人(m_id:56, e_id:-1)now_e_id: E_41
-INFO:设置共指：:条件3， 一个，副矿长贾邦友(m_id:39, e_id:E_44) , 贾邦友(m_id:58, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件3， 人(m_id:21, e_id:E_41) , 一千多人(m_id:61, e_id:-1)now_e_id: E_41
-INFO:设置共指：:条件3， 吕家陀矿(m_id:32, e_id:E_33) , 吕家陀矿(m_id:65, e_id:-1)now_e_id: E_33
-INFO:设置共指：:条件1， 一九七六年(m_id:64, e_id:-1) , 一九七六年(m_id:67, e_id:-1)now_e_id: E_67
-INFO:设置共指：:条件3， 吕家陀矿(m_id:32, e_id:E_33) , 吕家陀矿(m_id:68, e_id:-1)now_e_id: E_33
-INFO:设置共指：:条件1， 井口(m_id:55, e_id:-1) , 井口(m_id:72, e_id:-1)now_e_id: E_72
-INFO:设置共指：:条件3， 井口(m_id:55, e_id:E_72) , 井口(m_id:76, e_id:-1)now_e_id: E_72
-INFO:设置共指：:条件3， 一个，副矿长贾邦友(m_id:39, e_id:E_44) , 贾邦友(m_id:77, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件1， 自己(m_id:79, e_id:-1) , 自己(m_id:82, e_id:-1)now_e_id: E_82
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.007784
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0109_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.107327
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 以色列(m_id:0, e_id:-1) , 以色列(m_id:3, e_id:-1)now_e_id: E_3
-INFO:设置共指：:条件3， 以色列(m_id:0, e_id:E_3) , 以色列(m_id:7, e_id:-1)now_e_id: E_3
-INFO:设置共指：:条件3， 以色列(m_id:0, e_id:E_3) , 以色列(m_id:8, e_id:-1)now_e_id: E_3
-INFO:设置共指：:条件3， 以色列(m_id:0, e_id:E_3) , 以色列(m_id:9, e_id:-1)now_e_id: E_3
-INFO:设置共指：:条件1， 以色列军方(m_id:4, e_id:-1) , 以色列军方(m_id:10, e_id:-1)now_e_id: E_10
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.000525
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0049_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.386362
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 雅虎(m_id:2, e_id:-1) , 雅虎(m_id:4, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 杨致远(m_id:0, e_id:-1) , 杨致远(m_id:6, e_id:-1)now_e_id: E_6
-INFO:设置共指：:条件1， 一篇文章(m_id:7, e_id:-1) , 文章(m_id:9, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 雅虎(m_id:2, e_id:E_4) , 雅虎(m_id:10, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 全球业界(m_id:12, e_id:-1) , 业界(m_id:13, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件1， 那些人(m_id:1, e_id:-1) , 有些人(m_id:15, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件1， 微软(m_id:3, e_id:-1) , 微软(m_id:16, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件3， 那些人(m_id:1, e_id:E_15) , 那些人(m_id:21, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 雅虎(m_id:2, e_id:E_4) , 雅虎(m_id:22, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 雅虎(m_id:2, e_id:E_4) , 雅虎(m_id:23, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 公司(m_id:8, e_id:-1) , 公司(m_id:25, e_id:-1)now_e_id: E_25
-INFO:设置共指：:条件3， 公司(m_id:8, e_id:E_25) , 雅虎公司(m_id:28, e_id:-1)now_e_id: E_25
-INFO:设置共指：:条件1， 今年第一季度(m_id:24, e_id:-1) , 第一季度(m_id:30, e_id:-1)now_e_id: E_30
-INFO:设置共指：:条件3， 公司(m_id:8, e_id:E_25) , 公司(m_id:34, e_id:-1)now_e_id: E_25
-INFO:设置共指：:条件1， 公司董事会(m_id:35, e_id:-1) , 董事会(m_id:36, e_id:-1)now_e_id: E_36
-INFO:设置共指：:条件3， 微软(m_id:3, e_id:E_16) , 微软(m_id:37, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件3， 公司(m_id:8, e_id:E_25) , 公司(m_id:38, e_id:-1)now_e_id: E_25
-INFO:设置共指：:条件3， 微软(m_id:3, e_id:E_16) , 微软(m_id:39, e_id:-1)now_e_id: E_16
-INFO:设置共指：:条件3， 雅虎(m_id:2, e_id:E_4) , 雅虎(m_id:44, e_id:-1)now_e_id: E_4
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.003434
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cbs_0059_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.305492
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 李(m_id:0, e_id:-1) , 李(m_id:4, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 李前总统(m_id:1, e_id:-1) , 李前总统(m_id:5, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件3， 李(m_id:0, e_id:E_4) , 李(m_id:6, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 李前总统(m_id:1, e_id:E_5) , 李前总统(m_id:7, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件1， 国立台湾大学(m_id:2, e_id:-1) , 国立台湾大学(m_id:11, e_id:-1)now_e_id: E_11
-INFO:设置共指：:条件1， 国立台湾大学附属医院(m_id:3, e_id:-1) , 国立台湾大学附属医院(m_id:12, e_id:-1)now_e_id: E_12
-INFO:设置共指：:条件3， 国立台湾大学附属医院(m_id:3, e_id:E_12) , 台大医院(m_id:15, e_id:-1)now_e_id: E_12
-INFO:设置共指：:条件3， 李(m_id:0, e_id:E_4) , 李(m_id:16, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 李前总统(m_id:1, e_id:E_5) , 李前总统(m_id:17, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件1， 目前(m_id:8, e_id:-1) , 目前(m_id:18, e_id:-1)now_e_id: E_18
-INFO:设置共指：:条件1， 精神状况(m_id:9, e_id:-1) , 精神的状况(m_id:19, e_id:-1)now_e_id: E_19
-INFO:设置共指：:条件3， 李前总统(m_id:1, e_id:E_5) , 前总统(m_id:20, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件1， 气球扩张手术(m_id:13, e_id:-1) , 气球扩张手术(m_id:21, e_id:-1)now_e_id: E_21
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.001452
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cts_0109_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.363785
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 这个学生(m_id:2, e_id:-1) , 闻姓学生(m_id:7, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件3， 这个学生(m_id:2, e_id:E_7) , 三年级李姓学生(m_id:8, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件1， 家属(m_id:5, e_id:-1) , 被告家属(m_id:9, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 这个学生(m_id:2, e_id:E_7) , 李姓学生(m_id:12, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件1， 当时(m_id:4, e_id:-1) , 当时(m_id:13, e_id:-1)now_e_id: E_13
-INFO:设置共指：:条件3， 家属(m_id:5, e_id:E_9) , 死者家属(m_id:15, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 家属(m_id:5, e_id:E_9) , 死者家属(m_id:20, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 这个学生(m_id:2, e_id:E_7) , 闻姓学生(m_id:21, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件3， 当时(m_id:4, e_id:E_13) , 当时(m_id:22, e_id:-1)now_e_id: E_13
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.001269
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0089_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.355327
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000001
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 巴以(m_id:1, e_id:-1) , 巴以(m_id:4, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 埃及塔巴(m_id:0, e_id:-1) , 塔巴(m_id:7, e_id:-1)now_e_id: E_7
-INFO:设置共指：:条件1， 塔巴和谈(m_id:8, e_id:-1) , 和谈(m_id:9, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 塔巴和谈(m_id:8, e_id:E_9) , 和谈(m_id:11, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件1， 目前(m_id:6, e_id:-1) , 目前(m_id:12, e_id:-1)now_e_id: E_12
-INFO:设置共指：:条件1， 耶路撒冷(m_id:13, e_id:-1) , 耶路撒冷(m_id:18, e_id:-1)now_e_id: E_18
-INFO:设置共指：:条件1， 双方(m_id:5, e_id:-1) , 双方(m_id:19, e_id:-1)now_e_id: E_19
-INFO:设置共指：:条件1， 以色列(m_id:14, e_id:-1) , 以色列(m_id:20, e_id:-1)now_e_id: E_20
-INFO:设置共指：:条件1， 巴勒斯坦(m_id:10, e_id:-1) , 巴勒斯坦(m_id:22, e_id:-1)now_e_id: E_22
-INFO:设置共指：:条件3， 巴以(m_id:1, e_id:E_4) , 以(m_id:23, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 巴勒斯坦(m_id:10, e_id:E_22) , 巴勒斯坦(m_id:25, e_id:-1)now_e_id: E_22
-INFO:设置共指：:条件1， 冲突(m_id:26, e_id:-1) , 冲突(m_id:27, e_id:-1)now_e_id: E_27
-INFO:设置共指：:条件3， 巴勒斯坦(m_id:10, e_id:E_22) , 巴勒斯坦(m_id:28, e_id:-1)now_e_id: E_22
-INFO:设置共指：:条件3， 巴以(m_id:1, e_id:E_4) , 巴以(m_id:29, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 巴勒斯坦(m_id:10, e_id:E_22) , 巴勒斯坦(m_id:32, e_id:-1)now_e_id: E_22
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.002267
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/cnr_0129_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.066548
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 国家计划生育委员会主任张维庆(m_id:1, e_id:-1) , 张维庆(m_id:2, e_id:-1)now_e_id: E_2
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.000126
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/chtb_0049_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 1.785988
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 图们江(m_id:1, e_id:-1) , 图们江(m_id:15, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件1， 项目(m_id:8, e_id:-1) , 项目(m_id:23, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件3， 项目(m_id:8, e_id:E_23) , 该地区未来工业发展项目(m_id:24, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件3， 项目(m_id:8, e_id:E_23) , 工业项目(m_id:28, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件1， 评估(m_id:30, e_id:-1) , 评估(m_id:31, e_id:-1)now_e_id: E_31
-INFO:设置共指：:条件3， 项目(m_id:8, e_id:E_23) , 项目(m_id:32, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件3， 项目(m_id:8, e_id:E_23) , 这些项目(m_id:33, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件1， 组织(m_id:12, e_id:-1) , 组织(m_id:34, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 工发组织(m_id:35, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件1， 联合国(m_id:11, e_id:-1) , 联合国(m_id:38, e_id:-1)now_e_id: E_38
-INFO:设置共指：:条件1， 联合国开发计划署(m_id:4, e_id:-1) , 开发计划署(m_id:39, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 组织(m_id:40, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 工发组织(m_id:41, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 开发计划署和工发组织(m_id:42, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 联合国开发计划署和工发组织(m_id:43, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件1， 国际社会(m_id:0, e_id:-1) , 国际社会(m_id:44, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件1， 地区(m_id:20, e_id:-1) , 地区(m_id:46, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 图们江地区(m_id:47, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 图们江(m_id:1, e_id:E_15) , 图们江(m_id:62, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件1， 国际合作开发计划(m_id:48, e_id:-1) , 开发计划(m_id:63, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件3， 联合国开发计划署(m_id:4, e_id:E_39) , 联合国开发计划署(m_id:68, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件3， 国际合作开发计划(m_id:48, e_id:E_63) , 计划(m_id:70, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件3， 国际合作开发计划(m_id:48, e_id:E_63) , 该计划(m_id:71, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件1， 国(m_id:54, e_id:-1) , 国(m_id:72, e_id:-1)now_e_id: E_72
-INFO:设置共指：:条件3， 国(m_id:54, e_id:E_72) , 中、俄、朝三国(m_id:73, e_id:-1)now_e_id: E_72
-INFO:设置共指：:条件1， 国家(m_id:26, e_id:-1) , 国家(m_id:76, e_id:-1)now_e_id: E_76
-INFO:设置共指：:条件3， 国家(m_id:26, e_id:E_76) , 相关国家(m_id:77, e_id:-1)now_e_id: E_76
-INFO:设置共指：:条件3， 国际社会(m_id:0, e_id:E_44) , 国际社会(m_id:78, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件3， 国际合作开发计划(m_id:48, e_id:E_63) , 计划(m_id:79, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件3， 国际合作开发计划(m_id:48, e_id:E_63) , 该计划(m_id:80, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件3， 联合国开发计划署(m_id:4, e_id:E_39) , 开发计划署(m_id:81, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件3， 图们江(m_id:1, e_id:E_15) , 图们江(m_id:82, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件1， 开发(m_id:2, e_id:-1) , 开发(m_id:83, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 图们江开发(m_id:84, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 国(m_id:54, e_id:E_72) , 国(m_id:85, e_id:-1)now_e_id: E_72
-INFO:设置共指：:条件3， 国(m_id:54, e_id:E_72) , 中俄朝三国(m_id:86, e_id:-1)now_e_id: E_72
-INFO:设置共指：:条件3， 联合国开发计划署(m_id:4, e_id:E_39) , 开发计划署(m_id:90, e_id:-1)now_e_id: E_39
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 组织(m_id:91, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 工发组织(m_id:92, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 开发计划署和工发组织(m_id:93, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件1， 近期(m_id:14, e_id:-1) , 近期(m_id:98, e_id:-1)now_e_id: E_98
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 组织(m_id:99, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件3， 组织(m_id:12, e_id:E_34) , 工发组织(m_id:100, e_id:-1)now_e_id: E_34
-INFO:设置共指：:条件1， 可行性研究(m_id:88, e_id:-1) , 研究(m_id:102, e_id:-1)now_e_id: E_102
-INFO:设置共指：:条件1， 中国(m_id:65, e_id:-1) , 中国(m_id:103, e_id:-1)now_e_id: E_103
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 地区(m_id:108, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 东北亚地区(m_id:109, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件1， 未来(m_id:22, e_id:-1) , 未来(m_id:110, e_id:-1)now_e_id: E_110
-INFO:设置共指：:条件3， 图们江(m_id:1, e_id:E_15) , 图们江(m_id:115, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 国际合作开发计划(m_id:48, e_id:E_63) , 开发计划(m_id:116, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件3， 国际合作开发计划(m_id:48, e_id:E_63) , 图们江开发计划(m_id:117, e_id:-1)now_e_id: E_63
-INFO:设置共指：:条件3， 国家(m_id:26, e_id:E_76) , 国家(m_id:118, e_id:-1)now_e_id: E_76
-INFO:设置共指：:条件3， 国家(m_id:26, e_id:E_76) , 很多国家(m_id:119, e_id:-1)now_e_id: E_76
-INFO:设置共指：:条件1， 支持(m_id:50, e_id:-1) , 支持(m_id:122, e_id:-1)now_e_id: E_122
-INFO:设置共指：:条件3， 图们江(m_id:1, e_id:E_15) , 图们江(m_id:126, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 开发(m_id:127, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 图们江开发(m_id:128, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件1， 东北亚(m_id:107, e_id:-1) , 东北亚(m_id:133, e_id:-1)now_e_id: E_133
-INFO:设置共指：:条件3， 可行性研究(m_id:88, e_id:E_102) , 可行性研究(m_id:136, e_id:-1)now_e_id: E_102
-INFO:设置共指：:条件1， 开发项目的可行性研究(m_id:89, e_id:-1) , 中蒙铁路接轨、建设新的东北亚大陆桥的可行性研究(m_id:137, e_id:-1)now_e_id: E_137
-INFO:设置共指：:条件3， 中国(m_id:65, e_id:E_103) , 中国(m_id:140, e_id:-1)now_e_id: E_103
-INFO:设置共指：:条件3， 中国(m_id:65, e_id:E_103) , 中国(m_id:145, e_id:-1)now_e_id: E_103
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 铁路沿线地区(m_id:148, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 开发(m_id:150, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 国际社会(m_id:0, e_id:E_44) , 国际社会(m_id:155, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件1， 长春至珲春(m_id:146, e_id:-1) , 珲春(m_id:158, e_id:-1)now_e_id: E_158
-INFO:设置共指：:条件3， 长春至珲春(m_id:146, e_id:E_158) , 珲春(m_id:163, e_id:-1)now_e_id: E_158
-INFO:设置共指：:条件1， 吉林省珲春市(m_id:152, e_id:-1) , 珲春市(m_id:171, e_id:-1)now_e_id: E_171
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 地区(m_id:174, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 图们江地区(m_id:175, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 开发(m_id:176, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 图们江地区开发(m_id:177, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件1， 韩国(m_id:168, e_id:-1) , 韩国(m_id:178, e_id:-1)now_e_id: E_178
-INFO:设置共指：:条件3， 图们江(m_id:1, e_id:E_15) , 图们江(m_id:179, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件1， 发展基金(m_id:180, e_id:-1) , 基金(m_id:182, e_id:-1)now_e_id: E_182
-INFO:设置共指：:条件3， 发展基金(m_id:180, e_id:E_182) , 该基金(m_id:183, e_id:-1)now_e_id: E_182
-INFO:设置共指：:条件3， 长春至珲春(m_id:146, e_id:E_158) , 中国珲春(m_id:184, e_id:-1)now_e_id: E_158
-INFO:设置共指：:条件3， 项目(m_id:8, e_id:E_23) , 环境评估项目(m_id:187, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件3， 项目(m_id:8, e_id:E_23) , 中国珲春边境合作区环境评估项目(m_id:188, e_id:-1)now_e_id: E_23
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 地区(m_id:189, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 地区(m_id:20, e_id:E_46) , 这个地区(m_id:190, e_id:-1)now_e_id: E_46
-INFO:设置共指：:条件3， 国际社会(m_id:0, e_id:E_44) , 国际社会(m_id:196, e_id:-1)now_e_id: E_44
-INFO:设置共指：:条件3， 图们江(m_id:1, e_id:E_15) , 图们江(m_id:198, e_id:-1)now_e_id: E_15
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 开发(m_id:199, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 开发(m_id:2, e_id:E_83) , 图们江开发(m_id:200, e_id:-1)now_e_id: E_83
-INFO:设置共指：:条件3， 东北亚(m_id:107, e_id:E_133) , 东北亚(m_id:203, e_id:-1)now_e_id: E_133
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.055223
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/vom_0289_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.206813
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000003
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 菲律宾总统埃斯特拉达(m_id:1, e_id:-1) , 埃斯特拉达(m_id:4, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 菲律宾总统埃斯特拉达(m_id:1, e_id:E_4) , 埃斯特拉达(m_id:5, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 特别总统选举(m_id:3, e_id:-1) , 选举(m_id:8, e_id:-1)now_e_id: E_8
-INFO:设置共指：:条件3， 菲律宾总统埃斯特拉达(m_id:1, e_id:E_4) , 埃斯特拉达(m_id:9, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 菲律宾(m_id:0, e_id:-1) , 菲律宾(m_id:10, e_id:-1)now_e_id: E_10
-INFO:设置共指：:条件3， 菲律宾总统埃斯特拉达(m_id:1, e_id:E_4) , 埃斯特拉达(m_id:12, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件1， 星期五(m_id:6, e_id:-1) , 星期五(m_id:14, e_id:-1)now_e_id: E_14
-INFO:设置共指：:条件3， 菲律宾总统埃斯特拉达(m_id:1, e_id:E_4) , 埃斯特拉达(m_id:16, e_id:-1)now_e_id: E_4
-INFO:设置共指：:条件3， 菲律宾(m_id:0, e_id:E_10) , 菲律宾(m_id:17, e_id:-1)now_e_id: E_10
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.001622
-INFO:load_data:加载文档：/opt/tmp/DataSets/conll_test/test/ctv_0139_000.v4_gold_conll
-INFO:load_data:加载文档完毕！此文档共有1个doc对象
-INFO:experiments:加载数据用时： 0.357365
-INFO:experiments:开始调用multi-sieve
-INFO:experiments:Run <function test_sieve at 0x7f48c2fc8410>
-INFO:experiments:<function test_sieve at 0x7f48c2fc8410>用时：0.000002
-INFO:experiments:Run <function proper_header_word_match_sieve at 0x7f48c2fd3050>
-INFO:设置共指：:条件1， 中国(m_id:0, e_id:-1) , 中国(m_id:5, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件3， 中国(m_id:0, e_id:E_5) , 中国(m_id:8, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件1， 世贸组织(m_id:4, e_id:-1) , 世贸组织(m_id:9, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 中国(m_id:0, e_id:E_5) , 中国(m_id:13, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件1， 中国工作组(m_id:6, e_id:-1) , 中国工作组(m_id:14, e_id:-1)now_e_id: E_14
-INFO:设置共指：:条件3， 中国(m_id:0, e_id:E_5) , 中国(m_id:16, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件3， 世贸组织(m_id:4, e_id:E_9) , 世贸组织(m_id:17, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件1， 中国外经贸部首席谈判代表龙永图(m_id:1, e_id:-1) , 龙永图(m_id:18, e_id:-1)now_e_id: E_18
-INFO:设置共指：:条件1， 中国工作组会议(m_id:15, e_id:-1) , 下次会议(m_id:19, e_id:-1)now_e_id: E_19
-INFO:设置共指：:条件3， 中国(m_id:0, e_id:E_5) , 中国(m_id:20, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件3， 世贸组织(m_id:4, e_id:E_9) , 世贸组织(m_id:21, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 中国(m_id:0, e_id:E_5) , 中国(m_id:23, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件3， 世贸组织(m_id:4, e_id:E_9) , 世贸组织(m_id:24, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 中国外经贸部首席谈判代表龙永图(m_id:1, e_id:E_18) , 龙永图(m_id:25, e_id:-1)now_e_id: E_18
-INFO:设置共指：:条件3， 世贸组织(m_id:4, e_id:E_9) , 世界贸易组织(m_id:28, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件1， 这个程序(m_id:29, e_id:-1) , 程序(m_id:30, e_id:-1)now_e_id: E_30
-INFO:设置共指：:条件3， 世贸组织(m_id:4, e_id:E_9) , 世贸组织(m_id:31, e_id:-1)now_e_id: E_9
-INFO:设置共指：:条件3， 中国(m_id:0, e_id:E_5) , 中国(m_id:32, e_id:-1)now_e_id: E_5
-INFO:设置共指：:条件3， 中国工作组(m_id:6, e_id:E_14) , 中国工作组(m_id:33, e_id:-1)now_e_id: E_14
-INFO:设置共指：:条件3， 中国工作组会议(m_id:15, e_id:E_19) , 世贸组织第十五次中国工作组会议(m_id:34, e_id:-1)now_e_id: E_19
-INFO:设置共指：:条件1， 日内瓦(m_id:3, e_id:-1) , 日内瓦(m_id:35, e_id:-1)now_e_id: E_35
-INFO:设置共指：:条件1， 本台记者(m_id:11, e_id:-1) , 中央台记者(m_id:37, e_id:-1)now_e_id: E_37
-INFO:experiments:<function proper_header_word_match_sieve at 0x7f48c2fd3050>用时：0.002966
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一个星期(m_id:27, e_id:-1) , 一星期(m_id:77, e_id:-1)now_e_id: E_77
+INFO:multi_sieve:修饰语： 星期 星期
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnn_0004_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这件事情(m_id:70, e_id:-1) , 这件事情(m_id:106, e_id:-1)now_e_id: E_106
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这个神秘的男人(m_id:139, e_id:-1) , 这个神秘的男人以及你与深喉马克·费尔特的关系(m_id:146, e_id:-1)now_e_id: E_146
+INFO:multi_sieve:修饰语： 这个神秘 这个神秘
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 任何人(m_id:123, e_id:-1) , 任何人(m_id:205, e_id:-1)now_e_id: E_205
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 任何 任何
+INFO:设置共指：:条件1， 大多数人(m_id:222, e_id:-1) , 大多数人(m_id:226, e_id:-1)now_e_id: E_226
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 大多数 大多数
+INFO:设置共指：:条件1， 尽可能多的信息(m_id:289, e_id:-1) , 尽可能多的新信息(m_id:291, e_id:-1)now_e_id: E_291
+INFO:multi_sieve:修饰语： 尽可能多 尽可能多
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 那份联邦调查局的备忘录(m_id:328, e_id:-1) , 那份联邦调查局的备忘录，他签过名的(m_id:332, e_id:-1)now_e_id: E_332
+INFO:multi_sieve:修饰语： 那份联邦调查局 那份联邦调查局
+INFO:multi_sieve:限定词： 那 那
+INFO:设置共指：:条件1， 马克·费尔特和联邦调查局的其他人(m_id:458, e_id:-1) , 马克·费尔特和联邦调查局的其他人所想的(m_id:459, e_id:-1)now_e_id: E_459
+INFO:multi_sieve:修饰语： 马克·费尔特和联邦调查局 马克·费尔特和联邦调查局
+INFO:multi_sieve:限定词： 其他 其他
+INFO:设置共指：:条件3， 这件事情(m_id:70, e_id:E_106) , 这件事情(m_id:490, e_id:-1)now_e_id: E_106
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这件事情(m_id:70, e_id:E_106) , 这件事情(m_id:531, e_id:-1)now_e_id: E_106
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 一个专栏(m_id:481, e_id:-1) , 一个专栏(m_id:542, e_id:-1)now_e_id: E_542
+INFO:multi_sieve:修饰语： 专栏 专栏
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnn_0004_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 欧洲的一项意外(m_id:2, e_id:-1) , 欧洲的一项意外的消息(m_id:4, e_id:-1)now_e_id: E_4
+INFO:multi_sieve:修饰语： 欧洲 欧洲
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一次新的流感大流行(m_id:8, e_id:-1) , 一次新的流感大流行如果来的时候，对这个全球所造成的巨大影响(m_id:11, e_id:-1)now_e_id: E_11
+INFO:multi_sieve:修饰语： 一次新 一次新
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 目前这个阶段(m_id:47, e_id:-1) , 目前这个阶段(m_id:59, e_id:-1)now_e_id: E_59
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这个全球合作的机制(m_id:66, e_id:-1) , 这个全球合作的机制下面(m_id:68, e_id:-1)now_e_id: E_68
+INFO:multi_sieve:修饰语： 这个全球合作 这个全球合作
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 行政一些管理人员(m_id:89, e_id:-1) , 一些行政一些管理人员(m_id:90, e_id:-1)now_e_id: E_90
+INFO:multi_sieve:修饰语： 人员 人员
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 治疗或者说在预防禽流感感染人的这种过程(m_id:149, e_id:-1) , 治疗或者说在预防禽流感感染人的这种过程里面(m_id:151, e_id:-1)now_e_id: E_151
+INFO:multi_sieve:修饰语： 治疗或者说在预防禽流感感染人 治疗或者说在预防禽流感感染人
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这个手段(m_id:206, e_id:-1) , 这个手段(m_id:208, e_id:-1)now_e_id: E_208
+INFO:multi_sieve:修饰语： 手段 手段
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这个疫苗(m_id:204, e_id:-1) , 这个疫苗(m_id:216, e_id:-1)now_e_id: E_216
+INFO:multi_sieve:修饰语： 疫苗 疫苗
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个疫苗(m_id:204, e_id:E_216) , 用于人感染高致病性禽流感这个疫苗(m_id:231, e_id:-1)now_e_id: E_216
+INFO:multi_sieve:修饰语： 疫苗 疫苗
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 一期临床实验(m_id:237, e_id:-1) , 一期临床实验(m_id:244, e_id:-1)now_e_id: E_244
+INFO:multi_sieve:修饰语： 实验 实验
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 二期临床实验(m_id:241, e_id:-1) , 二期临床实验(m_id:246, e_id:-1)now_e_id: E_246
+INFO:multi_sieve:修饰语： 实验 实验
+INFO:multi_sieve:限定词： 二 二
+INFO:设置共指：:条件3， 一期临床实验(m_id:237, e_id:E_244) , 一期临床实验(m_id:251, e_id:-1)now_e_id: E_244
+INFO:multi_sieve:修饰语： 实验 实验
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 各国(m_id:182, e_id:-1) , 各国(m_id:276, e_id:-1)now_e_id: E_276
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 这些传染病(m_id:98, e_id:-1) , 这些烈性传染病(m_id:288, e_id:-1)now_e_id: E_288
+INFO:multi_sieve:修饰语： 传染病 传染病
+INFO:multi_sieve:限定词： 这些 这些
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一千多人(m_id:113, e_id:-1) , 一千多人(m_id:123, e_id:-1)now_e_id: E_123
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 一千多 一千多
+INFO:设置共指：:条件1， 什么责任(m_id:126, e_id:-1) , 什么责任(m_id:128, e_id:-1)now_e_id: E_128
+INFO:multi_sieve:修饰语： 责任 责任
+INFO:multi_sieve:限定词： 什么 什么
+INFO:设置共指：:条件3， 一千多人(m_id:113, e_id:E_123) , 一千多人(m_id:134, e_id:-1)now_e_id: E_123
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 一千多 一千多
+INFO:设置共指：:条件3， 一千多人(m_id:113, e_id:E_123) , 一千多人(m_id:178, e_id:-1)now_e_id: E_123
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 一千多 一千多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0109_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0109_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 那些人(m_id:5, e_id:-1) , 那些人(m_id:54, e_id:-1)now_e_id: E_54
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 那些 那些
+INFO:设置共指：:条件1， 今年第一季度(m_id:67, e_id:-1) , 第一季度(m_id:113, e_id:-1)now_e_id: E_113
+INFO:multi_sieve:修饰语： 季度 季度
+INFO:multi_sieve:限定词： 第一 第一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/dev_09_cmn_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0109_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0109_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0089_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0089_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0129_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0129_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 中国、俄罗斯、朝鲜三国(m_id:70, e_id:-1) , 中、俄、朝三国(m_id:95, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：:条件1， 该计划(m_id:90, e_id:-1) , 该计划(m_id:104, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 计划 计划
+INFO:multi_sieve:限定词： 该 该
+INFO:设置共指：:条件3， 中国、俄罗斯、朝鲜三国(m_id:70, e_id:E_95) , 中俄朝三国(m_id:112, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：:条件1， 很多国家政府和企业(m_id:154, e_id:-1) , 很多国家政府和企业的大力支持(m_id:156, e_id:-1)now_e_id: E_156
+INFO:multi_sieve:修饰语： 很多国家政府和企业 很多国家政府和企业
+INFO:multi_sieve:限定词： 很多 很多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0289_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0289_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0139_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0139_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 所有阿拉伯国家政府和不结盟组织１００多个国家(m_id:82, e_id:-1) , 所有阿拉伯国家政府和不结盟组织１００多个国家的支持(m_id:84, e_id:-1)now_e_id: E_84
+INFO:multi_sieve:修饰语： 所有阿拉伯国家政府和不结盟组织１００多个国家 所有阿拉伯国家政府和不结盟组织１００多个国家
+INFO:multi_sieve:限定词： 所有 所有
+INFO:设置共指：:条件1， １００多人(m_id:20, e_id:-1) , １００多人(m_id:96, e_id:-1)now_e_id: E_96
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： １００多 １００多
+INFO:设置共指：:条件1， 这次会议(m_id:68, e_id:-1) , 这次会议(m_id:118, e_id:-1)now_e_id: E_118
+INFO:multi_sieve:修饰语： 会议 会议
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 那满口胡言的“时代结束论者(m_id:162, e_id:-1) , 那满口胡言的“时代结束论者”山姆９９布朗巴克参议员（共和党－堪萨斯州(m_id:166, e_id:-1)now_e_id: E_166
+INFO:multi_sieve:修饰语： 那满口胡言 那满口胡言
+INFO:multi_sieve:限定词： 那 那
+INFO:设置共指：:条件1， 那些不知何故潦倒但有潜力变成权势的人士(m_id:186, e_id:-1) , 那些不知何故潦倒但有潜力变成权势的人士的生活(m_id:188, e_id:-1)now_e_id: E_188
+INFO:multi_sieve:修饰语： 那些不知何故潦倒但有潜力变成权势 那些不知何故潦倒但有潜力变成权势
+INFO:multi_sieve:限定词： 那些 那些
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0089_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这次选举(m_id:14, e_id:-1) , 这次总统选举(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 选举 选举
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这个国家(m_id:130, e_id:-1) , 这个国家(m_id:167, e_id:-1)now_e_id: E_167
+INFO:multi_sieve:修饰语： 国家 国家
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这次选举(m_id:14, e_id:E_35) , 这次选举(m_id:181, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 选举 选举
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这次选举(m_id:14, e_id:E_35) , 这次总统选举(m_id:213, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 选举 选举
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这次选举(m_id:14, e_id:E_35) , 这次选举(m_id:215, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 选举 选举
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这个国家(m_id:130, e_id:E_167) , 这个国家(m_id:239, e_id:-1)now_e_id: E_167
+INFO:multi_sieve:修饰语： 国家 国家
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这个过度性的过程(m_id:285, e_id:-1) , 这个过度性的过程的新一步(m_id:287, e_id:-1)now_e_id: E_287
+INFO:multi_sieve:修饰语： 这个过度性 这个过度性
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0089_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0009_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这20％的人(m_id:27, e_id:-1) , 这20％的高等公民们(m_id:34, e_id:-1)now_e_id: E_34
+INFO:multi_sieve:修饰语： 这20％ 这20％
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 80％的穷人(m_id:16, e_id:-1) , 80％的乞丐(m_id:136, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 80％ 80％
+INFO:multi_sieve:限定词： 80％ 80％
+INFO:设置共指：:条件1， 多少在读的来自农村的大学生们(m_id:165, e_id:-1) , 多少在读的来自农村的大学生们的父母(m_id:167, e_id:-1)now_e_id: E_167
+INFO:multi_sieve:修饰语： 多少在读 多少在读
+INFO:multi_sieve:限定词： 多少 多少
+INFO:设置共指：:条件1， 20％的富人(m_id:13, e_id:-1) , 20％的富人(m_id:232, e_id:-1)now_e_id: E_232
+INFO:multi_sieve:修饰语： 20％ 20％
+INFO:multi_sieve:限定词： 20％ 20％
+INFO:设置共指：:条件3， 80％的穷人(m_id:16, e_id:E_136) , 80％的社会财富(m_id:234, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 80％ 80％
+INFO:multi_sieve:限定词： 80％ 80％
+INFO:设置共指：:条件3， 80％的穷人(m_id:16, e_id:E_136) , 80％的穷人(m_id:236, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 80％ 80％
+INFO:multi_sieve:限定词： 80％ 80％
+INFO:设置共指：:条件3， 20％的富人(m_id:13, e_id:E_232) , 20％的社会财富(m_id:238, e_id:-1)now_e_id: E_232
+INFO:multi_sieve:修饰语： 20％ 20％
+INFO:multi_sieve:限定词： 20％ 20％
+INFO:设置共指：:条件3， 80％的穷人(m_id:16, e_id:E_136) , 80％的社会财富(m_id:262, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 80％ 80％
+INFO:multi_sieve:限定词： 80％ 80％
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0009_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0219_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 十个农业高新技术开发示范区(m_id:5, e_id:-1) , 十个农业高新技术开发示范区(m_id:72, e_id:-1)now_e_id: E_72
+INFO:multi_sieve:修饰语： 示范区 示范区
+INFO:multi_sieve:限定词： 十 十
+INFO:设置共指：:条件3， 十个农业高新技术开发示范区(m_id:5, e_id:E_72) , 十个农业高新技术开发示范区(m_id:112, e_id:-1)now_e_id: E_72
+INFO:multi_sieve:修饰语： 示范区 示范区
+INFO:multi_sieve:限定词： 十 十
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0219_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_010.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_010.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0209_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 今年第一季度(m_id:17, e_id:-1) , 今年第一季度(m_id:74, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 季度 季度
+INFO:multi_sieve:限定词： 第一 第一
+INFO:设置共指：:条件1， 全市(m_id:57, e_id:-1) , 全市(m_id:76, e_id:-1)now_e_id: E_76
+INFO:multi_sieve:修饰语： 市 市
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 今年第一季度(m_id:17, e_id:E_74) , 今年第一季度(m_id:89, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 季度 季度
+INFO:multi_sieve:限定词： 第一 第一
+INFO:设置共指：:条件3， 今年第一季度(m_id:17, e_id:E_74) , 今年第一季度(m_id:108, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 季度 季度
+INFO:multi_sieve:限定词： 第一 第一
+INFO:设置共指：:条件1， 去年同期(m_id:31, e_id:-1) , 去年同期(m_id:114, e_id:-1)now_e_id: E_114
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:设置共指：:条件3， 今年第一季度(m_id:17, e_id:E_74) , 今年第一季度(m_id:119, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 季度 季度
+INFO:multi_sieve:限定词： 第一 第一
+INFO:设置共指：:条件1， 上年同期(m_id:80, e_id:-1) , 上年同期(m_id:126, e_id:-1)now_e_id: E_126
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 上 上
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0209_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0319_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0319_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0029_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0029_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0049_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/dev_09_cmn_0049_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 多少人(m_id:109, e_id:-1) , 多少人(m_id:111, e_id:-1)now_e_id: E_111
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 多少 多少
+INFO:设置共指：:条件1， Ｈ＜／Ｅｎｇｌｉｓｈ＞五这个病毒(m_id:120, e_id:-1) , 高致病性禽流感就是＜Ｅｎｇｌｉｓｈ＞Ｈ＜／Ｅｎｇｌｉｓｈ＞五这个病毒(m_id:121, e_id:-1)now_e_id: E_121
+INFO:multi_sieve:修饰语： 病毒 病毒
+INFO:multi_sieve:限定词： Ｈ Ｈ
+INFO:设置共指：:条件1， 很多人(m_id:137, e_id:-1) , 很多人，大批人(m_id:140, e_id:-1)now_e_id: E_140
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 很多 很多
+INFO:设置共指：:条件3， 很多人(m_id:137, e_id:E_140) , 很多很多人(m_id:152, e_id:-1)now_e_id: E_140
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 很多 很多
+INFO:设置共指：:条件1， 那么多人(m_id:175, e_id:-1) , 那么多疫点，那么多疫区，人啊，那么多人(m_id:176, e_id:-1)now_e_id: E_176
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件3， 很多人(m_id:137, e_id:E_140) , 很多人(m_id:180, e_id:-1)now_e_id: E_140
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 很多 很多
+INFO:设置共指：:条件1， 这个＜Ｅｎｌｇｉｓｈ＞Ｈ＜／Ｅｎｌｇｉｓｈ＞五＜Ｅｎｇｌｉｓｈ＞Ｎ＜／Ｅｎｇｌｉｓｈ＞这种高致病性禽流感(m_id:46, e_id:-1) , 真正感染这个高致病性禽流感(m_id:184, e_id:-1)now_e_id: E_184
+INFO:multi_sieve:修饰语： 禽流感 禽流感
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 那么多人(m_id:175, e_id:E_176) , 那么多人(m_id:194, e_id:-1)now_e_id: E_176
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 有些人(m_id:208, e_id:-1) , 就是可能有些人(m_id:209, e_id:-1)now_e_id: E_209
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 有些 有些
+INFO:设置共指：:条件1， 一些特定的一些人群(m_id:206, e_id:-1) , 一些特定的一些人群，啊就是可能有些人(m_id:210, e_id:-1)now_e_id: E_210
+INFO:multi_sieve:修饰语： 一些特定 一些特定
+INFO:multi_sieve:限定词： 一些 一些
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0219_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 高雄和萍东两县(m_id:37, e_id:-1) , 高雄和萍东两县的县长(m_id:39, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 高雄和萍东两县 高雄和萍东两县
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 高雄和萍东两县(m_id:37, e_id:E_39) , 高雄和萍东两县的县长于振兴和苏家全(m_id:41, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 高雄和萍东两县 高雄和萍东两县
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0219_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 比“雪夜高速90英里”更变态的--我的亲身经历(m_id:4, e_id:-1) , 比“雪夜高速90英里”更变态的--我的亲身经历(m_id:14, e_id:-1)now_e_id: E_14
+INFO:multi_sieve:修饰语： 比“雪夜高速90英里”更变态 比“雪夜高速90英里”更变态
+INFO:multi_sieve:限定词： 90 90
+INFO:设置共指：:条件1， 一个深成刚毅的中年男子(m_id:192, e_id:-1) , 一个深成刚毅的中年男子的声音(m_id:194, e_id:-1)now_e_id: E_194
+INFO:multi_sieve:修饰语： 一个深成刚毅 一个深成刚毅
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0199_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0199_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一个程序(m_id:47, e_id:-1) , 我现在正运行有一个程序(m_id:48, e_id:-1)now_e_id: E_48
+INFO:multi_sieve:修饰语： 程序 程序
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0149_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0149_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 全大陆(m_id:17, e_id:-1) , 全大陆(m_id:190, e_id:-1)now_e_id: E_190
+INFO:multi_sieve:修饰语： 大陆 大陆
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 全大陆(m_id:17, e_id:E_190) , 全大陆(m_id:276, e_id:-1)now_e_id: E_190
+INFO:multi_sieve:修饰语： 大陆 大陆
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 曾任东莞台商投资企业协会第二、三届会长的叶宏灯(m_id:462, e_id:-1) , 曾任东莞台商投资企业协会第二、三届会长的叶宏灯口中「创造台湾经济奇迹」的两把钥匙(m_id:468, e_id:-1)now_e_id: E_468
+INFO:multi_sieve:修饰语： 曾任东莞台商投资企业协会第二、三届会长 曾任东莞台商投资企业协会第二、三届会长
+INFO:multi_sieve:限定词： 第二 第二
+INFO:设置共指：:条件1， 一颗螺丝钉(m_id:522, e_id:-1) , 连一颗螺丝钉(m_id:523, e_id:-1)now_e_id: E_523
+INFO:multi_sieve:修饰语： 螺丝钉 螺丝钉
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 两岸(m_id:135, e_id:-1) , 两岸(m_id:1053, e_id:-1)now_e_id: E_1053
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 这些台商(m_id:1188, e_id:-1) , 这些台商(m_id:1213, e_id:-1)now_e_id: E_1213
+INFO:multi_sieve:修饰语： 台商 台商
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：:条件1， 一方面(m_id:932, e_id:-1) , 一方面(m_id:1240, e_id:-1)now_e_id: E_1240
+INFO:multi_sieve:修饰语： 方面 方面
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 一方面(m_id:932, e_id:E_1240) , 一方面(m_id:1246, e_id:-1)now_e_id: E_1240
+INFO:multi_sieve:修饰语： 方面 方面
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 三千多家台商(m_id:234, e_id:-1) , 东莞三千多家台商(m_id:1294, e_id:-1)now_e_id: E_1294
+INFO:multi_sieve:修饰语： 台商 台商
+INFO:multi_sieve:限定词： 三千多 三千多
+INFO:设置共指：:条件3， 全大陆(m_id:17, e_id:E_190) , 全大陆(m_id:1304, e_id:-1)now_e_id: E_190
+INFO:multi_sieve:修饰语： 大陆 大陆
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 全大陆(m_id:17, e_id:E_190) , 全大陆(m_id:1323, e_id:-1)now_e_id: E_190
+INFO:multi_sieve:修饰语： 大陆 大陆
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 两岸(m_id:135, e_id:E_1053) , 两岸(m_id:1333, e_id:-1)now_e_id: E_1053
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 全大陆(m_id:17, e_id:E_190) , 全大陆(m_id:1382, e_id:-1)now_e_id: E_190
+INFO:multi_sieve:修饰语： 大陆 大陆
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 许多大陆干部(m_id:1081, e_id:-1) , 许多干部(m_id:1439, e_id:-1)now_e_id: E_1439
+INFO:multi_sieve:修饰语： 干部 干部
+INFO:multi_sieve:限定词： 许多 许多
+INFO:设置共指：:条件3， 两岸(m_id:135, e_id:E_1053) , 两岸(m_id:1498, e_id:-1)now_e_id: E_1053
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0119_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， ４个人(m_id:60, e_id:-1) , ４个人(m_id:68, e_id:-1)now_e_id: E_68
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： ４ ４
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0119_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0259_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 半个小时(m_id:34, e_id:-1) , 将近半个小时(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 小时 小时
+INFO:multi_sieve:限定词： 半 半
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0259_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 少数人(m_id:7, e_id:-1) , 少数人(m_id:16, e_id:-1)now_e_id: E_16
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 少数 少数
+INFO:设置共指：:条件1， 人生每一阶段(m_id:73, e_id:-1) , 每一个阶段(m_id:90, e_id:-1)now_e_id: E_90
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件1， 许多中年人(m_id:49, e_id:-1) , 许多中年人(m_id:292, e_id:-1)now_e_id: E_292
+INFO:multi_sieve:修饰语： 中年人 中年人
+INFO:multi_sieve:限定词： 许多 许多
+INFO:设置共指：:条件1， 这时候(m_id:288, e_id:-1) , 这时候(m_id:330, e_id:-1)now_e_id: E_330
+INFO:multi_sieve:修饰语： 时候 时候
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 每个人(m_id:275, e_id:-1) , 每个人(m_id:343, e_id:-1)now_e_id: E_343
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件3， 每个人(m_id:275, e_id:E_343) , 每个人(m_id:351, e_id:-1)now_e_id: E_343
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件1， 许多时候(m_id:599, e_id:-1) , 许多时候(m_id:610, e_id:-1)now_e_id: E_610
+INFO:multi_sieve:修饰语： 时候 时候
+INFO:multi_sieve:限定词： 许多 许多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 两个月(m_id:33, e_id:-1) , 近两个月(m_id:34, e_id:-1)now_e_id: E_34
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这段时间(m_id:15, e_id:-1) , 就是说这段时间(m_id:16, e_id:-1)now_e_id: E_16
+INFO:multi_sieve:修饰语： 时间 时间
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0039_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 那么多人(m_id:3, e_id:-1) , 那么多人(m_id:17, e_id:-1)now_e_id: E_17
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 任何教堂(m_id:25, e_id:-1) , 教堂，任何教堂(m_id:26, e_id:-1)now_e_id: E_26
+INFO:multi_sieve:修饰语： 教堂 教堂
+INFO:multi_sieve:限定词： 任何 任何
+INFO:设置共指：:条件1， 这些情(m_id:31, e_id:-1) , 这些事，这些情(m_id:32, e_id:-1)now_e_id: E_32
+INFO:multi_sieve:修饰语： 情 情
+INFO:multi_sieve:限定词： 这些 这些
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/dev_09_cmn_0039_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0199_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 所有的死伤团员(m_id:6, e_id:-1) , 所有的死伤团员的家属(m_id:8, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 所有 所有
+INFO:multi_sieve:限定词： 所有 所有
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0199_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0179_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0179_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 每年的走私香烟(m_id:33, e_id:-1) , 每年的走私香烟数额(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 每年 每年
+INFO:multi_sieve:限定词： 每 每
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0149_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 中国与第二大贸易伙伴美国(m_id:40, e_id:-1) , 中国与第二大贸易伙伴美国的贸易额(m_id:42, e_id:-1)now_e_id: E_42
+INFO:multi_sieve:修饰语： 中国与第二大贸易伙伴美国 中国与第二大贸易伙伴美国
+INFO:multi_sieve:限定词： 第二 第二
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0149_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0139_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0139_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0099_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 我国另一个主要的大熊猫繁育基地(m_id:43, e_id:-1) , 我国另一个主要的大熊猫繁育基地成都大熊猫繁育研究基地(m_id:45, e_id:-1)now_e_id: E_45
+INFO:multi_sieve:修饰语： 我国另一个主要 我国另一个主要
+INFO:multi_sieve:限定词： 另 另
+INFO:设置共指：:条件1， 全国圈养和野生的大熊猫(m_id:112, e_id:-1) , 全国圈养和野生的大熊猫总数(m_id:114, e_id:-1)now_e_id: E_114
+INFO:multi_sieve:修饰语： 全国圈养和野生 全国圈养和野生
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 这一珍稀濒危物种(m_id:117, e_id:-1) , 大熊猫这一珍稀濒危物种(m_id:118, e_id:-1)now_e_id: E_118
+INFO:multi_sieve:修饰语： 物种 物种
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0099_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 整个杰克逊家族(m_id:77, e_id:-1) , 迈克尔·杰克逊以及整个杰克逊家族(m_id:78, e_id:-1)now_e_id: E_78
+INFO:multi_sieve:修饰语： 家族 家族
+INFO:multi_sieve:限定词： 整个 整个
+INFO:设置共指：:条件1， 其他的(m_id:224, e_id:-1) , 其他的，（以及在这个上下文里最值得注意的）她称为“草莓”的一个人格(m_id:232, e_id:-1)now_e_id: E_232
+INFO:multi_sieve:修饰语： 其他 其他
+INFO:multi_sieve:限定词： 其他 其他
+INFO:设置共指：:条件1， 这一点(m_id:84, e_id:-1) , 这点(m_id:351, e_id:-1)now_e_id: E_351
+INFO:multi_sieve:修饰语： 点 点
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0179_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0179_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0009_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 好多人(m_id:48, e_id:-1) , 好多人(m_id:61, e_id:-1)now_e_id: E_61
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 好多 好多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0009_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0149_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 新一轮谈判(m_id:14, e_id:-1) , 新一轮谈判(m_id:19, e_id:-1)now_e_id: E_19
+INFO:multi_sieve:修饰语： 谈判 谈判
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0149_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnn_0004_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 最近出的一本名为《神秘男人》的新书(m_id:48, e_id:-1) , 最近出的一本名为《神秘男人》的新书的作者(m_id:50, e_id:-1)now_e_id: E_50
+INFO:multi_sieve:修饰语： 最近出 最近出
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 十八个月(m_id:105, e_id:-1) , 十八个月(m_id:107, e_id:-1)now_e_id: E_107
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： 十八 十八
+INFO:设置共指：:条件1， 这家报纸和朱迪·米勒(m_id:171, e_id:-1) , 这家报纸和朱迪·米勒的行为(m_id:173, e_id:-1)now_e_id: E_173
+INFO:multi_sieve:修饰语： 这家报纸和朱迪·米勒 这家报纸和朱迪·米勒
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 一个完美的案子(m_id:251, e_id:-1) , 一个完美的案子，朱迪·米勒(m_id:253, e_id:-1)now_e_id: E_253
+INFO:multi_sieve:修饰语： 一个完美 一个完美
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 什么事情(m_id:279, e_id:-1) , 什么事情(m_id:300, e_id:-1)now_e_id: E_300
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 什么 什么
+INFO:设置共指：:条件1， 这个人(m_id:319, e_id:-1) , 这个人(m_id:328, e_id:-1)now_e_id: E_328
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这些背景或者没有记录下来的谈话(m_id:365, e_id:-1) , 这些背景或者没有记录下来的谈话的重要性(m_id:367, e_id:-1)now_e_id: E_367
+INFO:multi_sieve:修饰语： 这些背景或者没有记录下来 这些背景或者没有记录下来
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：:条件1， 所有的写谁是深喉的书籍与文章(m_id:407, e_id:-1) , 所有的这些讨论(m_id:436, e_id:-1)now_e_id: E_436
+INFO:multi_sieve:修饰语： 所有 所有
+INFO:multi_sieve:限定词： 所有 所有
+INFO:设置共指：:条件1， 一个错误(m_id:421, e_id:-1) , 一个错误(m_id:510, e_id:-1)now_e_id: E_510
+INFO:multi_sieve:修饰语： 错误 错误
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnn_0004_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0109_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0109_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0169_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0169_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0129_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0129_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0169_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0169_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0119_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0119_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0009_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这学期(m_id:5, e_id:-1) , 这下学期(m_id:50, e_id:-1)now_e_id: E_50
+INFO:multi_sieve:修饰语： 学期 学期
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 有的老师(m_id:101, e_id:-1) , 有的老师(m_id:103, e_id:-1)now_e_id: E_103
+INFO:multi_sieve:修饰语： 老师 老师
+INFO:multi_sieve:限定词： 有的 有的
+INFO:设置共指：:条件1， 什么东西(m_id:98, e_id:-1) , 什么东西(m_id:114, e_id:-1)now_e_id: E_114
+INFO:multi_sieve:修饰语： 东西 东西
+INFO:multi_sieve:限定词： 什么 什么
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0009_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0099_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 天津港保税区各项经济指标(m_id:4, e_id:-1) , 各项经济指标(m_id:15, e_id:-1)now_e_id: E_15
+INFO:multi_sieve:修饰语： 指标 指标
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0099_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_005.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_005.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_005.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 它的这个病死率(m_id:34, e_id:-1) , 它的这个病死率也好(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 它 它
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 它的这个病死率(m_id:34, e_id:E_35) , 它的这个病死率也好，或者这发病率也好(m_id:38, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 它 它
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这两个人群(m_id:58, e_id:-1) , 这两个人群(m_id:83, e_id:-1)now_e_id: E_83
+INFO:multi_sieve:修饰语： 人群 人群
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 人感染高致病性禽流感的这种监测(m_id:164, e_id:-1) , 人感染高致病性禽流感的这种监测也好(m_id:165, e_id:-1)now_e_id: E_165
+INFO:multi_sieve:修饰语： 人感染高致病性禽流感 人感染高致病性禽流感
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 更多的这个病例(m_id:93, e_id:-1) , 更多的建议(m_id:213, e_id:-1)now_e_id: E_213
+INFO:multi_sieve:修饰语： 更多 更多
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 这方面(m_id:81, e_id:-1) , 这几个方面(m_id:234, e_id:-1)now_e_id: E_234
+INFO:multi_sieve:修饰语： 方面 方面
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 更多的这个病例(m_id:93, e_id:E_213) , 更多的资金支持(m_id:254, e_id:-1)now_e_id: E_213
+INFO:multi_sieve:修饰语： 更多 更多
+INFO:multi_sieve:限定词： 多 多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_005.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 美国在华的许多知名大企业(m_id:28, e_id:-1) , 美国在华的许多知名大企业，如道·琼斯、ＡＴ＆Ｔ、ＩＢＭ、波音、麦道、通用电气、西屋电气、福特以及仙妮雷德集团等(m_id:40, e_id:-1)now_e_id: E_40
+INFO:multi_sieve:修饰语： 美国在华 美国在华
+INFO:multi_sieve:限定词： 许多 许多
+INFO:设置共指：:条件1， 这次游说(m_id:91, e_id:-1) , 这次游说(m_id:116, e_id:-1)now_e_id: E_116
+INFO:multi_sieve:修饰语： 游说 游说
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这次游说的后续行动(m_id:93, e_id:-1) , 这次游说的重点(m_id:118, e_id:-1)now_e_id: E_118
+INFO:multi_sieve:修饰语： 这次游说 这次游说
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0119_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0119_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0159_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0159_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0169_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0169_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0279_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0279_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0119_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 其他经济组织(m_id:26, e_id:-1) , 金融机构、企业、个人或其他经济组织(m_id:27, e_id:-1)now_e_id: E_27
+INFO:multi_sieve:修饰语： 组织 组织
+INFO:multi_sieve:限定词： 其他 其他
+INFO:设置共指：:条件1， 中国境外的金融机构、企业、个人或其他经济组织(m_id:28, e_id:-1) , 中国境外的金融机构、企业、个人或其他经济组织以及在中国境内的外资金融机构(m_id:34, e_id:-1)now_e_id: E_34
+INFO:multi_sieve:修饰语： 中国境外 中国境外
+INFO:multi_sieve:限定词： 其他 其他
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0119_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 身残志坚，创办在校生１万名民办大学的江西省蓝天职业技术学院院长(m_id:27, e_id:-1) , 身残志坚，创办在校生１万名民办大学的江西省蓝天职业技术学院院长雨果(m_id:29, e_id:-1)now_e_id: E_29
+INFO:multi_sieve:修饰语： 身残志坚，创办在校生１万名民办大学 身残志坚，创办在校生１万名民办大学
+INFO:multi_sieve:限定词： １万 １万
+INFO:设置共指：:条件1， 继续荣获三届奥运会冠军的湖北省跳水队队员(m_id:61, e_id:-1) , 继续荣获三届奥运会冠军的湖北省跳水队队员伏明霞(m_id:63, e_id:-1)now_e_id: E_63
+INFO:multi_sieve:修饰语： 继续荣获三届奥运会冠军 继续荣获三届奥运会冠军
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：:条件1， 在光子学研究领域取得多项国际领先水平成果的天津南开大学物理科学学院教授(m_id:74, e_id:-1) , 在光子学研究领域取得多项国际领先水平成果的天津南开大学物理科学学院教授许晶金(m_id:76, e_id:-1)now_e_id: E_76
+INFO:multi_sieve:修饰语： 在光子学研究领域取得多项国际领先水平成果 在光子学研究领域取得多项国际领先水平成果
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 科学管理勇于创新使多家国有企业扭亏脱困的陕西西安会群集团公司总经理(m_id:84, e_id:-1) , 科学管理勇于创新使多家国有企业扭亏脱困的陕西西安会群集团公司总经理李大友(m_id:86, e_id:-1)now_e_id: E_86
+INFO:multi_sieve:修饰语： 科学管理勇于创新使多家国有企业扭亏脱困 科学管理勇于创新使多家国有企业扭亏脱困
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 在免疫学领域取得重大科研成果的第二军医大学全军免疫与基因治疗重点实验室主任(m_id:119, e_id:-1) , 在免疫学领域取得重大科研成果的第二军医大学全军免疫与基因治疗重点实验室主任曹雪涛(m_id:121, e_id:-1)now_e_id: E_121
+INFO:multi_sieve:修饰语： 在免疫学领域取得重大科研成果 在免疫学领域取得重大科研成果
+INFO:multi_sieve:限定词： 第二 第二
+INFO:设置共指：:条件3， 身残志坚，创办在校生１万名民办大学的江西省蓝天职业技术学院院长(m_id:27, e_id:E_29) , 身残志坚，创办在校生１万名民办大学的江西省蓝天职业技术学院院长雨果、让沙漠变绿洲的内蒙古青年农民乌日更达赖、中央电视台主持人白岩松、为国防新装备的发展做出突出贡献的中国工程物理研究院化工材料研究所所长龙新平、继续荣获三届奥运会冠军的湖北省跳水队队员伏明霞、在光子学研究领域取得多项国际领先水平成果的天津南开大学物理科学学院教授许晶金、科学管理勇于创新使多家国有企业扭亏脱困的陕西西安会群集团公司总经理李大友、瞄准国际市场，打造低压电器知名品牌的正泰集团公司董事长南成辉、担任“神州号”试验飞船系统总指挥的中国航天科技集团公司、中国空间科技研究院副院长袁家军、在免疫学领域取得重大科研成果的第二军医大学全军免疫与基因治疗重点实验室主任曹雪涛(m_id:122, e_id:-1)now_e_id: E_29
+INFO:multi_sieve:修饰语： 身残志坚，创办在校生１万名民办大学 身残志坚，创办在校生１万名民办大学
+INFO:multi_sieve:限定词： １万 １万
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0229_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 其它产品(m_id:32, e_id:-1) , 牛肉、香蕉以及其它产品(m_id:33, e_id:-1)now_e_id: E_33
+INFO:multi_sieve:修饰语： 产品 产品
+INFO:multi_sieve:限定词： 其它 其它
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0229_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 每九十公尺为一单位的花圃(m_id:329, e_id:-1) , 每九十公尺为一单位的花圃认养(m_id:331, e_id:-1)now_e_id: E_331
+INFO:multi_sieve:修饰语： 每九十公尺为一单位 每九十公尺为一单位
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件3， 每九十公尺为一单位的花圃(m_id:329, e_id:E_331) , 每九十公尺为一单位的花圃认养行列(m_id:333, e_id:-1)now_e_id: E_331
+INFO:multi_sieve:修饰语： 每九十公尺为一单位 每九十公尺为一单位
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件1， 屏东其他乡镇(m_id:96, e_id:-1) , 其他乡镇(m_id:478, e_id:-1)now_e_id: E_478
+INFO:multi_sieve:修饰语： 乡镇 乡镇
+INFO:multi_sieve:限定词： 其他 其他
+INFO:设置共指：:条件1， 全国(m_id:14, e_id:-1) , 全国(m_id:520, e_id:-1)now_e_id: E_520
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 全国知名度(m_id:16, e_id:-1) , 全国知名度(m_id:522, e_id:-1)now_e_id: E_522
+INFO:multi_sieve:修饰语： 知名度 知名度
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 二万三千多人(m_id:619, e_id:-1) , 约二万三千多人(m_id:620, e_id:-1)now_e_id: E_620
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 二万三千多 二万三千多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 那封信(m_id:15, e_id:-1) , 就那封信(m_id:16, e_id:-1)now_e_id: E_16
+INFO:multi_sieve:修饰语： 信 信
+INFO:multi_sieve:限定词： 那 那
+INFO:设置共指：:条件1， 三个月(m_id:29, e_id:-1) , 三个月(m_id:36, e_id:-1)now_e_id: E_36
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： 三 三
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0089_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一批国有小企业(m_id:3, e_id:-1) , 一批国有小企业(m_id:14, e_id:-1)now_e_id: E_14
+INFO:multi_sieve:修饰语： 企业 企业
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 本企业(m_id:87, e_id:-1) , 本企业(m_id:107, e_id:-1)now_e_id: E_107
+INFO:multi_sieve:修饰语： 企业 企业
+INFO:multi_sieve:限定词： 本 本
+INFO:设置共指：:条件1， 本企业职工(m_id:89, e_id:-1) , 本企业全体职工(m_id:109, e_id:-1)now_e_id: E_109
+INFO:multi_sieve:修饰语： 职工 职工
+INFO:multi_sieve:限定词： 本 本
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0089_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0299_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这场大火(m_id:15, e_id:-1) , 这场大火(m_id:36, e_id:-1)now_e_id: E_36
+INFO:multi_sieve:修饰语： 大火 大火
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， ６００坪的餐厅(m_id:18, e_id:-1) , ６００坪的餐厅(m_id:38, e_id:-1)now_e_id: E_38
+INFO:multi_sieve:修饰语： ６００坪 ６００坪
+INFO:multi_sieve:限定词： ６００ ６００
+INFO:设置共指：:条件1， 隔壁２家店面(m_id:41, e_id:-1) , 连隔壁２家店面(m_id:42, e_id:-1)now_e_id: E_42
+INFO:multi_sieve:修饰语： 店面 店面
+INFO:multi_sieve:限定词： ２ ２
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0299_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这种新型的玻璃窗(m_id:13, e_id:-1) , 这种新型的玻璃窗两层玻璃(m_id:15, e_id:-1)now_e_id: E_15
+INFO:multi_sieve:修饰语： 这种新型 这种新型
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这种玻璃窗夹层当中间冲入的水(m_id:24, e_id:-1) , 这种玻璃窗夹层当中间冲入的水里面(m_id:26, e_id:-1)now_e_id: E_26
+INFO:multi_sieve:修饰语： 这种玻璃窗夹层当中间冲入 这种玻璃窗夹层当中间冲入
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这种玻璃窗(m_id:20, e_id:-1) , 这种玻璃窗(m_id:49, e_id:-1)now_e_id: E_49
+INFO:multi_sieve:修饰语： 玻璃窗 玻璃窗
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 发明这种玻璃窗的英国工程师(m_id:52, e_id:-1) , 发明这种玻璃窗的英国工程师麦基(m_id:54, e_id:-1)now_e_id: E_54
+INFO:multi_sieve:修饰语： 发明这种玻璃窗 发明这种玻璃窗
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0149_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0149_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0079_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0079_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0149_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这些和解案(m_id:159, e_id:-1) , 这些和解案的费用(m_id:161, e_id:-1)now_e_id: E_161
+INFO:multi_sieve:修饰语： 这些和解案 这些和解案
+INFO:multi_sieve:限定词： 这些 这些
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0149_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0109_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 全国(m_id:13, e_id:-1) , 全国(m_id:77, e_id:-1)now_e_id: E_77
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 零点三个百分点(m_id:53, e_id:-1) , 零点三个百分点(m_id:172, e_id:-1)now_e_id: E_172
+INFO:multi_sieve:修饰语： 百分点 百分点
+INFO:multi_sieve:限定词： 零点三 零点三
+INFO:设置共指：:条件3， 全国(m_id:13, e_id:E_77) , 全国(m_id:180, e_id:-1)now_e_id: E_77
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 全国(m_id:13, e_id:E_77) , 全国(m_id:210, e_id:-1)now_e_id: E_77
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 全 全
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0109_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这次打猎(m_id:3, e_id:-1) , 这种打猎(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 打猎 打猎
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 贾斯汀·提姆布莱克（记得在珍娜９９杰克逊胸上的那颗星？）(m_id:91, e_id:-1) , 贾斯汀·提姆布莱克（记得在珍娜９９杰克逊胸上的那颗星？）、布兰妮·斯皮尔斯、克里斯蒂娜·阿奎莱拉(m_id:94, e_id:-1)now_e_id: E_94
+INFO:multi_sieve:修饰语： 贾斯汀·提姆布莱克（记得在珍娜９９杰克逊胸上 贾斯汀·提姆布莱克（记得在珍娜９９杰克逊胸上
+INFO:multi_sieve:限定词： 那 那
+INFO:设置共指：:条件1， 儿童慈善机构的另一名教友(m_id:257, e_id:-1) , 儿童慈善机构的另一名教友穆罕默德·法耶德(m_id:259, e_id:-1)now_e_id: E_259
+INFO:multi_sieve:修饰语： 儿童慈善机构 儿童慈善机构
+INFO:multi_sieve:限定词： 另 另
+INFO:设置共指：:条件1， 乔治·梅森第四的庄园(m_id:304, e_id:-1) , 乔治·梅森第四的庄园，即位于北厄勒街２３０１号的“雪松”(m_id:309, e_id:-1)now_e_id: E_309
+INFO:multi_sieve:修饰语： 乔治·梅森第四 乔治·梅森第四
+INFO:multi_sieve:限定词： 第四 第四
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0169_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 澳门的贸易、工业、金融、保险、旅游、饮食、交通运输、建筑地产等多个领域(m_id:48, e_id:-1) , 澳门的贸易、工业、金融、保险、旅游、饮食、交通运输、建筑地产等多个领域的经营活动(m_id:50, e_id:-1)now_e_id: E_50
+INFO:multi_sieve:修饰语： 澳门 澳门
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 邓小平“一国两制”的构想(m_id:73, e_id:-1) , 邓小平“一国两制”的构想和国家对港澳的各项方针政策(m_id:78, e_id:-1)now_e_id: E_78
+INFO:multi_sieve:修饰语： 邓小平“一国两制” 邓小平“一国两制”
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0169_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0139_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0139_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0029_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0029_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0179_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0179_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0129_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 双方今后在各领域的合作与交流(m_id:45, e_id:-1) , 双方今后在各领域的合作与交流以及人道主义等(m_id:47, e_id:-1)now_e_id: E_47
+INFO:multi_sieve:修饰语： 双方今后在各领域 双方今后在各领域
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件3， 双方今后在各领域的合作与交流(m_id:45, e_id:E_47) , 双方今后在各领域的合作与交流以及人道主义等问题(m_id:49, e_id:-1)now_e_id: E_47
+INFO:multi_sieve:修饰语： 双方今后在各领域 双方今后在各领域
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 本次会谈(m_id:52, e_id:-1) , 本次会谈(m_id:65, e_id:-1)now_e_id: E_65
+INFO:multi_sieve:修饰语： 会谈 会谈
+INFO:multi_sieve:限定词： 本 本
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0129_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0039_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 西藏与地震这两件不幸的事(m_id:9, e_id:-1) , 西藏与地震这两件不幸的事触发出来的一个现象(m_id:12, e_id:-1)now_e_id: E_12
+INFO:multi_sieve:修饰语： 西藏与地震这两件不幸 西藏与地震这两件不幸
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 很多人(m_id:106, e_id:-1) , 甚至很多人(m_id:107, e_id:-1)now_e_id: E_107
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 很多 很多
+INFO:设置共指：:条件1， 两个或以上的人(m_id:104, e_id:-1) , 两个或以上的人，甚至很多人(m_id:108, e_id:-1)now_e_id: E_108
+INFO:multi_sieve:修饰语： 两个或以上 两个或以上
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 这回事(m_id:130, e_id:-1) , 民族情意结这回事(m_id:131, e_id:-1)now_e_id: E_131
+INFO:multi_sieve:修饰语： 事 事
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这回事(m_id:130, e_id:E_131) , 这回事(m_id:276, e_id:-1)now_e_id: E_131
+INFO:multi_sieve:修饰语： 事 事
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这回事(m_id:130, e_id:E_131) , 民族情意结这回事(m_id:277, e_id:-1)now_e_id: E_131
+INFO:multi_sieve:修饰语： 事 事
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/dev_09_cmn_0039_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0289_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0289_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0129_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 刚刚走出药局的这位太太(m_id:44, e_id:-1) , 刚刚走出药局的这位太太手上拿的(m_id:46, e_id:-1)now_e_id: E_46
+INFO:multi_sieve:修饰语： 刚刚走出药局 刚刚走出药局
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0129_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个孩子(m_id:41, e_id:-1) , 这个孩子(m_id:55, e_id:-1)now_e_id: E_55
+INFO:multi_sieve:修饰语： 孩子 孩子
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这个孩子(m_id:41, e_id:E_55) , 这个孩子(m_id:74, e_id:-1)now_e_id: E_55
+INFO:multi_sieve:修饰语： 孩子 孩子
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这个孩子(m_id:41, e_id:E_55) , 这个孩子(m_id:112, e_id:-1)now_e_id: E_55
+INFO:multi_sieve:修饰语： 孩子 孩子
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这个孩子的教育，衣食(m_id:78, e_id:-1) , 这个孩子的国籍(m_id:114, e_id:-1)now_e_id: E_114
+INFO:multi_sieve:修饰语： 这个孩子 这个孩子
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 一个安定温暖的家(m_id:125, e_id:-1) , 一个安定温暖的家，一个有爱而不是敌意的环境，一位内心平安的母亲(m_id:133, e_id:-1)now_e_id: E_133
+INFO:multi_sieve:修饰语： 一个安定温暖 一个安定温暖
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_011.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_011.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0239_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0239_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0239_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0239_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0129_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0129_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个税种(m_id:17, e_id:-1) , 这个税种(m_id:141, e_id:-1)now_e_id: E_141
+INFO:multi_sieve:修饰语： 税种 税种
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 一家人(m_id:192, e_id:-1) , 一人(m_id:222, e_id:-1)now_e_id: E_222
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0189_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0189_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 三家生物晶片公司(m_id:21, e_id:-1) , 微晶、台湾基因、晶宇三家生物晶片公司(m_id:157, e_id:-1)now_e_id: E_157
+INFO:multi_sieve:修饰语： 公司 公司
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：:条件1， 这两年正值流行热潮、人人闻之色变的肠病毒(m_id:165, e_id:-1) , 这两年正值流行热潮、人人闻之色变的肠病毒检测晶片(m_id:167, e_id:-1)now_e_id: E_167
+INFO:multi_sieve:修饰语： 这两年正值流行热潮、人人闻之色变 这两年正值流行热潮、人人闻之色变
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 台湾目前几家晶片公司(m_id:381, e_id:-1) , 美国几家基因研究公司(m_id:492, e_id:-1)now_e_id: E_492
+INFO:multi_sieve:修饰语： 公司 公司
+INFO:multi_sieve:限定词： 几 几
+INFO:设置共指：:条件1， 数万个基因(m_id:699, e_id:-1) , 数万个基因(m_id:711, e_id:-1)now_e_id: E_711
+INFO:multi_sieve:修饰语： 基因 基因
+INFO:multi_sieve:限定词： 数万 数万
+INFO:设置共指：:条件1， 数万个基因的表现(m_id:701, e_id:-1) , 数万个基因的测试结果(m_id:713, e_id:-1)now_e_id: E_713
+INFO:multi_sieve:修饰语： 数万个基因 数万个基因
+INFO:multi_sieve:限定词： 数万 数万
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0249_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这３个人(m_id:15, e_id:-1) , 这３个人(m_id:54, e_id:-1)now_e_id: E_54
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0249_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一艘携带炸药的小型船只(m_id:14, e_id:-1) , 一艘携带炸药的小型船只的袭击(m_id:16, e_id:-1)now_e_id: E_16
+INFO:multi_sieve:修饰语： 一艘携带炸药 一艘携带炸药
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0099_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0099_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 去年同期(m_id:17, e_id:-1) , 去年同期(m_id:27, e_id:-1)now_e_id: E_27
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:设置共指：:条件3， 去年同期(m_id:17, e_id:E_27) , 去年同期(m_id:46, e_id:-1)now_e_id: E_27
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:设置共指：:条件1， 全省(m_id:39, e_id:-1) , 全省(m_id:48, e_id:-1)now_e_id: E_48
+INFO:multi_sieve:修饰语： 省 省
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 去年同期(m_id:17, e_id:E_27) , 去年同期(m_id:55, e_id:-1)now_e_id: E_27
+INFO:multi_sieve:修饰语： 期 期
+INFO:multi_sieve:限定词： 同 同
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0089_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一头(m_id:141, e_id:-1) , 一头(m_id:144, e_id:-1)now_e_id: E_144
+INFO:multi_sieve:修饰语： 头 头
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0089_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0079_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0079_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0219_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0219_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0299_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0299_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_006.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 十五个小时(m_id:31, e_id:-1) , 十五个小时(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 小时 小时
+INFO:multi_sieve:限定词： 十五 十五
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_006.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0179_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 九人小组(m_id:12, e_id:-1) , 总统府九人小组(m_id:13, e_id:-1)now_e_id: E_13
+INFO:multi_sieve:修饰语： 小组 小组
+INFO:multi_sieve:限定词： 九 九
+INFO:设置共指：:条件1， 两院(m_id:31, e_id:-1) , 行政、立法两院(m_id:41, e_id:-1)now_e_id: E_41
+INFO:multi_sieve:修饰语： 院 院
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 九人(m_id:10, e_id:-1) , 九人(m_id:46, e_id:-1)now_e_id: E_46
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 九 九
+INFO:设置共指：:条件3， 九人小组(m_id:12, e_id:E_13) , 九人小组(m_id:48, e_id:-1)now_e_id: E_13
+INFO:multi_sieve:修饰语： 小组 小组
+INFO:multi_sieve:限定词： 九 九
+INFO:设置共指：:条件3， 两院(m_id:31, e_id:E_41) , 两院(m_id:72, e_id:-1)now_e_id: E_41
+INFO:multi_sieve:修饰语： 院 院
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 其他党团(m_id:87, e_id:-1) , 在野政党以及其他党团(m_id:88, e_id:-1)now_e_id: E_88
+INFO:multi_sieve:修饰语： 党团 党团
+INFO:multi_sieve:限定词： 其他 其他
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0179_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0159_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 两国(m_id:53, e_id:-1) , 两国(m_id:57, e_id:-1)now_e_id: E_57
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0159_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0189_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 北约在这一地区使用过的子弹(m_id:108, e_id:-1) , 北约在这一地区使用过的子弹碎片(m_id:110, e_id:-1)now_e_id: E_110
+INFO:multi_sieve:修饰语： 北约在这一地区使用过 北约在这一地区使用过
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0189_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一颗肾(m_id:73, e_id:-1) , 身上其中一颗肾(m_id:78, e_id:-1)now_e_id: E_78
+INFO:multi_sieve:修饰语： 肾 肾
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 中国２５岁的内蒙古选手(m_id:34, e_id:-1) , 中国２５岁的内蒙古选手卞建熙(m_id:36, e_id:-1)now_e_id: E_36
+INFO:multi_sieve:修饰语： 中国２５岁 中国２５岁
+INFO:multi_sieve:限定词： ２５ ２５
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0259_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 中国沿海、沿边、沿江和各省会城市(m_id:32, e_id:-1) , 中国沿海、沿边、沿江和各省会城市的全面开放(m_id:34, e_id:-1)now_e_id: E_34
+INFO:multi_sieve:修饰语： 中国沿海、沿边、沿江和各省会城市 中国沿海、沿边、沿江和各省会城市
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 各地人才(m_id:20, e_id:-1) , 各类人才(m_id:62, e_id:-1)now_e_id: E_62
+INFO:multi_sieve:修饰语： 人才 人才
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 全省(m_id:94, e_id:-1) , 全省(m_id:155, e_id:-1)now_e_id: E_155
+INFO:multi_sieve:修饰语： 省 省
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 全省(m_id:94, e_id:E_155) , 全省(m_id:161, e_id:-1)now_e_id: E_155
+INFO:multi_sieve:修饰语： 省 省
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 各地(m_id:18, e_id:-1) , 各地(m_id:217, e_id:-1)now_e_id: E_217
+INFO:multi_sieve:修饰语： 地 地
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0259_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这情况(m_id:40, e_id:-1) , 这种情况(m_id:42, e_id:-1)now_e_id: E_42
+INFO:multi_sieve:修饰语： 情况 情况
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一笔不可攻击的美(m_id:29, e_id:-1) , 一笔不可攻击的美，一方牢不可破的传说(m_id:32, e_id:-1)now_e_id: E_32
+INFO:multi_sieve:修饰语： 一笔不可攻击 一笔不可攻击
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 一座淡江大桥(m_id:602, e_id:-1) , 一座大桥(m_id:607, e_id:-1)now_e_id: E_607
+INFO:multi_sieve:修饰语： 大桥 大桥
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 一掘(m_id:620, e_id:-1) , 一土一掘(m_id:621, e_id:-1)now_e_id: E_621
+INFO:multi_sieve:修饰语： 掘 掘
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 一个又一个陌生的符号(m_id:681, e_id:-1) , 一个又一个陌生的符号，还是你曾经伫足停留过的美好(m_id:685, e_id:-1)now_e_id: E_685
+INFO:multi_sieve:修饰语： 一个又一个陌生 一个又一个陌生
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 台湾的三○九个乡镇(m_id:679, e_id:-1) , 台湾的三○九个乡镇(m_id:704, e_id:-1)now_e_id: E_704
+INFO:multi_sieve:修饰语： 台湾 台湾
+INFO:multi_sieve:限定词： 三○九 三○九
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_006.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_006.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0229_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0229_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0279_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 中法两国(m_id:45, e_id:-1) , 两国(m_id:104, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 中法两国(m_id:45, e_id:E_104) , 两国(m_id:128, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 经济贸易、科学技术和文化等各个领域(m_id:181, e_id:-1) , 经济贸易、科学技术和文化等各个领域的关系(m_id:183, e_id:-1)now_e_id: E_183
+INFO:multi_sieve:修饰语： 经济贸易、科学技术和文化等各个领域 经济贸易、科学技术和文化等各个领域
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件3， 中法两国(m_id:45, e_id:E_104) , 两国(m_id:263, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0279_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnn_0004_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个人(m_id:66, e_id:-1) , 这个人(m_id:186, e_id:-1)now_e_id: E_186
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这件事情(m_id:134, e_id:-1) , 这件事情(m_id:207, e_id:-1)now_e_id: E_207
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 这件事情(m_id:134, e_id:E_207) , 这件事情(m_id:224, e_id:-1)now_e_id: E_207
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 一本关于最高法院的书(m_id:363, e_id:-1) , 一本关于最高法院的书，《兄弟们》(m_id:365, e_id:-1)now_e_id: E_365
+INFO:multi_sieve:修饰语： 一本关于最高法院 一本关于最高法院
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 这件事情(m_id:134, e_id:E_207) , 这件事情(m_id:410, e_id:-1)now_e_id: E_207
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 很多的法官(m_id:460, e_id:-1) , 很多的法官的文书(m_id:462, e_id:-1)now_e_id: E_462
+INFO:multi_sieve:修饰语： 很多 很多
+INFO:multi_sieve:限定词： 很多 很多
+INFO:设置共指：:条件1， 这本书(m_id:60, e_id:-1) , 这本书(m_id:464, e_id:-1)now_e_id: E_464
+INFO:multi_sieve:修饰语： 书 书
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 下一部电影(m_id:486, e_id:-1) , 下一部电影(m_id:492, e_id:-1)now_e_id: E_492
+INFO:multi_sieve:修饰语： 电影 电影
+INFO:multi_sieve:限定词： 下 下
+INFO:设置共指：:条件3， 这件事情(m_id:134, e_id:E_207) , 这种事情(m_id:504, e_id:-1)now_e_id: E_207
+INFO:multi_sieve:修饰语： 事情 事情
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnn_0004_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， ５个月(m_id:3, e_id:-1) , ５个月(m_id:28, e_id:-1)now_e_id: E_28
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： ５ ５
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个会(m_id:41, e_id:-1) , 这个会(m_id:43, e_id:-1)now_e_id: E_43
+INFO:multi_sieve:修饰语： 会 会
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 一些单位的震前意见(m_id:90, e_id:-1) , 一些单位的震前意见。就是他收到的震前意见(m_id:94, e_id:-1)now_e_id: E_94
+INFO:multi_sieve:修饰语： 一些单位 一些单位
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 唐山二中(m_id:100, e_id:-1) , 唐山二中(m_id:103, e_id:-1)now_e_id: E_103
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 二 二
+INFO:设置共指：:条件1， 每一个人(m_id:158, e_id:-1) , 决定，必须在七月二十六日前将震情通知到每一个人(m_id:159, e_id:-1)now_e_id: E_159
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件1， 什么区别(m_id:212, e_id:-1) , 什么区别(m_id:214, e_id:-1)now_e_id: E_214
+INFO:multi_sieve:修饰语： 区别 区别
+INFO:multi_sieve:限定词： 什么 什么
+INFO:设置共指：:条件1， 几个疙瘩(m_id:233, e_id:-1) , 几个疙瘩(m_id:236, e_id:-1)now_e_id: E_236
+INFO:multi_sieve:修饰语： 疙瘩 疙瘩
+INFO:multi_sieve:限定词： 几 几
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_006.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一个母亲(m_id:22, e_id:-1) , 一个母亲(m_id:36, e_id:-1)now_e_id: E_36
+INFO:multi_sieve:修饰语： 母亲 母亲
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 那和社会上其他人(m_id:211, e_id:-1) , 那和社会上其他人的比例(m_id:213, e_id:-1)now_e_id: E_213
+INFO:multi_sieve:修饰语： 那和社会上其他人 那和社会上其他人
+INFO:multi_sieve:限定词： 其他 其他
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_006.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0009_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 英国那个日显式直升机,呃,不是--这--夜,夜显式战斗机(m_id:67, e_id:-1) , 那个英国那个日显式直升机,呃,不是--这--夜,夜显式战斗机(m_id:68, e_id:-1)now_e_id: E_68
+INFO:multi_sieve:修饰语： 战斗机 战斗机
+INFO:multi_sieve:限定词： 那个 那个
+INFO:设置共指：:条件1， 那恐怖份子恐怖份子(m_id:83, e_id:-1) , 那-恐怖份子(m_id:88, e_id:-1)now_e_id: E_88
+INFO:multi_sieve:修饰语： 恐怖份子 恐怖份子
+INFO:multi_sieve:限定词： 那 那
+INFO:设置共指：:条件1， 那个腿(m_id:159, e_id:-1) , 那个腿(m_id:166, e_id:-1)now_e_id: E_166
+INFO:multi_sieve:修饰语： 腿 腿
+INFO:multi_sieve:限定词： 那个 那个
+INFO:设置共指：:条件1， 那个东西(m_id:177, e_id:-1) , 那个东西(m_id:184, e_id:-1)now_e_id: E_184
+INFO:multi_sieve:修饰语： 东西 东西
+INFO:multi_sieve:限定词： 那个 那个
+INFO:设置共指：:条件1， 一个,哦,双腿节肢人(m_id:147, e_id:-1) , 一个人(m_id:208, e_id:-1)now_e_id: E_208
+INFO:multi_sieve:修饰语： 人 人
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0009_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0159_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 星河发３６号船(m_id:7, e_id:-1) , 金龙局渔船星河发３６号船(m_id:8, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 船 船
+INFO:multi_sieve:限定词： ３６ ３６
+INFO:设置共指：:条件1， 这艘渔船(m_id:19, e_id:-1) , 这艘渔船(m_id:24, e_id:-1)now_e_id: E_24
+INFO:multi_sieve:修饰语： 渔船 渔船
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0159_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0179_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 许多塑像(m_id:185, e_id:-1) , 许多塑像(m_id:201, e_id:-1)now_e_id: E_201
+INFO:multi_sieve:修饰语： 塑像 塑像
+INFO:multi_sieve:限定词： 许多 许多
+INFO:设置共指：:条件1， 这些塑像(m_id:198, e_id:-1) , 这些塑像(m_id:277, e_id:-1)now_e_id: E_277
+INFO:multi_sieve:修饰语： 塑像 塑像
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：:条件1， 在中国历史中提到过多次的英国入侵者(m_id:332, e_id:-1) , 在中国历史中提到过多次的英国入侵者戈登(m_id:334, e_id:-1)now_e_id: E_334
+INFO:multi_sieve:修饰语： 在中国历史中提到过多次 在中国历史中提到过多次
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 曾经在美国独立战争期间镇压美国人民起义的英国国王乔治三世(m_id:370, e_id:-1) , 曾经在美国独立战争期间镇压美国人民起义的英国国王乔治三世和他的将军们(m_id:374, e_id:-1)now_e_id: E_374
+INFO:multi_sieve:修饰语： 曾经在美国独立战争期间镇压美国人民起义 曾经在美国独立战争期间镇压美国人民起义
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：:条件3， 这些塑像(m_id:198, e_id:E_277) , 这些塑像(m_id:383, e_id:-1)now_e_id: E_277
+INFO:multi_sieve:修饰语： 塑像 塑像
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：:条件3， 这些塑像(m_id:198, e_id:E_277) , 这些塑像(m_id:416, e_id:-1)now_e_id: E_277
+INFO:multi_sieve:修饰语： 塑像 塑像
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：:条件3， 这些塑像(m_id:198, e_id:E_277) , 这些塑像(m_id:470, e_id:-1)now_e_id: E_277
+INFO:multi_sieve:修饰语： 塑像 塑像
+INFO:multi_sieve:限定词： 这些 这些
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0179_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0289_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0289_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0319_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 另一个国家(m_id:105, e_id:-1) , 另一个国家或其它国家(m_id:108, e_id:-1)now_e_id: E_108
+INFO:multi_sieve:修饰语： 国家 国家
+INFO:multi_sieve:限定词： 另 另
+INFO:设置共指：:条件1， 波罗地海三个国家(m_id:124, e_id:-1) , 波罗地海三个国家(m_id:189, e_id:-1)now_e_id: E_189
+INFO:multi_sieve:修饰语： 国家 国家
+INFO:multi_sieve:限定词： 三 三
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0319_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0049_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0049_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_009.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_009.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0119_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 两国(m_id:22, e_id:-1) , 澳大利亚、新西兰两国(m_id:95, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两国(m_id:22, e_id:E_95) , 澳、新两国(m_id:106, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两国(m_id:22, e_id:E_95) , 澳、新两国(m_id:119, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 澳、新两国的农场主(m_id:108, e_id:-1) , 澳、新两国的牧场主(m_id:121, e_id:-1)now_e_id: E_121
+INFO:multi_sieve:修饰语： 澳、新两国 澳、新两国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 这个决定(m_id:19, e_id:-1) , 这决定(m_id:165, e_id:-1)now_e_id: E_165
+INFO:multi_sieve:修饰语： 决定 决定
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 两国(m_id:22, e_id:E_95) , 澳新两国(m_id:169, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两国(m_id:22, e_id:E_95) , 澳新两国(m_id:178, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两国(m_id:22, e_id:E_95) , 澳新两国(m_id:236, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0119_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_006.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 每个国家(m_id:21, e_id:-1) , 每个国家(m_id:30, e_id:-1)now_e_id: E_30
+INFO:multi_sieve:修饰语： 国家 国家
+INFO:multi_sieve:限定词： 每 每
+INFO:设置共指：:条件1， 一个地区(m_id:38, e_id:-1) , 一个国家或者一个地区(m_id:39, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 地区 地区
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 这个病(m_id:79, e_id:-1) , 这个病(m_id:85, e_id:-1)now_e_id: E_85
+INFO:multi_sieve:修饰语： 病 病
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这几个方面(m_id:9, e_id:-1) , 这几个方面(m_id:100, e_id:-1)now_e_id: E_100
+INFO:multi_sieve:修饰语： 方面 方面
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_006.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0119_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 北京的四个中心城区(m_id:5, e_id:-1) , 北京的四个中心城区之一(m_id:7, e_id:-1)now_e_id: E_7
+INFO:multi_sieve:修饰语： 北京 北京
+INFO:multi_sieve:限定词： 四 四
+INFO:设置共指：:条件1， 百年老店云集的大十二商业街(m_id:41, e_id:-1) , 百年老店云集的大十二商业街和珍藏荟翠的琉璃厂文化街(m_id:44, e_id:-1)now_e_id: E_44
+INFO:multi_sieve:修饰语： 百年老店云集 百年老店云集
+INFO:multi_sieve:限定词： 百 百
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0119_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0269_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 最后一届立法局、两个市政局、区议会(m_id:50, e_id:-1) , 港英最后一届立法局、两个市政局、区议会(m_id:51, e_id:-1)now_e_id: E_51
+INFO:multi_sieve:修饰语： 区议会 区议会
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 最后一届立法局、两个市政局、区议会(m_id:50, e_id:E_51) , 即港英最后一届立法局、两个市政局、区议会(m_id:52, e_id:-1)now_e_id: E_51
+INFO:multi_sieve:修饰语： 区议会 区议会
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 港英的三级政制架构(m_id:43, e_id:-1) , 港英的三级政制架构，即港英最后一届立法局、两个市政局、区议会(m_id:53, e_id:-1)now_e_id: E_53
+INFO:multi_sieve:修饰语： 港英 港英
+INFO:multi_sieve:限定词： 三 三
+INFO:设置共指：:条件1， 第一届立法会(m_id:70, e_id:-1) , 香港特别行政区第一届立法会(m_id:97, e_id:-1)now_e_id: E_97
+INFO:multi_sieve:修饰语： 立法会 立法会
+INFO:multi_sieve:限定词： 第一 第一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0269_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0239_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0239_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0209_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0209_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_008.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_008.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0139_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这场战争(m_id:21, e_id:-1) , 这场战争(m_id:55, e_id:-1)now_e_id: E_55
+INFO:multi_sieve:修饰语： 战争 战争
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 美国第一夫人新当选的参议员(m_id:72, e_id:-1) , 美国第一夫人新当选的参议员希拉里(m_id:74, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 美国第一夫人新当选 美国第一夫人新当选
+INFO:multi_sieve:限定词： 第一 第一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0139_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0059_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 全市(m_id:71, e_id:-1) , 全市(m_id:139, e_id:-1)now_e_id: E_139
+INFO:multi_sieve:修饰语： 市 市
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 全市(m_id:71, e_id:E_139) , 全市(m_id:147, e_id:-1)now_e_id: E_139
+INFO:multi_sieve:修饰语： 市 市
+INFO:multi_sieve:限定词： 全 全
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0059_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_005.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这么多的地震预报(m_id:65, e_id:-1) , 这么多的告急(m_id:69, e_id:-1)now_e_id: E_69
+INFO:multi_sieve:修饰语： 这么多 这么多
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 这场地震(m_id:85, e_id:-1) , 这次地震(m_id:104, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 地震 地震
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 那么多人的生命(m_id:203, e_id:-1) , 那么多人的生命的伤亡(m_id:205, e_id:-1)now_e_id: E_205
+INFO:multi_sieve:修饰语： 那么多人 那么多人
+INFO:multi_sieve:限定词： 多 多
+INFO:设置共指：:条件1， 任何政党(m_id:236, e_id:-1) , 任何国家，任何地区，任何种族，任何政党(m_id:237, e_id:-1)now_e_id: E_237
+INFO:multi_sieve:修饰语： 政党 政党
+INFO:multi_sieve:限定词： 任何 任何
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_005.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 唐山大地震二十周年的前夕(m_id:91, e_id:-1) , 唐山大地震二十周年的前夕，也就是一九九六年的四月(m_id:95, e_id:-1)now_e_id: E_95
+INFO:multi_sieve:修饰语： 唐山大地震二十周年 唐山大地震二十周年
+INFO:multi_sieve:限定词： 二十 二十
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0079_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， １小时(m_id:34, e_id:-1) , 大约１小时(m_id:35, e_id:-1)now_e_id: E_35
+INFO:multi_sieve:修饰语： 小时 小时
+INFO:multi_sieve:限定词： １ １
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0079_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0009_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 80％的穷人(m_id:71, e_id:-1) , 80％的穷人，20％的富人(m_id:74, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 80％ 80％
+INFO:multi_sieve:限定词： 80％ 80％
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0009_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0159_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0159_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0189_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0189_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一个３０岁的男人(m_id:218, e_id:-1) , 一个３０岁的男人和一个１５岁的男孩(m_id:221, e_id:-1)now_e_id: E_221
+INFO:multi_sieve:修饰语： 一个３０岁 一个３０岁
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0099_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0099_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 候鸟的一些禽流感病毒(m_id:64, e_id:-1) , 候鸟的一些禽流感病毒，就是＜Ｅｎｇｌｉｓｈ＞Ｈ＜／Ｅｎｇｌｉｓｈ＞五病毒(m_id:67, e_id:-1)now_e_id: E_67
+INFO:multi_sieve:修饰语： 候鸟 候鸟
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件3， 候鸟的一些禽流感病毒(m_id:64, e_id:E_67) , 候鸟的一些禽流感病毒，就是＜Ｅｎｇｌｉｓｈ＞Ｈ＜／Ｅｎｇｌｉｓｈ＞五病毒的这个一些这个特性(m_id:69, e_id:-1)now_e_id: E_67
+INFO:multi_sieve:修饰语： 候鸟 候鸟
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 这个病毒(m_id:44, e_id:-1) , 土耳其这个这个病毒(m_id:72, e_id:-1)now_e_id: E_72
+INFO:multi_sieve:修饰语： 病毒 病毒
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 一些候鸟的里边分离的病毒(m_id:106, e_id:-1) , 一些候鸟的里边分离的病毒的基因(m_id:108, e_id:-1)now_e_id: E_108
+INFO:multi_sieve:修饰语： 一些候鸟 一些候鸟
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 他这些相关的一些病毒(m_id:151, e_id:-1) , 他这些相关的一些病毒的这些基因信息(m_id:153, e_id:-1)now_e_id: E_153
+INFO:multi_sieve:修饰语： 他这些相关 他这些相关
+INFO:multi_sieve:限定词： 这些 这些
+INFO:设置共指：:条件1， 土耳其的这个禽流感(m_id:38, e_id:-1) , 土耳其的这个禽流感(m_id:168, e_id:-1)now_e_id: E_168
+INFO:multi_sieve:修饰语： 土耳其 土耳其
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个病毒(m_id:44, e_id:E_72) , 这个病毒(m_id:173, e_id:-1)now_e_id: E_72
+INFO:multi_sieve:修饰语： 病毒 病毒
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 土耳其因禽流感而最早丧生的两名患者(m_id:193, e_id:-1) , 土耳其因禽流感而最早丧生的两名患者体内(m_id:195, e_id:-1)now_e_id: E_195
+INFO:multi_sieve:修饰语： 土耳其因禽流感而最早丧生 土耳其因禽流感而最早丧生
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 两位专家(m_id:35, e_id:-1) , 两位专家(m_id:242, e_id:-1)now_e_id: E_242
+INFO:multi_sieve:修饰语： 专家 专家
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 世卫组织这个官员讲话(m_id:226, e_id:-1) , 这个讲话(m_id:245, e_id:-1)now_e_id: E_245
+INFO:multi_sieve:修饰语： 讲话 讲话
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个病毒(m_id:44, e_id:E_72) , 这个病毒(m_id:264, e_id:-1)now_e_id: E_72
+INFO:multi_sieve:修饰语： 病毒 病毒
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 什么地方(m_id:271, e_id:-1) , 什么地方(m_id:295, e_id:-1)now_e_id: E_295
+INFO:multi_sieve:修饰语： 地方 地方
+INFO:multi_sieve:限定词： 什么 什么
+INFO:设置共指：:条件1， 这个变异(m_id:291, e_id:-1) , 这个变异(m_id:297, e_id:-1)now_e_id: E_297
+INFO:multi_sieve:修饰语： 变异 变异
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0039_007.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0039_007.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/dev_09_cmn_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 中国经济改革的三十周年(m_id:10, e_id:-1) , 中国经济改革的三十周年(m_id:67, e_id:-1)now_e_id: E_67
+INFO:multi_sieve:修饰语： 中国经济改革 中国经济改革
+INFO:multi_sieve:限定词： 三十 三十
+INFO:设置共指：:条件1， 三十多年前的唐山大地震(m_id:168, e_id:-1) , 三十多年前的唐山大地震的消息封锁(m_id:170, e_id:-1)now_e_id: E_170
+INFO:multi_sieve:修饰语： 三十多年前 三十多年前
+INFO:multi_sieve:限定词： 三十多 三十多
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/dev_09_cmn_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0029_003.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一个部门(m_id:34, e_id:-1) , 它一个部门一个部门(m_id:36, e_id:-1)now_e_id: E_36
+INFO:multi_sieve:修饰语： 部门 部门
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 这个学校(m_id:65, e_id:-1) , 这个学校(m_id:72, e_id:-1)now_e_id: E_72
+INFO:multi_sieve:修饰语： 学校 学校
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 那个Ｏｈｉｏ学校(m_id:68, e_id:-1) , 那个学校(m_id:74, e_id:-1)now_e_id: E_74
+INFO:multi_sieve:修饰语： 学校 学校
+INFO:multi_sieve:限定词： 那个 那个
+INFO:设置共指：:条件1， 这个问题(m_id:114, e_id:-1) , 这个问题(m_id:123, e_id:-1)now_e_id: E_123
+INFO:multi_sieve:修饰语： 问题 问题
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个问题(m_id:114, e_id:E_123) , 这个问题(m_id:124, e_id:-1)now_e_id: E_123
+INFO:multi_sieve:修饰语： 问题 问题
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0029_003.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_002.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个讲话(m_id:3, e_id:-1) , 她这个讲话(m_id:15, e_id:-1)now_e_id: E_15
+INFO:multi_sieve:修饰语： 讲话 讲话
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 这个问题(m_id:20, e_id:-1) , 这个问题(m_id:86, e_id:-1)now_e_id: E_86
+INFO:multi_sieve:修饰语： 问题 问题
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 什么突然的爆发(m_id:149, e_id:-1) , 什么突然的爆发，像动物发生一些烈性传染病，突然大批死亡(m_id:153, e_id:-1)now_e_id: E_153
+INFO:multi_sieve:修饰语： 什么突然 什么突然
+INFO:multi_sieve:限定词： 什么 什么
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_002.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0079_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 过去１个月(m_id:17, e_id:-1) , １个月(m_id:34, e_id:-1)now_e_id: E_34
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： １ １
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0079_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0009_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这大礼拜(m_id:63, e_id:-1) , 他这大礼拜(m_id:64, e_id:-1)now_e_id: E_64
+INFO:multi_sieve:修饰语： 大礼拜 大礼拜
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 几月(m_id:85, e_id:-1) , 几月(m_id:90, e_id:-1)now_e_id: E_90
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： 几 几
+INFO:设置共指：:条件1， 一个星期(m_id:128, e_id:-1) , 一个星期(m_id:132, e_id:-1)now_e_id: E_132
+INFO:multi_sieve:修饰语： 星期 星期
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 六天课(m_id:130, e_id:-1) , 六天课(m_id:136, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 课 课
+INFO:multi_sieve:限定词： 六 六
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0009_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0249_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0249_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0099_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 二次伤害(m_id:12, e_id:-1) , 二度伤害(m_id:54, e_id:-1)now_e_id: E_54
+INFO:multi_sieve:修饰语： 伤害 伤害
+INFO:multi_sieve:限定词： 二 二
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0099_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0139_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0139_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0069_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0069_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_005.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个电话(m_id:19, e_id:-1) , 这个录电话(m_id:22, e_id:-1)now_e_id: E_22
+INFO:multi_sieve:修饰语： 电话 电话
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_005.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0029_001.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0029_001.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 第二阶段(m_id:14, e_id:-1) , 第二阶段(m_id:21, e_id:-1)now_e_id: E_21
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 第二 第二
+INFO:设置共指：:条件1， 超过１／３的高中(m_id:19, e_id:-1) , 超过１／３的高中(m_id:92, e_id:-1)now_e_id: E_92
+INFO:multi_sieve:修饰语： 超过１／３ 超过１／３
+INFO:multi_sieve:限定词： １／３ １／３
+INFO:设置共指：:条件3， 第二阶段(m_id:14, e_id:E_21) , 第二阶段(m_id:128, e_id:-1)now_e_id: E_21
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 第二 第二
+INFO:设置共指：:条件1， 全国(m_id:58, e_id:-1) , 全国(m_id:139, e_id:-1)now_e_id: E_139
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件3， 第二阶段(m_id:14, e_id:E_21) , 第二阶段(m_id:150, e_id:-1)now_e_id: E_21
+INFO:multi_sieve:修饰语： 阶段 阶段
+INFO:multi_sieve:限定词： 第二 第二
+INFO:设置共指：:条件1， 第二阶段的评选(m_id:130, e_id:-1) , 第二阶段的纸笔测验(m_id:152, e_id:-1)now_e_id: E_152
+INFO:multi_sieve:修饰语： 第二阶段 第二阶段
+INFO:multi_sieve:限定词： 第二 第二
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0199_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 造成这个现象的(m_id:26, e_id:-1) , 造成这个现象的部分原因(m_id:28, e_id:-1)now_e_id: E_28
+INFO:multi_sieve:修饰语： 造成这个现象 造成这个现象
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0199_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一生(m_id:16, e_id:-1) , 一生(m_id:53, e_id:-1)now_e_id: E_53
+INFO:multi_sieve:修饰语： 生 生
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 一生(m_id:16, e_id:E_53) , 一生(m_id:246, e_id:-1)now_e_id: E_53
+INFO:multi_sieve:修饰语： 生 生
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0079_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0079_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0159_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这个协议(m_id:122, e_id:-1) , 这个协议(m_id:132, e_id:-1)now_e_id: E_132
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个协议(m_id:122, e_id:E_132) , 这个协议(m_id:143, e_id:-1)now_e_id: E_132
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， １９９５年那个时候(m_id:167, e_id:-1) , 那个时候(m_id:186, e_id:-1)now_e_id: E_186
+INFO:multi_sieve:修饰语： 时候 时候
+INFO:multi_sieve:限定词： 那个 那个
+INFO:设置共指：:条件3， 这个协议(m_id:122, e_id:E_132) , 这个协议(m_id:195, e_id:-1)now_e_id: E_132
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个协议(m_id:122, e_id:E_132) , 这个协议(m_id:264, e_id:-1)now_e_id: E_132
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件3， 这个协议(m_id:122, e_id:E_132) , 这个协议(m_id:273, e_id:-1)now_e_id: E_132
+INFO:multi_sieve:修饰语： 协议 协议
+INFO:multi_sieve:限定词： 这个 这个
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0159_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0009_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0309_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， １５％的面积(m_id:13, e_id:-1) , １５％的灼伤(m_id:45, e_id:-1)now_e_id: E_45
+INFO:multi_sieve:修饰语： １５％ １５％
+INFO:multi_sieve:限定词： １５％ １５％
+INFO:设置共指：:条件1， 双手(m_id:20, e_id:-1) , 双手(m_id:47, e_id:-1)now_e_id: E_47
+INFO:multi_sieve:修饰语： 手 手
+INFO:multi_sieve:限定词： 双 双
+INFO:设置共指：:条件1， 双脚(m_id:49, e_id:-1) , 双手双脚(m_id:50, e_id:-1)now_e_id: E_50
+INFO:multi_sieve:修饰语： 脚 脚
+INFO:multi_sieve:限定词： 双 双
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0309_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0209_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， ３名机师(m_id:15, e_id:-1) , ３名机师(m_id:22, e_id:-1)now_e_id: E_22
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：:条件3， ３名机师(m_id:15, e_id:E_22) , ３名机师(m_id:26, e_id:-1)now_e_id: E_22
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：:条件1， 下个星期五(m_id:47, e_id:-1) , １２月１５号，也就是下个星期五(m_id:48, e_id:-1)now_e_id: E_48
+INFO:multi_sieve:修饰语： 星期五 星期五
+INFO:multi_sieve:限定词： 下 下
+INFO:设置共指：:条件3， ３名机师(m_id:15, e_id:E_22) , ３名机师(m_id:50, e_id:-1)now_e_id: E_22
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：:条件3， ３名机师(m_id:15, e_id:E_22) , ３名机师(m_id:73, e_id:-1)now_e_id: E_22
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： ３ ３
+INFO:设置共指：:条件1， 这３名机师(m_id:58, e_id:-1) , 这３名机师(m_id:77, e_id:-1)now_e_id: E_77
+INFO:multi_sieve:修饰语： 机师 机师
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0209_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一书(m_id:7, e_id:-1) , 《新中东》一书(m_id:104, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 书 书
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 各国(m_id:24, e_id:-1) , 各国(m_id:129, e_id:-1)now_e_id: E_129
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件3， 各国(m_id:24, e_id:E_129) , 各国(m_id:183, e_id:-1)now_e_id: E_129
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件3， 一书(m_id:7, e_id:E_104) , 一书(m_id:197, e_id:-1)now_e_id: E_104
+INFO:multi_sieve:修饰语： 书 书
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 其《新中东》一书中文版(m_id:9, e_id:-1) , 《新中东》一书中文版(m_id:199, e_id:-1)now_e_id: E_199
+INFO:multi_sieve:修饰语： 中文版 中文版
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0249_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cnr_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cnr_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 另外一位有资格参加选举的候选人(m_id:29, e_id:-1) , 另外一位有资格参加选举的候选人的姓名(m_id:31, e_id:-1)now_e_id: E_31
+INFO:multi_sieve:修饰语： 另外一位有资格参加选举 另外一位有资格参加选举
+INFO:multi_sieve:限定词： 另外 另外
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_005.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 我看到的一些假设(m_id:286, e_id:-1) , 我看到的一些假设（例如链接在此的去年贴子里蒂姆.鲍彻和梦幻行星提出的两个）(m_id:294, e_id:-1)now_e_id: E_294
+INFO:multi_sieve:修饰语： 我看到 我看到
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 他内心的彼得（不，不是那种彼得）(m_id:329, e_id:-1) , 他内心的彼得（不，不是那种彼得）在那些个彼得·潘的连续统一体里的位置(m_id:334, e_id:-1)now_e_id: E_334
+INFO:multi_sieve:修饰语： 他内心 他内心
+INFO:multi_sieve:限定词： 那 那
+INFO:设置共指：:条件1， 一个记忆中的故事(m_id:344, e_id:-1) , 一个记忆中的故事的影子(m_id:346, e_id:-1)now_e_id: E_346
+INFO:multi_sieve:修饰语： 一个记忆中 一个记忆中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 一个记忆中的故事(m_id:344, e_id:E_346) , 一个记忆中的故事的影子的影子(m_id:348, e_id:-1)now_e_id: E_346
+INFO:multi_sieve:修饰语： 一个记忆中 一个记忆中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 第一个扮演彼得的女演员(m_id:375, e_id:-1) , 第一个扮演彼得的女演员尼娜.布希考特(m_id:377, e_id:-1)now_e_id: E_377
+INFO:multi_sieve:修饰语： 第一个扮演彼得 第一个扮演彼得
+INFO:multi_sieve:限定词： 第一 第一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_005.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0089_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0089_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0229_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 各地(m_id:73, e_id:-1) , 各地(m_id:96, e_id:-1)now_e_id: E_96
+INFO:multi_sieve:修饰语： 地 地
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件3， 各地(m_id:73, e_id:E_96) , 广东各地(m_id:97, e_id:-1)now_e_id: E_96
+INFO:multi_sieve:修饰语： 地 地
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0229_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 保税区的各项功能(m_id:19, e_id:-1) , 中国各保税区(m_id:24, e_id:-1)now_e_id: E_24
+INFO:multi_sieve:修饰语： 保税区 保税区
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0299_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这次谈判(m_id:20, e_id:-1) , 这次谈判(m_id:41, e_id:-1)now_e_id: E_41
+INFO:multi_sieve:修饰语： 谈判 谈判
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这次谈判的目的(m_id:22, e_id:-1) , 这次谈判的前景(m_id:43, e_id:-1)now_e_id: E_43
+INFO:multi_sieve:修饰语： 这次谈判 这次谈判
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， １９４８年被驱离家园的几百万巴勒斯坦难民(m_id:135, e_id:-1) , １９４８年被驱离家园的几百万巴勒斯坦难民返回家园的问题(m_id:138, e_id:-1)now_e_id: E_138
+INFO:multi_sieve:修饰语： １９４８年被驱离家园 １９４８年被驱离家园
+INFO:multi_sieve:限定词： 几百万 几百万
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0299_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0099_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 四个星期(m_id:90, e_id:-1) , 差不多四个星期(m_id:91, e_id:-1)now_e_id: E_91
+INFO:multi_sieve:修饰语： 星期 星期
+INFO:multi_sieve:限定词： 四 四
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0099_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0189_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0189_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0269_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0269_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/phoenix_0009_006.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 七月底八月初这一周的时间(m_id:50, e_id:-1) , 七月底八月初这一周的时间里面(m_id:52, e_id:-1)now_e_id: E_52
+INFO:multi_sieve:修饰语： 七月底八月初这一周 七月底八月初这一周
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这种能力(m_id:165, e_id:-1) , 这种能力(m_id:168, e_id:-1)now_e_id: E_168
+INFO:multi_sieve:修饰语： 能力 能力
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 群测群防的我们叫做三土(m_id:212, e_id:-1) , 群测群防的我们叫做三土，就土地电，土应力，土地磁(m_id:221, e_id:-1)now_e_id: E_221
+INFO:multi_sieve:修饰语： 群测群防 群测群防
+INFO:multi_sieve:限定词： 三 三
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/phoenix_0009_006.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0269_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0269_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0129_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一批高速公路项目(m_id:176, e_id:-1) , 一批城市公用基础设施招商项目(m_id:183, e_id:-1)now_e_id: E_183
+INFO:multi_sieve:修饰语： 项目 项目
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0129_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0019_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 各会员(m_id:36, e_id:-1) , 各会员(m_id:121, e_id:-1)now_e_id: E_121
+INFO:multi_sieve:修饰语： 会员 会员
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， ８个会员(m_id:192, e_id:-1) , 澳洲、菲律宾、南韩、纽西兰等８个会员(m_id:193, e_id:-1)now_e_id: E_193
+INFO:multi_sieve:修饰语： 会员 会员
+INFO:multi_sieve:限定词： ８ ８
+INFO:设置共指：:条件1， 经常旅行的商务人士或者是各国的重要的商务人士(m_id:213, e_id:-1) , 经常旅行的商务人士或者是各国的重要的商务人士的出行(m_id:215, e_id:-1)now_e_id: E_215
+INFO:multi_sieve:修饰语： 经常旅行 经常旅行
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 各经济体(m_id:116, e_id:-1) , 各经济体(m_id:276, e_id:-1)now_e_id: E_276
+INFO:multi_sieve:修饰语： 经济体 经济体
+INFO:multi_sieve:限定词： 各 各
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0019_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cmn_0039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一个月(m_id:25, e_id:-1) , 一个月(m_id:32, e_id:-1)now_e_id: E_32
+INFO:multi_sieve:修饰语： 月 月
+INFO:multi_sieve:限定词： 一 一
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cmn_0039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0029_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0029_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0019_007.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0019_007.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0079_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0079_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0309_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 这份建议(m_id:80, e_id:-1) , 这份建议(m_id:102, e_id:-1)now_e_id: E_102
+INFO:multi_sieve:修饰语： 建议 建议
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0309_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/vom_0259_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 美、日两国(m_id:4, e_id:-1) , 两国(m_id:8, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 美、日两国(m_id:4, e_id:E_8) , 美、日两国(m_id:32, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 美、日两国(m_id:4, e_id:E_8) , 日、美两国(m_id:54, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 美、日两国公民(m_id:6, e_id:-1) , 日、美两国公民(m_id:56, e_id:-1)now_e_id: E_56
+INFO:multi_sieve:修饰语： 公民 公民
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 美、日两国(m_id:4, e_id:E_8) , 两国(m_id:81, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 两国关系(m_id:10, e_id:-1) , 两国关系(m_id:83, e_id:-1)now_e_id: E_83
+INFO:multi_sieve:修饰语： 关系 关系
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 两国关系的认识(m_id:12, e_id:-1) , 两国关系的认识(m_id:85, e_id:-1)now_e_id: E_85
+INFO:multi_sieve:修饰语： 两国关系 两国关系
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 美、日两国(m_id:4, e_id:E_8) , 日、美两国(m_id:119, e_id:-1)now_e_id: E_8
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 美、日两国公民(m_id:6, e_id:E_56) , 日、美两国公民(m_id:121, e_id:-1)now_e_id: E_56
+INFO:multi_sieve:修饰语： 公民 公民
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/vom_0259_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0109_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0109_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_1039_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 两岸(m_id:29, e_id:-1) , 两岸(m_id:39, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:61, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 两岸关系(m_id:41, e_id:-1) , 两岸关系(m_id:63, e_id:-1)now_e_id: E_63
+INFO:multi_sieve:修饰语： 关系 关系
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:118, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两岸关系(m_id:41, e_id:E_63) , 两岸关系(m_id:120, e_id:-1)now_e_id: E_63
+INFO:multi_sieve:修饰语： 关系 关系
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件1， 「一中」共识(m_id:96, e_id:-1) , 一中共识(m_id:133, e_id:-1)now_e_id: E_133
+INFO:multi_sieve:修饰语： 共识 共识
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 一中(m_id:131, e_id:-1) , 一中(m_id:160, e_id:-1)now_e_id: E_160
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 「一中」问题(m_id:75, e_id:-1) , 「一个中国」问题(m_id:194, e_id:-1)now_e_id: E_194
+INFO:multi_sieve:修饰语： 问题 问题
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 一中(m_id:131, e_id:E_160) , 一中(m_id:223, e_id:-1)now_e_id: E_160
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 「一中」问题(m_id:75, e_id:E_194) , 一中问题(m_id:225, e_id:-1)now_e_id: E_194
+INFO:multi_sieve:修饰语： 问题 问题
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:228, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 一中(m_id:131, e_id:E_160) , 一中(m_id:272, e_id:-1)now_e_id: E_160
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 我们这一边(m_id:202, e_id:-1) , 我们这一边(m_id:288, e_id:-1)now_e_id: E_288
+INFO:multi_sieve:修饰语： 边 边
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:290, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 一中(m_id:131, e_id:E_160) , 一中(m_id:292, e_id:-1)now_e_id: E_160
+INFO:multi_sieve:修饰语： 中 中
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:330, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 「一中」共识(m_id:96, e_id:E_133) , 一个共识(m_id:398, e_id:-1)now_e_id: E_133
+INFO:multi_sieve:修饰语： 共识 共识
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:402, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:420, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:设置共指：:条件3， 两岸(m_id:29, e_id:E_39) , 两岸(m_id:450, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 岸 岸
+INFO:multi_sieve:限定词： 两 两
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_1039_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0139_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 若旺·保罗二世(m_id:44, e_id:-1) , 教宗若旺·保罗二世(m_id:45, e_id:-1)now_e_id: E_45
+INFO:multi_sieve:修饰语： 世 世
+INFO:multi_sieve:限定词： 二 二
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0139_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ctv_0109_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 此次南极之行(m_id:37, e_id:-1) , 此次南极之行的科考任务(m_id:39, e_id:-1)now_e_id: E_39
+INFO:multi_sieve:修饰语： 此次南极 此次南极
+INFO:multi_sieve:限定词： 此 此
+INFO:设置共指：:条件1， 全球关心的这个南极在全球变化中它的位置(m_id:75, e_id:-1) , 全球关心的这个南极在全球变化中它的位置，以及它反过来对全球的影响(m_id:81, e_id:-1)now_e_id: E_81
+INFO:multi_sieve:修饰语： 全球关心 全球关心
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， ６名人文学者(m_id:5, e_id:-1) , ６位人文学者(m_id:101, e_id:-1)now_e_id: E_101
+INFO:multi_sieve:修饰语： 学者 学者
+INFO:multi_sieve:限定词： ６ ６
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ctv_0109_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0089_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0089_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cbs_0169_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cbs_0169_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/ch_0029_004.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一封信(m_id:3, e_id:-1) , 一封信(m_id:9, e_id:-1)now_e_id: E_9
+INFO:multi_sieve:修饰语： 信 信
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 这个专业(m_id:76, e_id:-1) , 我,这个专业(m_id:77, e_id:-1)now_e_id: E_77
+INFO:multi_sieve:修饰语： 专业 专业
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 就是说,比如说象什么海报啊那种东西(m_id:157, e_id:-1) , 电视剧或者就是说,比如说象什么海报啊那种东西(m_id:158, e_id:-1)now_e_id: E_158
+INFO:multi_sieve:修饰语： 东西 东西
+INFO:multi_sieve:限定词： 什么 什么
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/ch_0029_004.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cts_0279_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cts_0279_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/cctv_0007_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 全世界(m_id:25, e_id:-1) , 全世界(m_id:30, e_id:-1)now_e_id: E_30
+INFO:multi_sieve:修饰语： 世界 世界
+INFO:multi_sieve:限定词： 全 全
+INFO:设置共指：:条件1， 这个禽流感(m_id:116, e_id:-1) , 这个高致病性禽流感(m_id:122, e_id:-1)now_e_id: E_122
+INFO:multi_sieve:修饰语： 禽流感 禽流感
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 各国(m_id:106, e_id:-1) , 各国(m_id:136, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 信息，就是尤其是疾病，病毒的一些信息(m_id:145, e_id:-1) , 信息，就是尤其是疾病，病毒的一些信息交流(m_id:147, e_id:-1)now_e_id: E_147
+INFO:multi_sieve:修饰语： 信息，就是尤其是疾病，病毒 信息，就是尤其是疾病，病毒
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 一些相关的一些技术(m_id:151, e_id:-1) , 一些相关的一些技术，一些相互的一些支持，或者一些交流(m_id:156, e_id:-1)now_e_id: E_156
+INFO:multi_sieve:修饰语： 一些相关 一些相关
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 这个病毒(m_id:190, e_id:-1) , 病毒的这个资料(m_id:202, e_id:-1)now_e_id: E_202
+INFO:multi_sieve:修饰语： 病毒 病毒
+INFO:multi_sieve:限定词： 这个 这个
+INFO:设置共指：:条件1， 病毒的一些特点(m_id:168, e_id:-1) , 病毒的一些基因，基因资料(m_id:205, e_id:-1)now_e_id: E_205
+INFO:multi_sieve:修饰语： 病毒 病毒
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 其中的一些信息(m_id:214, e_id:-1) , 其中的一些信息(m_id:225, e_id:-1)now_e_id: E_225
+INFO:multi_sieve:修饰语： 其中 其中
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 长期的这种合作(m_id:259, e_id:-1) , 长期的这种合作的这种协议(m_id:261, e_id:-1)now_e_id: E_261
+INFO:multi_sieve:修饰语： 长期 长期
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这次大会(m_id:58, e_id:-1) , 这次筹资大会(m_id:288, e_id:-1)now_e_id: E_288
+INFO:multi_sieve:修饰语： 大会 大会
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件3， 各国(m_id:106, e_id:E_136) , 各国(m_id:296, e_id:-1)now_e_id: E_136
+INFO:multi_sieve:修饰语： 国 国
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件3， 这次大会(m_id:58, e_id:E_288) , 这次筹资大会(m_id:301, e_id:-1)now_e_id: E_288
+INFO:multi_sieve:修饰语： 大会 大会
+INFO:multi_sieve:限定词： 这 这
+INFO:设置共指：:条件1， 这两名儿童(m_id:328, e_id:-1) , 这两名儿童(m_id:369, e_id:-1)now_e_id: E_369
+INFO:multi_sieve:修饰语： 儿童 儿童
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/cctv_0007_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/chtb_0309_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 各地(m_id:29, e_id:-1) , 各地(m_id:93, e_id:-1)now_e_id: E_93
+INFO:multi_sieve:修饰语： 地 地
+INFO:multi_sieve:限定词： 各 各
+INFO:设置共指：:条件1， 一些国家和地区(m_id:133, e_id:-1) , 一些国家和地区的残疾人体育组织(m_id:135, e_id:-1)now_e_id: E_135
+INFO:multi_sieve:修饰语： 一些国家和地区 一些国家和地区
+INFO:multi_sieve:限定词： 一些 一些
+INFO:设置共指：:条件1， 第六届远东及南太平洋地区残疾人运动会(m_id:17, e_id:-1) , 第六届远南运动会(m_id:181, e_id:-1)now_e_id: E_181
+INFO:multi_sieve:修饰语： 运动会 运动会
+INFO:multi_sieve:限定词： 第六 第六
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/chtb_0309_000.v4_result_conll-------
+
+INFO:load_data:加载文档 for MD：/opt/tmp/DataSets/conll_test/test/e2c_0009_000.v4_gold_conll
+INFO:load_data:(MD)加载文档完毕！此文档共有1个doc对象
+
+INFO:experiments:---------开始调用multi-sieve---------
+INFO:experiments:Run <function exact_match at 0x7f08c4272578>
+INFO:设置共指：:条件1， 一名有钱和溺爱孩子的沙特母亲(m_id:66, e_id:-1) , 一名有钱和溺爱孩子的沙特母亲(m_id:67, e_id:-1)now_e_id: E_67
+INFO:multi_sieve:修饰语： 一名有钱和溺爱孩子 一名有钱和溺爱孩子
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 家族的所有不幸(m_id:91, e_id:-1) , 家族的所有不幸之源(m_id:93, e_id:-1)now_e_id: E_93
+INFO:multi_sieve:修饰语： 家族 家族
+INFO:multi_sieve:限定词： 所有 所有
+INFO:设置共指：:条件1， 那个计划(m_id:197, e_id:-1) , 那个计划(m_id:203, e_id:-1)now_e_id: E_203
+INFO:multi_sieve:修饰语： 计划 计划
+INFO:multi_sieve:限定词： 那个 那个
+INFO:设置共指：:条件1， 九”之特异功能者(m_id:232, e_id:-1) , 九”之特异功能者尤力·盖勒(m_id:234, e_id:-1)now_e_id: E_234
+INFO:multi_sieve:修饰语： 九” 九”
+INFO:multi_sieve:限定词： 九 九
+INFO:设置共指：:条件1， 土星的一个卫星(m_id:328, e_id:-1) , 土星的一个强大的儿子(m_id:345, e_id:-1)now_e_id: E_345
+INFO:multi_sieve:修饰语： 土星 土星
+INFO:multi_sieve:限定词： 一 一
+INFO:设置共指：:条件1， 这件事(m_id:200, e_id:-1) , 这事(m_id:353, e_id:-1)now_e_id: E_353
+INFO:multi_sieve:修饰语： 事 事
+INFO:multi_sieve:限定词： 这 这
+INFO:experiments:-------处理完毕，结果写入 /opt/tmp/DataSets/conll_test/result/e2c_0009_000.v4_result_conll-------
+

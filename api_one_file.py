@@ -58,12 +58,12 @@ logger = logging.getLogger("experiments")
 
 # 我的顺序
 sieve_order = [
-        test_sieve,
-        # exact_match,
+        # test_sieve,
+        exact_match,
         # strict_head_matching_A,
         # strict_head_matching_B,
         # strict_head_matching_C,
-        proper_header_word_match_sieve,
+        # proper_header_word_match_sieve,
         # precise_constructs,
         # relaxing_head_matching,
         # discourse_processing,
@@ -171,19 +171,20 @@ def main(file_):
         document_object = load_one_file(file_)
     else:
         document_object = file_
-    logger.info("加载数据用时： %f" % (clock() - start))
-    logger.info("开始调用multi-sieve")
+    # logger.info("加载数据用时： %f" % (clock() - start))
+    logger.info("---------开始调用multi-sieve---------")
     for sieve in sieve_order:
         print sieve
         logger.info("Run " + str(sieve))
         sieve_start = clock()
         document_object = sieve(document_object)
         sieve_end = clock()
-        logger.info("%s用时：%f" % (str(sieve), sieve_end - sieve_start))
+        # logger.info("%s用时：%f" % (str(sieve), sieve_end - sieve_start))
 
     # 然后写入文件
     result_file_path = config.result_folder + document_object.document_file_name + '.v4_result_conll'
     document_object.write_to_file(result_file_path)
+    logger.info("-------处理完毕，结果写入 %s-------\n"%result_file_path)
     # unit_test_utils.print_gold_cluster(document_object)
     return document_object
 
