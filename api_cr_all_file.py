@@ -71,9 +71,11 @@ def test():
 # --------------------------------------------
 
 def __del_result_files():
+    counter = 0
     for file_ in config.get_var_files(config.result_folder, 'result'):
+        counter += 1
         remove(file_)
-    print '删除所有result文件！'
+    print '删除 %d 个result文件！'%counter
 
 def run(vars = 'test'):
     if vars == 'train':

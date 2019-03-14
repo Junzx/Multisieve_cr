@@ -18,7 +18,8 @@ def pronoun_sieve(obj_document):
     # - func 找到代词表述
     pronoun_mentions = []
     for mention in obj_document.lst_mentions:
-        if mention.chinese_word in ConstantVariable.third_person_pronouns:
+        # if mention.chinese_word in ConstantVariable.third_person_pronouns:
+        if mention.chinese_word in ConstantVariable.pronouns:
             pronoun_mentions.append(mention)
 
 
@@ -46,9 +47,6 @@ def pronoun_sieve(obj_document):
         # - func 从候选表述中依次进行判断
         for candidate_m in candidate_mentions:
 
-            # - rule 如果动物属性相同（只有相同的适合相乘才可能等于1）
-            # if candidate_m.animacy * p_m.animacy == 1:
-
 
             # 实验1： 使用所有属性
             # if candidate_m.gender == p_m.gender and \
@@ -60,6 +58,11 @@ def pronoun_sieve(obj_document):
 
             # 实验2： 仅使用动物属性
             # if candidate_m.animacy == p_m.animacy:# and \
+            #     obj_document.set_coref(candidate_m, p_m)
+            #     break
+
+            # 仅用性别
+            # if candidate_m.gender == p_m.gender:# and \
             #     obj_document.set_coref(candidate_m, p_m)
             #     break
 

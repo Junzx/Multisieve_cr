@@ -92,7 +92,6 @@ class Mention(object):
     def __set_gender(self):
         """
         unknown-0/Male-1/Female--1
-
         """
         gender_male = (u'他', u'男', u'父')
         gender_female = (u'她', u'女', u'母')
@@ -105,17 +104,15 @@ class Mention(object):
 
         if self.chinese_word in user_corpus.get_pca_list():
             return -1
-
         # return ConstantVariable.get_gender(self.chinese_word)
-        if self.animacy == 1:
-            return ConstantVariable.get_gender(self.chinese_word)
+        # if self.animacy == 1:
+        #     return ConstantVariable.get_gender(self.chinese_word)
         return 0
 
     def __set_animacy(self):
         """
         unknown-0/Animal-1/Inanimate--1
         """
-
         # 规则 1
         if self.chinese_word in ConstantVariable.human_pronounces:
             return 1
@@ -139,10 +136,10 @@ class Mention(object):
 
         # if self.animacy == 0:
 
-        tmp =  ConstantVariable.get_animacy(self.chinese_word)
-        return tmp
-
-        # return 0
+        # tmp =  ConstantVariable.get_animacy(self.chinese_word)
+        # return tmp
+        #
+        return 0
 
     def __set_single(self):
         """
@@ -158,7 +155,6 @@ class Mention(object):
         # 规则 2
         if '们' in self.chinese_word:
             return -1
-
 
         # 规则 3
         if self.ner in ('ORGANIZATION'):#, 'GPE'):

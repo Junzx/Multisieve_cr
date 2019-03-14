@@ -99,25 +99,11 @@ class Document(object):
         tr4w.analyze(text=self.article, lower=True, window=2)
         self.lst_key_words = deepcopy(tr4w.get_keywords(20, word_min_len=1))
 
-        # 关键短语
-        # lst_tmp_phrases = tr4w.get_keyphrases(keywords_num=20, min_occur_num= 2)
-        # if len(lst_tmp_phrases) == 0:
-        #     self.key_word = 'No-phrases'
-        # else:
-        #     self.key_word = lst_tmp_phrases[0]
-
         # 摘要
         tr4s = TextRank4Sentence()
         tr4s.analyze(text=self.article, lower=True, source='all_filters')
         self.lst_abstract = deepcopy(tr4s.get_key_sentences(num=2))
 
-        # 对每个mention计算权重
-        lst_key_word = [item['word'] for item in self.lst_key_words]
-
-        # for mention in self.lst_mentions:
-        #     if mention.chinese_word in lst_key_word:  # 说明这个是关键字
-        #         mention.weight = \
-        #         [item['weight'] for item in self.lst_key_words if item['word'] == mention.chinese_word][0]
 
     def __set_dict_attribute(self):
         """

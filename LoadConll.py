@@ -375,8 +375,9 @@ if __name__ == '__main__':
     test = load_one_file(f)
     for t in test.lst_tokens:
         print t.line
-    # print_gold_cluster(test)
-    # print_cluster(test)
+    print_gold_cluster(test)
+
+    md = load_one_file_for_md(f)
     logger.info("结束执行")
     # pprint(test.get_class_attribute())
     # from sys import getsizeof

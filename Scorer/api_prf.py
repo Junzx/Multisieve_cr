@@ -71,4 +71,8 @@ if __name__ == '__main__':
     }
     print '-'* 30
     pprint(dic)
+    print 'muc'
+    print ' '.join(dic.get('muc')).replace('%','')
+    print 'bcub'
+    print ' '.join(dic.get('bcub')).replace('%','')
     # print get_prf('test.v4_gold_conll', 'test.v4_res_conll', 'all')
