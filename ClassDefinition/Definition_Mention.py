@@ -104,7 +104,7 @@ class Mention(object):
 
         if self.chinese_word in user_corpus.get_pca_list():
             return -1
-        # return ConstantVariable.get_gender(self.chinese_word)
+        return ConstantVariable.get_gender(self.chinese_word)
         # if self.animacy == 1:
         #     return ConstantVariable.get_gender(self.chinese_word)
         return 0
@@ -136,8 +136,8 @@ class Mention(object):
 
         # if self.animacy == 0:
 
-        # tmp =  ConstantVariable.get_animacy(self.chinese_word)
-        # return tmp
+        tmp =  ConstantVariable.get_animacy(self.chinese_word)
+        return tmp
         #
         return 0
 

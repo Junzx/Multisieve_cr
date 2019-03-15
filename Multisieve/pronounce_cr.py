@@ -18,8 +18,8 @@ def pronoun_sieve(obj_document):
     # - func 找到代词表述
     pronoun_mentions = []
     for mention in obj_document.lst_mentions:
-        # if mention.chinese_word in ConstantVariable.third_person_pronouns:
-        if mention.chinese_word in ConstantVariable.pronouns:
+        if mention.chinese_word in ConstantVariable.third_person_pronouns:
+        # if mention.chinese_word in ConstantVariable.pronouns:
             pronoun_mentions.append(mention)
 
 

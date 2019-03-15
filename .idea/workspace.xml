@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b9a843-4286-4730-a675-7e02f3f610fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Document.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Experiment/api_system.py" beforeDir="false" afterPath="$PROJECT_DIR$/Experiment/api_system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoadConll.py" beforeDir="false" afterPath="$PROJECT_DIR$/LoadConll.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Multisieve/pronounce_cr.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RunResults/MyLog.log" beforeDir="false" afterPath="$PROJECT_DIR$/RunResults/MyLog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scorer/api_prf.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/api_prf.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" beforeDir="false" afterPath="$PROJECT_DIR$/Scorer/merged_test.v4_result_conll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_cr_all_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_cr_all_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api_cr_one_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/api_cr_one_file.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md" beforeDir="false" afterPath="$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md" afterDir="false" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,15 +28,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api_cr_one_file.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="47">
@@ -57,23 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="216">
-                <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+            <state relative-caret-position="99">
+              <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
               <folding>
                 <element signature="e#24#55#0" expanded="true" />
                 <element signature="e#2064#2862#0" />
@@ -83,9 +53,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+              <folding>
+                <element signature="e#71#84#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="108">
+                <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
+              <folding>
+                <element signature="e#58#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nlp_tools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="677">
+              <caret line="90" column="29" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InitDocument.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+              <folding>
+                <element signature="e#576#1294#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Experiment/api_system.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="57">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
@@ -111,8 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>一些国家</find>
-      <find>一些国家和地区</find>
       <find>美、日两国</find>
       <find>vom_0259_000</find>
       <find>美、日两国公民</find>
@@ -141,6 +175,8 @@
       <find>322</find>
       <find>vom_0059_000</find>
       <find>设置</find>
+      <find>get_par`</find>
+      <find>get_parse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,10 +232,10 @@
         <option value="$PROJECT_DIR$/LoadConll.py" />
         <option value="$PROJECT_DIR$/Scorer/api_prf.py" />
         <option value="$PROJECT_DIR$/api_cr_all_file.py" />
-        <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
-        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" />
         <option value="$PROJECT_DIR$/api_cr_one_file.py" />
         <option value="$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md" />
+        <option value="$PROJECT_DIR$/ClassDefinition/Definition_Mention.py" />
+        <option value="$PROJECT_DIR$/Multisieve/pronounce_cr.py" />
       </list>
     </option>
   </component>
@@ -230,12 +266,12 @@
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="ClassDefinition" type="462c0819:PsiDirectoryNode" />
+              <item name="MentionDetection" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Multisieve_cr" type="b2602c69:ProjectViewProjectNode" />
               <item name="Multisieve_cr" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="Multisieve" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,19 +287,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/AttributeExtract" />
-      <recent name="$PROJECT_DIR$/UserCorpus" />
-      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
-      <recent name="$PROJECT_DIR$/Experiment" />
-      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/AttributeExtract" />
       <recent name="$PROJECT_DIR$/MentionDetection" />
       <recent name="$PROJECT_DIR$/MentionDetection/LSTM_labeled" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AttributeExtract" />
+      <recent name="$PROJECT_DIR$/UserCorpus" />
+      <recent name="$PROJECT_DIR$/Experiment/ExperimentResult" />
+      <recent name="$PROJECT_DIR$/Experiment" />
+      <recent name="$PROJECT_DIR$/Experiment/Init_Data_Set" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -598,9 +634,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.60714287" visible="true" weight="0.16366483" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.60714287" visible="true" weight="0.16366483" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
@@ -613,7 +648,7 @@
       <window_info anchor="bottom" id="运行" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="版本控制" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.39285713" visible="true" weight="0.3152174" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.39285713" weight="0.3152174" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="调试" order="13" />
@@ -1029,21 +1064,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rebuild_Init_Data.py" />
-    <entry file="file://$PROJECT_DIR$/nlp_tools.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Token.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test.v4_gold_conll">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InitDocument.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LAB.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1089,30 +1114,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-          <folding>
-            <element signature="e#576#1294#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RunResults/MyLog.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="-1444">
           <caret line="1027" column="7" selection-start-line="1027" selection-start-column="5" selection-end-line="1027" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="124" column="36" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
-          <folding>
-            <element signature="e#58#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1154,38 +1159,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="66" column="14" lean-forward="true" selection-start-line="66" selection-start-column="14" selection-end-line="66" selection-end-column="14" />
-          <folding>
-            <element signature="e#71#84#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scorer/api_prf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1206">
           <caret line="69" column="26" selection-start-line="69" selection-start-column="26" selection-end-line="69" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="140" column="9" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
-          <folding>
-            <element signature="e#24#55#0" expanded="true" />
-            <element signature="e#2064#2862#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Experiment/api_system.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -1196,10 +1173,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api_cr_all_file.py">
+    <entry file="file://$PROJECT_DIR$/实验结果统计-代词消解.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+        <state relative-caret-position="648">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -1213,20 +1190,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/实验结果统计-代词消解.md">
+    <entry file="file://$PROJECT_DIR$/api_cr_all_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="324">
+          <caret line="89" column="4" selection-start-line="89" selection-start-column="4" selection-end-line="89" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Experiment/api_system.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ClassDefinition/Definition_Mention.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="107" column="17" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#55#0" expanded="true" />
+            <element signature="e#2064#2862#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multisieve/pronounce_cr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#71#84#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/实验结果统计-coreference resolution-auto mention.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="216">
-            <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <first_editor relative-caret-position="108">
+            <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api_md_one_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+          <folding>
+            <element signature="e#576#1294#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MentionDetection/MentionDetection_by_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
+          <folding>
+            <element signature="e#58#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InitDocument.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nlp_tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="90" column="29" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="29" />
         </state>
       </provider>
     </entry>
