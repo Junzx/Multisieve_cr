@@ -42,6 +42,8 @@ if __name__ == '__main__':
     import merge_conll_file
     from os import remove, path
     try:
+        remove(key_file)
+        print '删除 旧 %s 成功！'%key_file
         remove(res_file)
         print '删除 旧 %s 成功！'% res_file
     except OSError:
@@ -49,7 +51,7 @@ if __name__ == '__main__':
 
     if not path.exists(key_file):
         merge_conll_file.api_('gold')
-        print '生成 gold 文件成功！'
+        print '生成 新 %s 成功！' % key_file
 
     merge_conll_file.api_('result')
     print '生成 新 %s 成功！' % res_file

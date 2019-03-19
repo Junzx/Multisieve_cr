@@ -102,7 +102,7 @@ if __name__ == '__main__':
     # test()
     __del_result_files()
 
-    run('test')
+    run('train')
     # run('error')
 
     print 'use time:', time.clock() - start
