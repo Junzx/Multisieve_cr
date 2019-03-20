@@ -38,7 +38,6 @@ logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
 logger = logging.getLogger("experiments")
 
 
-
 # 原始顺序
 # sieve_order = [
         # test_sieve,
@@ -58,18 +57,18 @@ logger = logging.getLogger("experiments")
 
 # 我的顺序
 sieve_order = [
-        test_sieve,
-        exact_match,
-        strict_head_matching_A,
-        strict_head_matching_B,
-        strict_head_matching_C,
-        proper_header_word_match_sieve,
+        # test_sieve,
+        # exact_match,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # proper_header_word_match_sieve,
         # precise_constructs,
 #         # relaxing_head_matching,
-        discourse_processing,
+#         discourse_processing,
         pronoun_sieve,
-        other_sieve,
-        filter_sieve,
+        # other_sieve,
+        # filter_sieve,
     ]
 
 # # 按照Precision降序
@@ -180,7 +179,7 @@ def main(file_):
         sieve_start = clock()
         document_object = sieve(document_object)
         sieve_end = clock()
-        # logger.info("%s用时：%f" % (str(sieve), sieve_end - sieve_start))
+        logger.info("%s用时：%f" % (str(sieve), sieve_end - sieve_start))
 
     # 然后写入文件
     result_file_path = config.result_folder + document_object.document_file_name + '.v4_result_conll'
@@ -203,7 +202,7 @@ if __name__ == '__main__':
     # print(res)
     unit_test_utils.print_cluster(res)
     print '---------------------'
-    unit_test_utils.print_gold_cluster(res)
+    # unit_test_utils.print_gold_cluster(res)
 
     # __test(test_file)
 

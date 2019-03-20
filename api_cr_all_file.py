@@ -8,6 +8,10 @@ from os import remove
 import ConstantVariable
 
 
+import logging
+
+logger = logging.getLogger("experiments")
+
 def get_result(vars = 'train'):
     if vars == 'train':
         folder_path = config.gold_train
@@ -85,12 +89,13 @@ def run(vars = 'test'):
     elif vars == 'error':
         folder_path = config.error_file_test
 
-    test_files = config.get_var_files(folder_path)#[:50]
+    test_files = config.get_var_files(folder_path)[:5]
     for file_idx, file_ in enumerate(test_files):
         print file_
         print 'File: %s of %s' % (file_idx, len(test_files))
         print
         api_cr_one_file.main(file_)
+        logger.info(file_)
 
 if __name__ == '__main__':
     import time
