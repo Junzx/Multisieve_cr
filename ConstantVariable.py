@@ -78,7 +78,7 @@ corpus_dict = {
     'pca_list': load_corpus.get_pca_list(),
     'abbreviation_dict': load_corpus.get_abbreviation_dict(),
 }
-print 'load corpus: ', clock() - start
+# print 'load corpus: ', clock() - start
 
 if config.flag_load_corenlp:
     from stanfordcorenlp import StanfordCoreNLP

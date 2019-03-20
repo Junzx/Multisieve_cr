@@ -3,7 +3,7 @@
 作为main函数
 """
 from time import clock
-from cPickle import load, dump
+# from cPickle import load, dump
 from LoadConll import load_one_file
 from pprint import pprint
 
@@ -57,22 +57,6 @@ logger = logging.getLogger("experiments")
 
 
 # 我的顺序
-# sieve_order = [
-#         test_sieve,
-#         exact_match,
-#         strict_head_matching_A,
-#         strict_head_matching_B,
-#         strict_head_matching_C,
-#         proper_header_word_match_sieve,
-#         # precise_constructs,
-#         # relaxing_head_matching,
-#         discourse_processing,
-#         pronoun_sieve,
-#         other_sieve,
-#         filter_sieve,
-#     ]
-
-# # 按照Precision降序
 sieve_order = [
         test_sieve,
         exact_match,
@@ -80,13 +64,29 @@ sieve_order = [
         strict_head_matching_B,
         strict_head_matching_C,
         proper_header_word_match_sieve,
-        pronoun_sieve,
+        # precise_constructs,
+#         # relaxing_head_matching,
         discourse_processing,
-        precise_constructs,
-        relaxing_head_matching,
+        pronoun_sieve,
         other_sieve,
         filter_sieve,
-]
+    ]
+
+# # 按照Precision降序
+# sieve_order = [
+        # test_sieve,
+        # exact_match,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # proper_header_word_match_sieve,
+        # pronoun_sieve,
+        # discourse_processing,
+        # precise_constructs,
+        # relaxing_head_matching,
+        # other_sieve,
+        # filter_sieve,
+# ]
 
 # 按照Recall升序
 # sieve_order = [
@@ -140,7 +140,7 @@ def main_old(file_):
     }
     logger.info("开始调用multi-sieve")
     for sieve in sieve_order:
-        print sieve
+        print(sieve)
         logger.info("Run " + str(sieve))
         sieve_start = clock()
         document_object = sieve(document_object)
@@ -175,7 +175,7 @@ def main(file_):
     # logger.info("加载数据用时： %f" % (clock() - start))
     logger.info("---------开始调用multi-sieve---------")
     for sieve in sieve_order:
-        print sieve
+        print(sieve)
         logger.info("Run " + str(sieve))
         sieve_start = clock()
         document_object = sieve(document_object)
@@ -186,7 +186,9 @@ def main(file_):
     result_file_path = config.result_folder + document_object.document_file_name + '.v4_result_conll'
 
     # 想好要不要写入文件！
-    document_object.write_to_file(result_file_path)
+    # document_object.write_to_file(result_file_path)
+
+    # unit_test_utils.print_cluster(document_object)
 
     logger.info("-------处理完毕，结果写入 %s-------\n"%result_file_path)
     # unit_test_utils.print_gold_cluster(document_object)
@@ -195,10 +197,13 @@ def main(file_):
 if __name__ == '__main__':
     test_file = 'small_test2.conll'
     # test_file = 'test.v4_gold_conll'
-    test_file_2 = '/opt/tmp/DataSets/conll_test/test/cctv_0007_003.v4_gold_conll'
+    test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
 
     res = main(test_file_2)
-    print res
+    # print(res)
+    unit_test_utils.print_cluster(res)
+    print '---------------------'
+    unit_test_utils.print_gold_cluster(res)
 
     # __test(test_file)
 
