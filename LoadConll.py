@@ -378,7 +378,7 @@ if __name__ == '__main__':
     logger.info("开始执行")
     test = load_one_file(f)
     for t in test.lst_tokens:
-        print t.line
+        pprint(t.line)
     print_gold_cluster(test)
 
     md = load_one_file_for_md(f)

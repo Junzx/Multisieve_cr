@@ -16,11 +16,6 @@ def write_to_log(str_):
 
 
 
-write_to_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-
-for i in config_sieve_order.sieve_order:
-    write_to_log("Sieve: %20s" % str(i))
-
 
 def get_prf(gold_file, auto_file, method="muc"):
     """
@@ -66,6 +61,11 @@ if __name__ == '__main__':
     from pprint import pprint
     key_file = 'merged_test.v4_gold_conll'
     res_file = 'merged_test.v4_result_conll'
+
+    write_to_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+
+    for i in config_sieve_order.sieve_order:
+        write_to_log("Sieve: %20s" % str(i))
 
     # 生成文件
     import merge_conll_file

@@ -123,3 +123,146 @@ blanc:     29.38    29.61    29.49
 
 
 
+2019-03-21 17:21:24
+Sieve: <function run at 0x7f35a12b3a28>
+Sieve: <function run at 0x7f35a12b3aa0>
+Sieve: <function filter_sieve at 0x7f35a12c78c0>
+2019-03-21 17:26:28
+Sieve: <function run at 0x7feb65099e60>
+Sieve: <function run at 0x7feb65099ed8>
+Sieve: <function filter_sieve at 0x7feb64f58cf8>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：adc2c54bc9fe3dd8d216e80124fb8e95
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：4380b589f3ceed493829f75bbbf3d7c1
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:    100.00     0.05     0.10
+ceafe:     79.33     0.11     0.22
+  muc:    100.00     0.05     0.10
+blanc:    100.00     0.00     0.01
+
+
+
+2019-03-21 17:29:43
+Sieve: <function run at 0x7feefb430a28>
+Sieve: <function run at 0x7feefb430aa0>
+Sieve: <function filter_sieve at 0x7feefb4478c0>
+2019-03-21 17:33:12
+Sieve: <function run at 0x7f1747437e60>
+Sieve: <function run at 0x7f1747437ed8>
+Sieve: <function filter_sieve at 0x7f17472f6cf8>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：4380b589f3ceed493829f75bbbf3d7c1
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：8888c5be1d3191757bf9d1d963bee985
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     78.16     0.10     0.21
+ceafe:     57.91     0.22     0.45
+  muc:     60.00     0.09     0.19
+blanc:     56.25     0.01     0.03
+
+
+
+2019-03-21 17:52:17
+Sieve: <function run at 0x7f391c324b18>
+Sieve: <function run at 0x7f391c324b90>
+Sieve: <function filter_sieve at 0x7f391c3339b0>
+2019-03-21 17:57:21
+Sieve: <function run at 0x7faf125d6f50>
+Sieve: <function run at 0x7faf1243d050>
+Sieve: <function filter_sieve at 0x7faf1244ede8>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：8888c5be1d3191757bf9d1d963bee985
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：2867859d1137916706ce1c939eb52880
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     82.97     0.17     0.34
+ceafe:     61.28     0.36     0.71
+  muc:     72.00     0.19     0.38
+blanc:     63.33     0.03     0.07
+
+
+
+2019-03-21 18:05:38
+Sieve: <function run at 0x7f8246ed7b18>
+Sieve: <function run at 0x7f8246ed7b90>
+Sieve: <function filter_sieve at 0x7f8246ee69b0>
+2019-03-21 18:06:18
+Sieve: <function run at 0x7f993348eb90>
+Sieve: <function run at 0x7f993348ec08>
+Sieve: <function filter_sieve at 0x7f99334a2a28>
+2019-03-21 18:10:56
+Sieve: <function run at 0x7feb66c7f050>
+Sieve: <function run at 0x7feb66c7f0c8>
+Sieve: <function filter_sieve at 0x7feb66c91e60>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：2867859d1137916706ce1c939eb52880
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：3f04d7bab10919586f0a216394d73cec
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     93.36     1.46     2.88
+ceafe:     62.84     2.48     4.78
+  muc:     89.95     2.03     3.97
+blanc:     91.78     0.63     1.25
+
+
+
+2019-03-21 18:16:45
+Sieve: <function run at 0x7fe8802b4b90>
+Sieve: <function run at 0x7fe8802b4c08>
+Sieve: <function filter_sieve at 0x7fe8802c8a28>
+2019-03-21 18:23:26
+Sieve: <function run at 0x7fdc1cca9050>
+Sieve: <function run at 0x7fdc1cca90c8>
+Sieve: <function filter_sieve at 0x7fdc1ccbbe60>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：3f04d7bab10919586f0a216394d73cec
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：259dd34257e7b00192c57fcf8e8fd8c1
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     93.27     0.93     1.86
+ceafe:     57.08     1.76     3.42
+  muc:     87.96     1.26     2.49
+blanc:     89.88     0.29     0.58
+正确的抽取候选表述方法，句子距离为3
+
+
+2019-03-21 18:28:42
+Sieve: <function run at 0x7f07da2cb050>
+Sieve: <function run at 0x7f07da2cb0c8>
+Sieve: <function filter_sieve at 0x7f07da2dde60>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：259dd34257e7b00192c57fcf8e8fd8c1
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：5cab34842dd52bfacad6181c77656a43
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     93.45     1.11     2.19
+ceafe:     59.28     2.03     3.92
+  muc:     89.30     1.53     3.02
+blanc:     90.13     0.39     0.78
+正确的抽取候选表述方法，句子距离为5
+
+2019-03-21 18:33:36
+Sieve: <function run at 0x7f2ceb623050>
+Sieve: <function run at 0x7f2ceb6230c8>
+Sieve: <function filter_sieve at 0x7f2ceb635e60>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：5cab34842dd52bfacad6181c77656a43
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：3f04d7bab10919586f0a216394d73cec
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     93.36     1.46     2.88
+ceafe:     62.84     2.48     4.78
+  muc:     89.95     2.03     3.97
+blanc:     91.78     0.63     1.25
+正确的抽取候选表述方法，句子距离为100
+说明抽取候选表述的方法没啥影响
+
+

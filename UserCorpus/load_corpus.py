@@ -18,7 +18,8 @@ def format_words(func):
     """
     def format_():
         lst = func()
-        tmp = [i.decode('utf-8') for i in lst]
+        tmp = [i.decode('utf-8') for i in lst]      # py2
+        # tmp = [i for i in lst]                    # py3
         return tuple([i.strip('\n').strip('\r\n').strip('\r') for i in tmp])
     return format_
 
@@ -128,7 +129,8 @@ def get_synonym_words():
             if '=' not in line:
                 continue
             line = line.strip('\n')
-            lst_synonym.append(tuple([i.decode('utf-8') for i in line.strip('\r').split(' ')[1:]]))
+            # lst_synonym.append(tuple([i.decode('utf-8') for i in line.strip('\r').split(' ')[1:]]))   # py2
+            lst_synonym.append(tuple([i for i in line.strip('\r').split(' ')[1:]]))     # py3
     return lst_synonym
 
 def get_pca_list():
@@ -175,7 +177,7 @@ def get_abbreviation_dict():
 if __name__ == '__main__':
     from pprint import pprint
     corpus_path = './Corpus/'
-    print get_abbreviation_dict()
+    pprint(get_abbreviation_dict())
     # print get_determiner_words()
     # for i in get_nation():
     #     print i

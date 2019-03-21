@@ -4,8 +4,7 @@ from copy import deepcopy
 
 from ClassDefinition.Definition_Sentence import Sentence
 from ClassDefinition.Definition_Entity import Entity
-# from load_conll import load_one_file
-import Definition_Mention
+from ClassDefinition.Definition_Mention import Mention
 # import Definition_Entity
 import config
 from MentionDetection.exact_np_by_tree import extract_mention
@@ -219,7 +218,7 @@ class Document(object):
                         # lst_tokens_in_np.append(self.lst_tokens[i])  # np_tokens 里面放的是token的对象，比如1~3个token是一个np
                         lst_tokens_in_np.append(i + 1)  # np_tokens 里面放的是token的token_id
 
-                    obj_mention = Definition_Mention.Mention()
+                    obj_mention = Mention()
                     obj_mention.mention_id = mention_id
                     obj_mention.entity_id = mention_id
                     obj_mention.gold_entity_id = str_coref_id

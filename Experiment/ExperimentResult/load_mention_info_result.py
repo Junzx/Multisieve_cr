@@ -36,6 +36,7 @@ def get_gender_info_dict():
 
 
 if __name__ == '__main__':
+    from pprint import pprint
     res = get_animacy_info_dict()
-    print len(res)
-    print res.items()[:10]
+    pprint(len(res))
+    pprint(res.items()[:10])

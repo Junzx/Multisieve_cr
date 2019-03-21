@@ -70,7 +70,9 @@ tc
 
 2019-3-6 新增了Mention Detection的实验，可能后续版本开始混乱
 2019-3-20 开始修复bug
+    
     - 所有的print都用pprint工具
     - bug fix
     - 将sieve order新建了一个config py
     - 词林实现参考：https://github.com/norybaby/cilin_similarity
+    - 基本实现py3直接运行（未测试）

@@ -120,8 +120,9 @@ def main(file_):
     # logger.info("---------开始调用multi-sieve---------\n")
     for sieve in sieve_order:
         pprint(sieve)
-        logger.info("Run " + str(sieve))
         document_object = sieve(document_object)
+        logger.info("Run %s\n" % str(sieve))
+
 
 
     # 想好要不要写入文件！
