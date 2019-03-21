@@ -18,15 +18,14 @@ flag_jump_corefed_mention = False   # 是否跳过已经指代的表述
 
 
 
+# ========================================
+# ============= 基本属性 ==================
+# ========================================
 def get_var_files(folder_path, var = 'gold'):
     return [folder_path + f_ for f_ in listdir(folder_path) if var in f_]
 
 project_path = os.path.dirname(__file__)
 
-
-# ========================================
-# ============= 基本属性 ==================
-# ========================================
 
 if name == 'posix':
     separator = '/'

@@ -5,6 +5,9 @@
 import json
 import config
 from os import getcwd
+import logging
+
+logger = logging.getLogger("Corpus_Loader")
 
 corpus_path = config.project_path + '/UserCorpus/Corpus/'
 EOF = '\n'
@@ -172,7 +175,7 @@ def get_abbreviation_dict():
 if __name__ == '__main__':
     from pprint import pprint
     corpus_path = './Corpus/'
-    # print get_abbreviation_dict()
+    print get_abbreviation_dict()
     # print get_determiner_words()
     # for i in get_nation():
     #     print i

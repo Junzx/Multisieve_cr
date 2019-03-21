@@ -1,0 +1,125 @@
+2019-03-21 16:02:56
+Sieve: <function run at 0x7f9b228bfe60>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：6690a3aa318a976df30b2b162226d61e
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：6690a3aa318a976df30b2b162226d61e
+       Precision | recall | f1_score
+------------------------------
+ bcub:      0.00     0.00     0.00
+ceafe:      0.00     0.00     0.00
+  muc:      0.00     0.00     0.00
+blanc:      0.00     0.00     0.00
+
+
+
+2019-03-21 16:04:01
+Sieve: <function run at 0x7f60b12769b0>
+Sieve: <function run at 0x7f60b1276a28>
+Sieve: <function filter_sieve at 0x7f60b1291848>
+2019-03-21 16:06:40
+Sieve: <function run at 0x7f6d187fde60>
+Sieve: <function run at 0x7f6d187fded8>
+Sieve: <function filter_sieve at 0x7f6d186bccf8>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：6690a3aa318a976df30b2b162226d61e
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：4380b589f3ceed493829f75bbbf3d7c1
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:    100.00     0.05     0.10
+ceafe:     79.33     0.11     0.22
+  muc:    100.00     0.05     0.10
+blanc:    100.00     0.00     0.01
+
+
+
+2019-03-21 16:07:26
+Sieve: <function run at 0x7fb904c10e60>
+Sieve: <function run at 0x7fb904c10ed8>
+Sieve: <function filter_sieve at 0x7fb904acfcf8>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：4380b589f3ceed493829f75bbbf3d7c1
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：4380b589f3ceed493829f75bbbf3d7c1
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:    100.00     0.05     0.10
+ceafe:     79.33     0.11     0.22
+  muc:    100.00     0.05     0.10
+blanc:    100.00     0.00     0.01
+
+
+
+2019-03-21 16:09:52
+Sieve: <function run at 0x7f42091fb938>
+2019-03-21 16:10:14
+Sieve: <function run at 0x7f6c45a78230>
+2019-03-21 17:08:00
+Sieve: <function run at 0x7f577930b9b0>
+Sieve: <function run at 0x7f577930ba28>
+Sieve: <function strict_head_matching_A at 0x7f577930bf50>
+Sieve: <function strict_head_matching_B at 0x7f5779326320>
+Sieve: <function strict_head_matching_C at 0x7f5779326410>
+Sieve: <function proper_header_word_match_sieve at 0x7f57793265f0>
+Sieve: <function discourse_processing at 0x7f5779326578>
+Sieve: <function pronoun_sieve at 0x7f5779326500>
+Sieve: <function other_sieve at 0x7f57793266e0>
+Sieve: <function filter_sieve at 0x7f5779326848>
+2019-03-21 17:08:23
+Sieve: <function run at 0x7f298a61b9b0>
+Sieve: <function run at 0x7f298a61ba28>
+Sieve: <function strict_head_matching_A at 0x7f298a61bf50>
+Sieve: <function strict_head_matching_B at 0x7f298a636320>
+Sieve: <function strict_head_matching_C at 0x7f298a636410>
+Sieve: <function proper_header_word_match_sieve at 0x7f298a6365f0>
+Sieve: <function discourse_processing at 0x7f298a636578>
+Sieve: <function pronoun_sieve at 0x7f298a636500>
+Sieve: <function other_sieve at 0x7f298a6366e0>
+Sieve: <function filter_sieve at 0x7f298a636848>
+2019-03-21 17:08:52
+Sieve: <function run at 0x7fd663005b90>
+Sieve: <function run at 0x7fd663005c08>
+Sieve: <function strict_head_matching_A at 0x7fd6630191b8>
+Sieve: <function strict_head_matching_B at 0x7fd663019500>
+Sieve: <function strict_head_matching_C at 0x7fd6630195f0>
+Sieve: <function proper_header_word_match_sieve at 0x7fd6630197d0>
+Sieve: <function discourse_processing at 0x7fd663019758>
+Sieve: <function pronoun_sieve at 0x7fd6630196e0>
+Sieve: <function other_sieve at 0x7fd6630198c0>
+Sieve: <function filter_sieve at 0x7fd663019a28>
+2019-03-21 17:09:05
+Sieve: <function run at 0x7f33917abb90>
+Sieve: <function run at 0x7f33917abc08>
+Sieve: <function strict_head_matching_A at 0x7f33917bf1b8>
+Sieve: <function strict_head_matching_B at 0x7f33917bf500>
+Sieve: <function strict_head_matching_C at 0x7f33917bf5f0>
+Sieve: <function proper_header_word_match_sieve at 0x7f33917bf7d0>
+Sieve: <function discourse_processing at 0x7f33917bf758>
+Sieve: <function pronoun_sieve at 0x7f33917bf6e0>
+Sieve: <function other_sieve at 0x7f33917bf8c0>
+Sieve: <function filter_sieve at 0x7f33917bfa28>
+2019-03-21 17:14:41
+Sieve: <function run at 0x7fec631a9e60>
+Sieve: <function run at 0x7fec631a9ed8>
+Sieve: <function strict_head_matching_A at 0x7fec6300faa0>
+Sieve: <function strict_head_matching_B at 0x7fec6300fde8>
+Sieve: <function strict_head_matching_C at 0x7fec6300fed8>
+Sieve: <function proper_header_word_match_sieve at 0x7fec630659b0>
+Sieve: <function discourse_processing at 0x7fec63065938>
+Sieve: <function pronoun_sieve at 0x7fec630658c0>
+Sieve: <function other_sieve at 0x7fec63065aa0>
+Sieve: <function filter_sieve at 0x7fec63065cf8>
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：4380b589f3ceed493829f75bbbf3d7c1
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：adc2c54bc9fe3dd8d216e80124fb8e95
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     68.69    50.66    58.31
+ceafe:     67.22    46.52    54.99
+  muc:     80.72    62.33    70.34
+blanc:     29.38    29.61    29.49
+
+
+

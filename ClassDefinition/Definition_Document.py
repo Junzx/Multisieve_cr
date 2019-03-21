@@ -11,7 +11,7 @@ import config
 from MentionDetection.exact_np_by_tree import extract_mention
 
 import logging
-logger = logging.getLogger("设置共指：")
+logger = logging.getLogger("设置共指")
 
 EOF = '\n'
 
@@ -29,10 +29,7 @@ class Document(object):
 
         # ------ 以下参数只有在读取文件的时候才有用 -------
         # self.gold_mentions = [] # 正确的mention，只有当读取文件的时候才用这个属性 | 下标就是mention id
-        # self.dic_gold_mentions = {}
         self.original_document_path = ''    # 文件的路径
-        # self.log_cr_document_path = ''  # CR中的log路径
-        # self.log_md_document_path = ''  # MD中的log路径
 
 
     def get_class_attribute(self):
@@ -292,13 +289,14 @@ class Document(object):
         # logger.info(" %s(id:%s) , %s(id:%s)"%(mention_1.chinese_word,str(mention_1.mention_id), \
         #                                             mention_2.chinese_word, str(mention_2.mention_id)))
         # logger.info("设置共指：")
+        # logger = logging.getLogger("设置共指")
 
         # print "设置共指： %s(id:%s) , %s(id:%s)" % (mention_1.chinese_word, str(mention_1.mention_id), \
         #                                        mention_2.chinese_word, str(mention_2.mention_id))
         mention_1_entity_id = str(mention_1.entity_id)
         mention_2_entity_id = str(mention_2.entity_id)
 
-        log_info = " %s(m_id:%s, e_id:%s) , %s(m_id:%s, e_id:%s)" % \
+        log_info = " %s(m_id:%s, old_e_id:%s) , %s(m_id:%s, old_e_id:%s)" % \
                         (
                         mention_1.chinese_word, str(mention_1.mention_id), str(mention_1.entity_id),
                         mention_2.chinese_word, str(mention_2.mention_id), str(mention_2.entity_id)
@@ -398,47 +396,6 @@ class Document(object):
 
     # ----------------------------- 定义写入文件的方法 -----------------------------------
 
-    def write_to_log(self,sieve_name):
-        """
-        写入log文件
-        """
-        self.log_cr_document_path = config.path_log_folder + config.separator + 'log_CR_' + self.original_document_path.split(config.separator)[-1].split('.')[0] + '.txt'
-        # self.__write_gold_data()    # 写入正确的结果
-
-        dic_mentions = {}
-        for mention in self.lst_mentions:
-            if mention.entity_id not in dic_mentions:
-                dic_mentions.setdefault(mention.entity_id,[])
-            dic_mentions[mention.entity_id].append(mention)
-
-        lst_single = []
-        lst_plural = []
-        for id in dic_mentions:
-            if len(dic_mentions[id]) == 1:
-                lst_single.append(dic_mentions[id])
-            else:
-                lst_plural.append(dic_mentions[id])
-
-        with open(self.log_cr_document_path, 'a+') as hdl:
-            hdl.write('-------------- ' + sieve_name + '--------------' + EOF)
-            hdl.write('已聚类：' + config.conll_EOF)
-            if len(lst_plural) == 0:
-                hdl.write('None' + config.conll_EOF)
-            for lst_mention in lst_plural:
-                hdl.write(str(lst_mention[0].entity_id) + ':')
-                for m in lst_mention:
-                    hdl.write(m.chinese_word + ',' + str(m.mention_id) + ' | ')
-                hdl.write(config.conll_EOF)
-            hdl.write(config.conll_EOF)
-            hdl.write('未聚类：' + config.conll_EOF)
-            if len(lst_single) == 0:
-                hdl.write('None' + config.conll_EOF)
-            for lst_mention in lst_single:
-                m = lst_mention[0]
-                hdl.write(m.chinese_word + ',' + \
-                          str(m.entity_id) + ',' + \
-                          str(m.mention_id) + ' | ')
-            hdl.write(EOF)
 
     def write_to_file(self,file_path = 'demo.txt'):
         """
@@ -514,30 +471,4 @@ class Document(object):
                 dic.setdefault(entity_id, [])
             dic[entity_id].append(mention)
         return dic
-
-    def print_gold_cluster(self):
-        """
-        输出这个document的标准答案
-        """
-        print('标准答案（from file）：')
-        dic = self.__mention_2_entity(var='gold')
-        for entity_id, mention_list in dic.items():
-            if len(mention_list) > 1:
-                print('Entity_id:(',entity_id, ') ', )
-                for m in mention_list:
-                    print(m.chinese_word,',', m.mention_id, '| ',)
-            print()
-
-    def print_cluster(self):
-        """
-        输出 cluster数量大于1的entity
-        """
-        print('当前聚类情况（len(cluster)>1）：')
-        dic = self.__mention_2_entity(var='auto')
-        for entity_id, mention_list in dic.items():
-            if len(mention_list) > 1:
-                print('Entity_id:(',entity_id, ') ',)
-                for m in mention_list:
-                    print(m.chinese_word,',', m.mention_id, '| ',)
-                print()
 

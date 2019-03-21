@@ -55,6 +55,22 @@ tc
 
 ---
 
+### Bug fix
+
+- 打log不完整
+- SubjectUtils.sieve_utils.py  get_candidate_mentions
+- SubjectUtils.sieve_utils.py  get_modifier
+- Experiment.ExperimentResult.load_mention_info_result.py 改为load json
+- Multisieve.exact_match.py 增加了确定字符串比较
+- Scorer.api_prf 改成写入log文件，不再print
+
+
+---
 ### 重要备忘：
 
 2019-3-6 新增了Mention Detection的实验，可能后续版本开始混乱
+2019-3-20 开始修复bug
+    - 所有的print都用pprint工具
+    - bug fix
+    - 将sieve order新建了一个config py
+    - 词林实现参考：https://github.com/norybaby/cilin_similarity

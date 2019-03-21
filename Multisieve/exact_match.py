@@ -12,9 +12,11 @@ As expected, this model is extremely precise, with a pairwise precision over 96%
 import logging
 import ConstantVariable
 import SubjectUtils.sieve_utils as sieve_util
+# from SubjectUtils.sieve_utils import sieve_timer
 import config
 logger = logging.getLogger("multi_sieve")
 
+@sieve_util.sieve_timer
 def exact_match(obj_document):
 
     for mention in obj_document.lst_mentions:
@@ -25,21 +27,24 @@ def exact_match(obj_document):
         sent_this_mention = obj_document.dic_sentences.get(mention.sent_id)
 
         modifier_this_mention = sieve_util.get_modifier(sent_this_mention, mention)
-        # modifier_this_mention = sieve_util.get_modifier(mention)  # old
         determiner_this_mention = sieve_util.get_determiner(mention)
+
         for candidate_m in candidate_mentions:
+
             sent_candidate_mention = obj_document.dic_sentences.get(candidate_m.sent_id)
             modifier_candidate_mention = sieve_util.get_modifier(sent_candidate_mention, candidate_m)
-            # modifier_candidate_mention = sieve_util.get_modifier(candidate_m) # old
             determiner_candidate_mention = sieve_util.get_determiner(candidate_m)
 
             if modifier_candidate_mention == modifier_this_mention and \
                 ConstantVariable.CONST_STRING_NO_MODIFIER not in (modifier_this_mention, modifier_candidate_mention):
+
                 if determiner_candidate_mention == determiner_this_mention and \
                     ConstantVariable.CONST_STRING_NO_DETERMINER not in (determiner_this_mention, determiner_candidate_mention):
-                    obj_document.set_coref(candidate_m, mention)
-                    logger.info("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
-                    logger.info("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
-                    break
+
+                    if candidate_m.chinese_word == mention.chinese_word:
+                        obj_document.set_coref(candidate_m, mention)
+                        logger.info("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
+                        logger.info("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
+                        break
 
     return obj_document

@@ -7,11 +7,12 @@ from ClassDefinition.Definition_Token import Token
 from ClassDefinition.Definition_Mention import Mention
 from ClassDefinition.Definition_Entity import Entity
 
+from time import clock
 import config
 import logging
 
 
-logger = logging.getLogger("load_data")
+logger = logging.getLogger("CoNLL_Data_Loader")
 
 from pprint import pprint
 # import Rebuild_Mention_Detection
@@ -50,7 +51,8 @@ def load_one_file(str_iter_file_path):
     :param str_iter_file_path:
     :return:
     """
-    logger.info("加载文档 for CR：%s"%str_iter_file_path)
+    logger.info("(CR)加载文档：%s"%str_iter_file_path)
+    start = clock()
     with open(str_iter_file_path, 'r') as hdl_file:  # 打开一个文件
         document_list = []
         flag_document = False  # 该flag表示这行数据是在document中的一条
@@ -197,7 +199,9 @@ def load_one_file(str_iter_file_path):
                 # obj_data.result_document_path = str_iter_file_path.replace('gold','result')
 
 
-    logger.info("(CR)加载文档完毕！此文档共有%d个doc对象\n"%len(document_list))
+    logger.info("(CR)加载文档完毕！此文档共有%d个doc对象"%len(document_list))
+    logger.info("(CR)加载数据用时： %.4f s\n" % (clock() - start))
+
     if len(document_list) == 1:
         return document_list[0]
     else:

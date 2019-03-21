@@ -6,6 +6,9 @@ from copy import deepcopy
 from time import clock
 import config
 
+# ----------------------------------
+# ------------各种代词----------------
+# ----------------------------------
 first_person_pronouns = [u'我',u'我们',u'咱',u'咱们',u'本人']
 second_person_pronouns = [u'你',u'你们',u'您',u'您们',u'尔',u'尔等']
 third_person_pronouns = [u'他',u'她',u'它',u'他们',u'她们',u'它们']
@@ -22,9 +25,16 @@ pronouns.extend(second_person_pronouns)
 pronouns.extend(third_person_pronouns)
 
 
-# 固定返回的字符串
+
+# ----------------------------------
+# -----------固定返回的字符串-------------
+# ----------------------------------
 CONST_STRING_NO_MODIFIER = 'No-modifier'
 CONST_STRING_NO_DETERMINER = 'No-determiner'
+
+# ----------------------------------
+# -----------预定义-------------
+# ----------------------------------
 
 comma = (u',', u'，')                            # 中英文逗号
 word_bag_is = (u'是', u'即', u'就是', u'也就是')   # 表示is的词语
@@ -37,7 +47,9 @@ ner_labels = ['ORDINAL', 'LOC', 'PRODUCT', 'NORP',
              'MONEY', 'TIME', 'CARDINAL', 'FAC', 'DATE',
              'ORG', 'LAW', 'EVENT', 'QUANTITY']
 
-# 读取cnn结果
+# ----------------------------------
+# -----------读取cnn结果-------------
+# ----------------------------------
 from Experiment.ExperimentResult.load_mention_info_result import get_animacy_info_dict, get_gender_info_dict
 __animacy_dict = get_animacy_info_dict()
 __gender_dict = get_gender_info_dict()
@@ -60,7 +72,9 @@ def get_gender(str_):
     else:
         return 0
 
-# 加载字典
+# ----------------------------------
+# -----------加载字典-------------
+# ----------------------------------
 from UserCorpus import load_corpus
 start = clock()
 corpus_dict = {
@@ -78,8 +92,13 @@ corpus_dict = {
     'pca_list': load_corpus.get_pca_list(),
     'abbreviation_dict': load_corpus.get_abbreviation_dict(),
 }
-# print 'load corpus: ', clock() - start
 
+
+# ----------------------------------
+# -----------加载斯坦福工具包-------------
+# ----------------------------------
 if config.flag_load_corenlp:
     from stanfordcorenlp import StanfordCoreNLP
-    nlp_handle = StanfordCoreNLP(config.nlp_path, lang='zh')
+    # nlp_handle = StanfordCoreNLP(config.nlp_path, lang='zh')
+    nlp_handle = StanfordCoreNLP('http://172.19.203.3', port=9000, lang='zh')
+

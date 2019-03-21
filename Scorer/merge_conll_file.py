@@ -24,13 +24,19 @@ def __merge_file(folder_path, function_file_path, var = 'gold'):
 def api_(var='gold'):
     if var == 'result':
         folder_path = config.result_folder
-    elif var == 'gold':
-        # folder_path = config.gold_test
+        function_file_path = config.project_path + '/Scorer/merged_test.v4_result_conll'
+        __merge_file(folder_path, function_file_path, 'result')
+    elif var == 'test':
+        folder_path = config.gold_test
+        function_file_path = config.project_path + '/Scorer/merged_test.v4_gold_conll'
+        __merge_file(folder_path, function_file_path, 'gold')
+    elif var == 'train':
         folder_path = config.gold_train
+        function_file_path = config.project_path + '/Scorer/merged_test.v4_gold_conll'
+        __merge_file(folder_path, function_file_path, 'gold')
 
-    function_file_path = config.project_path + '/Scorer/merged_test.v4_%s_conll'%var
 
-    __merge_file(folder_path, function_file_path, var)
+
 
 if __name__ == '__main__':
     var = 'result'
