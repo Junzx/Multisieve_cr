@@ -19,15 +19,63 @@ from Multisieve.final_sieve import filter_sieve
 # 我的顺序
 sieve_order = [
         test_sieve,
-        exact_match,
+        # exact_match,
         strict_head_matching_A,
         strict_head_matching_B,
         strict_head_matching_C,
-        proper_header_word_match_sieve,
-        precise_constructs,
-        relaxing_head_matching,
-        discourse_processing,
-        pronoun_sieve,
-        other_sieve,
-        filter_sieve,
+        # proper_header_word_match_sieve,
+        # precise_constructs,
+        # relaxing_head_matching,
+        # discourse_processing,
+        # pronoun_sieve,
+        # other_sieve,
+        # filter_sieve,
     ]
+
+# 原始顺序
+# sieve_order = [
+        # test_sieve,
+        # exact_match,
+        # precise_constructs,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # relaxing_head_matching,
+        # pronoun_sieve,
+        # proper_header_word_match_sieve,
+        # discourse_processing,
+        # other_sieve,
+        # filter_sieve,
+    # ]
+
+
+# # 按照Precision降序
+# sieve_order = [
+        # test_sieve,
+        # exact_match,
+        # strict_head_matching_A,
+        # strict_head_matching_B,
+        # strict_head_matching_C,
+        # proper_header_word_match_sieve,
+        # pronoun_sieve,
+        # discourse_processing,
+        # precise_constructs,
+        # relaxing_head_matching,
+        # other_sieve,
+        # filter_sieve,
+# ]
+
+# 按照Recall升序
+# sieve_order = [
+#     discourse_processing,
+#     exact_match,
+#     pronoun_sieve,
+#     precise_constructs,
+#     strict_head_matching_A,
+#     strict_head_matching_C,
+#     other_sieve,
+#     strict_head_matching_B,
+#     proper_header_word_match_sieve,
+#     relaxing_head_matching,
+#     filter_sieve,
+# ]

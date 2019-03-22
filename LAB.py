@@ -28,4 +28,4 @@ SubjectUtils.unit_test_utils.print_cluster(coref_obj)
 for t in coref_obj.lst_tokens:
     print t.line
 
-ConstantVariable.nlp_handle.close()
+# ConstantVariable.nlp_handle.close()

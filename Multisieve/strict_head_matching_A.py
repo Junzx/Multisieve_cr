@@ -7,7 +7,7 @@ from UserCorpus.api_user_corpus import get_stop_words
 import ConstantVariable
 import logging
 import config
-logger = logging.getLogger("multi_sieve")
+logger = logging.getLogger("sieve_strict_head_match_A")
 
 def strict_head_matching_A(obj_document):
     for mention in obj_document.lst_mentions:
@@ -15,7 +15,6 @@ def strict_head_matching_A(obj_document):
             if str(mention.entity_id).startswith('E_'):
                 continue
 
-        # print '--------------'
         candidate_mentions = sieve_util.get_candidate_mentions(obj_document, mention)
         for candidate_m in candidate_mentions:
             candidate_m_entity = sieve_util.get_cluster(obj_document, candidate_m)
@@ -25,7 +24,17 @@ def strict_head_matching_A(obj_document):
             res_is_word_inclusion = is_word_inclusion(candidate_m, mention)
             res_is_compatible_modifier = is_compatible_modifier_only(obj_document, candidate_m, mention)
             res_is_i_within_i = is_i_within_i(candidate_m, mention)
-            # print ': ', res_is_cluster_head_match, res_is_word_inclusion,res_is_compatible_modifier, res_is_i_within_i
+
+            # logger.info("%s %s | %s %s %s %s"%
+            #             (
+            #                 mention.chinese_word,
+            #                 candidate_m.chinese_word,
+            #                 res_is_cluster_head_match,
+            #                 res_is_word_inclusion,
+            #                 res_is_compatible_modifier,
+            #                 res_is_i_within_i
+            #             )
+            #             )
 
             if False not in {res_is_cluster_head_match, res_is_word_inclusion, res_is_compatible_modifier} and \
                 res_is_i_within_i == False:

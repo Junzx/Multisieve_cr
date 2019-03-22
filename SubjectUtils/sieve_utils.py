@@ -65,7 +65,7 @@ def get_candidate_mentions(obj_document, obj_mention):
     """
     # 找到前n个句子obj
     sent_lst = []
-    sentence_distance = 100  # 表示 表述所在的句子，以及之前的 n 个句子
+    sentence_distance = 5  # 表示 表述所在的句子，以及之前的 n 个句子
     the_sent_id = obj_mention.sent_id
     for sent_id, sent in obj_document.dic_sentences.items():
         if sent_id <= the_sent_id and \
