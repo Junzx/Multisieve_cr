@@ -1,7 +1,9 @@
 # -*- coding: UTF-8 -*-
 from math import fabs
 from SubjectUtils.get_similarity.word_similarity import get_similarity_API
+import SubjectUtils.sieve_utils as sieve_util
 
+@sieve_util.sieve_timer
 def other_sieve(obj_document):
     """
     自己凭借经验找的关系

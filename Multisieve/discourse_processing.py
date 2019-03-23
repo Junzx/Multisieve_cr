@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
 import ConstantVariable
+import SubjectUtils.sieve_utils as sieve_util
 
+@sieve_util.sieve_timer
 def discourse_processing(obj_document):
     """
     这个函数目前处理第一二人称

@@ -79,6 +79,7 @@ def get_all_file_prf():
     import merge_conll_file
     from os import remove, path
     from pprint import pprint
+    start = time.clock()
 
     key_file = 'merged_test.v4_gold_conll'
     res_file = 'merged_test.v4_result_conll'
@@ -91,7 +92,7 @@ def get_all_file_prf():
     # 写入sieve name
     write_to_log(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
     for i in config_sieve_order.sieve_order:
-        write_to_log("Sieve: %20s" % str(i.__name__))
+        write_to_log("Sieve name: %20s" % str(i.__name__))
 
     # 生成文件
     try:
@@ -130,6 +131,7 @@ def get_all_file_prf():
         write_to_log("%5s:    %s" % (matrix, '   '.join(['%6.2f' % float(i.replace('%', '')) for i in res])))
     write_to_log('\n\n')
     prf_logger.close()
+    pprint('Use time: %s' % (time.clock() - start))
 
 
 if __name__ == '__main__':

@@ -9,8 +9,9 @@ import ConstantVariable
 from SubjectUtils.sieve_utils import get_candidate_mentions
 from pprint import pprint
 from math import fabs
+import SubjectUtils.sieve_utils as sieve_util
 
-
+@sieve_util.sieve_timer
 def pronoun_sieve(obj_document):
     if config.flag_print_sieve_name:
         print('pronoun sieve')

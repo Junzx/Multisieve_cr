@@ -4,6 +4,7 @@ from SubjectUtils.sieve_utils import is_numeric_mismatches
 import SubjectUtils.sieve_utils as sieve_util
 import config
 
+@sieve_util.sieve_timer
 def proper_header_word_match_sieve(obj_document):
     """
     考虑两个中心词是专有名词的表述，如果它们的中心词相同且满足以下约束

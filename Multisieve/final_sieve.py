@@ -4,7 +4,8 @@
 """
 from SubjectUtils.unit_test_utils import get_entities
 from pprint import pprint
-
+import SubjectUtils.sieve_utils as sieve_util
+@sieve_util.sieve_timer
 def filter_sieve(obj_document):
     entities = get_entities(obj_document, 'auto')
 

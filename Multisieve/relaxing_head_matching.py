@@ -9,6 +9,7 @@ import strict_head_matching_A
 import SubjectUtils.sieve_utils as sieve_util
 import config
 
+@sieve_util.sieve_timer
 def relaxing_head_matching(obj_document):
     for mention in obj_document.lst_mentions:
         if config.flag_jump_corefed_mention:

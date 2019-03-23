@@ -4,6 +4,7 @@ import SubjectUtils.sieve_utils as sieve_util
 import logging
 logger = logging.getLogger("sieve_strict_head_match_C")
 
+@sieve_util.sieve_timer
 def strict_head_matching_C(obj_document):
     for mention in obj_document.lst_mentions:
         if config.flag_jump_corefed_mention:

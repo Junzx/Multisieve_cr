@@ -20,6 +20,7 @@ def sieve_timer(sieve_func):
         end = clock()
         _time_logger.info("%s 用时: %.5f s\n" % (sieve_func.__name__, end - start))
         return result
+    run.__name__ = sieve_func.__name__
     return run
 
 

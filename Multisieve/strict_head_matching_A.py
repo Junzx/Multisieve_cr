@@ -9,6 +9,7 @@ import logging
 import config
 logger = logging.getLogger("sieve_strict_head_match_A")
 
+@sieve_util.sieve_timer
 def strict_head_matching_A(obj_document):
     for mention in obj_document.lst_mentions:
         if config.flag_jump_corefed_mention:

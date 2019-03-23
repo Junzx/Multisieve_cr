@@ -10,6 +10,7 @@ import logging
 import config
 logger = logging.getLogger("multi_sieve")
 
+@sieve_util.sieve_timer
 def precise_constructs(obj_document):
     for mention in obj_document.lst_mentions:
         if config.flag_jump_corefed_mention:
