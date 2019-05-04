@@ -36,6 +36,7 @@ def run(vars = 'test'):
         pprint('File: %s of %s' % (file_idx, len(test_files)))
         api_cr_one_file.main(file_)
 
+
 if __name__ == '__main__':
     import time
     start = time.clock()

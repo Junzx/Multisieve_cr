@@ -14,7 +14,7 @@ import SubjectUtils.sieve_utils as sieve_utils
 import SubjectUtils.experiment_utils as experiment_utils
 import config
 import config_sieve_order
-
+import os
 import logging
 
 logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
@@ -46,22 +46,15 @@ def main(file_):
     document_object.write_to_file(result_file_path)
     logger.info("-------处理完毕，结果写入 %s-------\n\n"%result_file_path)
 
+    print ' '.join([t.word_itself for t in document_object.lst_tokens])
+
     return document_object
 
 
-def __unit_test(file_):
-    document_object = load_one_file(file_)
+def unit_test(file_):
+    # document_object = load_one_file(file_)
 
-
-
-if __name__ == '__main__':
-    import time
-    import os
-    logging.info(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-    test_file = 'small_test2.conll'
-    # test_file = 'test.v4_gold_conll'
-    test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
-    res = main(test_file_2)
+    res = main(file_)
     print
     key_file = res.original_document_path
     res_file = config.result_folder + res.document_file_name + '.v4_result_conll'
@@ -69,8 +62,44 @@ if __name__ == '__main__':
     print key_file
     print res_file
     from Scorer.api_prf import get_one_file_prf
-    print get_one_file_prf(key_file, res_file)
+    res = get_one_file_prf(key_file, res_file, 'bcub')
     os.remove(res_file)
+    return res
+
+
+if __name__ == '__main__':
+    import time
+    import os
+    logging.info(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
+    # test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
+
+    # __unit_test(test_file_2)
+    res = []
+    for file_ in config.get_var_files(config.gold_test):
+        p,r,f = unit_test(file_)
+        print p,r,f
+        if f > '40%':
+            res.append(file_)
+
+    print '-=' * 50
+    print '-=' * 50
+    print '-=' * 50
+    for i in res:
+        print i
+
+
+    # test_file = 'small_test2.conll'
+    # test_file = 'test.v4_gold_conll'
+    # res = main(test_file_2)
+    # print
+    # key_file = res.original_document_path
+    # res_file = config.result_folder + res.document_file_name + '.v4_result_conll'
+
+    # print key_file
+    # print res_file
+    # from Scorer.api_prf import get_one_file_prf
+    # print get_one_file_prf(key_file, res_file)
+    # os.remove(res_file)
 
     # unit_test_utils.print_cluster(res)
     # unit_test_utils.print_gold_cluster(res)
