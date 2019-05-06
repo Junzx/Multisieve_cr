@@ -18,7 +18,7 @@ import os
 import logging
 
 logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
-                    level=logging.INFO, filemode='w')
+                    level=logging.INFO, filemode='a', disable_existing_loggers=False)
 logger = logging.getLogger("Coreference_Sieves_Order")
 
 
@@ -71,21 +71,24 @@ if __name__ == '__main__':
     import time
     import os
     logging.info(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-    # test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
+    test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
 
-    # __unit_test(test_file_2)
-    res = []
-    for file_ in config.get_var_files(config.gold_test):
-        p,r,f = unit_test(file_)
-        print p,r,f
-        if f > '40%':
-            res.append(file_)
+    # unit_test(test_file_2)
+    main(test_file_2)
 
-    print '-=' * 50
-    print '-=' * 50
-    print '-=' * 50
-    for i in res:
-        print i
+    ###############################
+    # res = []
+    # for file_ in config.get_var_files(config.gold_test):
+    #     p,r,f = unit_test(file_)
+    #     print p,r,f
+    #     if f > '40%':
+    #         res.append(file_)
+    #
+    # print '-=' * 50
+    # print '-=' * 50
+    # print '-=' * 50
+    # for i in res:
+    #     print i
 
 
     # test_file = 'small_test2.conll'
