@@ -8,8 +8,8 @@ from os import remove
 import ConstantVariable
 
 import logging
-logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
-                    level=logging.INFO, filemode='a')
+# logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
+#                     level=logging.INFO, filemode='a')
 logger = logging.getLogger("Coreference_Experiment_All")
 
 
@@ -32,7 +32,7 @@ def run(vars = 'test'):
     elif vars == 'error':
         folder_path = config.error_file_test
 
-    test_files = config.get_var_files(folder_path)[:10]
+    test_files = config.get_var_files(folder_path)#[:10]
     for file_idx, file_ in enumerate(test_files):
         pprint('----------------%s-------------' % file_)
         pprint('File: %s of %s' % (file_idx, len(test_files)))

@@ -18,7 +18,7 @@ import os
 import logging
 
 logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
-                    level=logging.INFO, filemode='a', disable_existing_loggers=False)
+                    level=logging.INFO, filemode='w') #, disable_existing_loggers=False)
 logger = logging.getLogger("Coreference_Sieves_Order")
 
 

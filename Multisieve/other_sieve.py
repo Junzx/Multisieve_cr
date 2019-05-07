@@ -2,6 +2,7 @@
 from math import fabs
 from SubjectUtils.get_similarity.word_similarity import get_similarity_API
 import SubjectUtils.sieve_utils as sieve_util
+import ConstantVariable
 
 @sieve_util.sieve_timer
 def other_sieve(obj_document):
@@ -40,29 +41,31 @@ def other_sieve(obj_document):
                 obj_document.set_coref(obj_document.lst_mentions[mention.mention_id - 1], mention)
     '''
 
-    lst_no_core_mentions = [m for m in obj_document.lst_mentions if not str(m.entity_id).startswith('E_')]
-    # 解决未处理的 a in b问题
-    for index_mention, mention in enumerate(lst_no_core_mentions):
-        if index_mention == 0:
-            continue
+    # lst_no_core_mentions = [m for m in obj_document.lst_mentions if not str(m.entity_id).startswith('E_') \
+    #                         and m.chinese_word not in ConstantVariable.pronouns]
+    # # 解决未处理的 a in b问题
+    # for index_mention, mention in enumerate(lst_no_core_mentions):
+    #     if index_mention == 0:
+    #         continue
+    #
+    #     lst_candidate_mention = lst_no_core_mentions[:index_mention]
+    #     for candidate_mention in lst_candidate_mention:
+    #         if (mention.chinese_word in candidate_mention.chinese_word or
+    #             candidate_mention.chinese_word in mention.chinese_word) and \
+    #                 candidate_mention.head_word == mention.head_word and \
+    #                 fabs(mention.sent_id - candidate_mention.sent_id) < 2:
+    #             obj_document.set_coref(candidate_mention, mention)
 
-        lst_candidate_mention = lst_no_core_mentions[:index_mention]
-        for candidate_mention in lst_candidate_mention:
-            if (mention.chinese_word in candidate_mention.chinese_word or
-                candidate_mention.chinese_word in mention.chinese_word) and \
-                    candidate_mention.head_word == mention.head_word and \
-                    fabs(mention.sent_id - candidate_mention.sent_id) < 2:
-                obj_document.set_coref(candidate_mention, mention)
 
-
-    # lst_no_core_mentions = [m for m in obj_document.lst_mentions if not str(m.entity_id).startswith('E_')]
-    # if len(lst_no_core_mentions) >= 2:
-    #     for index_mention, mention in enumerate(lst_no_core_mentions):
-    #         if index_mention == 0:
-    #             continue
-    #         if get_similarity_API(
-    #                 lst_no_core_mentions[index_mention - 1].chinese_word, mention.chinese_word) > 0.6:
-    #             obj_document.set_coref(lst_no_core_mentions[index_mention - 1], mention)
-    #             break
+    lst_no_core_mentions = [m for m in obj_document.lst_mentions if not str(m.entity_id).startswith('E_') \
+                            and m.chinese_word not in ConstantVariable.pronouns]
+    if len(lst_no_core_mentions) >= 2:
+        for index_mention, mention in enumerate(lst_no_core_mentions):
+            if index_mention == 0:
+                continue
+            if get_similarity_API(
+                    lst_no_core_mentions[index_mention - 1].chinese_word, mention.chinese_word) > 0.6:
+                obj_document.set_coref(lst_no_core_mentions[index_mention - 1], mention)
+                break
 
     return obj_document

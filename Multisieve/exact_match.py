@@ -35,15 +35,15 @@ def exact_match(obj_document):
             modifier_candidate_mention = sieve_util.get_modifier(sent_candidate_mention, candidate_m)
             determiner_candidate_mention = sieve_util.get_determiner(candidate_m)
 
-            # if modifier_candidate_mention == modifier_this_mention and \
-            #     ConstantVariable.CONST_STRING_NO_MODIFIER not in (modifier_this_mention, modifier_candidate_mention):
-            #
-            #     if determiner_candidate_mention == determiner_this_mention and \
-            #         ConstantVariable.CONST_STRING_NO_DETERMINER not in (determiner_this_mention, determiner_candidate_mention):
+            if modifier_candidate_mention == modifier_this_mention and \
+                ConstantVariable.CONST_STRING_NO_MODIFIER not in (modifier_this_mention, modifier_candidate_mention):
 
-            if candidate_m.chinese_word == mention.chinese_word:
-                obj_document.set_coref(candidate_m, mention)
-                logger.info("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
-                logger.info("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
-                break
+                if determiner_candidate_mention == determiner_this_mention and \
+                    ConstantVariable.CONST_STRING_NO_DETERMINER not in (determiner_this_mention, determiner_candidate_mention):
+
+                    if candidate_m.chinese_word == mention.chinese_word:
+                        obj_document.set_coref(candidate_m, mention)
+                        logger.info("修饰语： %s %s"%(modifier_candidate_mention, modifier_this_mention))
+                        logger.info("限定词： %s %s"%(determiner_candidate_mention, determiner_this_mention))
+                        break
     return obj_document

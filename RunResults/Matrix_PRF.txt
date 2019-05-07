@@ -502,3 +502,80 @@ blanc:     21.30    37.92    27.28
 
 
 
+2019-05-06 21:59:38
+Sieve name: strict_head_matching_A
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：cc96a5f16b40a6e9605c7430f7aabe24
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：d6fd1935e4a1ab0ce72fee778ba0d011
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     85.76     1.39     2.74
+ceafe:     64.85     2.22     4.29
+  muc:     81.48     1.66     3.26
+blanc:     75.41     0.52     1.04
+
+
+
+2019-05-06 22:16:33
+Sieve name: strict_head_matching_B
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：d6fd1935e4a1ab0ce72fee778ba0d011
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：6f1d4b3cedecad6468e5dbee54aaad3a
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     88.83    31.75    46.79
+ceafe:     69.91    35.30    46.91
+  muc:     90.72    40.13    55.64
+blanc:     75.73    20.77    32.60
+
+
+
+2019-05-07 23:44:04
+Sieve name:           test_sieve
+Sieve name:          exact_match
+Sieve name: strict_head_matching_A
+Sieve name: strict_head_matching_B
+Sieve name: strict_head_matching_C
+Sieve name: proper_header_word_match_sieve
+Sieve name:        pronoun_sieve
+Sieve name:          other_sieve
+Sieve name:         filter_sieve
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：6f1d4b3cedecad6468e5dbee54aaad3a
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：0b76aaf4e8c14526425cc16c0fe2e987
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     59.38    46.62    52.23
+ceafe:     70.44    31.41    43.45
+  muc:     78.72    54.99    64.75
+blanc:     20.97    32.39    25.46
+
+
+
+2019-05-07 23:57:31
+Sieve name:           test_sieve
+Sieve name:          exact_match
+Sieve name: strict_head_matching_A
+Sieve name: strict_head_matching_B
+Sieve name: strict_head_matching_C
+Sieve name: proper_header_word_match_sieve
+Sieve name: relaxing_head_matching
+Sieve name:        pronoun_sieve
+Sieve name:          other_sieve
+Sieve name:         filter_sieve
+删除 旧 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+删除 旧 merged_test.v4_result_conll 文件，MD5：0b76aaf4e8c14526425cc16c0fe2e987
+生成 新 merged_test.v4_gold_conll 文件，MD5：03982f74983cabd86f54b795c43152e2
+生成 新 merged_test.v4_result_conll 文件，MD5：b1087d3a9b37ab6ad97279780018bcca
+         Precision | recall | f1_score
+----------------------------------------
+ bcub:     28.74    71.90    41.07
+ceafe:     69.71    18.35    29.05
+  muc:     72.74    78.05    75.30
+blanc:      6.90    57.39    12.32
+
+
+
