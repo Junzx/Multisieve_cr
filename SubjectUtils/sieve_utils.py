@@ -190,7 +190,7 @@ def get_modifier(obj_sentence, mention):
 
     if de_token != None:
         if fabs(de_token.token_id - mention.start_token_id) < 3:
-            modifier_token = obj_sentence.lst_tokens[int(de_token.word_id.encode('utf-8')) - 1]
+            modifier_token = obj_sentence.lst_tokens[int(str(de_token.word_id).encode('utf-8')) - 1]
             # if 'VP' not in modifier_token.parse_info:
             return modifier_token.word_itself
 

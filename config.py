@@ -13,7 +13,7 @@ from getpass import getuser
 # ========================================
 # =============== 开 关 ===================
 # ========================================
-flag_load_corenlp = False   # 注意！！！如果flag为True，会导致不打印log
+flag_load_corenlp = True   # 注意！！！如果flag为True，会导致不打印log
 flag_jump_corefed_mention = False   # 是否跳过已经指代的表述
 
 
@@ -50,6 +50,9 @@ if name == 'posix':
 # ----------------------------
 
 elif name == 'nt':
+    if getuser() == 'T480':
+        nlp_path = 'D:\stanford-corenlp-full-2018-10-05\\'
+
     separator = '\\'
     basic_folder = r'E:\conll_test\\'
     path_log_folder = basic_folder + 'log\\'

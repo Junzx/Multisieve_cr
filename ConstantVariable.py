@@ -99,6 +99,8 @@ corpus_dict = {
 # ----------------------------------
 if config.flag_load_corenlp:
     from stanfordcorenlp import StanfordCoreNLP
+    # print config.nlp_path
     # nlp_handle = StanfordCoreNLP(config.nlp_path, lang='zh')
-    nlp_handle = StanfordCoreNLP('http://172.19.203.3', port=9000, lang='zh')
+    # nlp_handle = StanfordCoreNLP('http://172.19.203.3', port=9000, lang='zh')
+    nlp_handle = StanfordCoreNLP('http://localhost', port=9000, lang='zh')
 
