@@ -59,7 +59,8 @@ def main(file_):
 
 if __name__ == '__main__':
     # test = 'test.v4_gold_conll'
-    test = '/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll'
+    # test = '/opt/tmp/DataSets/conll_test/test/cmn_0059_000.v4_gold_conll'
+    test = r'E:\数据集\conll-2012-coreference-chinese\conll-2012-coreference-chinese\test\cbs_0009.v4_gold_conll'
     # 用于计算prf
     md_gold_data = LoadConll.load_one_file(test)
     # 其实md_org_data 和 md_res_data的id一样

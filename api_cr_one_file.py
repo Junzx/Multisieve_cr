@@ -17,9 +17,22 @@ import config_sieve_order
 import os
 import logging
 
-logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
-                    level=logging.INFO, filemode='w') #, disable_existing_loggers=False)
+print 'start'
 logger = logging.getLogger("Coreference_Sieves_Order")
+
+logger.setLevel(logging.INFO)
+
+fh = logging.FileHandler(config.project_path + "/RunResults/MyLog.log", encoding='utf-8', mode='a+')
+fh.setLevel(logging.DEBUG)
+sh = logging.StreamHandler()
+sh.setLevel(logging.INFO)
+
+
+# logging.basicConfig(filename=config.project_path + "/RunResults/MyLog.log",
+#                     level=logging.INFO, filemode='w') #, disable_existing_loggers=False)
+
+logger.addHandler(fh)
+logger.addHandler(sh)
 
 
 sieve_order = config_sieve_order.sieve_order
@@ -35,6 +48,7 @@ def main(file_):
     else:
         document_object = file_
     # logger.info("---------开始调用multi-sieve---------\n")
+    pprint(document_object)
     for sieve in sieve_order:
         pprint(sieve)
         logger.info("Run %s\n" % str(sieve))
@@ -70,8 +84,11 @@ def unit_test(file_):
 if __name__ == '__main__':
     import time
     import os
+    print 'adfsdfasdf'
     logging.info(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
-    test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
+    # test_file_2 = '/opt/tmp/DataSets/conll_test/test/chtb_0249_000.v4_gold_conll'
+    test_file_2 = r'E:\数据集\conll-2012-coreference-chinese\conll-2012-coreference-chinese\test\cbs_0009.v4_gold_conll'
+    print test_file_2
 
     # unit_test(test_file_2)
     main(test_file_2)
